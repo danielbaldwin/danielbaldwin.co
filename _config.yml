@@ -2,6 +2,9 @@
 title: Daniel Baldwin Co
 timezone: UTC
 collections:
+  case-study:
+    title: Case Study
+    output: true
   posts:
     title: Posts
     output: true
