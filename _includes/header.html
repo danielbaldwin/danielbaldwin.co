@@ -1,3 +1,12 @@
+<script type="text/javascript">
+$(document).ready(function() {
+      $('.progress .progress-bar').css("width",
+                function() {
+                    return $(this).attr("aria-valuenow") + "%";
+                }
+        )
+    });
+</script>
 <div class="container">
 	<div class="row">
 		<div class="progress skill-bar ">
