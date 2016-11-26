@@ -1,7 +1,9 @@
 body {
   margin: 0 auto;
 }
-.progress-bar-success {
+.progress-bar {
 	height: 10px;
+}
+.progress-bar-success {
 	background-image: linear-gradient(to left, #f8d602, #edac01);
 }
