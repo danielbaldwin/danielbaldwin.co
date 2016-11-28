@@ -1,9 +1,24 @@
-<footer class="site-footer">
+<footer>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
+  <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+    	<ul class="nav navbar-nav">
+            {% for page in site.pages %} {% if page.title %}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %} {% endfor %}
+            <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <a class="navbar-brand" href="{{ site.baseurl }}">
+            <img alt="" src="img/logo-footer.png">
+        </a>
+        </div>
+        <div class="col-md-4">
+        <span class="copyright navbar-text navbar-right">Copyright &copy; {{ 'now' | date: "%Y" }}. All Rights Reserved.</span>
+        </div>
+    </div>
   </div>
 
 </footer>

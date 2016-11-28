@@ -1,5 +1,6 @@
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 16px; }
 
 #loader {
   position: fixed;
@@ -35,3 +36,13 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-nav > li > a {
   color: #fff !important; }
+
+footer a.navbar-brand {
+  text-align: center;
+  float: none; }
+
+footer .nav > li > a:focus, footer .nav > li > a:hover {
+  background-color: transparent; }
+
+footer .nav > li > a, span.copyright {
+  color: #edac01; }
