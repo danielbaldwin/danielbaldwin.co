@@ -1,13 +1,37 @@
 body {
   margin: 0 auto; }
 
-.progress_bar {
-  width: 0%;
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("/img/logo.png") center no-repeat; }
+
+div.progress {
   height: 10px;
-  background-image: linear-gradient(to left, #f8d602, #edac01);
-  -moz-transition: all 4s ease;
-  -moz-transition-delay: 1s;
-  -webkit-transition: all 4s ease;
-  -webkit-transition-delay: 1s;
-  transition: all 4s ease;
-  transition-delay: 1s; }
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.progress-bar {
+  transition-duration: 3s; }
+
+.progress-bar-success {
+  background-image: linear-gradient(to left, #f8d602, #edac01); }
+
+nav.navbar.navbar-default {
+  background: transparent;
+  border-color: transparent;
+  background-image: linear-gradient(244deg, #f8d602, #edac01);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff !important; }
