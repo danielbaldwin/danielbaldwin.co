@@ -12,16 +12,52 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Daniel Baldwin Co" href="http://localhost:4000/feed.xml">
+
+  <!-- Custom Fonts -->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 
 
   <body>
-
-    <div class="container">
-    <div class="row">
-            <div id="progressBar" class="progress_bar"></div>
-    </div>
+    <div id="loader">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
+
+
+    <div id="your-page" style="display:none;">
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+              
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+        </li>
+        </ul>
+        <a class="navbar-brand navbar-right" href="">
+            <img alt="Brand" src="img/logo.png">
+        </a>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 
 
     <div class="page-content">
@@ -44,16 +80,16 @@ Home
   </div>
 
 </footer>
-<script>
-  // Assign your element ID to a variable.
-  var progress = document.getElementById("progressBar");
-  // Pause the animation for 100 so we can animate from 0 to x%
-  setTimeout(
-    function(){
-      progress.style.width = "100%";
-    }
-  ,100);
-</script>
+
+    </div>
+    <!-- jQuery  -->
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/theme.js"></script>
 
 
   </body>

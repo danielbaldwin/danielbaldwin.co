@@ -4,7 +4,9 @@
   {% include head.html %}
 
   <body>
+    {% include start.html %}
 
+    <div id="your-page" style="display:none;">
     {% include header.html %}
 
     <div class="page-content">
@@ -14,6 +16,8 @@
     </div>
 
     {% include footer.html %}
+    </div>
+    {% include js.html %}
 
   </body>
 
