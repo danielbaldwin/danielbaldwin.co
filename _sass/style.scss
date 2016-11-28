@@ -1,14 +1,15 @@
 body {
   margin: 0 auto;
 }
-.progress {
+
+.progress_bar {
+  width: 0%;
   height: 10px;
-}
-
-.progress-bar {
-  transition-duration: 3s;
-}
-
-.progress-bar-success {
-    background-image: linear-gradient(to left, #f8d602, #edac01);
+  background-image: linear-gradient(to left, #f8d602, #edac01);
+  -moz-transition: all 4s ease;
+  -moz-transition-delay: 1s;
+  -webkit-transition: all 4s ease;
+  -webkit-transition-delay: 1s;
+  transition: all 4s ease;
+  transition-delay: 1s;
 }
