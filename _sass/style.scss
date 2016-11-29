@@ -1,4 +1,7 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+   font-family: 'Open Sans',serif;
   	margin: 0 auto;
   	font-size: 16px;
 }
@@ -23,19 +26,62 @@ div.progress {
 .progress-bar {
   	transition-duration: 3s;
 }
+header{
+	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+	background-size: 800% 800%;
+	-webkit-animation: AnimationName 14s ease infinite;
+	-moz-animation: AnimationName 14s ease infinite;
+	-o-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+	@-o-keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+	@keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+}
 .progress-bar-success {
 	background-image: linear-gradient(to left, #f8d602, #edac01);
+}
+.home-header {
+	height: 808px;
+}
+.home-header h1 {
+	font-size: 38px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.58;
+	padding: 150px;
+	text-align: center;
+	color: #ffffff;
 }
 nav.navbar.navbar-default {
 	background: transparent;
 	border-color: transparent;
-	background-image: linear-gradient(244deg, #f8d602, #edac01);
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
 .navbar-default .navbar-nav>li>a {
 	color: #fff !important;
+}
+.h95 {
+	height: 98%;
 }
 footer a.navbar-brand {
     text-align: center;

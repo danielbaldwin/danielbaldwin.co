@@ -1,3 +1,4 @@
+<header>
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -10,10 +11,10 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            {% for page in site.pages %} {% if page.title %}
-            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %} {% endfor %}
-            <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+            <li><a href="#">Featured Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
         <a class="navbar-brand navbar-right" href="{{ site.baseurl }}">
             <img alt="" src="img/logo-white.png">
@@ -21,3 +22,11 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<div class="container">
+    <div class="content h95">
+        <div class="home-header">
+            <h1>I am an Oakland based creative specializing in brand, strategy, and human-focused design.</h1>
+        </div>
+    </div>
+</div>
+</header>
