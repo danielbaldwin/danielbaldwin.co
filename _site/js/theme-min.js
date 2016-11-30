@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".progress .progress-bar").css("width",function(){return $(this).attr("aria-valuenow")+"%"})}),$(document).ready(function(){$("#loader").delay(800).fadeOut(400,function(){$("#your-page").fadeIn(400)})});
+$(document).ready(function(){$(".progress .progress-bar").css("width",function(){return $(this).attr("aria-valuenow")+"%"})}),$(document).ready(function(){$("#loader").delay(1e3).fadeOut(500,function(){$("#your-page").fadeIn(500)})});

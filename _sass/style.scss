@@ -26,7 +26,7 @@ div.progress {
 .progress-bar {
   	transition-duration: 3s;
 }
-header{
+header:hover {
 	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
 	background-size: 800% 800%;
 	-webkit-animation: AnimationName 14s ease infinite;
@@ -54,11 +54,11 @@ header{
 	    100%{background-position:93% 0%}
 	}
 }
-.progress-bar-success {
+header, .progress-bar-success {
 	background-image: linear-gradient(to left, #f8d602, #edac01);
 }
 .home-header {
-	height: 808px;
+	height: 98%;
 }
 .home-header h1 {
 	font-size: 38px;
@@ -81,15 +81,58 @@ nav.navbar.navbar-default {
 	color: #fff !important;
 }
 .h95 {
-	height: 98%;
+	height: 808px;
+}
+.footer-rectangle {
+	height: 504.4px;
+	padding-top: 200px;
+	padding-left: 78px !important;
+	background-image: linear-gradient(to left, #f8d602, #edac01);
+	color: #fff;
+}
+.footer-rectangle:hover {
+	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+	background-size: 800% 800%;
+	-webkit-animation: AnimationName 14s ease infinite;
+	-moz-animation: AnimationName 14s ease infinite;
+	-o-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+	@-o-keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
+	@keyframes AnimationName {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	}
 }
 footer a.navbar-brand {
     text-align: center;
     float: none;
+}
+footer a.navbar-brand img {
+	margin: 0 auto;
 }
 footer .nav>li>a:focus, footer .nav>li>a:hover {
 	background-color:transparent;
 }
 footer .nav>li>a, span.copyright {
 	color: #edac01;
+}
+footer .nav>li>a {
+	padding-left: 0;
+	margin-left: -15px;
+	padding-right: 35px;
 }
