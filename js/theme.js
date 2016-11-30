@@ -6,7 +6,7 @@ $(document).ready(function() {
     );
 });
 $(document).ready(function(){
-    $( "#loader" ).delay(800).fadeOut(400, function(){
-        $( "#your-page" ).fadeIn(400);
+    $( "#loader" ).delay(1000).fadeOut(500, function(){
+        $( "#your-page" ).fadeIn(500);
     });  
 });
