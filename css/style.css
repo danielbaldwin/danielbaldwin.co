@@ -23,7 +23,7 @@ div.progress {
 .progress-bar {
   transition-duration: 3s; }
 
-.home:hover {
+.home-header:hover {
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
   -webkit-animation: AnimationName 14s ease infinite;
@@ -63,11 +63,12 @@ div.progress {
   100% {
     background-position: 93% 0%; } }
 
-.home, .progress-bar-success {
+.home-header, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
-.home-header {
-  margin: 80px 0 220px 0; }
+.home-header, .about-helping {
+  margin: -80px -15px 0;
+  padding: 80px 0 220px 0; }
 
 .home-header h1 {
   font-size: 38px;
@@ -78,6 +79,9 @@ div.progress {
   padding: 150px;
   text-align: center;
   color: #ffffff; }
+
+.about-helping {
+  background-image: linear-gradient(244deg, rgba(248, 214, 2, 0.85), rgba(237, 172, 1, 0.85)); }
 
 nav.navbar.navbar-default {
   background: transparent;
