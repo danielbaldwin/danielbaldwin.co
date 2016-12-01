@@ -23,7 +23,7 @@ div.progress {
 .progress-bar {
   transition-duration: 3s; }
 
-header:hover {
+.home:hover {
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
   -webkit-animation: AnimationName 14s ease infinite;
@@ -63,7 +63,7 @@ header:hover {
   100% {
     background-position: 93% 0%; } }
 
-header, .progress-bar-success {
+.home, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header {
@@ -86,19 +86,33 @@ nav.navbar.navbar-default {
   -moz-border-radius: 0px;
   border-radius: 0px; }
 
-.navbar-default .navbar-nav > li > a {
+.home .navbar-default .navbar-nav > li > a {
   color: #fff !important; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #000 !important; }
+
+.navbar-default .navbar-nav > li > a.active {
+  color: #edac01 !important; }
 
 .believe {
   margin: 280px 0 195px 0; }
 
-.believe p {
+.believe h2 {
   font-size: 38px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.58;
   text-align: left;
+  color: #000000; }
+
+.believe p {
+  margin-bottom: 0px;
+  font-size: 23px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
   color: #000000; }
 
 .first {
@@ -114,6 +128,11 @@ nav.navbar.navbar-default {
   color: #fff;
   text-align: left; }
 
+.rectangle-4 {
+  color: #656873;
+  text-align: left;
+  padding: 180px 0 40px 34px; }
+
 .rectangle {
   background-image: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e); }
 
@@ -126,7 +145,11 @@ nav.navbar.navbar-default {
 .rectangle-3 {
   background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd); }
 
-.rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2 {
+.rectangle-4 {
+  background: rgba(186, 186, 186, 0.26);
+  margin-bottom: 300px; }
+
+.rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2 {
   margin-bottom: 36px;
   font-size: 30px;
   font-weight: normal;
@@ -134,7 +157,7 @@ nav.navbar.navbar-default {
   font-stretch: normal;
   line-height: 0.93; }
 
-.rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p {
+.rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p {
   margin-bottom: 29px;
   margin-right: 20px;
   font-size: 22px;
@@ -151,6 +174,17 @@ nav.navbar.navbar-default {
   line-height: 1.75;
   color: #fff;
   border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+  text-decoration: none; }
+
+.rectangle-4 a, .rectangle-4 a:hover {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  color: #bababa;
+  border-bottom: 2px solid #bababa;
   padding-bottom: 3px;
   text-decoration: none; }
 
@@ -206,6 +240,10 @@ nav.navbar.navbar-default {
   border-bottom: 2px solid #edac01;
   padding-bottom: 3px;
   text-decoration: none; }
+
+.articles-border {
+  margin-right: 25px;
+  border-right: solid 2px #f6f6f6; }
 
 .footer-rectangle {
   margin-bottom: 36px;
