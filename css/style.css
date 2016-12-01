@@ -156,7 +156,8 @@ nav.navbar.navbar-default {
 
 .more-projects {
   text-align: right;
-  margin-bottom: 300px; }
+  margin-top: 32px;
+  margin-bottom: 270px; }
 
 .more-projects a {
   font-size: 22px;
@@ -164,12 +165,10 @@ nav.navbar.navbar-default {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.27;
-  color: #000000; }
+  color: #000; }
 
 .more-projects a:hover {
   color: #000;
-  border-bottom: 2px solid #000;
-  padding-bottom: 3px;
   text-decoration: none; }
 
 .mask {
