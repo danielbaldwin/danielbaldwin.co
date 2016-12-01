@@ -110,6 +110,18 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_site\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about\/index.html",
+		"oF": 0
+		},
+	"\/_site\/contact\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/contact\/index.html",
+		"oF": 0
+		},
 	"\/_site\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -164,6 +176,18 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about\/index.html",
+		"oF": 0
+		},
+	"\/contact\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact\/index.html",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -173,6 +197,12 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/featured_work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/featured_work\/index.html",
+		"oF": 0
 		},
 	"\/Gemfile": {
 		"ft": 8192,
