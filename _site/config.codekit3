@@ -45,10 +45,22 @@
 		"oAP": "\/_includes\/header.html",
 		"oF": 0
 		},
+	"\/_includes\/home.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/home.html",
+		"oF": 0
+		},
 	"\/_includes\/js.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/js.html",
+		"oF": 0
+		},
+	"\/_includes\/navigation.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/navigation.html",
 		"oF": 0
 		},
 	"\/_includes\/partials.html": {
@@ -67,12 +79,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
-		"oF": 0
-		},
-	"\/_layouts\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
@@ -109,6 +115,34 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/_site\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about\/index.html",
+		"oF": 0
+		},
+	"\/_site\/contact\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/contact\/index.html",
+		"oF": 0
+		},
+	"\/_site\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_site\/featured_work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/featured_work\/index.html",
+		"oF": 0
 		},
 	"\/_site\/Gemfile": {
 		"ft": 8192,
@@ -154,6 +188,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about\/index.html",
+		"oF": 0
+		},
+	"\/blog\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/index.html",
+		"oF": 0
+		},
+	"\/contact\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact\/index.html",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -163,6 +215,12 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/featured_work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/featured_work\/index.html",
+		"oF": 0
 		},
 	"\/Gemfile": {
 		"ft": 8192,

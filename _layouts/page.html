@@ -1,15 +1,23 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<article class="post">
+  {% include head.html %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  <body>
+  	<header {% if page.tag %} class="{{ page.tag }}"{% endif %}>
+  		{% include navigation.html %}
+  	</header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+	{{ content }}
 
-</article>
+	{% if page.title == 'Contact' %}
+
+	{% else %}
+		{% include footer.html %}
+	{% endif %}
+
+	{% include js.html %}
+
+  </body>
+
+</html>
