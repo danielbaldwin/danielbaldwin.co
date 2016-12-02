@@ -128,6 +128,16 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
+	"\/_site\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/featured_work\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -182,6 +192,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/about\/index.html",
+		"oF": 0
+		},
+	"\/blog\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/index.html",
 		"oF": 0
 		},
 	"\/contact\/index.html": {

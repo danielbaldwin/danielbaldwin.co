@@ -33,10 +33,10 @@ nav.navbar.navbar-default {
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
-.home .navbar-default .navbar-nav>li>a, .about .navbar-default .navbar-nav>li>a.active {
+.home .navbar-default .navbar-nav>li>a, .about .navbar-default .navbar-nav>li>a.active, .contact .navbar-default .navbar-nav>li>a.active {
 	color: #fff !important;
 }
-.about .navbar-default .navbar-nav>li>a {
+.about .navbar-default .navbar-nav>li>a, .contact .navbar-default .navbar-nav>li>a {
 	color: rgba(255,255,255,0.74) !important;
 }
 .navbar-default .navbar-nav>li>a {
@@ -312,6 +312,33 @@ nav.navbar.navbar-default {
 	line-height: 1.82;
 	padding-bottom: 20px;
 	padding-right: 20px;
+}
+/* --- Contact Page --- */
+.contact-header {
+	margin: -80px -15px 0;
+	padding: 280px 0 280px 134px;
+	background-image: linear-gradient(244deg, #f8d602, #edac01);
+	color: #fff;
+}
+.contact-header p {
+	font-size: 23px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+}
+.contact-header h2 {
+	margin-bottom: 36px;
+	font-size: 38px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.58;
+}
+.contact-header a, .contact-header a:hover {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 3px;
+	text-decoration: none;
 }
 /* --- Footer --- */
 .footer-rectangle {
