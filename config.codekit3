@@ -87,10 +87,10 @@
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
-	"\/_posts\/2016-10-23-Workflow.html": {
+	"\/_layouts\/post.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2016-10-23-Workflow.html",
+		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
 	"\/_sass\/style.css": {
@@ -120,12 +120,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
-		"oF": 0
-		},
-	"\/_site\/blog\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
 	"\/_site\/contact\/index.html": {
@@ -201,12 +195,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_site\/posts\/Workflow\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/posts\/Workflow\/index.html",
-		"oF": 0
 		},
 	"\/about\/index.html": {
 		"ft": 8192,
