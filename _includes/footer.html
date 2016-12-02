@@ -13,14 +13,14 @@
     <div class="row">
     <div class="col-md-4">
     	<ul class="nav navbar-nav">
-            <li><a href="#">Featured Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/featured_work/" {% if page.url == "/featured_work/" %}class="active"{% endif %}>Featured Work</a></li>
+            <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+            <li><a href="/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+            <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
         </ul>
         </div>
         <div class="col-md-4">
-        <a class="navbar-brand" href="{{ site.baseurl }}">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
             <img alt="" src="img/logo-footer.png">
         </a>
         </div>

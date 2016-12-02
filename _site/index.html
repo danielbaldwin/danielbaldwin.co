@@ -23,6 +23,7 @@
 
 
   <body>
+
     <div id="loader">
   <div class="container-fluid">
       <div class="row">
@@ -35,8 +36,8 @@
 </div>
 
 
-    <div id="your-page" style="display:none;">
-    <header>
+  <div id="your-page" style="display:none;">
+    <header class="home">
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -49,31 +50,32 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li><a href="#">Featured Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/featured_work/" >Featured Work</a></li>
+            <li><a href="/about/" >About</a></li>
+            <li><a href="/blog/" >Blog</a></li>
+            <li><a href="/contact/" >Contact</a></li>
         </ul>
-        <a class="navbar-brand navbar-right" href="">
+        <a class="navbar-brand navbar-right" href="/">
             <img alt="" src="img/logo-white.png">
         </a>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
 </nav>
-<div class="container">
-    <div class="content">
-        <div class="home-header">
-            <h1>I am an Oakland based creative specializing in brand, strategy, and human-focused design.</h1>
-        </div>
-    </div>
-</div>
 </header>
+
+    <div class="container">
+      <div class="content">
+          <div class="home-header">
+              <h1>I am an Oakland based creative specializing in brand, strategy, and human-focused design.</h1>
+          </div>
+      </div>
+    </div>
 
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="believe">
-              <p>I believe that behind every great brand is a story<br> and a motive.</p>
+              <h2>I believe that behind every great brand is a story<br> and a motive.</h2>
             </div>
           </div>
         </div>
@@ -131,8 +133,10 @@
         <div class="row">
           <div class="col-md-6">
             <div class="latest-articles">
+            <div class="articles-border">
               <h2>Your Brand as a Religion: Influence, Symbolism,<br> and Community</h2>
               <p>How building a foundation, story, and following<br> influence consumer behavior.</p>
+            </div>
               <a href="">Read Article</a>
             </div>
           </div>
@@ -145,8 +149,7 @@
           </div>
         </div>
       </div>
-
-    <footer>
+<footer>
 	<div class="container footer-rectangle">
 		<div class="col-md-6">
 			<p>Let’s work together</p>
@@ -161,14 +164,14 @@
     <div class="row">
     <div class="col-md-4">
     	<ul class="nav navbar-nav">
-            <li><a href="#">Featured Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/featured_work/" >Featured Work</a></li>
+            <li><a href="/about/" >About</a></li>
+            <li><a href="/blog/" >Blog</a></li>
+            <li><a href="/contact/" >Contact</a></li>
         </ul>
         </div>
         <div class="col-md-4">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="/">
             <img alt="" src="img/logo-footer.png">
         </a>
         </div>
@@ -180,8 +183,10 @@
 
 </footer>
 
-    </div>
-    <!-- jQuery  -->
+  </div>
+
+    
+  <!-- jQuery  -->
 <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 
 <!-- Bootstrap Core JavaScript -->
