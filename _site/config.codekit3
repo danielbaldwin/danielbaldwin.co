@@ -164,6 +164,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/img\/rectangle.png": {
+		"ft": 32768,
+		"iS": 1154,
+		"oA": 0,
+		"oAP": "\/_site\/img\/rectangle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -192,12 +200,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/about\/index.html",
-		"oF": 0
-		},
-	"\/blog\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog\/index.html",
 		"oF": 0
 		},
 	"\/contact\/index.html": {
@@ -241,6 +243,14 @@
 		"oAP": "\/img\/logo.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/img\/rectangle.png": {
+		"ft": 32768,
+		"iS": 1154,
+		"oA": 0,
+		"oAP": "\/img\/rectangle.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,

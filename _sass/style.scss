@@ -340,6 +340,49 @@ nav.navbar.navbar-default {
 	padding-bottom: 3px;
 	text-decoration: none;
 }
+/* --- Blog --- */
+.blog-excerpt {
+	padding-left: 78px !important;
+	padding-bottom: 190px;
+	padding-top: 180px;
+	border-bottom: solid 2px #f6f6f6;
+}
+.date {
+	margin: 28px 0;
+}
+.blog-excerpt h2 {
+	margin-bottom: 28px;
+}
+.blog-excerpt h2 a, .blog-excerpt h2 a:hover {
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.27;
+	color: #edac01;
+	text-decoration: none;
+}
+.img-responsive {
+	height: 353px;
+	background-color: #000;
+}
+.excerpt {
+	margin-bottom: 52px;
+	font-size: 22px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.27;
+	color: #000000;
+}
+.date, .read-article a, .read-article a:hover {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: #000000;
+	text-decoration: none;
+}
 /* --- Footer --- */
 .footer-rectangle {
 	margin-bottom: 36px;
