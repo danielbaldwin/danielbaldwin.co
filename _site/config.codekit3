@@ -69,6 +69,12 @@
 		"oAP": "\/_includes\/partials.html",
 		"oF": 0
 		},
+	"\/_includes\/share.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/share.html",
+		"oF": 0
+		},
 	"\/_includes\/start.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -93,24 +99,6 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
-	"\/_posts\/2016-10-23-Workflow.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_posts\/2016-10-23-Workflow.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/_sass\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -129,8 +117,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 2,
+		"oAP": "\/_sass\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -180,13 +168,33 @@
 		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/_site\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 3156,
+	"\/_site\/img\/about-hero.jpg": {
+		"ft": 16384,
+		"iS": 202725,
 		"oA": 0,
-		"oAP": "\/_site\/img\/logo.png",
+		"oAP": "\/_site\/img\/about-hero.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/img\/logo-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/logo-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/img\/rectangle.png": {
 		"ft": 32768,
@@ -219,12 +227,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_site\/posts\/Workflow\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/posts\/Workflow\/index.html",
-		"oF": 0
 		},
 	"\/about\/index.html": {
 		"ft": 8192,
@@ -272,13 +274,33 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
-	"\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 4072,
+	"\/img\/about-hero.jpg": {
+		"ft": 16384,
+		"iS": 202725,
 		"oA": 0,
-		"oAP": "\/img\/logo.png",
+		"oAP": "\/img\/about-hero.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
+		},
+	"\/img\/logo-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/rectangle.png": {
 		"ft": 32768,
@@ -575,7 +597,7 @@
 	"bowerSaveDependencies": 1,
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
-	"browserRefreshDelay": 7,
+	"browserRefreshDelay": 0,
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
