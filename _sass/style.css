@@ -1,0 +1,50 @@
+body {
+  margin: 0 auto;
+  font-size: 16px; }
+
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("/img/logo.png") center no-repeat; }
+
+div.progress {
+  height: 10px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.progress-bar {
+  transition-duration: 3s; }
+
+header, .progress-bar-success {
+  background-image: linear-gradient(to left, #f8d602, #edac01); }
+
+nav.navbar.navbar-default {
+  background: transparent;
+  border-color: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff !important; }
+
+.h95 {
+  height: 98%; }
+
+footer a.navbar-brand {
+  text-align: center;
+  float: none; }
+
+footer .nav > li > a:focus, footer .nav > li > a:hover {
+  background-color: transparent; }
+
+footer .nav > li > a, span.copyright {
+  color: #edac01; }
