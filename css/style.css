@@ -10,7 +10,8 @@ body {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url("/img/logo.png") center no-repeat; }
+  background: url("/img/logo.svg") center no-repeat;
+  background-size: 80px 80px; }
 
 div.progress {
   height: 10px;
@@ -43,6 +44,16 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-nav > li > a.active {
   color: #edac01 !important; }
+
+header .navbar-brand {
+  padding: 25px 15px !important; }
+
+header .navbar-brand img {
+  width: 43px;
+  height: 43px; }
+
+header .navbar-nav > li > a {
+  padding-top: 35px !important; }
 
 /* --- Home Page --- */
 .home-header:hover {
@@ -89,7 +100,7 @@ nav.navbar.navbar-default {
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header {
-  margin: -80px -15px 0;
+  margin: -95px -15px 0;
   padding: 80px 0 220px 0; }
 
 .home-header h1 {
@@ -104,7 +115,7 @@ nav.navbar.navbar-default {
 
 /* --- Page Featured Work --- */
 .believe {
-  margin: 280px 0 195px 0; }
+  margin: 280px 0 195px 35px; }
 
 .believe h2 {
   font-size: 38px;
@@ -255,9 +266,10 @@ nav.navbar.navbar-default {
 
 /* --- Page About --- */
 .about-helping {
-  margin: -80px -15px 0;
+  margin: -95px -15px 0;
   padding: 280px 0 280px 134px;
-  background-image: linear-gradient(244deg, rgba(248, 214, 2, 0.85), rgba(237, 172, 1, 0.85));
+  background-image: url("/img/about-hero.jpg");
+  background-size: cover;
   color: #fff; }
 
 .about-helping p {
@@ -326,7 +338,7 @@ nav.navbar.navbar-default {
 
 /* --- Contact Page --- */
 .contact-header {
-  margin: -80px -15px 0;
+  margin: -95px -15px 0;
   padding: 280px 0 280px 134px;
   background-image: linear-gradient(244deg, #f8d602, #edac01);
   color: #fff; }
@@ -353,7 +365,7 @@ nav.navbar.navbar-default {
 
 /* --- Blog --- */
 .blog-excerpt {
-  padding-left: 78px !important;
+  /* padding-left: 78px !important; */
   padding-bottom: 190px;
   padding-top: 180px;
   border-bottom: solid 2px #f6f6f6; }
@@ -393,6 +405,65 @@ nav.navbar.navbar-default {
   font-stretch: normal;
   color: #000000;
   text-decoration: none; }
+
+/* --- Posts --- */
+.post-header {
+  margin: 205px 0 290px 35px; }
+
+.post-header .date {
+  font-size: 23px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+.post-header h2 {
+  font-size: 38px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58; }
+
+.post-content p {
+  margin-bottom: 100px;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73; }
+
+.post-content a, .post-content a:hover {
+  font-weight: 500;
+  color: #edac01;
+  text-decoration: none;
+  border-bottom: 2px solid #edac01; }
+
+.post-content i {
+  font-weight: 500;
+  color: #edac01; }
+
+.post-content ul li {
+  margin-top: -60px; }
+
+/* --- Share widget --- */
+.share-widget {
+  margin-top: 130px;
+  margin-bottom: 280px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73; }
+
+.share-widget a, .share-widget a:hover {
+  padding: 0 18px;
+  font-size: 35px;
+  vertical-align: middle;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  color: #000000; }
 
 /* --- Footer --- */
 .footer-rectangle {
@@ -445,6 +516,11 @@ nav.navbar.navbar-default {
 
 .footer-rectangle h1 {
   margin-top: 0; }
+
+footer .navbar-brand img {
+  width: 40px;
+  height: 40px;
+  margin-top: -15px !important; }
 
 footer a.navbar-brand {
   text-align: center;
