@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 {% include start.html %}
@@ -9,7 +9,7 @@ layout: default
 	  	{% include menu.html %}
 	  	<div class="container">
 	  		<div class="col-md-12 hero">
-	      		<h1>I am an Oakland based creative specializing in brand, strategy, and human-focused design.</h1>
+	      		<h1>{{ page['Hero Text'] }}</h1>
 	      	</div>
 	      </div>
 	  </div>
@@ -19,7 +19,7 @@ layout: default
         <div class="row">
           <div class="col-md-12">
             <div class="believe">
-              <h2>I believe that behind every great brand is a story<br> and a motive.</h2>
+              <h2>{{ page['Under Hero Text'] }}</h2>
             </div>
           </div>
         </div>

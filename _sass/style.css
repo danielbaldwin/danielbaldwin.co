@@ -2,11 +2,6 @@ body {
   margin: 0 auto;
   font-size: 16px !important; }
 
-.vertically-centered, .home-header h1 {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%); }
-
 /* --- Loader --- */
 #loader {
   position: fixed;
@@ -97,7 +92,8 @@ nav.navbar.navbar-default {
     background-position: 93% 0%; } }
 
 .home-header {
-  padding-top: 30px;
+  margin: -95px -15px 0;
+  padding: 80px 0 220px 0;
   height: 100vh; }
   .home-header h1 {
     font-size: 38px;
@@ -105,12 +101,9 @@ nav.navbar.navbar-default {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
+    padding: 150px;
     text-align: center;
-    color: #ffffff;
-    max-width: 830px;
-    margin: 0 auto; }
-  .home-header .hero {
-    height: 70vh; }
+    color: #ffffff; }
 
 /* --- Page Featured Work --- */
 .believe {
