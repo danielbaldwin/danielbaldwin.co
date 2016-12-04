@@ -99,7 +99,13 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
-	"\/_posts\/2016-10-23-finding-yuor-flow.md": {
+	"\/_posts\/2016-10-23-finding-your-flow.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2016-10-23-finding-your-flow.html",
+		"oF": 0
+		},
+	"\/_posts\/2016-10-23-finding-your-flow.md": {
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
@@ -108,7 +114,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/_posts\/2016-10-23-finding-yuor-flow.html",
+		"oAP": "\/_posts\/2016-10-23-finding-your-flow.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -264,10 +270,10 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/posts\/2016-10-23-finding-yuor-flow\/index.html": {
+	"\/_site\/posts\/finding-your-flow\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/posts\/2016-10-23-finding-yuor-flow\/index.html",
+		"oAP": "\/_site\/posts\/finding-your-flow\/index.html",
 		"oF": 0
 		},
 	"\/_site\/posts\/Workflow\/index.html": {
