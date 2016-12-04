@@ -1,7 +1,11 @@
-
-body{
-  	margin: 0 auto;
-  	font-size: 16px !important;
+body {
+  margin: 0 auto;
+  font-size: 16px !important;
+}
+.vertically-centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 /* --- Loader --- */
 #loader {
@@ -15,23 +19,17 @@ body{
 	background-size: 80px 80px;
 }
 div.progress {
-  	height: 10px;
-  	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
+	height: 10px;
 	box-shadow: none;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
 .progress-bar {
-  	transition-duration: 3s;
+  transition-duration: 3s;
 }
 /* --- Navigation --- */
 nav.navbar.navbar-default {
 	background: transparent;
 	border-color: transparent;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
 .home .navbar-default .navbar-nav>li>a, .about .navbar-default .navbar-nav>li>a.active, .contact .navbar-default .navbar-nav>li>a.active {
@@ -40,88 +38,101 @@ nav.navbar.navbar-default {
 .about .navbar-default .navbar-nav>li>a, .contact .navbar-default .navbar-nav>li>a {
 	color: rgba(255,255,255,0.74) !important;
 }
-.navbar-default .navbar-nav>li>a {
-	color: #000 !important;
-}
-.navbar-default .navbar-nav>li>a.active {
-	color: #edac01 !important;
-}
-header .navbar-brand {
-	padding: 25px 15px !important;
-}
-header .navbar-brand img {
-	width: 43px;
-	height: 43px;
-}
-header .navbar-nav>li>a {
-	padding-top: 35px !important;
+.navbar-default {
+  .navbar-nav>li>a {
+    color: #fff !important;
+  }
+  .navbar-nav>li>a.active {
+    color: #edac01 !important;
+  }
+  .navbar-brand {
+    padding: 25px 15px !important;
+    
+    img {
+      width: 43px;
+      height: 43px;
+    }
+    
+    &>li>a {
+      padding-top: 35px !important;
+    }
+  }
 }
 /* --- Home Page --- */
+.home-header, .progress-bar-success {
+  background-image: linear-gradient(to left, #f8d602, #edac01);
+}
 .home-header:hover {
 	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
 	background-size: 800% 800%;
-	-webkit-animation: AnimationName 14s ease infinite;
-	-moz-animation: AnimationName 14s ease infinite;
-	-o-animation: AnimationName 14s ease infinite;
-	animation: AnimationName 14s ease infinite;
-	@-webkit-keyframes AnimationName {
+	-webkit-animation: gradient 14s ease infinite;
+	-moz-animation: gradient 14s ease infinite;
+	-o-animation: gradient 14s ease infinite;
+	animation: gradient 14s ease infinite;
+	@-webkit-keyframes gradient {
 	    0%{background-position:93% 0%}
 	    50%{background-position:0% 100%}
 	    100%{background-position:93% 0%}
 	}
-	@-moz-keyframes AnimationName {
+	@-moz-keyframes gradient {
 	    0%{background-position:93% 0%}
 	    50%{background-position:0% 100%}
 	    100%{background-position:93% 0%}
 	}
-	@-o-keyframes AnimationName {
+	@-o-keyframes gradient {
 	    0%{background-position:93% 0%}
 	    50%{background-position:0% 100%}
 	    100%{background-position:93% 0%}
 	}
-	@keyframes AnimationName {
+	@keyframes gradient {
 	    0%{background-position:93% 0%}
 	    50%{background-position:0% 100%}
 	    100%{background-position:93% 0%}
 	}
-}
-.home-header, .progress-bar-success {
-	background-image: linear-gradient(to left, #f8d602, #edac01);
 }
 .home-header {
-	margin: -95px -15px 0;
-	padding: 80px 0 220px 0;
-}
-.home-header h1 {
-	font-size: 38px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.58;
-	padding: 150px;
-	text-align: center;
-	color: #ffffff;
-}
+  padding-top: 30px;
+  height: 100vh;
+  
+  h1 {
+    font-size: 38px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    text-align: center;
+    color: #ffffff;
+    max-width: 830px;
+    margin: 0 auto;
+    
+    @extend .vertically-centered;
+  }
+  
+  .hero {
+    height: 70vh;
+  }
+} 
 /* --- Page Featured Work --- */
 .believe {
 	margin: 280px 0 195px 35px;
-}
-.believe h2 {
-	font-size: 38px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.58;
-	text-align: left;
-	color: #000000;
-}
-.believe p {
-	margin-bottom: 0px;
-	font-size: 23px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	color: #000000;
+	
+	h2 {
+    font-size: 38px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    text-align: left;
+    color: #000000;
+  }
+  p {
+    margin-bottom: 0px;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
+  }
 }
 .first {
 	margin: 0 0 30px 0;
@@ -157,61 +168,54 @@ header .navbar-nav>li>a {
 	background: rgba(186,186,186,0.26);
 	margin-bottom: 300px;
 }
-.rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2 {
-	margin-bottom: 36px;
-	font-size: 30px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 0.93;
-}
-.rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p {
-	margin-bottom: 29px;
-	margin-right: 20px;
-	font-size: 22px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.27;
-}
-.rectangle a, .rectangle-1 a, .rectangle-2 a, .rectangle-3 a, .rectangle a:hover, .rectangle-1 a:hover, .rectangle-2 a:hover, .rectangle-3 a:hover {
-	font-size: 16px;
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.75;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	padding-bottom: 3px;
-	text-decoration: none;
-}
-.rectangle-4 a, .rectangle-4 a:hover {
-	font-size: 16px;
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.75;
-	color: #bababa;
-	border-bottom: 2px solid #bababa;
-	padding-bottom: 3px;
-	text-decoration: none;
+.rectangle, .rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
+  h2 {
+    margin-bottom: 36px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.93;
+  }
+	p {
+  	margin-bottom: 29px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;  
+	}
+	a {
+  	font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+    text-decoration: none;
+	}
 }
 .more-projects {
 	text-align: right;
 	margin-top: 32px;
 	margin-bottom: 270px;
-}
-.more-projects a {
-	font-size: 22px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.27;
-	color: #000;
-}
-.more-projects a:hover {
-	color: #000;
-	text-decoration: none;
+	
+	a {
+  	font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    color: #000;
+    
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+	}
 }
 .mask {
 	background-color: #f6f6f6;
@@ -220,34 +224,27 @@ header .navbar-nav>li>a {
 }
 .latest-articles {
 	margin-bottom: 300px;
-}
-.latest-articles h2 {
-	margin-bottom: 28px;
-	font-size: 22px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.27;
-	color: #000000;
-}
-.latest-articles p {
-	margin-bottom: 29px;
-	font-size: 22px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.27;
-	color: #000000;
-}
-.latest-articles a, .latest-articles a:hover {
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.75;
-	color: #edac01;
-	border-bottom: 2px solid #edac01;
-	padding-bottom: 3px;
-	text-decoration: none;
+	
+	h2, p {
+  	margin-bottom: 28px;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    color: #000000;
+	}
+	
+	a {
+  	font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    color: #edac01;
+    border-bottom: 2px solid #edac01;
+    padding-bottom: 3px;
+    text-decoration: none;
+	}
 }
 .articles-border {
 	margin-right: 25px;
@@ -260,42 +257,46 @@ header .navbar-nav>li>a {
 	background-image: url('/img/about-hero.jpg');
 	background-size: cover;
 	color: #fff;
-}
-.about-helping p {
-	font-size: 23px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-}
-.about-helping h2 {
-	font-size: 38px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.58;
+	
+	p {
+  	font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+	}
+	
+	h2 {
+  	font-size: 38px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+	}
 }
 .behind-brand {
 	margin-top: 307px;
 	margin-bottom: 312px;
-}
-.behind-brand h2 {
-	padding-right: 127px;
-	font-size: 28px;
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.21;
-	color: #181818;
-}
-.behind-brand p {
-	margin-bottom: 20px;
-	padding-left: 90px;
-	font-size: 22px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.27;
-	color: #000000;
+	
+	h2 {
+  	padding-right: 127px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    color: #181818;
+	}
+	
+	p {
+  	margin-bottom: 20px;
+    padding-left: 90px;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    color: #000000;
+	}
 }
 .rectangle-about {
 	background-color: #f6f6f6;
@@ -314,43 +315,49 @@ header .navbar-nav>li>a {
 	font-stretch: normal;
 	text-align: center;
 	color: #000000;
+	
+	h3 {
+  	font-weight: normal;
+    line-height: 1.27;
+    margin-bottom: 40px;
+	}
+	
+	p {
+  	line-height: 1.82;
+    padding-bottom: 20px;
+    padding-right: 20px;
+	}
 }
-.about-rectangle h3 {
-	font-weight: normal;
-	line-height: 1.27;
-	margin-bottom: 40px;
-}
-.about-rectangle p {
-	line-height: 1.82;
-	padding-bottom: 20px;
-	padding-right: 20px;
-}
+
 /* --- Contact Page --- */
 .contact-header {
 	margin: -95px -15px 0;
 	padding: 280px 0 280px 134px;
 	background-image: linear-gradient(244deg, #f8d602, #edac01);
 	color: #fff;
-}
-.contact-header p {
-	font-size: 23px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-}
-.contact-header h2 {
-	margin-bottom: 36px;
-	font-size: 38px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.58;
-}
-.contact-header a, .contact-header a:hover {
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	padding-bottom: 3px;
-	text-decoration: none;
+	
+	p {
+  	font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+	}
+	
+	h2 {
+  	margin-bottom: 36px;
+    font-size: 38px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+	}
+	
+	a {
+  	color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+    text-decoration: none;
+	}
 }
 /* --- Blog --- */
 .blog-excerpt {
@@ -358,21 +365,23 @@ header .navbar-nav>li>a {
 	padding-bottom: 190px;
 	padding-top: 180px;
 	border-bottom: solid 2px #f6f6f6;
+	
+	h2 {
+	 margin-bottom: 28px;
+	 
+	 a {
+  	font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    color: #edac01;
+    text-decoration: none;
+  }
+ }
 }
 .date {
 	margin: 28px 0;
-}
-.blog-excerpt h2 {
-	margin-bottom: 28px;
-}
-.blog-excerpt h2 a, .blog-excerpt h2 a:hover {
-	font-size: 22px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.27;
-	color: #edac01;
-	text-decoration: none;
 }
 .img-responsive {
 	height: 353px;
@@ -398,39 +407,47 @@ header .navbar-nav>li>a {
 /* --- Posts --- */
 .post-header {
 	margin: 205px 0 290px 35px;
-}.post-header .date {
-	font-size: 23px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
+	
+	.date {
+  	font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+	}
+	
+	h2 {
+  	font-size: 38px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+	}
 }
-.post-header h2 {
-	font-size: 38px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.58;
-}
-.post-content p {
-	margin-bottom: 100px;
-	font-size: 22px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.73;
-}
-.post-content a, .post-content a:hover {
-	font-weight: 500;
-	color: #edac01;
-	text-decoration: none;
-	border-bottom: 2px solid #edac01;
-}
-.post-content i {
-	font-weight: 500;
-	color: #edac01;
-}
-.post-content ul li {
-	margin-top: -60px;
+.post-content {
+  p {
+  	margin-bottom: 100px;
+  	font-size: 22px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.73;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #edac01;
+    text-decoration: none;
+    border-bottom: 2px solid #edac01;
+  }
+  
+  i {
+    font-weight: 500;
+    color: #edac01;
+  }
+  
+  ul li {
+    margin-top: -60px;
+  }
 }
 /* --- Share widget --- */
 .share-widget {
@@ -442,16 +459,17 @@ header .navbar-nav>li>a {
 	font-style: normal;
 	font-stretch: normal;
 	line-height: 1.73;
-}
-.share-widget a, .share-widget a:hover {
-	padding: 0 18px;
-	font-size: 35px;
-	vertical-align: middle;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.09;
-	color: #000000;
+	
+	a {
+  	padding: 0 18px;
+    font-size: 35px;
+    vertical-align: middle;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    color: #000000;
+	}
 }
 /* --- Footer --- */
 .footer-rectangle {
@@ -461,58 +479,65 @@ header .navbar-nav>li>a {
 	padding-bottom: 220px;
 	background-image: linear-gradient(to left, #f8d602, #edac01);
 	color: #fff;
+	
+	&:hover {
+    background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+    background-size: 800% 800%;
+    -webkit-animation: footer-gradient 14s ease infinite;
+    -moz-animation: footer-gradient 14s ease infinite;
+    -o-animation: footer-gradient 14s ease infinite;
+    animation: footer-gradient 14s ease infinite;
+    @-webkit-keyframes footer-gradient {
+        0%{background-position:93% 0%}
+        50%{background-position:0% 100%}
+        100%{background-position:93% 0%}
+    }
+    @-moz-keyframes footer-gradient {
+        0%{background-position:93% 0%}
+        50%{background-position:0% 100%}
+        100%{background-position:93% 0%}
+    }
+    @-o-keyframes footer-gradient {
+        0%{background-position:93% 0%}
+        50%{background-position:0% 100%}
+        100%{background-position:93% 0%}
+    }
+    @keyframes footer-gradient {
+        0%{background-position:93% 0%}
+        50%{background-position:0% 100%}
+        100%{background-position:93% 0%}
+    }
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
 }
-.footer-rectangle:hover {
-	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-	background-size: 800% 800%;
-	-webkit-animation: AnimationName 14s ease infinite;
-	-moz-animation: AnimationName 14s ease infinite;
-	-o-animation: AnimationName 14s ease infinite;
-	animation: AnimationName 14s ease infinite;
-	@-webkit-keyframes AnimationName {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
-	@-moz-keyframes AnimationName {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
-	@-o-keyframes AnimationName {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
-	@keyframes AnimationName {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
-}
-.footer-rectangle h1 {
-	margin-top: 0;
-}
-footer .navbar-brand img {
-	width: 40px;
-	height: 40px;
-	margin-top: -15px !important;
-}
-footer a.navbar-brand {
+footer {
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-top: -15px !important;
+  }
+  
+  a.navbar-brand {
     text-align: center;
     float: none;
-}
-footer a.navbar-brand img {
-	margin: 0 auto;
-}
-footer .nav>li>a:focus, footer .nav>li>a:hover {
-	background-color:transparent;
-}
+    
+    img {
+      margin: 0 auto;
+    }
+  }
+  .nav>li>a {
+    padding-left: 0;
+    margin-left: -15px;
+    padding-right: 35px;
+    
+    &:focus, &:hover {
+      background-color:transparent;
+    }
+  }
+} 
 footer .nav>li>a, span.copyright {
 	color: #edac01;
-}
-footer .nav>li>a {
-	padding-left: 0;
-	margin-left: -15px;
-	padding-right: 35px;
 }
