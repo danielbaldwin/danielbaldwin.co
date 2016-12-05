@@ -7,5 +7,7 @@ Second Large Image: "/uploads/cats-q-c-1200-788-6.jpg"
 Two Small Images:
 - "/uploads/cats-q-c-570-353-10.jpg"
 - "/uploads/cats-q-c-570-353-3.jpg"
+One Small Image: "/uploads/cats-q-c-788-412-5.jpg"
+Third Large Image: "/uploads/cats-q-c-1200-788-4.jpg"
 ---
 
