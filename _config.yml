@@ -5,7 +5,7 @@ collections:
   case-studies:
     title: Case Study
     output: false
-    permalink: "/case-studies"
+    permalink: case-studies
   posts:
     title: Posts
     output: true
