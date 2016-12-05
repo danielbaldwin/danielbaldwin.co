@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   case-studies:
     title: Case Study
-    output: false
+    output: true
     permalink: case-studies
   posts:
     title: Posts
