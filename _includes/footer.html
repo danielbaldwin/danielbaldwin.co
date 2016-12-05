@@ -1,17 +1,23 @@
 <footer>
 	<div class="container footer-rectangle">
-		<div class="col-md-6">
-			<p>Let’s work together</p>
-			<h1>hello@danielbaldwin.co</h1>
-		</div>
-		<div class="col-md-6">
-			<p>Let’s talk design</p>
-			<h1>@danielbaldwinco</h1>
+		<div class="row contact">
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="info">
+					<p>Let’s work together</p>
+					<h1>hello@danielbaldwin.co</h1>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="info">
+					<p>Let’s talk design</p>
+					<h1>@danielbaldwinco</h1>
+				</div>
+			</div>
 		</div>
 	</div>
   <div class="container">
     <div class="row">
-    <div class="col-md-4">
+    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer">
     	<ul class="nav navbar-nav">
             <li><a href="/featured_work/" {% if page.url == "/featured_work/" %}class="active"{% endif %}>Featured Work</a></li>
             <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
@@ -19,12 +25,12 @@
             <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
         </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer">
         <a class="navbar-brand" href="{{ site.baseurl }}/">
             <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
         </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer">
         <span class="copyright navbar-text navbar-right">Copyright &copy; {{ 'now' | date: "%Y" }}. All Rights Reserved.</span>
         </div>
     </div>

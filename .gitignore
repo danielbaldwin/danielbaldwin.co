@@ -1,4 +1,12 @@
 
+<<<<<<< HEAD
+*.codekit3
+=======
+config.codekit3
+>>>>>>> master
+
+_site
+
 config.codekit3
 
 *.codekit3

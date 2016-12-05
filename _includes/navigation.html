@@ -1,3 +1,4 @@
+<header>
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -7,15 +8,26 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+	       <a class="navbar-brand navbar-right hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
+	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
+	            {% else %}
+	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
+	            {% endif %}
+	        </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            <li><a href="/featured_work/" {% if page.url == "/featured_work/" %}class="active"{% endif %}>Featured Work</a></li>
+	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+        <ul class="nav navbar-nav blog">	
+	{% else %}
+	<ul class="nav navbar-nav home">
+	{% endif %}
+            <li><a href="/featured/" {% if page.url == "/featured/" %}class="active"{% endif %}>Featured Work</a></li>
             <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
             <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
             <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
         </ul>
-        <a class="navbar-brand navbar-right" href="{{ site.baseurl }}/">
+        <a class="navbar-brand navbar-right hidden-xs" href="{{ site.baseurl }}/">
             {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
                 <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
             {% else %}
@@ -25,3 +37,4 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
 </nav>
+</header>

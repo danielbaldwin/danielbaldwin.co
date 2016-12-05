@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+ <body>
+{% include start.html %}
+
+  <div id="your-page" style="display:none;">
+	  <div class="home-header">
+	  	{% include navigation.html %}
+	  	<div class="container">
+	  		<div class="col-md-12 hero">
+	      		<h1>{{ page['Hero Text'] }}</h1>
+	      	</div>
+	      </div>
+	  </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="believe">
+              <h2>{{ page['Under Hero Text'] }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% include case-studies.html %}
+       <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mask">
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Latest Articles</p>
+          </div>
+        </div>
+        <div class="row latest-articles">
+        {% for post in site.posts limit:2 %}
+    		<div class="col-md-6">
+    			<div class="article">
+			      	<h2>{{ post.title }}</h2>
+			      	<p>{{ post.excerpt }}</p>
+			      	<a href="{{ post.url }}">Read Article</a>
+			    </div>
+	      	</div>
+		  {% endfor %}
+		</div>
+      </div>
+{% include footer.html %}
+{% include js.html %}
+  </div>
+   </body>
+  </html>

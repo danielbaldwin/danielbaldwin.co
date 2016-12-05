@@ -22,9 +22,24 @@
 		"oF": 0
 		},
 	"\/_config.yml": {
+<<<<<<< HEAD
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
+		"oF": 0
+		},
+	"\/_includes\/footer.html": {
+=======
+>>>>>>> master
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
+	"\/_includes\/case-studies.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-studies.html",
 		"oF": 0
 		},
 	"\/_includes\/footer.html": {
@@ -39,18 +54,6 @@
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
-	"\/_includes\/header.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/header.html",
-		"oF": 0
-		},
-	"\/_includes\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/home.html",
-		"oF": 0
-		},
 	"\/_includes\/js.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -61,12 +64,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/navigation.html",
-		"oF": 0
-		},
-	"\/_includes\/partials.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/partials.html",
 		"oF": 0
 		},
 	"\/_includes\/share.html": {
@@ -81,10 +78,22 @@
 		"oAP": "\/_includes\/start.html",
 		"oF": 0
 		},
+	"\/_layouts\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/about.html",
+		"oF": 0
+		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
+		"oF": 0
+		},
+	"\/_layouts\/main.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/main.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
@@ -145,6 +154,7 @@
 		"oF": 0,
 		"oS": 0
 		},
+<<<<<<< HEAD
 	"\/_sass\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -170,6 +180,8 @@
 		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
+=======
+>>>>>>> master
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -265,6 +277,7 @@
 		"tS": 0
 		},
 	"\/_site\/posts\/finding-your-flow\/index.html": {
+<<<<<<< HEAD
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/posts\/finding-your-flow\/index.html",
@@ -277,15 +290,61 @@
 		"oF": 0
 		},
 	"\/about\/index.html": {
+=======
+>>>>>>> master
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/about\/index.html",
+		"oAP": "\/_site\/posts\/finding-your-flow\/index.html",
 		"oF": 0
 		},
-	"\/blog\/index.html": {
+	"\/_site\/posts\/Workflow\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/blog\/index.html",
+		"oAP": "\/_site\/posts\/Workflow\/index.html",
+		"oF": 0
+		},
+	"\/_site\/uploads\/abstract-q-c-570-570-7.jpg": {
+		"ft": 16384,
+		"iS": 41791,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/abstract-q-c-570-570-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/people-q-c-570-570-5.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/people-q-c-570-570-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/abstract-q-c-570-570-7.jpg": {
+		"ft": 16384,
+		"iS": 41791,
+		"oA": 0,
+		"oAP": "\/_uploads\/abstract-q-c-570-570-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/people-q-c-570-570-5.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/_uploads\/people-q-c-570-570-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/about.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.markdown",
+		"oF": 0
+		},
+	"\/blog.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.markdown",
 		"oF": 0
 		},
 	"\/contact\/index.html": {
@@ -320,6 +379,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/home.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/home.markdown",
 		"oF": 0
 		},
 	"\/img\/about-hero.jpg": {
@@ -357,12 +422,6 @@
 		"oAP": "\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
 		},
 	"\/js\/theme-min.js": {
 		"ft": 64,

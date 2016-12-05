@@ -1,10 +1,10 @@
 ---
-title: Finding Your Flow Creating a Design Process<br> That Works for You
+title: Finding Your Flow Creating a Design Process That Works for You
 date: 2016-10-23 13:00:00 Z
-layout: post
 excerpt: How building a foundation, story, and following influence consumer behavior.
+layout: post
 ---
 
-![rectangle](/img/rectangle.png)
+![add alt here](/uploads/sports-q-c-570-350-8.jpg)
 
 How building a foundation, story, and following influence consumer behavior.
