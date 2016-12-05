@@ -257,6 +257,9 @@ header {
 .case-study img {
   width: 100%; }
 
+.case-study p {
+  padding: 300px 0px; }
+
 /* --- Page About --- */
 .about-header {
   background-image: url("/img/about-hero.jpg");
