@@ -2,6 +2,11 @@ body {
   margin: 0 auto;
   font-size: 16px !important; }
 
+.vertically-centered, .home-header h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
 /* --- Loader --- */
 #loader {
   position: fixed;
@@ -92,8 +97,7 @@ nav.navbar.navbar-default {
     background-position: 93% 0%; } }
 
 .home-header {
-  margin: -95px -15px 0;
-  padding: 80px 0 220px 0;
+  padding-top: 30px;
   height: 100vh; }
   .home-header h1 {
     font-size: 38px;
@@ -101,9 +105,12 @@ nav.navbar.navbar-default {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
-    padding: 150px;
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    max-width: 830px;
+    margin: 0 auto; }
+  .home-header .hero {
+    height: 70vh; }
 
 /* --- Page Featured Work --- */
 .believe {
@@ -211,11 +218,14 @@ nav.navbar.navbar-default {
   .latest-articles h2, .latest-articles p {
     margin-bottom: 28px;
     font-size: 22px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
     color: #000000; }
+  .latest-articles h2 {
+    font-weight: normal; }
+  .latest-articles p {
+    font-weight: 300; }
   .latest-articles a {
     font-weight: bold;
     font-style: normal;

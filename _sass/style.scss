@@ -228,11 +228,18 @@ nav.navbar.navbar-default {
 	h2, p {
   	margin-bottom: 28px;
     font-size: 22px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
     color: #000000;
+	}
+	
+	h2 {
+	 font-weight: normal;
+	}
+	
+	p {
+	  font-weight: 300;
 	}
 	
 	a {
