@@ -57,7 +57,7 @@ nav.navbar.navbar-default {
   border-color: transparent !important; }
   .navbar-default .home .navbar-toggle .icon-bar {
     height: 3px;
-    background-color: #fff !important; }
+    background-color: #edac01 !important; }
   .navbar-default .home .navbar-toggle:hover {
     background-color: #fff !important; }
     .navbar-default .home .navbar-toggle:hover .icon-bar {
@@ -69,9 +69,9 @@ nav.navbar.navbar-default {
     height: 3px;
     background-color: #edac01 !important; }
   .navbar-default .blog .navbar-toggle:hover {
-    background-color: #edac01 !important; }
+    background-color: #fff !important; }
     .navbar-default .blog .navbar-toggle:hover .icon-bar {
-      background-color: #fff !important; }
+      background-color: #edac01 !important; }
 
 .navbar-default .blog .navbar-nav > li > a {
   color: #000 !important; }

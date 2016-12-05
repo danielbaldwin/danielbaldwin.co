@@ -58,7 +58,7 @@ nav.navbar.navbar-default {
     border-color: transparent !important;
     .icon-bar {
       height: 3px;
-      background-color: #fff !important;
+      background-color: #edac01 !important;
     }
     &:hover {
       background-color: #fff !important;
@@ -74,9 +74,9 @@ nav.navbar.navbar-default {
       background-color: #edac01 !important;
     }
     &:hover {
-      background-color: #edac01 !important;
+      background-color: #fff !important;
       .icon-bar {
-        background-color: #fff !important;
+        background-color: #edac01 !important;
       }
     }
   }

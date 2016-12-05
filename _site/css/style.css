@@ -5,8 +5,7 @@ body {
 .vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
+  transform: translateY(-50%); }
 
 /* --- Loader --- */
 #loader {
@@ -25,8 +24,7 @@ div.progress {
   border-radius: 0px; }
 
 .progress-bar {
-  -webkit-transition-duration: 3s;
-          transition-duration: 3s; }
+  transition-duration: 3s; }
 
 /* --- Navigation --- */
 nav.navbar.navbar-default {
@@ -57,7 +55,7 @@ nav.navbar.navbar-default {
   border-color: transparent !important; }
   .navbar-default .home .navbar-toggle .icon-bar {
     height: 3px;
-    background-color: #fff !important; }
+    background-color: #edac01 !important; }
   .navbar-default .home .navbar-toggle:hover {
     background-color: #fff !important; }
     .navbar-default .home .navbar-toggle:hover .icon-bar {
@@ -69,9 +67,9 @@ nav.navbar.navbar-default {
     height: 3px;
     background-color: #edac01 !important; }
   .navbar-default .blog .navbar-toggle:hover {
-    background-color: #edac01 !important; }
+    background-color: #fff !important; }
     .navbar-default .blog .navbar-toggle:hover .icon-bar {
-      background-color: #fff !important; }
+      background-color: #edac01 !important; }
 
 .navbar-default .blog .navbar-nav > li > a {
   color: #000 !important; }
@@ -105,17 +103,33 @@ nav.navbar.navbar-default {
   height: 70vh; }
 
 .home-header, .progress-bar-success {
-  background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header:hover {
-  background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
   -webkit-animation: gradient 14s ease infinite;
+  -moz-animation: gradient 14s ease infinite;
+  -o-animation: gradient 14s ease infinite;
   animation: gradient 14s ease infinite; }
 
 @-webkit-keyframes gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-o-keyframes gradient {
   0% {
     background-position: 93% 0%; }
   50% {
@@ -205,19 +219,15 @@ header {
       padding: 105px 0 40px 34px; } }
 
 .rectangle {
-  background-image: -webkit-linear-gradient(204deg, rgba(255, 214, 50, 0.98), #ffd21e);
   background-image: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e); }
 
 .rectangle-1 {
-  background-image: -webkit-linear-gradient(226deg, #044932, #055c3f);
   background-image: linear-gradient(224deg, #044932, #055c3f); }
 
 .rectangle-2 {
-  background-image: -webkit-linear-gradient(315deg, #1d3853, #264563);
   background-image: linear-gradient(135deg, #1d3853, #264563); }
 
 .rectangle-3 {
-  background-image: -webkit-linear-gradient(47deg, #b3c4c4, #bdcdcd);
   background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd); }
 
 .rectangle-4 {
@@ -402,7 +412,6 @@ header {
 .contact-header {
   margin: -95px -15px 0;
   padding: 280px 0 280px 134px;
-  background-image: -webkit-linear-gradient(206deg, #f8d602, #edac01);
   background-image: linear-gradient(244deg, #f8d602, #edac01);
   color: #fff; }
   .contact-header p {
@@ -529,17 +538,33 @@ article img {
 .footer-rectangle {
   margin-bottom: 36px;
   height: 500px;
-  background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01);
   color: #fff; }
   .footer-rectangle:hover {
-    background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
     background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
     background-size: 800% 800%;
     -webkit-animation: footer-gradient 14s ease infinite;
+    -moz-animation: footer-gradient 14s ease infinite;
+    -o-animation: footer-gradient 14s ease infinite;
     animation: footer-gradient 14s ease infinite; }
 
 @-webkit-keyframes footer-gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-moz-keyframes footer-gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-o-keyframes footer-gradient {
   0% {
     background-position: 93% 0%; }
   50% {
