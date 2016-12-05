@@ -85,8 +85,12 @@ nav.navbar.navbar-default {
 .navbar-default .home .navbar-nav > li > a.active {
   color: #fff !important; }
 
-.navbar-default .home .navbar-collapse .navbar-nav > li > a, .navbar-default .blog .navbar-collapse .navbar-nav > li > a {
+.navbar-default .home .navbar-collapse .navbar-nav > li > a, .navbar-default .blog .navbar-collapse .navbar-nav > li > a, .navbar-default .social {
   color: #edac01 !important; }
+
+.navbar-default .social {
+  font-size: 30px;
+  padding: 0 13px; }
 
 .navbar-default .navbar-brand {
   padding: 0px 0px !important; }

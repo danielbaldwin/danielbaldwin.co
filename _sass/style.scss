@@ -92,9 +92,13 @@ nav.navbar.navbar-default {
   .home .navbar-nav>li>a.active {
     color: #fff !important;
   }
-  .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a {
+  .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a, .social {
     color: #edac01 !important;
   }
+  .social {
+      font-size: 30px;
+      padding: 0 13px;
+    }
   .navbar-brand {
     padding: 0px 0px !important;
     
