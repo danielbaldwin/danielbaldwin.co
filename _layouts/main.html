@@ -6,7 +6,7 @@
 {% include start.html %}
 
   <div id="your-page" style="display:none;">
-	  <div class="{{page.title}}-header">
+	  <div class="home-header">
 	  	{% include navigation.html %}
 	  	<div class="container">
 	  		<div class="col-md-12 hero">
@@ -24,43 +24,9 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-8 study">
-            <div class="rectangle">
-              <h2>Powercity Films</h2>
-              <p>Developing an identity for a storytelling<br> film company</p>
-              <a href="">See Case Study</a>
-            </div>
-          </div>
-          <div class="col-md-4 study">
-            <div class="rectangle-1">
-              <h2>Cole & Oak</h2>
-              <p>Lorem ipsum dolor sit amet ipsum amet sit lorem</p>
-              <a href="">See Case Study</a>
-            </div>
-          </div>
-          <div class="col-md-6 study">
-            <div class="rectangle-2">
-              <h2>TINT</h2>
-              <p>Defining a brand experience for an<br> established startup</p>
-              <a href="">See Case Study</a>
-            </div>
-          </div>
-          <div class="col-md-6 study">
-            <div class="rectangle-3">
-              <h2>Twelve23</h2>
-              <p>Rebranding a web solutions company<br> into a creative agency</p>
-              <a href="">See Case Study</a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="more-projects">
-              <a href="">See More Projects <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
+      </div>
+      {% include case-studies.html %}
+       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="mask">
