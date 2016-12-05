@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   font-size: 16px !important; }
 
-.vertically-centered, .home-header h1, .footer-rectangle .contact {
+.vertically-centered, .Home-header h1, .footer-rectangle .contact {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
@@ -62,10 +62,10 @@ nav.navbar.navbar-default {
     padding-top: 35px !important; }
 
 /* --- Home Page --- */
-.home-header, .progress-bar-success {
+.Home-header, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
-.home-header:hover {
+.Home-header:hover {
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
   -webkit-animation: gradient 14s ease infinite;
@@ -105,10 +105,10 @@ nav.navbar.navbar-default {
   100% {
     background-position: 93% 0%; } }
 
-.home-header {
+.Home-header {
   padding-top: 30px;
   height: 100vh; }
-  .home-header h1 {
+  .Home-header h1 {
     font-size: 38px;
     font-weight: 300;
     font-style: normal;
@@ -118,7 +118,7 @@ nav.navbar.navbar-default {
     color: #ffffff;
     max-width: 830px;
     margin: 0 auto; }
-  .home-header .hero {
+  .Home-header .hero {
     height: 70vh; }
 
 /* --- Page Featured Work --- */
