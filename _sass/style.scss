@@ -44,16 +44,16 @@ nav.navbar.navbar-default {
   .navbar-toggle {
     float: left;
   }
-  .navbar-nav.blog>li>a {
+  .blog .navbar-nav>li>a {
     color: #000 !important;
   }
-  .navbar-nav.blog>li>a.active {
+  .blog .navbar-nav>li>a.active {
     color: #edac01 !important;
   }
-  .navbar-nav.home>li>a {
+  .home .navbar-nav>li>a {
     color: rgba(255,255,255,0.74) !important;
   }
-  .navbar-nav.home>li>a.active {
+  .home .navbar-nav>li>a.active {
     color: #fff !important;
   }
   .navbar-brand {
