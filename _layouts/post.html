@@ -1,23 +1,28 @@
 ---
 layout: default
 ---
+{% include navigation.html %}
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
 			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-			  <header class="post-header">
-			  	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
-			    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-			  </header>
-
-			  <div class="post-content" itemprop="articleBody">
-			    {{ content }}
-			  </div>
-
+				
+				<div class="col-md-8 col-xs-12">
+					<header class="post-header">
+					  	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
+					    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+				  </header>
+				</div>
+				
+				<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+				
+				<div class="col-md-10 col-md-offset-1">
+					<div class="post-content" itemprop="articleBody">
+				    	{{ content }}
+				  	</div>
+				</div>
+				
 			</article>
-		</div>
 	</div>
 	{% include share.html %}
 </div>

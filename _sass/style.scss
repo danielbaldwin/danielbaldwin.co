@@ -459,6 +459,11 @@ nav.navbar.navbar-default {
 	color: #000000;
 	text-decoration: none;
 }
+article {
+  img {
+    width: 100%;
+  }
+}
 /* --- Posts --- */
 .post-header {
 	margin: 205px 0 290px 35px;
