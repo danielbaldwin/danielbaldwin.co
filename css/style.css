@@ -218,11 +218,14 @@ nav.navbar.navbar-default {
   .latest-articles h2, .latest-articles p {
     margin-bottom: 28px;
     font-size: 22px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
     color: #000000; }
+  .latest-articles h2 {
+    font-weight: normal; }
+  .latest-articles p {
+    font-weight: 300; }
   .latest-articles a {
     font-weight: bold;
     font-style: normal;
