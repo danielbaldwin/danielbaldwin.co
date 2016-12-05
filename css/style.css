@@ -257,8 +257,16 @@ header {
 .case-study img {
   width: 100%; }
 
-.case-study p {
+.case-study .text {
   padding: 300px 0px; }
+
+.case-study p {
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  color: #000000; }
 
 /* --- Page About --- */
 .about-header {

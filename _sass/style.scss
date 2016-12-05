@@ -292,8 +292,17 @@ header {
     width: 100%;
   }
   
-  p {
+  .text {
     padding: 300px 0px;
+  }
+  
+  p {
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.73;
+    color: #000000;  
   }
 }
 /* --- Page About --- */
