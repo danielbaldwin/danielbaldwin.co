@@ -81,10 +81,10 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
-	"\/_layouts\/home.html": {
+	"\/_layouts\/main.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/home.html",
+		"oAP": "\/_layouts\/main.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
@@ -153,34 +153,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 2,
+		"oAP": "\/_sass\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/about\/index.html": {
-		"ft": 8192,
+	"\/_site\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
-		"oF": 0
-		},
-	"\/_site\/blog\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/blog\/index.html",
-		"oF": 0
-		},
-	"\/_site\/contact\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
-		"oF": 0
-		},
-	"\/_site\/featured_work\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/featured_work\/index.html",
-		"oF": 0
+		"oAP": "\/_site\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/_site\/Gemfile": {
 		"ft": 8192,
@@ -254,18 +240,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/posts\/finding-your-flow\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/posts\/finding-your-flow\/index.html",
-		"oF": 0
-		},
-	"\/_site\/posts\/Workflow\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/posts\/Workflow\/index.html",
-		"oF": 0
-		},
 	"\/about\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -312,6 +286,12 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/home.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/home.markdown",
+		"oF": 0
+		},
 	"\/img\/about-hero.jpg": {
 		"ft": 16384,
 		"iS": 202725,
@@ -347,12 +327,6 @@
 		"oAP": "\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
 		},
 	"\/js\/theme-min.js": {
 		"ft": 64,
