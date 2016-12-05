@@ -283,7 +283,7 @@ nav.navbar.navbar-default {
 
 .behind-brand {
   margin-top: 300px;
-  margin-bottom: 300px; }
+  margin-bottom: 200px; }
   .behind-brand h2 {
     font-size: 28px;
     font-weight: bold;
@@ -292,7 +292,8 @@ nav.navbar.navbar-default {
     line-height: 1.21;
     color: #181818;
     max-width: 340px;
-    margin-top: 0px; }
+    margin-top: 0px;
+    margin-bottom: 100px; }
   .behind-brand p {
     margin-bottom: 20px;
     font-size: 22px;
@@ -303,6 +304,8 @@ nav.navbar.navbar-default {
     color: #000000;
     max-width: 460px;
     margin: 0px auto 20px; }
+    .behind-brand pnth-child(2) {
+      margin-bottom: 100px; }
 
 .rectangle-about {
   background-color: #f6f6f6;
