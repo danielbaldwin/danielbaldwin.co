@@ -37,23 +37,23 @@ nav.navbar.navbar-default {
   .navbar-header {
     padding: 20px;
   }
-  
+
   .navbar-brand {
     float: right;
   }
   .navbar-toggle {
     float: left;
   }
-  .blog>li>a {
+  .navbar-nav.blog>li>a {
     color: #000 !important;
   }
-  .blog>li>a.active {
+  .navbar-nav.blog>li>a.active {
     color: #edac01 !important;
   }
-  .home>li>a {
+  .navbar-nav.home>li>a {
     color: rgba(255,255,255,0.74) !important;
   }
-  .home>li>a.active {
+  .navbar-nav.home>li>a.active {
     color: #fff !important;
   }
   .navbar-brand {
