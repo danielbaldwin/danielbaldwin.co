@@ -45,22 +45,10 @@
 		"oAP": "\/_includes\/js.html",
 		"oF": 0
 		},
-	"\/_includes\/menu.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/menu.html",
-		"oF": 0
-		},
 	"\/_includes\/navigation.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/navigation.html",
-		"oF": 0
-		},
-	"\/_includes\/partials.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/partials.html",
 		"oF": 0
 		},
 	"\/_includes\/share.html": {
@@ -153,10 +141,16 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/_sass\/style.css",
-		"oF": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/_site\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about.html",
+		"oF": 0
 		},
 	"\/_site\/css\/style.css": {
 		"aP": 0,
@@ -239,6 +233,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/about.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.markdown",
+		"oF": 0
 		},
 	"\/about\/index.html": {
 		"ft": 8192,
