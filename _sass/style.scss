@@ -39,6 +39,17 @@ nav.navbar.navbar-default {
 	color: rgba(255,255,255,0.74) !important;
 }
 .navbar-default {
+  
+  .navbar-header {
+    padding: 20px;
+  }
+  
+  .navbar-brand {
+    float: right;
+  }
+  .navbar-toggle {
+    float: left;
+  }
   .navbar-nav>li>a {
     color: #fff !important;
   }
@@ -46,7 +57,7 @@ nav.navbar.navbar-default {
     color: #edac01 !important;
   }
   .navbar-brand {
-    padding: 25px 15px !important;
+    padding: 0px 0px !important;
     
     img {
       width: 43px;
@@ -137,10 +148,22 @@ nav.navbar.navbar-default {
 .first {
 	margin: 0 0 30px 0;
 }
+
+.study {
+  @media screen and (max-width: 990px) {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
 .rectangle, .rectangle-1 {
 	padding: 180px 0 40px 34px;
 	color: #fff;
 	text-align: left;
+	margin-bottom: 30px;
+	
+	@media screen and (max-width: 990px) {
+    margin-bottom: 0px;
+  }
 }
 .rectangle-2, .rectangle-3 {
 	padding: 350px 0 40px 34px;
@@ -223,7 +246,11 @@ nav.navbar.navbar-default {
 	height: 400px;
 }
 .latest-articles {
-	margin-bottom: 300px;
+	margin-bottom: 200px;
+	
+	.article {
+	  margin-bottom: 100px;
+	}
 	
 	h2, p {
   	margin-bottom: 28px;
@@ -481,9 +508,7 @@ nav.navbar.navbar-default {
 /* --- Footer --- */
 .footer-rectangle {
 	margin-bottom: 36px;
-	padding-top: 200px;
-	padding-left: 78px !important;
-	padding-bottom: 220px;
+	height: 500px;
 	background-image: linear-gradient(to left, #f8d602, #edac01);
 	color: #fff;
 	
@@ -517,10 +542,33 @@ nav.navbar.navbar-default {
   }
   
   h1 {
-    margin-top: 0;
+    font-weight: normal;
+  }
+  
+  p {
+    @media screen and (max-width: 990px) {
+      margin-top: 50px;
+    }
+  }
+  
+  .info {
+    padding-left: 70px;
+    @media screen and (max-width: 990px) {
+      padding-left: 0px;
+    }
+  }
+  
+  .contact {
+    @extend .vertically-centered
   }
 }
 footer {
+  
+  .footer {
+    @media screen and (max-width: 1200px) {
+      text-align: center;
+    }
+  }
   .navbar-brand img {
     width: 40px;
     height: 40px;
@@ -535,10 +583,49 @@ footer {
       margin: 0 auto;
     }
   }
+  
+  .navbar-right {
+    @media screen and (max-width: 1200px){
+      float: none !important;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1200px){
+      float: none !important;
+    }
+  }
+  
+  .navbar-nav {
+    @media screen and (max-width: 1200px){
+      float: none !important;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1200px){
+      float: none !important;
+    }
+  }
+  
+  .nav>li {
+     @media screen and (max-width: 1200px){
+      position: relative;
+      display: block;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1200px){
+      position: relative !important;
+      display: block !important;
+      float: none !important;
+    }
+  }
   .nav>li>a {
     padding-left: 0;
     margin-left: -15px;
     padding-right: 35px;
+    
+    @media screen and (max-width: 1200px) {
+      margin-left: 0px !important;
+      padding-right: 0px !important;
+      padding: 0px !important;
+    }
     
     &:focus, &:hover {
       background-color:transparent;
