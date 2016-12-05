@@ -253,6 +253,10 @@ header {
   margin-right: 25px;
   border-right: solid 2px #f6f6f6; }
 
+/* --- Page Case Study --- */
+.case-study img {
+  width: 100%; }
+
 /* --- Page About --- */
 .about-header {
   background-image: url("/img/about-hero.jpg");
