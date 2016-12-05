@@ -21,6 +21,12 @@
 		"oAP": "\/.project",
 		"oF": 0
 		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -93,6 +99,42 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
+	"\/_posts\/2016-10-23-finding-your-flow.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_posts\/2016-10-23-finding-your-flow.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/2016-10-23-Workflow.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_posts\/2016-10-23-Workflow.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/_sass\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -115,18 +157,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/_site\/about\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
-		"oF": 0
-		},
-	"\/_site\/contact\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
-		"oF": 0
 		},
 	"\/_site\/css\/style.css": {
 		"aP": 0,
@@ -191,12 +221,6 @@
 		"oAP": "\/_site\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/_site\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/index.html",
-		"oF": 0
 		},
 	"\/_site\/js\/theme-min.js": {
 		"ft": 64,
