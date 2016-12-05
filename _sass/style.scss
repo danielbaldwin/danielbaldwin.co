@@ -33,16 +33,40 @@ nav.navbar.navbar-default {
 	border-radius: 0px;
 }
 .navbar-default {
-  
   .navbar-header {
     padding: 20px;
   }
-
   .navbar-brand {
     float: right;
   }
   .navbar-toggle {
     float: left;
+  }
+  .home .navbar-toggle {
+    border-color: transparent !important;
+    .icon-bar {
+      height: 3px;
+      background-color: #fff !important;
+    }
+    &:hover {
+      background-color: #fff !important;
+      .icon-bar {
+        background-color: #edac01 !important;
+      }
+    }
+  }
+  .blog .navbar-toggle {
+    border-color: transparent !important;
+    .icon-bar {
+      height: 3px;
+      background-color: #edac01 !important;
+    }
+    &:hover {
+      background-color: #edac01 !important;
+      .icon-bar {
+        background-color: #fff !important;
+      }
+    }
   }
   .blog .navbar-nav>li>a {
     color: #000 !important;
@@ -69,6 +93,7 @@ nav.navbar.navbar-default {
     }
   }
 }
+
 /* --- Home Page --- */
 .hero {
   height: 70vh;
@@ -164,17 +189,24 @@ header {
 	
 	@media screen and (max-width: 990px) {
     margin-bottom: 0px;
+    padding: 105px 0 40px 34px; 
   }
 }
 .rectangle-2, .rectangle-3 {
 	padding: 350px 0 40px 34px;
 	color: #fff;
 	text-align: left;
+  @media screen and (max-width: 990px) {
+    padding: 105px 0 40px 34px; 
+  }
 }
 .rectangle-4 {
 	color: #656873;
 	text-align: left;
 	padding: 180px 0 40px 34px;
+  @media screen and (max-width: 990px) {
+    padding: 105px 0 40px 34px; 
+  }
 }
 .rectangle {
 	background-image: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e);
@@ -240,6 +272,12 @@ header {
       text-decoration: none;
     }
 	}
+  @media screen and (max-width: 990px) {
+    font-size: 22px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #f6f6f6;
+    padding-bottom: 60px;
+  }
 }
 .mask {
 	background-color: #f6f6f6;
@@ -612,6 +650,16 @@ footer {
   .footer {
     @media screen and (max-width: 1200px) {
       text-align: center;
+      margin: 35px 0 !important;
+    }
+    h1 {
+      font-size: 26px;
+      margin-top: 0;
+      margin-bottom: 26px;
+    }
+    .social {
+      font-size: 30px;
+      padding: 0 13px;
     }
   }
   .navbar-brand img {
@@ -677,6 +725,6 @@ footer {
     }
   }
 } 
-footer .nav>li>a, span.copyright {
+footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover {
 	color: #edac01;
 }
