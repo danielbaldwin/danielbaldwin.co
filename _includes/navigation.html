@@ -1,6 +1,11 @@
 <header>
 <nav class="navbar navbar-default">
-    <div class="container">
+	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+        <div class="container blog">	
+	{% else %}
+	<div class="container home">
+	{% endif %}
+    
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -17,11 +22,7 @@
 	        </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
-        <ul class="nav navbar-nav blog">	
-	{% else %}
-	<ul class="nav navbar-nav home">
-	{% endif %}
+	<ul class="nav navbar-nav">
             <li><a href="/featured/" {% if page.url == "/featured/" %}class="active"{% endif %}>Featured Work</a></li>
             <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
             <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
