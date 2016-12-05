@@ -342,36 +342,44 @@ nav.navbar.navbar-default {
     }
 	}
 }
-.rectangle-about {
-	background-color: #f6f6f6;
-	height: 570px;
-	margin-bottom: 301px;
+.images {
+  margin-bottom: 300px;
+  
+  .rectangle-about {
+    background-color: #f6f6f6;
+    height: 570px;
+  }
 }
-.about-border {
-	margin-right: -10px;
-	border-right: solid 2px #f6f6f6;
+.services {
+  margin-bottom: 300px;
+  
+  .border {
+    margin-right: -10px;
+    border-right: solid 2px #f6f6f6;
+  }
+  .rectangle {
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #000000;
+    
+    h3 {
+      font-weight: normal;
+      line-height: 1.27;
+      margin-bottom: 40px;
+    }
+    
+    p {
+      line-height: 1.82;
+      padding-bottom: 20px;
+      padding-right: 20px;
+    }
+  }
 }
-.about-rectangle {
-	margin-bottom: 300px;
-	font-size: 22px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	text-align: center;
-	color: #000000;
-	
-	h3 {
-  	font-weight: normal;
-    line-height: 1.27;
-    margin-bottom: 40px;
-	}
-	
-	p {
-  	line-height: 1.82;
-    padding-bottom: 20px;
-    padding-right: 20px;
-	}
-}
+
+
 
 /* --- Contact Page --- */
 .contact-header {
