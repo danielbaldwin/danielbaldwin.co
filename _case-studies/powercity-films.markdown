@@ -9,6 +9,7 @@ Two Small Images:
 - "/uploads/cats-q-c-570-353-3.jpg"
 One Small Image: "/uploads/cats-q-c-788-412-5.jpg"
 Third Large Image: "/uploads/cats-q-c-1200-788-4.jpg"
+layout: case-study
 ---
 
 **Background**
