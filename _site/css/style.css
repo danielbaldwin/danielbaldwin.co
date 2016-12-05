@@ -2,10 +2,11 @@ body {
   margin: 0 auto;
   font-size: 16px !important; }
 
-.vertically-centered, .home-header h1 {
+.vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 /* --- Loader --- */
 #loader {
@@ -24,7 +25,8 @@ div.progress {
   border-radius: 0px; }
 
 .progress-bar {
-  transition-duration: 3s; }
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s; }
 
 /* --- Navigation --- */
 nav.navbar.navbar-default {
@@ -38,6 +40,15 @@ nav.navbar.navbar-default {
 .about .navbar-default .navbar-nav > li > a, .contact .navbar-default .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.74) !important; }
 
+.navbar-default .navbar-header {
+  padding: 20px; }
+
+.navbar-default .navbar-brand {
+  float: right; }
+
+.navbar-default .navbar-toggle {
+  float: left; }
+
 .navbar-default .navbar-nav > li > a {
   color: #fff !important; }
 
@@ -45,7 +56,7 @@ nav.navbar.navbar-default {
   color: #edac01 !important; }
 
 .navbar-default .navbar-brand {
-  padding: 25px 15px !important; }
+  padding: 0px 0px !important; }
   .navbar-default .navbar-brand img {
     width: 43px;
     height: 43px; }
@@ -53,34 +64,21 @@ nav.navbar.navbar-default {
     padding-top: 35px !important; }
 
 /* --- Home Page --- */
+.hero {
+  height: 70vh; }
+
 .home-header, .progress-bar-success {
+  background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header:hover {
+  background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
   -webkit-animation: gradient 14s ease infinite;
-  -moz-animation: gradient 14s ease infinite;
-  -o-animation: gradient 14s ease infinite;
   animation: gradient 14s ease infinite; }
 
 @-webkit-keyframes gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
-
-@-moz-keyframes gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
-
-@-o-keyframes gradient {
   0% {
     background-position: 93% 0%; }
   50% {
@@ -96,8 +94,10 @@ nav.navbar.navbar-default {
   100% {
     background-position: 93% 0%; } }
 
+header {
+  padding-top: 30px; }
+
 .home-header {
-  padding-top: 30px;
   height: 100vh; }
   .home-header h1 {
     font-size: 38px;
@@ -109,8 +109,6 @@ nav.navbar.navbar-default {
     color: #ffffff;
     max-width: 830px;
     margin: 0 auto; }
-  .home-header .hero {
-    height: 70vh; }
 
 /* --- Page Featured Work --- */
 .believe {
@@ -134,10 +132,19 @@ nav.navbar.navbar-default {
 .first {
   margin: 0 0 30px 0; }
 
+@media screen and (max-width: 990px) {
+  .study {
+    padding-right: 0px !important;
+    padding-left: 0px !important; } }
+
 .rectangle, .rectangle-1 {
   padding: 180px 0 40px 34px;
   color: #fff;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 30px; }
+  @media screen and (max-width: 990px) {
+    .rectangle, .rectangle-1 {
+      margin-bottom: 0px; } }
 
 .rectangle-2, .rectangle-3 {
   padding: 350px 0 40px 34px;
@@ -150,15 +157,19 @@ nav.navbar.navbar-default {
   padding: 180px 0 40px 34px; }
 
 .rectangle {
+  background-image: -webkit-linear-gradient(204deg, rgba(255, 214, 50, 0.98), #ffd21e);
   background-image: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e); }
 
 .rectangle-1 {
+  background-image: -webkit-linear-gradient(226deg, #044932, #055c3f);
   background-image: linear-gradient(224deg, #044932, #055c3f); }
 
 .rectangle-2 {
+  background-image: -webkit-linear-gradient(315deg, #1d3853, #264563);
   background-image: linear-gradient(135deg, #1d3853, #264563); }
 
 .rectangle-3 {
+  background-image: -webkit-linear-gradient(47deg, #b3c4c4, #bdcdcd);
   background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd); }
 
 .rectangle-4 {
@@ -214,7 +225,9 @@ nav.navbar.navbar-default {
   height: 400px; }
 
 .latest-articles {
-  margin-bottom: 300px; }
+  margin-bottom: 200px; }
+  .latest-articles .article {
+    margin-bottom: 100px; }
   .latest-articles h2, .latest-articles p {
     margin-bottom: 28px;
     font-size: 22px;
@@ -240,76 +253,98 @@ nav.navbar.navbar-default {
   margin-right: 25px;
   border-right: solid 2px #f6f6f6; }
 
+/* --- Page Case Study --- */
+.case-study img {
+  width: 100%; }
+
+.case-study .text {
+  padding: 300px 0px; }
+
+.case-study p {
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  color: #000000; }
+
 /* --- Page About --- */
-.about-helping {
-  margin: -95px -15px 0;
-  padding: 280px 0 280px 134px;
+.about-header {
   background-image: url("/img/about-hero.jpg");
   background-size: cover;
+  height: 100vh;
   color: #fff; }
-  .about-helping p {
+  .about-header p {
     font-size: 23px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal; }
-  .about-helping h2 {
+  .about-header h2 {
     font-size: 38px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
+  .about-header .title {
+    height: 200px; }
 
 .behind-brand {
-  margin-top: 307px;
-  margin-bottom: 312px; }
+  margin-top: 300px;
+  margin-bottom: 200px; }
   .behind-brand h2 {
-    padding-right: 127px;
     font-size: 28px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.21;
-    color: #181818; }
+    color: #181818;
+    max-width: 340px;
+    margin-top: 0px;
+    margin-bottom: 100px; }
   .behind-brand p {
     margin-bottom: 20px;
-    padding-left: 90px;
     font-size: 22px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
+    color: #000000;
+    max-width: 460px;
+    margin: 0px auto 20px; }
+    .behind-brand pnth-child(2) {
+      margin-bottom: 100px; }
+
+.images {
+  margin-bottom: 300px; }
+  .images img {
+    width: 100%; }
+
+.services {
+  margin-bottom: 300px; }
+  .services .border {
+    margin-right: -10px;
+    border-right: solid 2px #f6f6f6; }
+  .services .service {
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
     color: #000000; }
-
-.rectangle-about {
-  background-color: #f6f6f6;
-  height: 570px;
-  margin-bottom: 301px; }
-
-.about-border {
-  margin-right: -10px;
-  border-right: solid 2px #f6f6f6; }
-
-.about-rectangle {
-  margin-bottom: 300px;
-  font-size: 22px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: center;
-  color: #000000; }
-  .about-rectangle h3 {
-    font-weight: normal;
-    line-height: 1.27;
-    margin-bottom: 40px; }
-  .about-rectangle p {
-    line-height: 1.82;
-    padding-bottom: 20px;
-    padding-right: 20px; }
+    .services .service h3 {
+      font-weight: normal;
+      line-height: 1.27;
+      margin-bottom: 40px; }
+    .services .service p {
+      line-height: 1.82;
+      padding-bottom: 20px;
+      padding-right: 20px; }
 
 /* --- Contact Page --- */
 .contact-header {
   margin: -95px -15px 0;
   padding: 280px 0 280px 134px;
+  background-image: -webkit-linear-gradient(206deg, #f8d602, #edac01);
   background-image: linear-gradient(244deg, #f8d602, #edac01);
   color: #fff; }
   .contact-header p {
@@ -336,6 +371,8 @@ nav.navbar.navbar-default {
   padding-bottom: 190px;
   padding-top: 180px;
   border-bottom: solid 2px #f6f6f6; }
+  .blog-excerpt img {
+    width: 100%; }
   .blog-excerpt h2 {
     margin-bottom: 28px; }
     .blog-excerpt h2 a, .blog-excerpt h2 a:hover {
@@ -370,6 +407,9 @@ nav.navbar.navbar-default {
   font-stretch: normal;
   color: #000000;
   text-decoration: none; }
+
+article img {
+  width: 100%; }
 
 /* --- Posts --- */
 .post-header {
@@ -430,36 +470,18 @@ nav.navbar.navbar-default {
 /* --- Footer --- */
 .footer-rectangle {
   margin-bottom: 36px;
-  padding-top: 200px;
-  padding-left: 78px !important;
-  padding-bottom: 220px;
+  height: 500px;
+  background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01);
   color: #fff; }
   .footer-rectangle:hover {
+    background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
     background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
     background-size: 800% 800%;
     -webkit-animation: footer-gradient 14s ease infinite;
-    -moz-animation: footer-gradient 14s ease infinite;
-    -o-animation: footer-gradient 14s ease infinite;
     animation: footer-gradient 14s ease infinite; }
 
 @-webkit-keyframes footer-gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
-
-@-moz-keyframes footer-gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
-
-@-o-keyframes footer-gradient {
   0% {
     background-position: 93% 0%; }
   50% {
@@ -475,7 +497,19 @@ nav.navbar.navbar-default {
   100% {
     background-position: 93% 0%; } }
   .footer-rectangle h1 {
-    margin-top: 0; }
+    font-weight: normal; }
+  @media screen and (max-width: 990px) {
+    .footer-rectangle p {
+      margin-top: 50px; } }
+  .footer-rectangle .info {
+    padding-left: 70px; }
+    @media screen and (max-width: 990px) {
+      .footer-rectangle .info {
+        padding-left: 0px; } }
+
+@media screen and (max-width: 1200px) {
+  footer .footer {
+    text-align: center; } }
 
 footer .navbar-brand img {
   width: 40px;
@@ -488,10 +522,42 @@ footer a.navbar-brand {
   footer a.navbar-brand img {
     margin: 0 auto; }
 
+@media screen and (max-width: 1200px) {
+  footer .navbar-right {
+    float: none !important; } }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  footer .navbar-right {
+    float: none !important; } }
+
+@media screen and (max-width: 1200px) {
+  footer .navbar-nav {
+    float: none !important; } }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  footer .navbar-nav {
+    float: none !important; } }
+
+@media screen and (max-width: 1200px) {
+  footer .nav > li {
+    position: relative;
+    display: block; } }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  footer .nav > li {
+    position: relative !important;
+    display: block !important;
+    float: none !important; } }
+
 footer .nav > li > a {
   padding-left: 0;
   margin-left: -15px;
   padding-right: 35px; }
+  @media screen and (max-width: 1200px) {
+    footer .nav > li > a {
+      margin-left: 0px !important;
+      padding-right: 0px !important;
+      padding: 0px !important; } }
   footer .nav > li > a:focus, footer .nav > li > a:hover {
     background-color: transparent; }
 
