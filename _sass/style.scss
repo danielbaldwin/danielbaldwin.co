@@ -42,6 +42,18 @@ nav.navbar.navbar-default {
   .navbar-toggle {
     float: left;
   }
+  .navbar-collapse {
+    border-color: transparent !important;
+    margin: 0 auto;
+    .navbar-nav>li {
+      text-align: center;
+      &>a {
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 3.43;
+      }
+    }
+  }
   .home .navbar-toggle {
     border-color: transparent !important;
     .icon-bar {
@@ -79,6 +91,9 @@ nav.navbar.navbar-default {
   }
   .home .navbar-nav>li>a.active {
     color: #fff !important;
+  }
+  .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a {
+    color: #edac01 !important;
   }
   .navbar-brand {
     padding: 0px 0px !important;
@@ -131,6 +146,10 @@ nav.navbar.navbar-default {
 }
 header {
   padding-top: 30px;
+  @media screen and (max-width: 990px) {
+    padding-top: 0;
+    background-color: #fff;
+  }
 }
 .home-header {
   height: 100vh;
