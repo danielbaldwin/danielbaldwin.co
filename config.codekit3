@@ -170,12 +170,6 @@
 		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
-	"\/_site\/case-study\/meowcity-films\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/case-study\/meowcity-films\/index.html",
-		"oF": 0
-		},
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -191,12 +185,6 @@
 		"oAP": "\/_site\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/_site\/featured\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/featured\/index.html",
-		"oF": 0
 		},
 	"\/_site\/featured_work\/index.html": {
 		"ft": 8192,
@@ -287,78 +275,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/posts\/Workflow\/index.html",
 		"oF": 0
-		},
-	"\/_site\/uploads\/abstract-q-c-570-570-7.jpg": {
-		"ft": 16384,
-		"iS": 41791,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/abstract-q-c-570-570-7.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/cats-q-c-1200-788-4.jpg": {
-		"ft": 16384,
-		"iS": 70851,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cats-q-c-1200-788-4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/cats-q-c-1200-788-6.jpg": {
-		"ft": 16384,
-		"iS": 88741,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cats-q-c-1200-788-6.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/cats-q-c-1200-788-8.jpg": {
-		"ft": 16384,
-		"iS": 74407,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cats-q-c-1200-788-8.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/cats-q-c-570-353-10.jpg": {
-		"ft": 16384,
-		"iS": 22665,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cats-q-c-570-353-10.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/cats-q-c-570-353-3.jpg": {
-		"ft": 16384,
-		"iS": 30204,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cats-q-c-570-353-3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/cats-q-c-788-412-5.jpg": {
-		"ft": 16384,
-		"iS": 17352,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/cats-q-c-788-412-5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/people-q-c-570-570-5.jpg": {
-		"ft": 16384,
-		"iS": 47992,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/people-q-c-570-570-5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/uploads\/sports-q-c-570-350-8.jpg": {
-		"ft": 16384,
-		"iS": 14093,
-		"oA": 0,
-		"oAP": "\/_site\/uploads\/sports-q-c-570-350-8.jpg",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/about\/index.html": {
 		"ft": 8192,
@@ -474,7 +390,7 @@
 "projectAttributes": {
 	"creationDate": 501791025,
 	"displayValue": "Daniel-Baldwin-Co",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown"
 	},
 "projectSettings": {
