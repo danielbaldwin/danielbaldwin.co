@@ -1,7 +1,7 @@
 ---
-title: Powercity Films
+title: Meowcity Films
 date: 2016-12-05 04:17:00 Z
-Hero Text: Developing an identity for a storytelling film company.
+Hero Text: Developing an identity for a cat film company.
 First Large Image: "/uploads/cats-q-c-1200-788-8.jpg"
 Second Large Image: "/uploads/cats-q-c-1200-788-6.jpg"
 Two Small Images:
