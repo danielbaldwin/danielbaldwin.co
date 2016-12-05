@@ -5,6 +5,6 @@ excerpt: How building a foundation, story, and following influence consumer beha
 layout: post
 ---
 
-!(/uploads/sports-q-c-570-350-8.jpg)
+![add alt here](/uploads/sports-q-c-570-350-8.jpg)
 
 How building a foundation, story, and following influence consumer behavior.
