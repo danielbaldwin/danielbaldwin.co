@@ -24,5 +24,4 @@ defaults:
   values:
     layout: page
 permalink: pretty
-#Facebook Sharing
-facebook_app_id:
+facebook_app_id: 
