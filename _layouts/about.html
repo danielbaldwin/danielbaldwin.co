@@ -28,15 +28,12 @@
 			</div>
 		</div>
 		<div class="row images">
-			<div class="col-md-6">
-				<div class="rectangle-about">
-					
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="rectangle-about">
-					
-				</div>
+			<div class="row images">
+				{% for image in page.images %}
+					<div class="col-md-6">
+					  {{ image }}
+					</div>
+				{% endfor %}
 			</div>
 		</div>
 		<div class="row services">
