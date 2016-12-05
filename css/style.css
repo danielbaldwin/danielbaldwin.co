@@ -309,9 +309,8 @@ nav.navbar.navbar-default {
 
 .images {
   margin-bottom: 300px; }
-  .images .rectangle-about {
-    background-color: #f6f6f6;
-    height: 570px; }
+  .images img {
+    width: 100%; }
 
 .services {
   margin-bottom: 300px; }
