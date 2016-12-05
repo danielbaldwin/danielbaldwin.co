@@ -27,6 +27,12 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
+	"\/_includes\/case-studies.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-studies.html",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -61,6 +67,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/start.html",
+		"oF": 0
+		},
+	"\/_layouts\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/about.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -133,23 +145,10 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/_sass\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/about.html": {
+	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/about.html",
+		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
 	"\/_site\/css\/style.css": {
@@ -161,6 +160,12 @@
 		"oAP": "\/_site\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/_site\/featured_work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/featured_work\/index.html",
+		"oF": 0
 		},
 	"\/_site\/Gemfile": {
 		"ft": 8192,
@@ -234,22 +239,60 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/_site\/posts\/finding-your-flow\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/posts\/finding-your-flow\/index.html",
+		"oF": 0
+		},
+	"\/_site\/posts\/Workflow\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/posts\/Workflow\/index.html",
+		"oF": 0
+		},
+	"\/_site\/uploads\/abstract-q-c-570-570-7.jpg": {
+		"ft": 16384,
+		"iS": 41791,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/abstract-q-c-570-570-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/people-q-c-570-570-5.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/people-q-c-570-570-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/abstract-q-c-570-570-7.jpg": {
+		"ft": 16384,
+		"iS": 41791,
+		"oA": 0,
+		"oAP": "\/_uploads\/abstract-q-c-570-570-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/people-q-c-570-570-5.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/_uploads\/people-q-c-570-570-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/about.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/about.markdown",
 		"oF": 0
 		},
-	"\/about\/index.html": {
+	"\/blog.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/about\/index.html",
-		"oF": 0
-		},
-	"\/blog\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog\/index.html",
+		"oAP": "\/blog.markdown",
 		"oF": 0
 		},
 	"\/contact\/index.html": {
