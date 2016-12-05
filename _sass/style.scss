@@ -70,6 +70,9 @@ nav.navbar.navbar-default {
   }
 }
 /* --- Home Page --- */
+.hero {
+  height: 70vh;
+}
 .home-header, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01);
 }
@@ -117,10 +120,6 @@ nav.navbar.navbar-default {
     margin: 0 auto;
     
     @extend .vertically-centered;
-  }
-  
-  .hero {
-    height: 70vh;
   }
 } 
 /* --- Page Featured Work --- */
@@ -288,6 +287,8 @@ nav.navbar.navbar-default {
 .about-header {
 	background-image: url('/img/about-hero.jpg');
 	background-size: cover;
+	height: 100vh;
+	color: #fff;
 	
 	p {
   	font-size: 23px;
@@ -302,6 +303,11 @@ nav.navbar.navbar-default {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
+	}
+	
+	.title {
+	  height: 200px;
+	  @extend .vertically-centered;
 	}
 }
 .behind-brand {

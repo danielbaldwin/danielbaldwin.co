@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   font-size: 16px !important; }
 
-.vertically-centered, .home-header h1, .footer-rectangle .contact {
+.vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
@@ -62,6 +62,9 @@ nav.navbar.navbar-default {
     padding-top: 35px !important; }
 
 /* --- Home Page --- */
+.hero {
+  height: 70vh; }
+
 .home-header, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
@@ -118,8 +121,6 @@ nav.navbar.navbar-default {
     color: #ffffff;
     max-width: 830px;
     margin: 0 auto; }
-  .home-header .hero {
-    height: 70vh; }
 
 /* --- Page Featured Work --- */
 .believe {
@@ -263,7 +264,9 @@ nav.navbar.navbar-default {
 /* --- Page About --- */
 .about-header {
   background-image: url("/img/about-hero.jpg");
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh;
+  color: #fff; }
   .about-header p {
     font-size: 23px;
     font-weight: normal;
@@ -275,6 +278,8 @@ nav.navbar.navbar-default {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
+  .about-header .title {
+    height: 200px; }
 
 .behind-brand {
   margin-top: 307px;
