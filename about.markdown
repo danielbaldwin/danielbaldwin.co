@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2016-12-05 02:18:00 Z
-position: 3
+position: 2
 Hero Text: Helping startups and agencies cultivate relationships through impactful
   experiences.
 Images:
