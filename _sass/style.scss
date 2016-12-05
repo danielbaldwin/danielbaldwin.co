@@ -32,12 +32,6 @@ nav.navbar.navbar-default {
 	border-color: transparent;
 	border-radius: 0px;
 }
-.home .navbar-default .navbar-nav>li>a {
-	color: #fff !important;
-}
-.home .navbar-default .navbar-nav>li>a {
-	color: rgba(255,255,255,0.74) !important;
-}
 .navbar-default {
   
   .navbar-header {
@@ -51,10 +45,16 @@ nav.navbar.navbar-default {
     float: left;
   }
   .navbar-nav>li>a {
-    color: #fff !important;
+    color: #000 !important;
   }
   .navbar-nav>li>a.active {
     color: #edac01 !important;
+  }
+  .home>li>a {
+    color: rgba(255,255,255,0.74) !important;
+  }
+  .home>li>a.active {
+    color: #fff !important;
   }
   .navbar-brand {
     padding: 0px 0px !important;
