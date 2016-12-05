@@ -226,7 +226,7 @@ nav.navbar.navbar-default {
     font-weight: normal; }
   .latest-articles p {
     font-weight: 300; }
-  .latest-articles a {
+  .latest-articles a, .latest-articles a:hover {
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -324,7 +324,7 @@ nav.navbar.navbar-default {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
-  .contact-header a {
+  .contact-header a, .contact-header a:hover {
     color: #fff;
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
@@ -338,7 +338,7 @@ nav.navbar.navbar-default {
   border-bottom: solid 2px #f6f6f6; }
   .blog-excerpt h2 {
     margin-bottom: 28px; }
-    .blog-excerpt h2 a {
+    .blog-excerpt h2 a, .blog-excerpt h2 a:hover {
       font-size: 22px;
       font-weight: normal;
       font-style: normal;
@@ -394,7 +394,7 @@ nav.navbar.navbar-default {
   font-stretch: normal;
   line-height: 1.73; }
 
-.post-content a {
+.post-content a, .post-content a:hover {
   font-weight: 500;
   color: #edac01;
   text-decoration: none;
@@ -417,7 +417,7 @@ nav.navbar.navbar-default {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.73; }
-  .share-widget a {
+  .share-widget a, .share-widget a:hover {
     padding: 0 18px;
     font-size: 35px;
     vertical-align: middle;

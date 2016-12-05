@@ -242,7 +242,7 @@ nav.navbar.navbar-default {
 	  font-weight: 300;
 	}
 	
-	a {
+	a, a:hover {
   	font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -359,7 +359,7 @@ nav.navbar.navbar-default {
     line-height: 1.58;
 	}
 	
-	a {
+	a, a:hover {
   	color: #fff;
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
@@ -376,7 +376,7 @@ nav.navbar.navbar-default {
 	h2 {
 	 margin-bottom: 28px;
 	 
-	 a {
+	 a, a:hover {
   	font-size: 22px;
     font-weight: normal;
     font-style: normal;
@@ -440,7 +440,7 @@ nav.navbar.navbar-default {
   	line-height: 1.73;
   }
   
-  a {
+  a, a:hover {
     font-weight: 500;
     color: #edac01;
     text-decoration: none;
@@ -467,7 +467,7 @@ nav.navbar.navbar-default {
 	font-stretch: normal;
 	line-height: 1.73;
 	
-	a {
+	a, a:hover {
   	padding: 0 18px;
     font-size: 35px;
     vertical-align: middle;
