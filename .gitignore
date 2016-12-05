@@ -8,3 +8,7 @@ config.codekit3
 _site
 
 config.codekit3
+
+*.codekit3
+
+*.codekit3
