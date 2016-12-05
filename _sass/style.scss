@@ -276,6 +276,7 @@ header {
     font-size: 22px;
     margin-bottom: 60px;
     border-bottom: 2px solid #f6f6f6;
+    padding-top: 30px;
     padding-bottom: 60px;
   }
 }
@@ -318,6 +319,9 @@ header {
     padding-bottom: 3px;
     text-decoration: none;
 	}
+  @media screen and (max-width: 990px) {
+    margin-bottom: 0px;
+  }
 }
 .articles-border {
 	margin-right: 25px;

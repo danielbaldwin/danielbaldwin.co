@@ -260,6 +260,7 @@ header {
       font-size: 22px;
       margin-bottom: 60px;
       border-bottom: 2px solid #f6f6f6;
+      padding-top: 30px;
       padding-bottom: 60px; } }
 
 .mask {
@@ -291,6 +292,9 @@ header {
     border-bottom: 2px solid #edac01;
     padding-bottom: 3px;
     text-decoration: none; }
+  @media screen and (max-width: 990px) {
+    .latest-articles {
+      margin-bottom: 0px; } }
 
 .articles-border {
   margin-right: 25px;
