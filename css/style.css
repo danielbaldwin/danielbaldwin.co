@@ -45,6 +45,7 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-collapse {
   border-color: transparent !important;
+  box-shadow: none !important;
   margin: 0 auto; }
   .navbar-default .navbar-collapse .navbar-nav > li {
     text-align: center; }

@@ -44,6 +44,7 @@ nav.navbar.navbar-default {
   }
   .navbar-collapse {
     border-color: transparent !important;
+    box-shadow: none !important;
     margin: 0 auto;
     .navbar-nav>li {
       text-align: center;
