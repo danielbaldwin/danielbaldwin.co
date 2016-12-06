@@ -43,7 +43,7 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-toggle {
   float: left; }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
   .navbar-default .navbar-collapse {
     border-color: transparent !important;
     box-shadow: none !important;
@@ -100,7 +100,7 @@ nav.navbar.navbar-default {
     .navbar-default .home [aria-expanded="true"]:hover .icon-bar {
       background-color: #edac01 !important; }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
   .navbar-default .home .navbar-collapse .navbar-nav > li > a, .navbar-default .blog .navbar-collapse .navbar-nav > li > a, .navbar-default .social {
     color: #edac01 !important; } }
 
@@ -110,7 +110,7 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-brand {
   padding: 0px 0px !important; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .navbar-default .navbar-brand {
       padding: 5px 0px !important; } }
   .navbar-default .navbar-brand img {
@@ -152,7 +152,7 @@ nav.navbar.navbar-default {
 
 header {
   padding-top: 30px; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     header {
       padding-top: 0; } }
 
@@ -187,7 +187,7 @@ header {
     font-style: normal;
     font-stretch: normal;
     color: #000000; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .believe {
       text-align: center;
       margin: 200px 5px 150px; }
@@ -202,7 +202,7 @@ header {
 .first {
   margin: 0 0 30px 0; }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
   .study {
     padding-right: 0px !important;
     padding-left: 0px !important; } }
@@ -212,7 +212,7 @@ header {
   color: #fff;
   text-align: left;
   margin-bottom: 30px; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .rectangle, .rectangle-1 {
       margin-bottom: 0px;
       padding: 105px 0 40px 34px; } }
@@ -221,7 +221,7 @@ header {
   padding: 350px 0 40px 34px;
   color: #fff;
   text-align: left; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .rectangle-2, .rectangle-3 {
       padding: 105px 0 40px 34px; } }
 
@@ -229,7 +229,7 @@ header {
   color: #656873;
   text-align: left;
   padding: 180px 0 40px 34px; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .rectangle-4 {
       padding: 105px 0 40px 34px; } }
 
@@ -295,7 +295,7 @@ header {
     .more-projects a:hover {
       color: #000;
       text-decoration: none; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .more-projects {
       font-size: 22px;
       margin-bottom: 0;
@@ -332,7 +332,7 @@ header {
     border-bottom: 2px solid #edac01;
     padding-bottom: 3px;
     text-decoration: none; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .latest-articles {
       margin-bottom: 0px; } }
 
@@ -374,7 +374,7 @@ header {
     line-height: 1.58; }
   .about-header .title {
     height: 200px; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .about-header {
       text-align: center; }
       .about-header p {
@@ -461,7 +461,7 @@ header {
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
     text-decoration: none; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .contact-header {
       text-align: center;
       padding: 190px 0; }
@@ -494,7 +494,7 @@ header {
       line-height: 1.27;
       color: #edac01;
       text-decoration: none; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .blog-excerpt {
       padding-top: 90px;
       padding-bottom: 90px; }
@@ -544,7 +544,7 @@ article img {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .post-header {
       margin: 100px 0 150px;
       text-align: center; }
@@ -625,12 +625,12 @@ article img {
     background-position: 93% 0%; } }
   .footer-rectangle h1 {
     font-weight: normal; }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .footer-rectangle p {
       margin-top: 50px; } }
   .footer-rectangle .info {
     padding-left: 70px; }
-    @media screen and (max-width: 990px) {
+    @media screen and (max-width: 768px) {
       .footer-rectangle .info {
         padding-left: 0px; } }
 

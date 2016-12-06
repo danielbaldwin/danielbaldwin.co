@@ -42,7 +42,7 @@ nav.navbar.navbar-default {
   .navbar-toggle {
     float: left;
   }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .navbar-collapse {
       border-color: transparent !important;
       box-shadow: none !important;
@@ -111,7 +111,7 @@ nav.navbar.navbar-default {
       }
     }
   }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a, .social {
       color: #edac01 !important;
     }
@@ -122,7 +122,7 @@ nav.navbar.navbar-default {
     }
   .navbar-brand {
     padding: 0px 0px !important;
-    @media screen and (max-width: 990px) {
+    @media screen and (max-width: 768px) {
       padding: 5px 0px !important;
     }
     
@@ -174,7 +174,7 @@ nav.navbar.navbar-default {
 }
 header {
   padding-top: 30px;
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     padding-top: 0;
   }
 }
@@ -217,7 +217,7 @@ header {
     font-stretch: normal;
     color: #000000;
   }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     text-align: center;
     margin: 200px 5px 150px;
     h2 {
@@ -236,7 +236,7 @@ header {
 }
 
 .study {
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     padding-right: 0px !important;
     padding-left: 0px !important;
   }
@@ -247,7 +247,7 @@ header {
 	text-align: left;
 	margin-bottom: 30px;
 	
-	@media screen and (max-width: 990px) {
+	@media screen and (max-width: 768px) {
     margin-bottom: 0px;
     padding: 105px 0 40px 34px; 
   }
@@ -256,7 +256,7 @@ header {
 	padding: 350px 0 40px 34px;
 	color: #fff;
 	text-align: left;
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     padding: 105px 0 40px 34px; 
   }
 }
@@ -264,7 +264,7 @@ header {
 	color: #656873;
 	text-align: left;
 	padding: 180px 0 40px 34px;
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     padding: 105px 0 40px 34px; 
   }
 }
@@ -332,7 +332,7 @@ header {
       text-decoration: none;
     }
 	}
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     font-size: 22px;
     margin-bottom: 0;
     border-bottom: 2px solid #f6f6f6;
@@ -379,7 +379,7 @@ header {
     padding-bottom: 3px;
     text-decoration: none;
 	}
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 0px;
   }
 }
@@ -433,7 +433,7 @@ header {
 	  height: 200px;
 	  @extend .vertically-centered;
 	}
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     text-align: center;
     p {
       font-size: 22px;
@@ -542,7 +542,7 @@ header {
     padding-bottom: 3px;
     text-decoration: none;
 	}
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     text-align: center;
     padding: 190px 0;
     p{
@@ -584,7 +584,7 @@ header {
     text-decoration: none;
   }
  }
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     padding-top: 90px;
     padding-bottom: 90px;
     h2 {
@@ -642,7 +642,7 @@ article {
     font-stretch: normal;
     line-height: 1.58;
 	}
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 768px) {
     margin: 100px 0 150px;
     text-align: center;
     h2 {
@@ -741,14 +741,14 @@ article {
   }
   
   p {
-    @media screen and (max-width: 990px) {
+    @media screen and (max-width: 768px) {
       margin-top: 50px;
     }
   }
   
   .info {
     padding-left: 70px;
-    @media screen and (max-width: 990px) {
+    @media screen and (max-width: 768px) {
       padding-left: 0px;
     }
   }
