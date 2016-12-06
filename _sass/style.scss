@@ -95,6 +95,9 @@ nav.navbar.navbar-default {
   .home .navbar-nav>li>a.active {
     color: #fff !important;
   }
+  .navbar-default [aria-expanded="true"] {
+    background: #fff !important;
+  }
   .home [aria-expanded="true"] {
     background: #fff !important;
     .icon-bar {
@@ -213,6 +216,19 @@ header {
     font-style: normal;
     font-stretch: normal;
     color: #000000;
+  }
+  @media screen and (max-width: 990px) {
+    text-align: center;
+    margin: 200px 5px 150px;
+    h2 {
+      font-size: 28px;
+      line-height: 1.71;
+      text-align: center;
+    }
+    p {
+      font-size: 22px;
+      line-height: 2.18;
+    }
   }
 }
 .first {
@@ -417,6 +433,18 @@ header {
 	  height: 200px;
 	  @extend .vertically-centered;
 	}
+  @media screen and (max-width: 990px) {
+    text-align: center;
+    p {
+      font-size: 22px;
+      line-height: 2.18;
+    }
+    h2 {
+      font-size: 28px;
+      line-height: 1.71;
+      text-align: center;
+    }
+  }
 }
 .behind-brand {
 	margin-top: 300px;
@@ -514,6 +542,23 @@ header {
     padding-bottom: 3px;
     text-decoration: none;
 	}
+  @media screen and (max-width: 990px) {
+    text-align: center;
+    padding: 190px 0;
+    p{
+      font-size: 22px;
+      line-height: 2.18;
+    }
+    h2 {
+      margin-bottom: 25px;
+      font-size: 28px;
+      line-height: 1.71;
+    }
+    .anything-else {
+      font-size: 16px;
+      padding: 0 25px;
+    }
+  }
 }
 /* --- Blog --- */
 .blog-excerpt {
@@ -539,6 +584,16 @@ header {
     text-decoration: none;
   }
  }
+  @media screen and (max-width: 990px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    h2 {
+      font-size: 22px;
+    }
+    .article-img {
+      margin-top: 40px;
+    }
+  }
 }
 .date {
 	margin: 28px 0;
@@ -587,6 +642,15 @@ article {
     font-stretch: normal;
     line-height: 1.58;
 	}
+  @media screen and (max-width: 990px) {
+    margin: 100px 0 150px;
+    text-align: center;
+    h2 {
+      font-size: 28px;
+      line-height: 1.71;
+      text-align: center;
+    }
+  }
 }
 .post-content {
   p {

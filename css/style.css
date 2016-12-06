@@ -87,6 +87,9 @@ nav.navbar.navbar-default {
 .navbar-default .home .navbar-nav > li > a.active {
   color: #fff !important; }
 
+.navbar-default .navbar-default [aria-expanded="true"] {
+  background: #fff !important; }
+
 .navbar-default .home [aria-expanded="true"] {
   background: #fff !important; }
   .navbar-default .home [aria-expanded="true"] .icon-bar {
@@ -184,6 +187,17 @@ header {
     font-style: normal;
     font-stretch: normal;
     color: #000000; }
+  @media screen and (max-width: 990px) {
+    .believe {
+      text-align: center;
+      margin: 200px 5px 150px; }
+      .believe h2 {
+        font-size: 28px;
+        line-height: 1.71;
+        text-align: center; }
+      .believe p {
+        font-size: 22px;
+        line-height: 2.18; } }
 
 .first {
   margin: 0 0 30px 0; }
@@ -360,6 +374,16 @@ header {
     line-height: 1.58; }
   .about-header .title {
     height: 200px; }
+  @media screen and (max-width: 990px) {
+    .about-header {
+      text-align: center; }
+      .about-header p {
+        font-size: 22px;
+        line-height: 2.18; }
+      .about-header h2 {
+        font-size: 28px;
+        line-height: 1.71;
+        text-align: center; } }
 
 .behind-brand {
   margin-top: 300px;
@@ -437,6 +461,20 @@ header {
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
     text-decoration: none; }
+  @media screen and (max-width: 990px) {
+    .contact-header {
+      text-align: center;
+      padding: 190px 0; }
+      .contact-header p {
+        font-size: 22px;
+        line-height: 2.18; }
+      .contact-header h2 {
+        margin-bottom: 25px;
+        font-size: 28px;
+        line-height: 1.71; }
+      .contact-header .anything-else {
+        font-size: 16px;
+        padding: 0 25px; } }
 
 /* --- Blog --- */
 .blog-excerpt {
@@ -456,6 +494,14 @@ header {
       line-height: 1.27;
       color: #edac01;
       text-decoration: none; }
+  @media screen and (max-width: 990px) {
+    .blog-excerpt {
+      padding-top: 90px;
+      padding-bottom: 90px; }
+      .blog-excerpt h2 {
+        font-size: 22px; }
+      .blog-excerpt .article-img {
+        margin-top: 40px; } }
 
 .date {
   margin: 28px 0; }
@@ -498,6 +544,14 @@ article img {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
+  @media screen and (max-width: 990px) {
+    .post-header {
+      margin: 100px 0 150px;
+      text-align: center; }
+      .post-header h2 {
+        font-size: 28px;
+        line-height: 1.71;
+        text-align: center; } }
 
 .post-content p {
   margin-bottom: 100px;
