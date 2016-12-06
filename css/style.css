@@ -53,7 +53,7 @@ nav.navbar.navbar-default {
       .navbar-default .navbar-collapse .navbar-nav > li > a {
         font-size: 28px;
         font-weight: bold;
-        line-height: 3.43; } }
+        line-height: 2.83; } }
 
 .navbar-default .home .navbar-toggle {
   border-color: transparent !important; }
@@ -88,7 +88,14 @@ nav.navbar.navbar-default {
   color: #fff !important; }
 
 .navbar-default .home [aria-expanded="true"] {
-  background-color: #fff; }
+  background: #fff !important; }
+  .navbar-default .home [aria-expanded="true"] .icon-bar {
+    height: 3px;
+    background-color: #edac01 !important; }
+  .navbar-default .home [aria-expanded="true"]:hover {
+    background-color: #fff !important; }
+    .navbar-default .home [aria-expanded="true"]:hover .icon-bar {
+      background-color: #edac01 !important; }
 
 @media screen and (max-width: 990px) {
   .navbar-default .home .navbar-collapse .navbar-nav > li > a, .navbar-default .blog .navbar-collapse .navbar-nav > li > a, .navbar-default .social {

@@ -52,7 +52,7 @@ nav.navbar.navbar-default {
         &>a {
           font-size: 28px;
           font-weight: bold;
-          line-height: 3.43;
+          line-height: 2.83;
         }
       }
     }
@@ -96,7 +96,17 @@ nav.navbar.navbar-default {
     color: #fff !important;
   }
   .home [aria-expanded="true"] {
-    background-color: #fff;
+    background: #fff !important;
+    .icon-bar {
+      height: 3px;
+      background-color: #edac01 !important;
+    }
+    &:hover {
+      background-color: #fff !important;
+      .icon-bar {
+        background-color: #edac01 !important;
+      }
+    }
   }
   @media screen and (max-width: 990px) {
     .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a, .social {
