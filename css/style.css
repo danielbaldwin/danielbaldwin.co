@@ -43,22 +43,23 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-toggle {
   float: left; }
 
-.navbar-default .navbar-collapse {
-  border-color: transparent !important;
-  box-shadow: none !important;
-  margin: 0 auto; }
-  .navbar-default .navbar-collapse .navbar-nav > li {
-    text-align: center; }
-    .navbar-default .navbar-collapse .navbar-nav > li > a {
-      font-size: 28px;
-      font-weight: bold;
-      line-height: 3.43; }
+@media screen and (max-width: 990px) {
+  .navbar-default .navbar-collapse {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    margin: 0 auto; }
+    .navbar-default .navbar-collapse .navbar-nav > li {
+      text-align: center; }
+      .navbar-default .navbar-collapse .navbar-nav > li > a {
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 3.43; } }
 
 .navbar-default .home .navbar-toggle {
   border-color: transparent !important; }
   .navbar-default .home .navbar-toggle .icon-bar {
     height: 3px;
-    background-color: #edac01 !important; }
+    background-color: #fff !important; }
   .navbar-default .home .navbar-toggle:hover {
     background-color: #fff !important; }
     .navbar-default .home .navbar-toggle:hover .icon-bar {
@@ -86,8 +87,12 @@ nav.navbar.navbar-default {
 .navbar-default .home .navbar-nav > li > a.active {
   color: #fff !important; }
 
-.navbar-default .home .navbar-collapse .navbar-nav > li > a, .navbar-default .blog .navbar-collapse .navbar-nav > li > a, .navbar-default .social {
-  color: #edac01 !important; }
+.navbar-default .home [aria-expanded="true"] {
+  background-color: #fff; }
+
+@media screen and (max-width: 990px) {
+  .navbar-default .home .navbar-collapse .navbar-nav > li > a, .navbar-default .blog .navbar-collapse .navbar-nav > li > a, .navbar-default .social {
+    color: #edac01 !important; } }
 
 .navbar-default .social {
   font-size: 30px;
@@ -95,6 +100,9 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-brand {
   padding: 0px 0px !important; }
+  @media screen and (max-width: 990px) {
+    .navbar-default .navbar-brand {
+      padding: 5px 0px !important; } }
   .navbar-default .navbar-brand img {
     width: 43px;
     height: 43px; }
@@ -136,8 +144,7 @@ header {
   padding-top: 30px; }
   @media screen and (max-width: 990px) {
     header {
-      padding-top: 0;
-      background-color: #fff; } }
+      padding-top: 0; } }
 
 .home-header {
   height: 100vh; }
@@ -401,7 +408,7 @@ header {
 
 /* --- Contact Page --- */
 .contact-header {
-  margin: -95px -15px 0;
+  margin: -125px -15px 0;
   padding: 280px 0 280px 134px;
   background-image: -webkit-linear-gradient(206deg, #f8d602, #edac01);
   background-image: linear-gradient(244deg, #f8d602, #edac01);

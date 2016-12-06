@@ -42,16 +42,18 @@ nav.navbar.navbar-default {
   .navbar-toggle {
     float: left;
   }
-  .navbar-collapse {
-    border-color: transparent !important;
-    box-shadow: none !important;
-    margin: 0 auto;
-    .navbar-nav>li {
-      text-align: center;
-      &>a {
-        font-size: 28px;
-        font-weight: bold;
-        line-height: 3.43;
+  @media screen and (max-width: 990px) {
+    .navbar-collapse {
+      border-color: transparent !important;
+      box-shadow: none !important;
+      margin: 0 auto;
+      .navbar-nav>li {
+        text-align: center;
+        &>a {
+          font-size: 28px;
+          font-weight: bold;
+          line-height: 3.43;
+        }
       }
     }
   }
@@ -59,7 +61,7 @@ nav.navbar.navbar-default {
     border-color: transparent !important;
     .icon-bar {
       height: 3px;
-      background-color: #edac01 !important;
+      background-color: #fff !important;
     }
     &:hover {
       background-color: #fff !important;
@@ -93,8 +95,13 @@ nav.navbar.navbar-default {
   .home .navbar-nav>li>a.active {
     color: #fff !important;
   }
-  .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a, .social {
-    color: #edac01 !important;
+  .home [aria-expanded="true"] {
+    background-color: #fff;
+  }
+  @media screen and (max-width: 990px) {
+    .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a, .social {
+      color: #edac01 !important;
+    }
   }
   .social {
       font-size: 30px;
@@ -102,6 +109,9 @@ nav.navbar.navbar-default {
     }
   .navbar-brand {
     padding: 0px 0px !important;
+    @media screen and (max-width: 990px) {
+      padding: 5px 0px !important;
+    }
     
     img {
       width: 43px;
@@ -153,9 +163,9 @@ header {
   padding-top: 30px;
   @media screen and (max-width: 990px) {
     padding-top: 0;
-    background-color: #fff;
   }
 }
+
 .home-header {
   height: 100vh;
   
@@ -467,7 +477,7 @@ header {
 }
 /* --- Contact Page --- */
 .contact-header {
-	margin: -95px -15px 0;
+	margin: -125px -15px 0;
 	padding: 280px 0 280px 134px;
 	background-image: linear-gradient(244deg, #f8d602, #edac01);
 	color: #fff;
