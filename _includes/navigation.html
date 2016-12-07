@@ -1,6 +1,6 @@
 <header>
 <nav class="navbar navbar-default">
-	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
         <div class="container blog">	
 	{% else %}
 	    <div class="container home">
@@ -14,7 +14,7 @@
             <span class="icon-bar"></span>
           </button>
 	       <a class="navbar-brand navbar-right hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
-	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
 	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
 	            {% else %}
 	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
@@ -29,7 +29,7 @@
                 <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
             </ul>
             <a class="navbar-brand navbar-right hidden-xs" href="{{ site.baseurl }}/">
-                {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+                {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
                     <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
                 {% else %}
                     <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
