@@ -45,9 +45,9 @@ nav.navbar.navbar-default {
   .navbar-toggle {
     float: left;
   }
-  .blog .navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
+  .navbar-collapse {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   @media screen and (max-width: 768px) {
     .navbar-collapse {
@@ -440,7 +440,10 @@ header {
 	background-size: cover;
 	height: 100vh;
 	color: #fff;
-	
+
+	.hero {
+    padding: 0 !important;
+  }
 	p {
   	font-size: 23px;
     font-weight: normal;
