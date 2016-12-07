@@ -37,6 +37,9 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-header {
   /* padding: 20px; */ }
 
+.navbar-default .nav > li > a {
+  padding: 10px 30px 10px 0; }
+
 .navbar-default .navbar-brand {
   float: right; }
 
