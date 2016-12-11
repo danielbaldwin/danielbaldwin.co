@@ -9,7 +9,7 @@
 {% include navigation.html %}
 <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="believe">
         	<p>{{page.title}}<p>
           <h2>{{ page['Hero Text'] }}</h2>
@@ -34,9 +34,7 @@
 		{% endfor %}
 		<div class="col-md-8 col-md-offset-2 text">
 			<p>
-			Strategy / Research
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
-			Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
+			{{ page['Second Paragraph Text'] }}
 			</p>
 		</div>
 		<div class="col-md-12">
@@ -44,26 +42,31 @@
 		</div>
 		<div class="col-md-8 col-md-offset-2 text">
 			<p>
-			Solution
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
-			Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
+			{{ page['Third Paragraph Text'] }}
 			</p>
 		</div>
-		<div class="col-md-12">
+		<div class="col-md-8 col-md-offset-2">
 			<img src="{{ page['One Small Image'] }}">
 		</div>
 		<div class="col-md-8 col-md-offset-2 text">
 			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
-			Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
+			{{ page['Fourth Paragraph Text'] }}
 			</p>
 		</div>
+	</div>
+</div>
 		<div class="col-md-12">
 			<img src="{{ page['Third Large Image'] }}">
 		</div>
-		{% include share.html %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			{% include share.html %}
+		</div>
 	</div>
 </div>
+
+
 {% include footer.html %}
 {% include js.html %}
 </div>
