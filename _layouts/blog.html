@@ -16,7 +16,7 @@
 			      	<span class="read-article"><a href="{{ post.url }}">Read Article</a></span>
 		      	</div>
 		      	<div class="col-md-6 article-img">
-		      		{{ post.first-image }}
+		      		<img src="{{ site.baseurl }}{{ post.first-image }}">
 		      		{% assign images = post.content | split:"<img " %}
 					{% for image in images %}
 					  {% if image contains 'src=' %}
