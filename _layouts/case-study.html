@@ -34,7 +34,7 @@
 		{% endfor %}
 		<div class="col-md-8 col-md-offset-2 text">
 			<p>
-			{{ page['Second Paragraph Text'] }}
+			{{ page['Second Paragraph Text'] | markdown}}
 			</p>
 		</div>
 		<div class="col-md-12">
@@ -42,7 +42,7 @@
 		</div>
 		<div class="col-md-8 col-md-offset-2 text">
 			<p>
-			{{ page['Third Paragraph Text'] }}
+			{{ page['Third Paragraph Text'] | markdown}}
 			</p>
 		</div>
 		<div class="col-md-8 col-md-offset-2">
@@ -50,7 +50,7 @@
 		</div>
 		<div class="col-md-8 col-md-offset-2 text">
 			<p>
-			{{ page['Fourth Paragraph Text'] }}
+			{{ page['Fourth Paragraph Text'] | markdown}}
 			</p>
 		</div>
 	</div>
