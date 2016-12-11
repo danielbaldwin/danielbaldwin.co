@@ -11,9 +11,10 @@ One Small Image: "/uploads/cats-q-c-788-412-5.jpg"
 Third Large Image: "/uploads/cats-q-c-1200-788-4.jpg"
 Second Paragraph Text: |-
   **Strategy / Research**
+
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
   Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
-Third Paragraph Text: "**Solution**\nLorem ipsum dolor sit amet, consectetur adipiscing
+Third Paragraph Text: "**Solution**\n\nLorem ipsum dolor sit amet, consectetur adipiscing
   elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim
   ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.\nSuspendisse
   eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie,
