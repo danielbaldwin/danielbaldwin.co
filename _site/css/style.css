@@ -1,12 +1,27 @@
-body {
-  margin: 0 auto;
-  font-size: 16px !important; }
-
+/* Classes for extends */
 .vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
+
+.Haas-Light, .home-header h1, .believe h2, .rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .excerpt, .post-header h2, .post-content p, .share-widget {
+  font-family: 'Neue Haas Unica W01 Light'; }
+
+.Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover, .latest-articles a, .latest-articles a:hover, .behind-brand h2 {
+  font-family: 'Neue Haas Unica W01 Heavy'; }
+
+.Haas-Regular, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
+  font-family: 'Neue Haas Unica W01 Regular';
+  font-weight: normal; }
+
+body {
+  margin: 0 auto;
+  font-size: 16px !important;
+  font-family: 'Neue Haas Unica W01 Regular' !important; }
+
+b, strong {
+  font-family: 'Neue Haas Unica W01 Heavy'; }
 
 /* --- Loader --- */
 #loader {
@@ -29,6 +44,13 @@ div.progress {
           transition-duration: 3s; }
 
 /* --- Navigation --- */
+.container.home, .container.blog {
+  width: 100% !important;
+  padding: 0px 55px !important; }
+
+.navbar-right {
+  margin-right: 0px !important; }
+
 nav.navbar.navbar-default {
   background: transparent;
   border-color: transparent;
@@ -59,8 +81,8 @@ nav.navbar.navbar-default {
       text-align: center; }
       .navbar-default .navbar-collapse .navbar-nav > li > a {
         font-size: 28px;
-        font-weight: bold;
-        line-height: 2.83; } }
+        line-height: 2.83;
+        font-family: 'Neue Haas Unica W01 Heavy'; } }
 
 .navbar-default .home .navbar-toggle {
   border-color: transparent !important; }
@@ -165,7 +187,6 @@ header {
   height: 100vh; }
   .home-header h1 {
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
@@ -179,7 +200,6 @@ header {
   margin: 248px 0; }
   .believe h2 {
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
@@ -188,7 +208,6 @@ header {
   .believe p {
     margin-bottom: 0px;
     font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     color: #000000; }
@@ -393,12 +412,23 @@ header {
       /*  padding: 105px 0 40px 34px;   */ } }
 
 .rectangle-4 {
-  color: #656873;
   text-align: left;
+  background: rgba(186, 186, 186, 0.24);
+  margin-bottom: 300px;
+  margin-top: 30px;
   /* padding: 180px 0 40px 34px;  */ }
+  .rectangle-4 p {
+    color: #656873 !important; }
+  .rectangle-4 a {
+    color: #bababa !important;
+    border-bottom: solid 2px #bababa !important; }
+  .rectangle-4 h2 {
+    color: #fff; }
   @media screen and (max-width: 768px) {
     .rectangle-4 {
       /* padding: 105px 0 40px 34px;   */ } }
+  .rectangle-4.hovereffect:hover h2 {
+    color: #656873; }
 
 .rectangle.hovereffect {
   background-image: -webkit-linear-gradient(204deg, rgba(255, 214, 50, 0.98), #ffd21e);
@@ -420,30 +450,23 @@ header {
   background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd);
   background: -webkit-linear-gradient(43deg, #b3c4c4, #bdcdcd); }
 
-.rectangle-4 {
-  background: rgba(186, 186, 186, 0.26);
-  margin-bottom: 300px; }
-
 .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2 {
   margin-bottom: 36px;
   font-size: 30px;
-  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.93; }
+  line-height: normal; }
 
 .rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p {
   margin-bottom: 29px;
   margin-right: 20px;
   font-size: 22px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.27; }
 
 .rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover {
   font-size: 16px;
-  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.75;
@@ -458,7 +481,6 @@ header {
   margin-bottom: 270px; }
   .more-projects a {
     font-size: 22px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
@@ -490,12 +512,7 @@ header {
     font-stretch: normal;
     line-height: 1.27;
     color: #000000; }
-  .latest-articles h2 {
-    font-weight: normal; }
-  .latest-articles p {
-    font-weight: 300; }
   .latest-articles a, .latest-articles a:hover {
-    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.75;
@@ -520,28 +537,32 @@ header {
 
 .case-study p {
   font-size: 22px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.73;
   color: #000000; }
 
+.more-case {
+  margin-bottom: 300px; }
+  .more-case .hovereffect .overlay {
+    top: 20%; }
+
 /* --- Page About --- */
 .about-header {
   background-image: url("/img/about-hero.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
+  width: 100%;
   color: #fff; }
   .about-header .hero {
     padding: 0 !important; }
   .about-header p {
     font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal; }
   .about-header h2 {
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
@@ -563,7 +584,6 @@ header {
   margin-bottom: 200px; }
   .behind-brand h2 {
     font-size: 28px;
-    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.21;
@@ -574,7 +594,6 @@ header {
   .behind-brand p {
     margin-bottom: 20px;
     font-size: 22px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
@@ -596,13 +615,11 @@ header {
     border-right: solid 2px #f6f6f6; }
   .services .service {
     font-size: 22px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     text-align: center;
     color: #000000; }
     .services .service h3 {
-      font-weight: normal;
       line-height: 1.27;
       margin-bottom: 40px; }
     .services .service p {
@@ -619,13 +636,11 @@ header {
   color: #fff; }
   .contact-header p {
     font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal; }
   .contact-header h2 {
     margin-bottom: 36px;
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
@@ -661,7 +676,6 @@ header {
     margin-bottom: 28px; }
     .blog-excerpt h2 a, .blog-excerpt h2 a:hover {
       font-size: 22px;
-      font-weight: normal;
       font-style: normal;
       font-stretch: normal;
       line-height: 1.27;
@@ -676,6 +690,10 @@ header {
       .blog-excerpt .article-img {
         margin-top: 40px; } }
 
+.post-content {
+  padding-top: 300px;
+  padding-bottom: 210px; }
+
 .date {
   margin: 28px 0; }
 
@@ -686,7 +704,6 @@ header {
 .excerpt {
   margin-bottom: 52px;
   font-size: 22px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.27;
@@ -694,7 +711,6 @@ header {
 
 .date, .read-article a, .read-article a:hover {
   font-size: 16px;
-  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   color: #000000;
@@ -708,12 +724,10 @@ article img {
   margin: 205px 0 290px 35px; }
   .post-header .date {
     font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal; }
   .post-header h2 {
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58; }
@@ -729,7 +743,6 @@ article img {
 .post-content p {
   margin-bottom: 100px;
   font-size: 22px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.73; }
@@ -753,7 +766,6 @@ article img {
   margin-bottom: 280px;
   text-align: center;
   font-size: 22px;
-  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.73; }
@@ -761,7 +773,6 @@ article img {
     padding: 0 18px;
     font-size: 35px;
     vertical-align: middle;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.09;
@@ -796,8 +807,6 @@ article img {
     background-position: 0% 100%; }
   100% {
     background-position: 93% 0%; } }
-  .footer-rectangle h1 {
-    font-weight: normal; }
   @media screen and (max-width: 768px) {
     .footer-rectangle p {
       margin-top: 50px; } }

@@ -20,6 +20,9 @@ body {
   font-size: 16px !important;
   font-family: 'Neue Haas Unica W01 Regular' !important; }
 
+b, strong {
+  font-family: 'Neue Haas Unica W01 Heavy'; }
+
 /* --- Loader --- */
 #loader {
   position: fixed;
@@ -41,6 +44,13 @@ div.progress {
           transition-duration: 3s; }
 
 /* --- Navigation --- */
+.container.home, .container.blog {
+  width: 100% !important;
+  padding: 0px 55px !important; }
+
+.navbar-right {
+  margin-right: 0px !important; }
+
 nav.navbar.navbar-default {
   background: transparent;
   border-color: transparent;
@@ -402,12 +412,23 @@ header {
       /*  padding: 105px 0 40px 34px;   */ } }
 
 .rectangle-4 {
-  color: #656873;
   text-align: left;
+  background: rgba(186, 186, 186, 0.24);
+  margin-bottom: 300px;
+  margin-top: 30px;
   /* padding: 180px 0 40px 34px;  */ }
+  .rectangle-4 p {
+    color: #656873 !important; }
+  .rectangle-4 a {
+    color: #bababa !important;
+    border-bottom: solid 2px #bababa !important; }
+  .rectangle-4 h2 {
+    color: #fff; }
   @media screen and (max-width: 768px) {
     .rectangle-4 {
       /* padding: 105px 0 40px 34px;   */ } }
+  .rectangle-4.hovereffect:hover h2 {
+    color: #656873; }
 
 .rectangle.hovereffect {
   background-image: -webkit-linear-gradient(204deg, rgba(255, 214, 50, 0.98), #ffd21e);
@@ -428,10 +449,6 @@ header {
   background-image: -webkit-linear-gradient(47deg, #b3c4c4, #bdcdcd);
   background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd);
   background: -webkit-linear-gradient(43deg, #b3c4c4, #bdcdcd); }
-
-.rectangle-4 {
-  background: rgba(186, 186, 186, 0.26);
-  margin-bottom: 300px; }
 
 .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2 {
   margin-bottom: 36px;
@@ -525,11 +542,18 @@ header {
   line-height: 1.73;
   color: #000000; }
 
+.more-case {
+  margin-bottom: 300px; }
+  .more-case .hovereffect .overlay {
+    top: 20%; }
+
 /* --- Page About --- */
 .about-header {
   background-image: url("/img/about-hero.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
+  width: 100%;
   color: #fff; }
   .about-header .hero {
     padding: 0 !important; }

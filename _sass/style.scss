@@ -15,11 +15,14 @@
   font-family:'Neue Haas Unica W01 Regular';
   font-weight: normal;
 }
-
 body {
   margin: 0 auto;
   font-size: 16px !important;
   font-family:'Neue Haas Unica W01 Regular' !important;
+}
+
+b, strong {
+  font-family:'Neue Haas Unica W01 Heavy';
 }
 /* --- Loader --- */
 #loader {
@@ -41,6 +44,13 @@ div.progress {
   transition-duration: 3s;
 }
 /* --- Navigation --- */
+.container.home, .container.blog {
+  width: 100% !important;
+  padding: 0px 55px !important;
+}
+.navbar-right {
+  margin-right: 0px !important;
+}
 nav.navbar.navbar-default {
 	background: transparent;
 	border-color: transparent;
@@ -455,11 +465,28 @@ header {
   }
 }
 .rectangle-4 {
-	color: #656873;
 	text-align: left;
+  background: rgba(186,186,186,0.24);
+  margin-bottom: 300px;
+  margin-top: 30px;
+  p {
+    color: #656873 !important;
+  }
+  a {
+    color: #bababa !important;
+    border-bottom: solid 2px #bababa !important;
+  }
+  h2 {
+    color: #fff;
+  }
 	/* padding: 180px 0 40px 34px;  */
   @media screen and (max-width: 768px) {
     /* padding: 105px 0 40px 34px;   */
+  }
+  &.hovereffect:hover {
+    h2 {
+      color: #656873;
+    }
   }
 }
 .rectangle.hovereffect {
@@ -477,10 +504,6 @@ header {
 .rectangle-3.hovereffect {
 	background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd);
   background: -webkit-linear-gradient(43deg, #b3c4c4, #bdcdcd);
-}
-.rectangle-4 {
-	background: rgba(186,186,186,0.26);
-	margin-bottom: 300px;
 }
 .rectangle, .rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
   h2 {
@@ -611,11 +634,20 @@ header {
     @extend .Haas-Light;
   }
 }
+.more-case {
+  margin-bottom: 300px;
+
+  .hovereffect .overlay {
+    top: 20%;
+  }
+}
 /* --- Page About --- */
 .about-header {
 	background-image: url('/img/about-hero.jpg');
 	background-size: cover;
+  background-position: center;
 	height: 100vh;
+  width: 100%;
 	color: #fff;
 
 	.hero {
