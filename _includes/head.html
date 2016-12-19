@@ -24,5 +24,10 @@
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 300 }}" />
   <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% if page['first-image'] %}
+  <meta content="{{ page['first-image'] }}" property="og:image">
+  {% else %}
+  <meta content="{{ page['First Large Image'] }}" property="og:image">
+  {% endif %}
 
 </head>
