@@ -1,6 +1,5 @@
 ---
 title: Daniel Baldwin Co
-url: http://www.danielbaldwin.co
 timezone: UTC
 collections:
   case-study:
@@ -24,5 +23,6 @@ defaults:
     type: pages
   values:
     layout: page
+url: http://www.danielbaldwin.co
 permalink: pretty
 facebook_app_id: 
