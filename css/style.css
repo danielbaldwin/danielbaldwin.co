@@ -1,7 +1,4 @@
-body {
-  margin: 0 auto;
-  font-size: 16px !important; }
-
+/* Classes for extends */
 .vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
@@ -14,8 +11,13 @@ body {
 .Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover, .latest-articles a, .latest-articles a:hover, .behind-brand h2 {
   font-family: 'Neue Haas Unica W01 Heavy'; }
 
-.Haas-Regular, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1 {
-  font-family: 'Neue Haas Unica W01 Regular'; }
+.Haas-Regular, body, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
+  font-family: 'Neue Haas Unica W01 Regular';
+  font-weight: normal; }
+
+body {
+  margin: 0 auto;
+  font-size: 16px !important; }
 
 /* --- Loader --- */
 #loader {
@@ -435,7 +437,7 @@ header {
   font-size: 30px;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.93; }
+  line-height: normal; }
 
 .rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p {
   margin-bottom: 29px;

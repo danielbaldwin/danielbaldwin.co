@@ -1,7 +1,5 @@
-body {
-  margin: 0 auto;
-  font-size: 16px !important;
-}
+/* Classes for extends */
+
 .vertically-centered {
   position: relative;
   top: 50%;
@@ -15,6 +13,13 @@ body {
 }
 .Haas-Regular {
   font-family:'Neue Haas Unica W01 Regular';
+  font-weight: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px !important;
+  @extend .Haas-Regular;
 }
 /* --- Loader --- */
 #loader {
@@ -101,12 +106,15 @@ nav.navbar.navbar-default {
   }
   .blog .navbar-nav>li>a {
     color: #000 !important;
+    @extend .Haas-Regular;
   }
   .blog .navbar-nav>li>a.active {
     color: #edac01 !important;
+    @extend .Haas-Regular;
   }
   .home .navbar-nav>li>a, .home .navbar-nav>li>a.active {
     color: #fff !important;
+    @extend .Haas-Regular;
   }
   .navbar-default [aria-expanded="true"] {
     background: #fff !important;
@@ -480,7 +488,7 @@ header {
     font-size: 30px;
     font-style: normal;
     font-stretch: normal;
-    line-height: 0.93;
+    line-height: normal;
 
     @extend .Haas-Regular;
   }
@@ -970,6 +978,9 @@ article {
     @media screen and (max-width: 768px) {
       padding-left: 0px;
     }
+    p {
+      @extend .Haas-Regular;
+    }
   }
   
   .contact {
@@ -1058,4 +1069,5 @@ footer {
 } 
 footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover {
 	color: #edac01;
+  @extend .Haas-Regular;
 }
