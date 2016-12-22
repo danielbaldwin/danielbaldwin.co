@@ -10,3 +10,11 @@ $(document).ready(function(){
         $( "#your-page" ).fadeIn(500);
     });  
 });
+$(document).ready(function(){
+	 $('.lazy').Lazy({
+        effect: 'fadeIn',
+        effectTime: 2000,
+        threshold: 0,
+        visibleOnly: true
+    });
+});
