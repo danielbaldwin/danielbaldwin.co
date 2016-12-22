@@ -154,7 +154,7 @@ nav.navbar.navbar-default {
   background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
-.home-header:hover {
+.home-header {
   background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
@@ -197,7 +197,7 @@ header {
 
 /* --- Page Featured Work --- */
 .believe {
-  margin: 248px 0; }
+  margin: 148px 0; }
   .believe h2 {
     font-size: 38px;
     font-style: normal;
@@ -316,12 +316,11 @@ header {
 
 .hovereffect .overlay {
   width: 100%;
-  height: 100%;
   position: absolute;
   overflow: hidden;
-  top: 30%;
   left: 0;
-  padding: 3em;
+  bottom: 0;
+  padding: 34px;
   text-align: left; }
   @media screen and (max-width: 768px) {
     .hovereffect .overlay {
@@ -331,7 +330,7 @@ header {
   display: block;
   position: relative;
   max-width: none;
-  width: calc(100% + 60px);
+  width: auto;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
@@ -391,7 +390,8 @@ header {
 .rectangle, .rectangle-1 {
   /* padding: 180px 0 40px 34px; */
   color: #fff;
-  text-align: left; }
+  text-align: left;
+  height: 400px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .rectangle-1 {
@@ -401,7 +401,8 @@ header {
 .rectangle-2, .rectangle-3 {
   /* padding: 350px 0 40px 34px; */
   color: #fff;
-  text-align: left; }
+  text-align: left;
+  height: 570px; }
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     .rectangle-2, .rectangle-3 {
       margin-bottom: 30px;
@@ -416,6 +417,7 @@ header {
   background: rgba(186, 186, 186, 0.24);
   margin-bottom: 300px;
   margin-top: 30px;
+  height: 400px;
   /* padding: 180px 0 40px 34px;  */ }
   .rectangle-4 p {
     color: #656873 !important; }
@@ -525,8 +527,18 @@ header {
       margin-bottom: 0px; } }
 
 .articles-border {
-  margin-right: 25px;
-  border-right: solid 2px #f6f6f6; }
+  background: #f6f6f6;
+  width: 2px;
+  height: 207px;
+  display: inline-block;
+  position: absolute;
+  left: 49%;
+  margin-top: -20px; }
+  .articles-border:nth-child(2) {
+    display: none; }
+  @media screen and (max-width: 990px) {
+    .articles-border {
+      display: none; } }
 
 /* --- Page Case Study --- */
 .case-study img {
@@ -691,7 +703,7 @@ header {
         margin-top: 40px; } }
 
 .post-content {
-  padding-top: 300px;
+  padding-top: 150px;
   padding-bottom: 210px; }
 
 .date {
@@ -721,7 +733,7 @@ article img {
 
 /* --- Posts --- */
 .post-header {
-  margin: 205px 0 290px 35px; }
+  margin: 105px 0 105px 35px; }
   .post-header .date {
     font-size: 23px;
     font-style: normal;
@@ -807,6 +819,11 @@ article img {
     background-position: 0% 100%; }
   100% {
     background-position: 93% 0%; } }
+  .footer-rectangle a {
+    color: #fff; }
+    .footer-rectangle a:hover, .footer-rectangle a:active, .footer-rectangle a:focus {
+      color: #fff;
+      text-decoration: none; }
   @media screen and (max-width: 768px) {
     .footer-rectangle p {
       margin-top: 50px; } }

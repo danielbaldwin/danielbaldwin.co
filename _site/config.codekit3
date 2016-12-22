@@ -165,16 +165,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_sass\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_sass\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/_sass\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -211,16 +201,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
-		},
-	"\/_site\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/_site\/featured\/index.html": {
 		"ft": 8192,

@@ -176,7 +176,7 @@ nav.navbar.navbar-default {
 .home-header, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01);
 }
-.home-header:hover {
+.home-header {
 	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
 	background-size: 800% 800%;
 	-webkit-animation: gradient 14s ease infinite;
@@ -230,7 +230,7 @@ header {
 } 
 /* --- Page Featured Work --- */
 .believe {
-	margin: 248px 0;
+	margin: 148px 0;
 	
 	h2 {
     font-size: 38px;
@@ -362,12 +362,11 @@ header {
 
 .hovereffect .overlay {
   width: 100%;
-  height: 100%;
   position: absolute;
   overflow: hidden;
-  top: 30%;
   left: 0;
-  padding: 3em;
+  bottom: 0;
+  padding: 34px;
   text-align: left;
   @media screen and (max-width: 768px) {
     top: 10%;
@@ -378,7 +377,7 @@ header {
   display: block;
   position: relative;
   max-width: none;
-  width: calc(100% + 60px);
+  width: auto;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
   -webkit-transform: translate3d(-40px,0,0);
@@ -444,6 +443,7 @@ header {
 	/* padding: 180px 0 40px 34px; */
 	color: #fff;
 	text-align: left;
+  height: 400px;
 }
 .rectangle-1 {
 	@media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -455,6 +455,7 @@ header {
 	/* padding: 350px 0 40px 34px; */
 	color: #fff;
 	text-align: left;
+  height: 570px;
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     margin-bottom: 30px;
     /* padding: 105px 0 40px 34px;  */
@@ -469,6 +470,7 @@ header {
   background: rgba(186,186,186,0.24);
   margin-bottom: 300px;
   margin-top: 30px;
+  height: 400px;
   p {
     color: #656873 !important;
   }
@@ -610,8 +612,21 @@ header {
   }
 }
 .articles-border {
-	margin-right: 25px;
-	border-right: solid 2px #f6f6f6;
+	background: #f6f6f6;
+  width: 2px;
+  height: 207px;
+  display: inline-block;
+  position: absolute;
+  left: 49%;
+  margin-top: -20px;
+
+  &:nth-child(2) {
+    display: none;
+  }
+
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
 }
 /* --- Page Case Study --- */
 .case-study {
@@ -844,7 +859,7 @@ header {
   }
 }
 .post-content {
-  padding-top: 300px;
+  padding-top: 150px;
   padding-bottom: 210px;
 }
 .date {
@@ -880,7 +895,7 @@ article {
 }
 /* --- Posts --- */
 .post-header {
-	margin: 205px 0 290px 35px;
+	margin: 105px 0 105px 35px;
 	
 	.date {
   	font-size: 23px;
@@ -992,6 +1007,15 @@ article {
         0%{background-position:93% 0%}
         50%{background-position:0% 100%}
         100%{background-position:93% 0%}
+    }
+  }
+
+  a {
+    color: #fff;
+
+    &:hover, &:active, &:focus {
+      color: #fff;
+      text-decoration: none;
     }
   }
   
