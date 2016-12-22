@@ -828,6 +828,7 @@ header {
 	padding-bottom: 190px;
 	padding-top: 180px;
 	border-bottom: solid 2px #f6f6f6;
+  display: flex;
 	
 	img {
     width: 100%;
@@ -856,6 +857,10 @@ header {
     .article-img {
       margin-top: 40px;
     }
+  }
+
+  .blog-item {
+    padding: 35px 0px;
   }
 }
 .post-content {

@@ -9,7 +9,7 @@
 	<div class="container">
 	  {% for post in site.posts %}
 	    	<div class="row blog-excerpt">
-	    		<div class="col-md-6">
+	    		<div class="col-md-6 blog-item">
 			    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
 			      	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			      	<p class="excerpt">{{ post.excerpt }}</p>
@@ -17,14 +17,6 @@
 		      	</div>
 		      	<div class="col-md-6 article-img">
 		      		<img src="{{ site.baseurl }}{{ post.first-image }}">
-		      		{% assign images = post.content | split:"<img " %}
-					{% for image in images %}
-					  {% if image contains 'src=' %}
-					    {% assign imageMarkup = image | split:">" | first %}
-					    <img {{ imageMarkup }}>
-					    {% break %}
-					  {% endif %}
-					{% endfor %}
 		      	</div>
 	      	</div>
 	  {% endfor %}
