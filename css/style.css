@@ -228,8 +228,8 @@ header {
 
 .case-studies img {
   opacity: 1;
-  -webkit-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out; }
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out; }
   .case-studies img[data-src] {
     opacity: 0; }
 
@@ -459,7 +459,7 @@ header {
   height: 207px;
   display: inline-block;
   position: absolute;
-  left: 49%;
+  left: 49.5%;
   margin-top: -20px; }
   .articles-border:nth-child(2) {
     display: none; }
@@ -728,13 +728,12 @@ article img {
   height: 500px;
   background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01);
-  color: #fff; }
-  .footer-rectangle:hover {
-    background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
-    background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-    background-size: 800% 800%;
-    -webkit-animation: footer-gradient 14s ease infinite;
-    animation: footer-gradient 14s ease infinite; }
+  color: #fff;
+  background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
+  background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+  background-size: 800% 800%;
+  -webkit-animation: footer-gradient 14s ease infinite;
+  animation: footer-gradient 14s ease infinite; }
 
 @-webkit-keyframes footer-gradient {
   0% {

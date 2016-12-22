@@ -272,7 +272,7 @@ header {
 .case-studies {
   img {
     opacity: 1;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 
     &[data-src] {
       opacity: 0;
@@ -546,7 +546,7 @@ header {
   height: 207px;
   display: inline-block;
   position: absolute;
-  left: 49%;
+  left: 49.5%;
   margin-top: -20px;
 
   &:nth-child(2) {
@@ -915,33 +915,31 @@ article {
 	background-image: linear-gradient(to left, #f8d602, #edac01);
 	color: #fff;
 	
-	&:hover {
-    background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-    background-size: 800% 800%;
-    -webkit-animation: footer-gradient 14s ease infinite;
-    -moz-animation: footer-gradient 14s ease infinite;
-    -o-animation: footer-gradient 14s ease infinite;
-    animation: footer-gradient 14s ease infinite;
-    @-webkit-keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
-    @-moz-keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
-    @-o-keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
-    @keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
+  background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+  background-size: 800% 800%;
+  -webkit-animation: footer-gradient 14s ease infinite;
+  -moz-animation: footer-gradient 14s ease infinite;
+  -o-animation: footer-gradient 14s ease infinite;
+  animation: footer-gradient 14s ease infinite;
+  @-webkit-keyframes footer-gradient {
+      0%{background-position:93% 0%}
+      50%{background-position:0% 100%}
+      100%{background-position:93% 0%}
+  }
+  @-moz-keyframes footer-gradient {
+      0%{background-position:93% 0%}
+      50%{background-position:0% 100%}
+      100%{background-position:93% 0%}
+  }
+  @-o-keyframes footer-gradient {
+      0%{background-position:93% 0%}
+      50%{background-position:0% 100%}
+      100%{background-position:93% 0%}
+  }
+  @keyframes footer-gradient {
+      0%{background-position:93% 0%}
+      50%{background-position:0% 100%}
+      100%{background-position:93% 0%}
   }
 
   a {

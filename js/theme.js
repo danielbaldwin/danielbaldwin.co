@@ -1,3 +1,5 @@
+/* Preloader */
+
 $(document).ready(function() {
     $('.progress .progress-bar').css("width",
         function() {
@@ -10,6 +12,9 @@ $(document).ready(function(){
         $( "#your-page" ).fadeIn(500);
     });  
 });
+
+/* Lazy Load Case Study Images */
+
 $(document).ready(function(){
 	 $('.lazy').Lazy({
         effect: 'fadeIn',
@@ -17,4 +22,11 @@ $(document).ready(function(){
         threshold: 0,
         visibleOnly: true
     });
+});
+
+/* Animate the fade in of case studies */
+
+$(document).ready(function(){
+  window.sr = ScrollReveal({ reset: true });
+	sr.reveal('.hovereffect', { duration: 1000 });
 });
