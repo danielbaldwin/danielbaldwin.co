@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
- <body>
+<body id="barba-wrapper">
 {% include start.html %}
-
-  <div id="your-page" style="display:none;">
+  <div id="your-page" class="barba-container" style="display:none;" data-transition="BarbaAnimation">
 	  <div class="home-header">
 	  	{% include navigation.html %}
 	  	<div class="container">
@@ -14,8 +12,6 @@
 	      	</div>
 	      </div>
 	  </div>
-
-
       <div class="container">
         <div class="row">
           <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
@@ -30,7 +26,6 @@
         <div class="row">
           <div class="col-md-12 hidden-sm hidden-xs">
             <div class="mask">
-              
             </div>
           </div>
         </div>
@@ -51,9 +46,9 @@
           <div class="articles-border"></div>
 		  {% endfor %}
 		</div>
-      </div>
-{% include footer.html %}
+    </div>
+    {% include footer.html %}
   </div>
   {% include js.html %}
-   </body>
-  </html>
+</body>
+</html>

@@ -18,9 +18,8 @@ $(document).ready(function(){
 $(document).ready(function(){
 	 $('.lazy').Lazy({
         effect: 'fadeIn',
-        effectTime: 2000,
-        threshold: 0,
-        visibleOnly: true
+        effectTime: 700,
+        threshold: 0
     });
 });
 
@@ -30,3 +29,7 @@ $(document).ready(function(){
   window.sr = ScrollReveal({ reset: true });
 	sr.reveal('.hovereffect', { duration: 1000 });
 });
+
+window.onload = function() {
+  Barba.Pjax.start();
+}
