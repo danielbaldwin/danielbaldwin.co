@@ -1,3 +1,5 @@
+@import "components.hamburger";
+
 /* Classes for extends */
 
 .vertically-centered {
@@ -64,7 +66,9 @@ nav.navbar.navbar-default {
 }
 .navbar-default {
   .navbar-header {
-    /* padding: 20px; */
+    @media screen and (max-width: 768px) {
+      padding-top: 35px;
+    }
   }
   .nav>li>a {
       padding: 10px 30px 10px 0;
@@ -96,12 +100,13 @@ nav.navbar.navbar-default {
   }
   .home .navbar-toggle {
     border-color: transparent !important;
+    margin-top: 0px;
     .icon-bar {
       height: 3px;
       background-color: #fff !important;
     }
-    &:hover {
-      background-color: #fff !important;
+    &:hover, &:focus {
+      background-color: transparent !important;
       .icon-bar {
         background-color: #edac01 !important;
       }
@@ -109,11 +114,13 @@ nav.navbar.navbar-default {
   }
   .blog .navbar-toggle {
     border-color: transparent !important;
+    margin-top: 0px;
     .icon-bar {
       height: 3px;
       background-color: #edac01 !important;
     }
-    &:hover {
+    &:hover, &:focus
+     {
       background-color: #fff !important;
       .icon-bar {
         background-color: #edac01 !important;
@@ -136,13 +143,13 @@ nav.navbar.navbar-default {
     background: #fff !important;
   }
   .home [aria-expanded="true"] {
-    background: #fff !important;
+    background: transparent !important;
     .icon-bar {
       height: 3px;
       background-color: #edac01 !important;
     }
     &:hover {
-      background-color: #fff !important;
+      background-color: transparent !important;
       .icon-bar {
         background-color: #edac01 !important;
       }
@@ -232,6 +239,21 @@ header {
     
     @extend .vertically-centered;
     @extend .Haas-Light;
+  }
+
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
   }
 } 
 /* --- Page Featured Work --- */
@@ -508,9 +530,19 @@ header {
     padding-right: 0px;
     padding-left: 50px;
 
+    @media screen and (max-width: 992px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
     &:first-child {
       padding-right: 50px;
       padding-left: 0px;
+
+      @media screen and (max-width: 992px) {
+        padding-right: 15px;
+        padding-left: 15px;
+      } 
     }
 	}
 	

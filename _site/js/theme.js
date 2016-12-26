@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 });
 
-/* Animate the fade in of case studies */
+/* ScrollReveal */
 
 $(document).ready(function(){
 
@@ -41,6 +41,9 @@ var Reveal = {
     sr.reveal('.reveal', Reveal);
 });
 
+/* Body FadeOutIn */
+
+
 $(document).ready(function() {
  
     $("a").click(function(event){
@@ -53,3 +56,15 @@ $(document).ready(function() {
         window.location = linkLocation;
     }
 });
+
+/* Hamburger Menu Toogle Animation */
+
+
+$(document).ready(function() {
+
+ $(".c-hamburger").click(function(){
+    $(this).toggleClass("is-active")
+    $(".home-header").toggleClass("white")
+    });
+
+})();

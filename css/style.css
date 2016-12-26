@@ -1,3 +1,109 @@
+/* -----------------------------------------------------------------------------
+
+  HAMBURGER ICONS COMPONENT
+  
+----------------------------------------------------------------------------- */
+/**
+ * Toggle Switch Globals
+ *
+ * All switches should take on the class `c-hamburger` as well as their
+ * variant that will give them unique properties. This class is an overview
+ * class that acts as a reset for all versions of the icon.
+ */
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 5px;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s; }
+
+.c-hamburger:focus {
+  outline: none; }
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 8px;
+  right: 8px;
+  height: 4px; }
+
+.home-header .c-hamburger span, .home-header .c-hamburger span::before, .home-header .c-hamburger span::after {
+  background: white; }
+
+.blog .c-hamburger span, .blog .c-hamburger span::before, .blog .c-hamburger span::after {
+  background: #edac01; }
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: ""; }
+
+.c-hamburger span::before {
+  top: -12px; }
+
+.c-hamburger span::after {
+  bottom: -12px; }
+
+/**
+ * Style 2
+ * 
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.c-hamburger--htx span {
+  -webkit-transition: background 0s 0.3s;
+  transition: background 0s 0.3s; }
+
+.c-hamburger--htx span::before {
+  -webkit-transition: top 0.3s ease 0.3s, -webkit-transform 0.3s ease 0s;
+  transition: top 0.3s ease 0.3s, -webkit-transform 0.3s ease 0s;
+  transition: top 0.3s ease 0.3s, transform 0.3s ease 0s;
+  transition: top 0.3s ease 0.3s, transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s; }
+
+.c-hamburger--htx span::after {
+  -webkit-transition: bottom 0.3s ease 0.3s, -webkit-transform 0.3s ease 0s;
+  transition: bottom 0.3s ease 0.3s, -webkit-transform 0.3s ease 0s;
+  transition: bottom 0.3s ease 0.3s, transform 0.3s ease 0s;
+  transition: bottom 0.3s ease 0.3s, transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s; }
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active span {
+  background: none; }
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  -webkit-transition-delay: 0s, 0.3s;
+          transition-delay: 0s, 0.3s;
+  background: #edac01; }
+
 /* Classes for extends */
 .vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
@@ -14,18 +120,6 @@
 .Haas-Regular, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
   font-family: 'Neue Haas Unica W01 Regular';
   font-weight: normal; }
-
-/* Barba JS Transitions */
-@-webkit-keyframes BarbaAnimation {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-@keyframes BarbaAnimation {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 
 @-webkit-keyframes BodyFadeInAnimation {
   from {
@@ -82,8 +176,9 @@ nav.navbar.navbar-default {
   border-color: transparent;
   border-radius: 0px; }
 
-.navbar-default .navbar-header {
-  /* padding: 20px; */ }
+@media screen and (max-width: 768px) {
+  .navbar-default .navbar-header {
+    padding-top: 35px; } }
 
 .navbar-default .nav > li > a {
   padding: 10px 30px 10px 0; }
@@ -111,23 +206,25 @@ nav.navbar.navbar-default {
         font-family: 'Neue Haas Unica W01 Heavy'; } }
 
 .navbar-default .home .navbar-toggle {
-  border-color: transparent !important; }
+  border-color: transparent !important;
+  margin-top: 0px; }
   .navbar-default .home .navbar-toggle .icon-bar {
     height: 3px;
     background-color: #fff !important; }
-  .navbar-default .home .navbar-toggle:hover {
-    background-color: #fff !important; }
-    .navbar-default .home .navbar-toggle:hover .icon-bar {
+  .navbar-default .home .navbar-toggle:hover, .navbar-default .home .navbar-toggle:focus {
+    background-color: transparent !important; }
+    .navbar-default .home .navbar-toggle:hover .icon-bar, .navbar-default .home .navbar-toggle:focus .icon-bar {
       background-color: #edac01 !important; }
 
 .navbar-default .blog .navbar-toggle {
-  border-color: transparent !important; }
+  border-color: transparent !important;
+  margin-top: 0px; }
   .navbar-default .blog .navbar-toggle .icon-bar {
     height: 3px;
     background-color: #edac01 !important; }
-  .navbar-default .blog .navbar-toggle:hover {
+  .navbar-default .blog .navbar-toggle:hover, .navbar-default .blog .navbar-toggle:focus {
     background-color: #fff !important; }
-    .navbar-default .blog .navbar-toggle:hover .icon-bar {
+    .navbar-default .blog .navbar-toggle:hover .icon-bar, .navbar-default .blog .navbar-toggle:focus .icon-bar {
       background-color: #edac01 !important; }
 
 .navbar-default .blog .navbar-nav > li > a {
@@ -143,12 +240,12 @@ nav.navbar.navbar-default {
   background: #fff !important; }
 
 .navbar-default .home [aria-expanded="true"] {
-  background: #fff !important; }
+  background: transparent !important; }
   .navbar-default .home [aria-expanded="true"] .icon-bar {
     height: 3px;
     background-color: #edac01 !important; }
   .navbar-default .home [aria-expanded="true"]:hover {
-    background-color: #fff !important; }
+    background-color: transparent !important; }
     .navbar-default .home [aria-expanded="true"]:hover .icon-bar {
       background-color: #edac01 !important; }
 
@@ -220,6 +317,14 @@ header {
     color: #ffffff;
     max-width: 830px;
     margin: 0 auto; }
+  .home-header .yellow-logo {
+    display: none; }
+  .home-header.white {
+    background: #fff; }
+    .home-header.white .yellow-logo {
+      display: block; }
+    .home-header.white .white-logo {
+      display: none; }
 
 /* --- Page Featured Work --- */
 .believe {
@@ -458,9 +563,17 @@ header {
     margin-bottom: 100px;
     padding-right: 0px;
     padding-left: 50px; }
+    @media screen and (max-width: 992px) {
+      .latest-articles .article {
+        padding-right: 15px;
+        padding-left: 15px; } }
     .latest-articles .article:first-child {
       padding-right: 50px;
       padding-left: 0px; }
+      @media screen and (max-width: 992px) {
+        .latest-articles .article:first-child {
+          padding-right: 15px;
+          padding-left: 15px; } }
   .latest-articles h2, .latest-articles p {
     margin-bottom: 28px;
     font-size: 22px;

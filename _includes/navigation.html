@@ -7,21 +7,20 @@
 	{% endif %}
     
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <button type="button" class="c-hamburger c-hamburger--htx navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+              <span>toggle menu</span>
           </button>
 	       <a class="navbar-brand navbar-right hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
 	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
-	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
+	                <img class="yellow-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
+                    <img class="white-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
 	            {% else %}
-	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
+	                <img class="white-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
+                    <img class="yellow-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
 	            {% endif %}
 	        </a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse">
     	    <ul class="nav navbar-nav">
                 <li><a href="/work/" {% if page.url == "/featured/" %}class="active"{% endif %}>Featured Work</a></li>
                 <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>

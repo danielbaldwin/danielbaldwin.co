@@ -21,12 +21,6 @@
 		"oAP": "\/.project",
 		"oF": 0
 		},
-	"\/_case-study\/meowcity-films.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_case-study\/meowcity-films.markdown",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
@@ -117,12 +111,6 @@
 		"oAP": "\/_layouts\/main.html",
 		"oF": 0
 		},
-	"\/_layouts\/page.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/page.html",
-		"oF": 0
-		},
 	"\/_layouts\/post.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -165,6 +153,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_sass\/_components.hamburger.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_sass\/_components.hamburger.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_sass\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -190,22 +191,10 @@
 		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
-	"\/_site\/case-study\/meowcity-films\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/case-study\/meowcity-films\/index.html",
-		"oF": 0
-		},
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/contact\/index.html",
-		"oF": 0
-		},
-	"\/_site\/featured\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/featured\/index.html",
 		"oF": 0
 		},
 	"\/_site\/Gemfile": {
@@ -225,6 +214,22 @@
 		"iS": 202725,
 		"oA": 0,
 		"oAP": "\/_site\/img\/about-hero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/img\/business.jpeg": {
+		"ft": 16384,
+		"iS": 18513,
+		"oA": 0,
+		"oAP": "\/_site\/img\/business.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/img\/city.jpeg": {
+		"ft": 16384,
+		"iS": 61726,
+		"oA": 0,
+		"oAP": "\/_site\/img\/city.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -248,6 +253,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/_site\/img\/nightlife.jpeg": {
+		"ft": 16384,
+		"iS": 57086,
+		"oA": 0,
+		"oAP": "\/_site\/img\/nightlife.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/img\/people.jpeg": {
+		"ft": 16384,
+		"iS": 48418,
+		"oA": 0,
+		"oAP": "\/_site\/img\/people.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/img\/rectangle.png": {
 		"ft": 32768,
 		"iS": 1154,
@@ -261,6 +282,33 @@
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
 		"oF": 0
+		},
+	"\/_site\/js\/barba.transitions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/js\/barba.transitions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/js\/barba.transitions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/js\/barba.transitions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/js\/barba.transitions.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/js\/barba.transitions.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/_site\/js\/theme-min.js": {
 		"ft": 64,
@@ -372,6 +420,18 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/meowcity-films\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/meowcity-films\/index.html",
+		"oF": 0
+		},
 	"\/_uploads\/abstract-q-c-570-570-7.jpg": {
 		"ft": 16384,
 		"iS": 41791,
@@ -452,6 +512,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_work\/meowcity-films.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_work\/meowcity-films.markdown",
+		"oF": 0
+		},
 	"\/about.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -480,12 +546,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/featured.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/featured.markdown",
-		"oF": 0
-		},
 	"\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -512,6 +572,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/business.jpeg": {
+		"ft": 16384,
+		"iS": 18513,
+		"oA": 0,
+		"oAP": "\/img\/business.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/city.jpeg": {
+		"ft": 16384,
+		"iS": 61726,
+		"oA": 0,
+		"oAP": "\/img\/city.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -532,6 +608,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/nightlife.jpeg": {
+		"ft": 16384,
+		"iS": 57086,
+		"oA": 0,
+		"oAP": "\/img\/nightlife.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/people.jpeg": {
+		"ft": 16384,
+		"iS": 48418,
+		"oA": 0,
+		"oAP": "\/img\/people.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/rectangle.png": {
 		"ft": 32768,
 		"iS": 1154,
@@ -539,6 +631,33 @@
 		"oAP": "\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/js\/barba.transitions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/barba.transitions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/barba.transitions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/barba.transitions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/barba.transitions.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/barba.transitions.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/theme-min.js": {
 		"ft": 64,
@@ -557,6 +676,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/work.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work.markdown",
+		"oF": 0
 		}
 	},
 "hooks": [
