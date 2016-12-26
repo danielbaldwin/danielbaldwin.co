@@ -17,7 +17,7 @@
 	<div class="container case-study">
 		<div class="row">
 			<div class="col-md-12">
-				<img src="{{ page['First Large Image'] }}">
+				<img class="reveal" src="{{ page['First Large Image'] }}">
 			</div>
 			<div class="col-md-8 col-md-offset-2 text">
 				<p>
@@ -26,7 +26,7 @@
 			</div>
 			{% for Image in page.Images %}
 				<div class="col-md-6">
-				  <img src="{{ Image }}">
+				  <img class="reveal" src="{{ Image }}">
 				</div>
 			{% endfor %}
 			<div class="col-md-8 col-md-offset-2 text">
@@ -35,7 +35,7 @@
 				</p>
 			</div>
 			<div class="col-md-12">
-				<img src="{{ page['Second Large Image'] }}">
+				<img class="reveal" src="{{ page['Second Large Image'] }}">
 			</div>
 			<div class="col-md-8 col-md-offset-2 text">
 				<p>
@@ -43,7 +43,7 @@
 				</p>
 			</div>
 			<div class="col-md-8 col-md-offset-2">
-				<img src="{{ page['One Small Image'] }}">
+				<img class="reveal" src="{{ page['One Small Image'] }}">
 			</div>
 			<div class="col-md-8 col-md-offset-2 text">
 				<p>
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 	</div>
-	<img style="width: 100%" src="{{ page['Third Large Image'] }}">
+	<img class="reveal" style="width: 100%" src="{{ page['Third Large Image'] }}">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
