@@ -19,6 +19,9 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <!-- AnimateCSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
+
   <!-- Facebook Meta Data  -->
   <meta property="fb:app_id" content="" />
   <meta property="og:url" content="http://localhost:4000/blog/" />
@@ -34,21 +37,9 @@
 
 </head>
 
-
-<body>
-<div id="loader">
-  <div class="container-fluid">
-      <div class="row">
-          <div class="progress">
-              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div id="your-page" style="display:none;">
-<header>
+<body id="barba-wrapper">
+	<div class="barba-container" data-transition="BarbaAnimation">
+		<header>
 <nav class="navbar navbar-default">
 	
         <div class="container blog">	
@@ -89,46 +80,34 @@
 </nav>
 </header>
 
-	<div class="container">
-	  
-	    	<div class="row blog-excerpt">
-	    		<div class="col-md-6">
-			    	<time class="date">December 05, 2016</time>
-			      	<h2><a href="/posts/finding-your-flow/">Finding Your Flow Creating a Design Process That Works for You</a></h2>
-			      	<p class="excerpt">How building a foundation, story, and following influence consumer behavior.</p>
-			      	<span class="read-article"><a href="/posts/finding-your-flow/">Read Article</a></span>
-		      	</div>
-		      	<div class="col-md-6 article-img">
-		      		<img src="">
-		      		
-					
-					  
-					
-					  
-					    
-					    <img src="/uploads/sports-q-c-570-350-8.jpg" alt="add alt here" />
-					    
-		      	</div>
-	      	</div>
-	  
-	    	<div class="row blog-excerpt">
-	    		<div class="col-md-6">
-			    	<time class="date">December 05, 2016</time>
-			      	<h2><a href="/posts/Workflow/">10 of the Best Productivity Tools to Improve Your Design Workflow</a></h2>
-			      	<p class="excerpt">How optimizing your workflow will lead you to becoming a more successful designer.</p>
-			      	<span class="read-article"><a href="/posts/Workflow/">Read Article</a></span>
-		      	</div>
-		      	<div class="col-md-6 article-img">
-		      		<img src="/uploads/Screen%20Shot%202016-12-11%20at%2012.07.10%20AM.png">
-		      		
-					
-					  
-					
-		      	</div>
-	      	</div>
-	  
-	</div>
-<footer>
+			<div class="container">
+			  
+			    	<div class="row blog-excerpt">
+			    		<div class="col-md-6 blog-item">
+					    	<time class="date">December 05, 2016</time>
+					      	<h2><a href="/posts/finding-your-flow/">Finding Your Flow Creating a Design Process That Works for You</a></h2>
+					      	<p class="excerpt">How building a foundation, story, and following influence consumer behavior.</p>
+					      	<span class="read-article"><a href="/posts/finding-your-flow/">Read Article</a></span>
+				      	</div>
+				      	<div class="col-md-6 article-img">
+				      		<img src="/uploads/sports-q-c-570-350-8.jpg">
+				      	</div>
+			      	</div>
+			  
+			    	<div class="row blog-excerpt">
+			    		<div class="col-md-6 blog-item">
+					    	<time class="date">December 05, 2016</time>
+					      	<h2><a href="/posts/Workflow/">10 of the Best Productivity Tools to Improve Your Design Workflow</a></h2>
+					      	<p class="excerpt">How optimizing your workflow will lead you to becoming a more successful designer.</p>
+					      	<span class="read-article"><a href="/posts/Workflow/">Read Article</a></span>
+				      	</div>
+				      	<div class="col-md-6 article-img">
+				      		<img src="/uploads/Screen%20Shot%202016-12-11%20at%2012.07.10%20AM.png">
+				      	</div>
+			      	</div>
+			  
+			</div>
+		<footer>
 	<div class="container footer-rectangle">
 		<div class="row contact">
 			<div class="col-md-6 col-sm-12 col-xs-12">
@@ -174,15 +153,26 @@
 
 </footer>
 
+	</div>
 <!-- jQuery  -->
-<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<!-- Lazy Load -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
+
+<!-- ScrollReveal -->
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
+<!-- BarbaJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.10/barba.min.js" type="text/javascript"></script>
+
+<!-- Barba Transitions -->
+<script src="/js/barba.transitions-min.js"></script>
+
 <!-- Custom Theme JavaScript -->
 <script src="/js/theme.js"></script>
-
-</div>
 </body>
 </html>

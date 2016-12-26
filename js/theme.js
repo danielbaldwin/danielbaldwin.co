@@ -30,6 +30,7 @@ $(document).ready(function(){
 	sr.reveal('.hovereffect', { duration: 1000 });
 });
 
+/* BarbaJS Transitions */
 window.onload = function() {
   Barba.Pjax.start();
 }
