@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 $(document).ready(function(){
     $( "#loader" ).delay(1000).fadeOut(500, function(){
-        $( "#your-page" ).fadeIn(500);
+        $( "#home" ).fadeIn(500);
     });  
 });
 
@@ -26,11 +26,30 @@ $(document).ready(function(){
 /* Animate the fade in of case studies */
 
 $(document).ready(function(){
+
+var Reveal = {
+    duration : 1000,
+    distance : '100px',
+    easing   : 'ease-in-out',
+    opacity  : 0,
+    reset    : false,
+    scale    : 1
+};
+
   window.sr = ScrollReveal({ reset: true });
-	sr.reveal('.hovereffect', { duration: 1000 });
+	sr.reveal('.hovereffect', Reveal);
+    sr.reveal('.reveal', Reveal);
 });
 
-/* BarbaJS Transitions */
-window.onload = function() {
-  Barba.Pjax.start();
-}
+$(document).ready(function() {
+ 
+    $("a").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});

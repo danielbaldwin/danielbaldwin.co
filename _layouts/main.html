@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body id="barba-wrapper">
+<body>
 {% include start.html %}
-  <div id="your-page" class="barba-container" style="display:none;" data-transition="BarbaAnimation">
+  <div id="home" style="display: none">
 	  <div class="home-header">
 	  	{% include navigation.html %}
 	  	<div class="container">
@@ -25,7 +25,7 @@
        <div class="container">
         <div class="row">
           <div class="col-md-12 hidden-sm hidden-xs">
-            <div class="mask">
+            <div class="mask reveal">
             </div>
           </div>
         </div>
@@ -36,12 +36,10 @@
         </div>
         <div class="row latest-articles">
         {% for post in site.posts limit:2 %}
-    		<div class="col-md-6">
-    			<div class="article">
+    		<div class="col-md-6 article">
 			      	<h2>{{ post.title }}</h2>
 			      	<p>{{ post.excerpt }}</p>
 			      	<a href="{{ post.url }}">Read Article</a>
-			    </div>
 	      	</div>
           <div class="articles-border"></div>
 		  {% endfor %}
