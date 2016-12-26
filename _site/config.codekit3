@@ -21,22 +21,10 @@
 		"oAP": "\/.project",
 		"oF": 0
 		},
-	"\/_case-study\/meowcity-films.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_case-study\/meowcity-films.markdown",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
-		"oF": 0
-		},
-	"\/_includes\/case-studies.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/case-studies.html",
 		"oF": 0
 		},
 	"\/_includes\/footer.html": {
@@ -55,12 +43,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/js.html",
-		"oF": 0
-		},
-	"\/_includes\/navigation.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/navigation.html",
 		"oF": 0
 		},
 	"\/_includes\/share.html": {
@@ -172,30 +154,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/about\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
-		"oF": 0
-		},
-	"\/_site\/blog\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/blog\/index.html",
-		"oF": 0
-		},
-	"\/_site\/case-study\/meowcity-films\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/case-study\/meowcity-films\/index.html",
-		"oF": 0
-		},
-	"\/_site\/contact\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
-		"oF": 0
-		},
 	"\/_site\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -205,12 +163,6 @@
 		"oAP": "\/_site\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/_site\/featured\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/featured\/index.html",
-		"oF": 0
 		},
 	"\/_site\/Gemfile": {
 		"ft": 8192,
@@ -343,18 +295,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/posts\/finding-your-flow\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/posts\/finding-your-flow\/index.html",
-		"oF": 0
-		},
-	"\/_site\/posts\/Workflow\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/posts\/Workflow\/index.html",
-		"oF": 0
-		},
 	"\/_site\/uploads\/abstract-q-c-570-570-7.jpg": {
 		"ft": 16384,
 		"iS": 41791,
@@ -434,6 +374,12 @@
 		"oAP": "\/_site\/uploads\/sports-q-c-570-350-8.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/work\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/index.html",
+		"oF": 0
 		},
 	"\/_uploads\/abstract-q-c-570-570-7.jpg": {
 		"ft": 16384,
@@ -515,6 +461,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_work\/meowcity-films.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_work\/meowcity-films.markdown",
+		"oF": 0
+		},
 	"\/about.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -542,12 +494,6 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/featured.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/featured.markdown",
-		"oF": 0
 		},
 	"\/Gemfile": {
 		"ft": 8192,
@@ -679,6 +625,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/work.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work.markdown",
+		"oF": 0
 		}
 	},
 "hooks": [
