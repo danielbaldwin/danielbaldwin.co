@@ -13,9 +13,7 @@ For those of us working on small design teams, we know what it’s like to have 
 **[Hours:](https://www.hourstimetracking.com/)**  This app is almost always open in my web browser. For being such a simple time-tracking tool, it has changed my freelancing game completely:
 
 1. I’ve gained insight into my daily productivity patterns, which led me to plan my work schedule more effectively.
-
 2. I can visually see when I’ve put in too many hours on a project (as well as not enough), helping me discover a better work-life balance.
-
 3. I was able to adjust my rates based off of the average time it takes for me to finish a project.
 
 ![05-01-2016-hours-screenshot.png](/uploads/05-01-2016-hours-screenshot.png)
@@ -27,9 +25,7 @@ For those of us working on small design teams, we know what it’s like to have 
 **[Invision:](http://invisionapp.com/)**  Gone are the days where sending clients zip files full of “date_projectName_clientName_revision26.pdf” and “READ ME FIRST!” are acceptable. Invision allows you to:
 
 1. Turn your mockups into clickable, interactive prototypes
-
 2. Annotate and converse with clients and collaborators directly within your designs
-
 3. Launch meetings and walk your clients through your designs remotely
 
 ![05-01-2016-invision-screenshot.png](/uploads/05-01-2016-invision-screenshot.png)
