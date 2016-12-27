@@ -5,6 +5,9 @@ collections:
   work:
     title: Case Study
     output: true
+  blog:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
