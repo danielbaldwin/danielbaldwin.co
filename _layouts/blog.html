@@ -5,10 +5,10 @@
 	<div class="barba-container" data-transition="BarbaAnimation">
 		{% include navigation.html %}
 			<div class="container">
-			  {% for post in site.posts %}
+			  {% for post in site.blog %}
 			    	<div class="row blog-excerpt">
 			    		<div class="col-md-6 col-sm-12 col-xs-12 blog-item">
-					    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
+					    	<time class="date">{{ post.date | date: '%B %d, %Y' }}</time>
 					      	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 					      	<p class="excerpt">{{ post.excerpt }}</p>
 					      	<span class="read-article"><a href="{{ post.url }}">Read Article</a></span>
@@ -23,4 +23,4 @@
 	</div>
 {% include js.html %}
 </body>
-</html>
+</html>>
