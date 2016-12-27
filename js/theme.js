@@ -65,6 +65,8 @@ $(document).ready(function() {
  $(".c-hamburger").click(function(){
     $(this).toggleClass("is-active")
     $(".home-header").toggleClass("white")
+    $(".about-header").toggleClass("white")
+    $(".contact-header").toggleClass("white")
     });
 
 })();

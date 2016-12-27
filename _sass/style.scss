@@ -7,6 +7,10 @@
   top: 50%;
   transform: translateY(-50%);
 }
+.no-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 .Haas-Light {
   font-family:'Neue Haas Unica W01 Light';
 }
@@ -94,6 +98,10 @@ nav.navbar.navbar-default {
           font-size: 28px;
           line-height: 2.83;
           font-family:'Neue Haas Unica W01 Heavy';
+          padding: 10px 0px;
+          &.active {
+            font-family:'Neue Haas Unica W01 Heavy';
+          }
         }
       }
     }
@@ -239,6 +247,10 @@ header {
     
     @extend .vertically-centered;
     @extend .Haas-Light;
+
+    @media screen and (max-width: 768px) {
+      font-size: 28px;
+    }
   }
 
   .yellow-logo {
@@ -336,11 +348,17 @@ header {
   max-width: none;
   width: auto;
   transition: opacity 0.5s ease-in;
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 }
 
 .hovereffect:hover img {
   opacity: 0;
   filter: alpha(opacity=4);
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 }
 
 .hovereffect h2 {
@@ -355,6 +373,10 @@ header {
   filter: alpha(opacity=0);
   transition: opacity 0.35s, transform 0.5s;
   transform: translate3d(-1%,0,0);
+  @media screen and (max-width: 992px) {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
 }
 
 .hovereffect:hover a, .hovereffect:hover p {
@@ -364,9 +386,10 @@ header {
 }
 
 .study {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     padding-right: 0px !important;
     padding-left: 0px !important;
+    height: 400px;
   }
 }
 .rectangle {
@@ -376,9 +399,6 @@ header {
   }
 }
 @media screen and (max-width: 768px) {
-    .rectangle.hovereffect .overlay {
-      top: 0;
-    }
     .rectangle.hovereffect img {
       width: calc(100% + 160px);
     }
@@ -409,9 +429,9 @@ header {
     margin-bottom: 30px;
     /* padding: 105px 0 40px 34px;  */
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     margin-bottom: 0;
-    /*  padding: 105px 0 40px 34px;   */
+    height: 400px;
   }
 }
 .rectangle-4 {
@@ -512,7 +532,6 @@ header {
   @media screen and (max-width: 768px) {
     font-size: 22px;
     margin-bottom: 0;
-    border-bottom: 2px solid #f6f6f6;
     padding-top: 30px;
     padding-bottom: 60px;
   }
@@ -524,6 +543,13 @@ header {
 }
 .latest-articles {
 	margin-bottom: 200px;
+
+  &-heading {
+    @extend .no-padding;
+    @media screen and (max-width: 992px) {
+      padding-left: 15px !important;
+    }
+  }
 	
 	.article {
 	  margin-bottom: 100px;
@@ -553,10 +579,15 @@ header {
     font-stretch: normal;
     line-height: 1.27;
     color: #000000;
+    transition: color 0.5s ease;
 	}
 	
 	h2 {
     @extend .Haas-Regular;
+
+    &:hover {
+      color: #edac01;
+    }
 	}
 	
 	p {
@@ -632,6 +663,21 @@ header {
   width: 100%;
 	color: #fff;
 
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
+  }
+
 	.hero {
     padding: 0 !important;
   }
@@ -672,6 +718,11 @@ header {
 .behind-brand {
 	margin-top: 300px;
 	margin-bottom: 200px;
+
+  @media screen and (max-width: 992px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 	
 	h2 {
     font-size: 28px;
@@ -684,6 +735,10 @@ header {
     margin-bottom: 100px;
 
     @extend .Haas-Bold;
+
+    @media screen and (max-width: 992px) {
+      margin: 0px auto 50px auto;
+    }
 	}
 	
 	p {
@@ -705,6 +760,10 @@ header {
 }
 .images {
   margin-bottom: 300px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 100px;
+  }
   
   img {
     width: 100%;
@@ -712,9 +771,16 @@ header {
 }
 .services {
   margin-bottom: 300px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 100px;
+  }
   
   .border {
     border-right: solid 2px #f6f6f6;
+    @media screen and (max-width: 992px) {
+      border-right: none;
+    }
   }
   .service {
     font-size: 22px;
@@ -740,10 +806,25 @@ header {
 }
 /* --- Contact Page --- */
 .contact-header {
-	margin: -125px -15px 0;
+	margin: -190px -15px 0;
 	padding: 280px 0;
 	background-image: linear-gradient(244deg, #f8d602, #edac01);
 	color: #fff;
+
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
+  }
 	
 	p {
   	font-size: 23px;
@@ -765,7 +846,6 @@ header {
 	
 	a, a:hover {
   	color: #fff;
-    border-bottom: 2px solid #fff;
     padding-bottom: 3px;
     text-decoration: none;
 	}
@@ -784,6 +864,10 @@ header {
     .anything-else {
       font-size: 16px;
       padding: 0 25px;
+
+      a, a:hover {
+        border-bottom: 2px solid #fff;
+      }
     }
   }
 }
@@ -793,7 +877,6 @@ header {
 	padding-bottom: 60px;
 	padding-top: 60px;
 	border-bottom: solid 2px #f6f6f6;
-  display: flex;
 	
 	img {
     width: 100%;
@@ -821,11 +904,17 @@ header {
     }
     .article-img {
       margin-top: 40px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
     }
   }
 
   .blog-item {
     padding: 35px 0px;
+
+    @media screen and (max-width: 768px) {
+      padding: 35px 15px;
+    }
   }
 }
 .post-content {
@@ -1014,9 +1103,19 @@ article {
 footer {
   
   .footer {
-    @media screen and (max-width: 1200px) {
-      text-align: center;
+    text-align: center;
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       margin: 35px 0 !important;
+    }
+    &.social {
+      @media screen and (max-width: 1200px) {
+        margin: 15px 0px 0px 0px !important;
+      }
+    }
+    &.copyright {
+      @media screen and (max-width: 1200px) {
+        margin: 110px 0px 30px 0px !important;
+      }
     }
     h1 {
       font-size: 26px;
@@ -1024,7 +1123,7 @@ footer {
       margin-bottom: 26px;
     }
     .social {
-      font-size: 30px;
+      font-size: 20px;
       padding: 0 13px;
     }
   }

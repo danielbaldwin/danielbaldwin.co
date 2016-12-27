@@ -30,14 +30,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 latest-articles-heading">
             <p>Latest Articles</p>
           </div>
         </div>
         <div class="row latest-articles">
         {% for post in site.posts limit:2 %}
     		<div class="col-md-6 article">
-			      	<h2>{{ post.title }}</h2>
+			      	<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 			      	<p>{{ post.excerpt }}</p>
 			      	<a href="{{ post.url }}">Read Article</a>
 	      	</div>
