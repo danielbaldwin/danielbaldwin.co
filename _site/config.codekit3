@@ -197,6 +197,16 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
+	"\/_site\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/Gemfile": {
 		"ft": 8192,
 		"oA": 2,
@@ -216,6 +226,16 @@
 		"oAP": "\/_site\/img\/about-hero.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/img\/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/img\/business.jpeg": {
 		"ft": 16384,
@@ -571,6 +591,16 @@
 		"oAP": "\/img\/about-hero.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/business.jpeg": {
 		"ft": 16384,

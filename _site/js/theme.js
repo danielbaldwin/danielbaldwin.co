@@ -46,7 +46,7 @@ var Reveal = {
 
 $(document).ready(function() {
  
-    $("a").click(function(event){
+    $("a").not(".share-link").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
         $("body").fadeOut(1000, redirectPage);      

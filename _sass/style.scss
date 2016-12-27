@@ -1,4 +1,11 @@
 @import "components.hamburger";
+*:focus {
+  outline: none;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+}
+
 
 /* Classes for extends */
 
@@ -515,7 +522,7 @@ header {
 	margin-bottom: 270px;
 	
 	a {
-  	font-size: 22px;
+  	font-size: 18px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
@@ -527,6 +534,11 @@ header {
     &:hover {
       color: #edac01;
       text-decoration: none;
+    }
+
+    img {
+      padding-left: 17px;
+      margin-top: -5px;
     }
 	}
   @media screen and (max-width: 768px) {
@@ -545,7 +557,7 @@ header {
 	margin-bottom: 200px;
 
   &-heading {
-    @extend .no-padding;
+    padding-left: 50px !important;
     @media screen and (max-width: 992px) {
       padding-left: 15px !important;
     }
@@ -563,7 +575,7 @@ header {
 
     &:first-child {
       padding-right: 50px;
-      padding-left: 0px;
+      padding-left: 50px;
 
       @media screen and (max-width: 992px) {
         padding-right: 15px;
@@ -594,16 +606,16 @@ header {
 	  @extend .Haas-Light;
 	}
 	
-	a, a:hover {
+	a, a:hover, a:focus {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.75;
-    color: #edac01;
+    color: #edac01 !important;
     border-bottom: 2px solid #edac01;
     padding-bottom: 3px;
-    text-decoration: none;
+    text-decoration: none !important;
 
-    @extend .Haas-Bold;
+    @extend .Haas-Regular;
 	}
   @media screen and (max-width: 768px) {
     margin-bottom: 0px;
@@ -738,6 +750,10 @@ header {
 
     @media screen and (max-width: 992px) {
       margin: 0px auto 50px auto;
+    }
+
+    @media screen and (max-width: 480px) {
+      max-width: none;
     }
 	}
 	
@@ -1007,6 +1023,11 @@ article {
   
   ul li {
     margin-top: -60px;
+  }
+  ol, ul {
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Neue Haas Unica W01 Light';
   }
 }
 /* --- Share widget --- */

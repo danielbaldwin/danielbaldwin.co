@@ -104,6 +104,12 @@
           transition-delay: 0s, 0.4s;
   background: #edac01; }
 
+*:focus {
+  outline: none;
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent; }
+
 /* Classes for extends */
 .vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
@@ -111,17 +117,17 @@
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-.no-padding, .latest-articles-heading {
+.no-padding {
   padding-left: 0px !important;
   padding-right: 0px !important; }
 
 .Haas-Light, .home-header h1, .believe h2, .rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .excerpt, .post-header h2, .post-content p, .share-widget {
   font-family: 'Neue Haas Unica W01 Light'; }
 
-.Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover, .latest-articles a, .latest-articles a:hover, .behind-brand h2 {
+.Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover, .behind-brand h2 {
   font-family: 'Neue Haas Unica W01 Heavy'; }
 
-.Haas-Regular, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
+.Haas-Regular, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
   font-family: 'Neue Haas Unica W01 Regular';
   font-weight: normal; }
 
@@ -554,7 +560,7 @@ header {
   margin-top: 32px;
   margin-bottom: 270px; }
   .more-projects a {
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
@@ -564,6 +570,9 @@ header {
     .more-projects a:hover {
       color: #edac01;
       text-decoration: none; }
+    .more-projects a img {
+      padding-left: 17px;
+      margin-top: -5px; }
   @media screen and (max-width: 768px) {
     .more-projects {
       font-size: 22px;
@@ -578,9 +587,11 @@ header {
 
 .latest-articles {
   margin-bottom: 200px; }
-  @media screen and (max-width: 992px) {
-    .latest-articles-heading {
-      padding-left: 15px !important; } }
+  .latest-articles-heading {
+    padding-left: 50px !important; }
+    @media screen and (max-width: 992px) {
+      .latest-articles-heading {
+        padding-left: 15px !important; } }
   .latest-articles .article {
     margin-bottom: 100px;
     padding-right: 0px;
@@ -591,7 +602,7 @@ header {
         padding-left: 15px; } }
     .latest-articles .article:first-child {
       padding-right: 50px;
-      padding-left: 0px; }
+      padding-left: 50px; }
       @media screen and (max-width: 992px) {
         .latest-articles .article:first-child {
           padding-right: 15px;
@@ -607,14 +618,14 @@ header {
     transition: color 0.5s ease; }
   .latest-articles h2:hover {
     color: #edac01; }
-  .latest-articles a, .latest-articles a:hover {
+  .latest-articles a, .latest-articles a:hover, .latest-articles a:focus {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.75;
-    color: #edac01;
+    color: #edac01 !important;
     border-bottom: 2px solid #edac01;
     padding-bottom: 3px;
-    text-decoration: none; }
+    text-decoration: none !important; }
   @media screen and (max-width: 768px) {
     .latest-articles {
       margin-bottom: 0px; } }
@@ -711,6 +722,9 @@ header {
     @media screen and (max-width: 992px) {
       .behind-brand h2 {
         margin: 0px auto 50px auto; } }
+    @media screen and (max-width: 480px) {
+      .behind-brand h2 {
+        max-width: none; } }
   .behind-brand p {
     margin-bottom: 20px;
     font-size: 22px;
@@ -902,6 +916,11 @@ article img {
 
 .post-content ul li {
   margin-top: -60px; }
+
+.post-content ol, .post-content ul {
+  padding-left: 20px;
+  font-size: 22px;
+  font-family: 'Neue Haas Unica W01 Light'; }
 
 /* --- Share widget --- */
 .share-widget {
