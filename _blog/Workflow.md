@@ -3,8 +3,7 @@ title: 10 of the Best Productivity Tools to Improve Your Design Workflow
 date: 2016-05-01 12:00:00 Z
 excerpt: How optimizing your workflow will lead you to becoming a more successful
   designer.
-first-image: "/uploads/Screen%20Shot%202016-12-11%20at%2012.07.10%20AM.png"
-second-image: "/uploads/cats-q-c-1200-788-4.jpg"
+second-image: "/uploads/05-01-2016-blog-hero.jpeg"
 layout: post
 ---
 
