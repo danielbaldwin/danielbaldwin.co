@@ -4,6 +4,7 @@ date: 2016-12-28 02:04:00 Z
 excerpt: How optimizing your workflow will lead you to becoming a more successful
   designer.
 second-image: "/uploads/05-01-2016-blog-hero.jpeg"
+layout: post
 ---
 
 For those of us working on small design teams, we know what it’s like to have projects with fast turnaround times. [Optimizing your workflow is imperative to becoming a successful designer.](http://ctt.ec/0H0Qm) <i class="fa fa-twitter" aria-hidden="true"></i> Luckily, there are hundreds of tools available that will help you do just that. The following apps have helped me structure my daily routine, improve the quality of my work, and increase my productivity:
