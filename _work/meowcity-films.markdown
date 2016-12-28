@@ -35,6 +35,7 @@ More Projects:
   Background: 'linear-gradient(56deg, #b3c4c4, #bdcdcd)'
   Image: 
   Link: http://www.google.com
+Case Study: Meowcity Films
 layout: case-study
 ---
 
