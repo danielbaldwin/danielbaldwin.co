@@ -35,11 +35,11 @@
           </div>
         </div>
         <div class="row latest-articles">
-        {% for post in site.blog limit:2 %}
+        {% for article in site.blog limit:2 %}
     		<div class="col-md-6 article">
-			      	<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			      	<a href="{{ article.url }}"><h2>{{ article.title }}</h2></a>
 			      	<p>{{ post.excerpt }}</p>
-			      	<a href="{{ post.url }}">Read Article</a>
+			      	<a href="{{ article.url }}">Read Article</a>
 	      	</div>
           <div class="articles-border"></div>
 		  {% endfor %}
