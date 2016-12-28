@@ -770,11 +770,10 @@ header {
 
 /* --- Contact Page --- */
 .contact-header {
-  margin: -190px -15px 0;
-  padding: 280px 0;
   background-image: -webkit-linear-gradient(206deg, #f8d602, #edac01);
   background-image: linear-gradient(244deg, #f8d602, #edac01);
-  color: #fff; }
+  color: #fff;
+  height: 100vh; }
   .contact-header .yellow-logo {
     display: none; }
   .contact-header.white {
@@ -799,8 +798,7 @@ header {
     text-decoration: none; }
   @media screen and (max-width: 800px) {
     .contact-header {
-      text-align: center;
-      padding: 190px 0; }
+      text-align: center; }
       .contact-header p {
         font-size: 22px;
         line-height: 2.18; }
@@ -813,6 +811,8 @@ header {
         padding: 0 25px; }
         .contact-header .anything-else a, .contact-header .anything-else a:hover {
           border-bottom: 2px solid #fff; } }
+  .contact-header .contact-information {
+    padding-top: 140px; }
 
 /* --- Blog --- */
 .blog-excerpt {
@@ -904,7 +904,7 @@ article img {
   font-stretch: normal;
   line-height: 1.73; }
 
-.post-content a, .post-content a:hover {
+.post-content a, .post-content a:hover, .post-content a:focus {
   font-weight: 500;
   color: #edac01;
   text-decoration: none;

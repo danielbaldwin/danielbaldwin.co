@@ -822,10 +822,9 @@ header {
 }
 /* --- Contact Page --- */
 .contact-header {
-	margin: -190px -15px 0;
-	padding: 280px 0;
 	background-image: linear-gradient(244deg, #f8d602, #edac01);
 	color: #fff;
+  height: 100vh;
 
   .yellow-logo {
     display: none;
@@ -867,8 +866,7 @@ header {
 	}
   @media screen and (max-width: 800px) {
     text-align: center;
-    padding: 190px 0;
-    p{
+    p {
       font-size: 22px;
       line-height: 2.18;
     }
@@ -885,6 +883,10 @@ header {
         border-bottom: 2px solid #fff;
       }
     }
+  }
+
+  .contact-information {
+    padding-top: 140px;
   }
 }
 /* --- Blog --- */
@@ -1009,7 +1011,7 @@ article {
     @extend .Haas-Light;
   }
   
-  a, a:hover {
+  a, a:hover, a:focus {
     font-weight: 500;
     color: #edac01;
     text-decoration: none;
