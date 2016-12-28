@@ -18,9 +18,9 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    excerpt: 
-    first-image: 
-    second-image: 
+    excerpt:
+    first-image:
+    second-image:
 - scope:
     path: ''
     type: pages
@@ -28,24 +28,24 @@ defaults:
     layout: main
 - scope:
     path: ''
-    type: work
+    type: 'work'
   values:
     layout: case-study
-    Hero Text: 
-    First Large Image: 
-    Second Large Image: 
-    Images: 
-    One Small Image: 
-    Third Large Image: 
-    Second Paragraph Text: 
-    Third Paragraph Text: 
-    Fourth Paragraph Text: 
-    More Projects:
-      Name: 
-      Description: 
-      Background: 
-      Image: 
-      Link: 
+    Hero Text:
+    First Large Image:
+    Second Large Image:
+    Images:
+    One Small Image:
+    Third Large Image:
+    Second Paragraph Text:
+    Third Paragraph Text:
+    Fourth Paragraph Text:
+    More Projects: [Name, Description]
+      Name:
+      Description:
+      Background:
+      Image:
+      Link:
 url: http://www.danielbaldwin.co
 permalink: pretty
 twitter_username: danielbaldwinco
