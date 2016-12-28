@@ -334,47 +334,47 @@ header {
   overflow: hidden;
   position: relative;
   cursor: default;
-}
 
-.hovereffect .overlay {
-  width: 100%;
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  bottom: 0;
-  padding: 34px;
-  text-align: left;
-  @media screen and (max-width: 768px) {
-    top: 10%;
+  .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    padding: 34px;
+    text-align: left;
+    @media screen and (max-width: 768px) {
+      top: 10%;
+    }
+  }
+
+  img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: auto;
+    transition: opacity 0.5s ease-in;
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  &:hover img {
+    opacity: 0;
+    filter: alpha(opacity=4);
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  h2 {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
   }
 }
 
-.hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: auto;
-  transition: opacity 0.5s ease-in;
-  @media screen and (max-width: 992px) {
-    display: none;
-  }
-}
-
-.hovereffect:hover img {
-  opacity: 0;
-  filter: alpha(opacity=4);
-  @media screen and (max-width: 992px) {
-    display: none;
-  }
-}
-
-.hovereffect h2 {
-  position: relative;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.hovereffect a, .hovereffect p {
+.hovereffect a.see-case, .hovereffect p {
   color: #FFF;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -386,7 +386,7 @@ header {
   }
 }
 
-.hovereffect:hover a, .hovereffect:hover p {
+.hovereffect:hover a.see-case, .hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
   transform: translate3d(0,0,0);
