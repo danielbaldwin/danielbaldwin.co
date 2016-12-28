@@ -34,12 +34,14 @@ defaults:
     Hero Text: 
     First Large Image: 
     Second Large Image: 
-    Images: 
-    One Small Image: 
-    Third Large Image: 
     Second Paragraph Text: 
+    Images: 
+    -
+    -
     Third Paragraph Text: 
+    One Small Image: 
     Fourth Paragraph Text: 
+    Third Large Image: 
     More Projects:
     - Name: 
       Description: 
