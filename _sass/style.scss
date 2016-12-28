@@ -503,7 +503,7 @@ header {
 
     @extend .Haas-Light;
 	}
-	a, a:hover {
+	a, a:hover, a:focus {
   	font-size: 16px;
     font-style: normal;
     font-stretch: normal;
@@ -902,7 +902,7 @@ header {
 	h2 {
 	 margin-bottom: 28px;
 	 
-	 a, a:hover {
+	 a, a:hover, a:focus {
   	font-size: 22px;
     font-style: normal;
     font-stretch: normal;
@@ -955,7 +955,7 @@ header {
 
   @extend .Haas-Light;
 }
-.date, .read-article a, .read-article a:hover {
+.date, .read-article a, .read-article a:hover, .read-article a:focus {
 	font-size: 16px;
 	font-style: normal;
 	font-stretch: normal;
@@ -1043,7 +1043,7 @@ article {
 
   @extend .Haas-Light;
 	
-	a, a:hover {
+	a, a:hover, a:focus {
   	padding: 0 18px;
     font-size: 35px;
     vertical-align: middle;
@@ -1212,7 +1212,7 @@ footer {
     }
   }
 } 
-footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover {
+footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
 	color: #edac01;
   @extend .Haas-Regular;
 }

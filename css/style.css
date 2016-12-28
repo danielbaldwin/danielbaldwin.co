@@ -124,10 +124,10 @@
 .Haas-Light, .home-header h1, .believe h2, .rectangle p, .rectangle-1 p, .rectangle-2 p, .rectangle-3 p, .rectangle-4 p, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .excerpt, .post-header h2, .post-content p, .share-widget {
   font-family: 'Neue Haas Unica W01 Light'; }
 
-.Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover, .behind-brand h2 {
+.Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-1 a:focus, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-2 a:focus, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-3 a:focus, .rectangle-4 a, .rectangle-4 a:hover, .rectangle-4 a:focus, .behind-brand h2 {
   font-family: 'Neue Haas Unica W01 Heavy'; }
 
-.Haas-Regular, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .date, .read-article a, .read-article a:hover, .post-header .date, .share-widget a, .share-widget a:hover, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
+.Haas-Regular, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .rectangle h2, .rectangle-1 h2, .rectangle-2 h2, .rectangle-3 h2, .rectangle-4 h2, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .date, .read-article a, .read-article a:hover, .read-article a:focus, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   font-family: 'Neue Haas Unica W01 Regular';
   font-weight: normal; }
 
@@ -545,7 +545,7 @@ header {
   font-stretch: normal;
   line-height: 1.27; }
 
-.rectangle a, .rectangle a:hover, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-4 a, .rectangle-4 a:hover {
+.rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle-1 a, .rectangle-1 a:hover, .rectangle-1 a:focus, .rectangle-2 a, .rectangle-2 a:hover, .rectangle-2 a:focus, .rectangle-3 a, .rectangle-3 a:hover, .rectangle-3 a:focus, .rectangle-4 a, .rectangle-4 a:hover, .rectangle-4 a:focus {
   font-size: 16px;
   font-style: normal;
   font-stretch: normal;
@@ -824,7 +824,7 @@ header {
     width: 100%; }
   .blog-excerpt h2 {
     margin-bottom: 28px; }
-    .blog-excerpt h2 a, .blog-excerpt h2 a:hover {
+    .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus {
       font-size: 22px;
       font-style: normal;
       font-stretch: normal;
@@ -866,7 +866,7 @@ header {
   line-height: 1.27;
   color: #000000; }
 
-.date, .read-article a, .read-article a:hover {
+.date, .read-article a, .read-article a:hover, .read-article a:focus {
   font-size: 16px;
   font-style: normal;
   font-stretch: normal;
@@ -931,7 +931,7 @@ article img {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.73; }
-  .share-widget a, .share-widget a:hover {
+  .share-widget a, .share-widget a:hover, .share-widget a:focus {
     padding: 0 18px;
     font-size: 35px;
     vertical-align: middle;
@@ -1051,5 +1051,5 @@ footer .nav > li > a {
   footer .nav > li > a:focus, footer .nav > li > a:hover {
     background-color: transparent; }
 
-footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover {
+footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   color: #edac01; }
