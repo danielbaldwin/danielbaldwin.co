@@ -18,11 +18,15 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
+    excerpt:
+    first-image:
+    second-image:
 - scope:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: main
+
 url: http://www.danielbaldwin.co
 permalink: pretty
 twitter_username: danielbaldwinco
