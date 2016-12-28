@@ -16,8 +16,13 @@
 				      	<div class="col-md-6 col-sm-12 col-xs-12 article-img">
 				      		{% if post.first-image %}
 				      		<img src="{{ site.baseurl }}{{ post.first-image }}">
-				      		{% elsif post.second-image == null %}
-				      		
+
+				      		{% elsif post.second-image %}
+
+				      		<img src="{{ site.baseurl }}{{ post.first-image }}">
+
+				      		{% else %}
+
 				      		{% assign images = post.content | split:"<img " %}
 							{% for image in images %}
 							  {% if image contains 'src=' %}
@@ -27,9 +32,6 @@
 							  {% endif %}
 							{% endfor %}
 
-				      		{% else %}
-
-				      		<img src="{{ site.baseurl }}{{ post.first-image }}">
 
 				      		{% endif %}
 				      	</div>
