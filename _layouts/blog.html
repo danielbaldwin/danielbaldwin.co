@@ -5,7 +5,7 @@
 	<div class="barba-container" data-transition="BarbaAnimation">
 		{% include navigation.html %}
 			<div class="container">
-			  {% for post in site.blog %}
+			  {% for post in site.posts %}
 			    	<div class="row blog-excerpt">
 			    		<div class="col-md-6 col-sm-12 col-xs-12 blog-item">
 					    	<time class="date">{{ post.date | date: '%B %d, %Y' }}</time>
