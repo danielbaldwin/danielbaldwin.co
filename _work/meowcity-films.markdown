@@ -24,6 +24,17 @@ Fourth Paragraph Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.\nSuspendisse eget
   luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae
   lobortis felis lobortis.\n\t\t\t"
+More Projects:
+- Name: TINT
+  Description: Defining a brand experience for an established startup
+  Background: 'linear-gradient(122deg, #1d3853, #264563)'
+  Image: 
+  Link: http://www.google.com
+- Name: Twelve23
+  Description: Rebranding a web solutions company into a creative agency
+  Background: 'linear-gradient(56deg, #b3c4c4, #bdcdcd)'
+  Image: 
+  Link: http://www.google.com
 layout: case-study
 ---
 
