@@ -35,9 +35,9 @@ defaults:
     First Large Image: 
     Second Large Image: 
     Second Paragraph Text: 
-    Images: 
-    -
-    -
+    Images:
+    - 
+    - 
     Third Paragraph Text: 
     One Small Image: 
     Fourth Paragraph Text: 
