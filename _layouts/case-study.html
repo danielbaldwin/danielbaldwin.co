@@ -16,9 +16,11 @@
 	</div>
 	<div class="container case-study">
 		<div class="row">
-			<div class="col-md-12">
-				<img class="reveal" src="{{ page['First Large Image'] }}">
-			</div>
+			{% if page['First Large Image'] %}
+				<div class="col-md-12">
+					<img class="reveal" src="{{ page['First Large Image'] }}">
+				</div>
+			{% endif %}
 			<div class="col-md-8 col-md-offset-2 text">
 				<p>
 				{{content}}
@@ -29,27 +31,37 @@
 				  <img class="reveal" src="{{ Image }}">
 				</div>
 			{% endfor %}
-			<div class="col-md-8 col-md-offset-2 text">
-				<p>
-				{{ page['Second Paragraph Text'] | markdownify }}
-				</p>
-			</div>
-			<div class="col-md-12">
-				<img class="reveal" src="{{ page['Second Large Image'] }}">
-			</div>
-			<div class="col-md-8 col-md-offset-2 text">
-				<p>
-				{{ page['Third Paragraph Text'] | markdownify }}
-				</p>
-			</div>
-			<div class="col-md-8 col-md-offset-2">
-				<img class="reveal" src="{{ page['One Small Image'] }}">
-			</div>
-			<div class="col-md-8 col-md-offset-2 text">
-				<p>
-				{{ page['Fourth Paragraph Text'] | markdownify }}
-				</p>
-			</div>
+			{% if page['Second Paragraph Text'] %}
+				<div class="col-md-8 col-md-offset-2 text">
+					<p>
+					{{ page['Second Paragraph Text'] | markdownify }}
+					</p>
+				</div>
+			{% endif %}
+			{% if page['Second Large Image'] %}
+				<div class="col-md-12">
+					<img class="reveal" src="{{ page['Second Large Image'] }}">
+				</div>
+			{% endif %}
+			{% if page['Third Paragraph Text'] %}
+				<div class="col-md-8 col-md-offset-2 text">
+					<p>
+					{{ page['Third Paragraph Text'] | markdownify }}
+					</p>
+				</div>
+			{% endif %}
+			{% if page['One Small Image'] %}
+				<div class="col-md-8 col-md-offset-2">
+					<img class="reveal" src="{{ page['One Small Image'] }}">
+				</div>
+			{% endif %}
+			{% if page['Fourth Paragraph Text'] %}
+				<div class="col-md-8 col-md-offset-2 text">
+					<p>
+					{{ page['Fourth Paragraph Text'] | markdownify }}
+					</p>
+				</div>
+			{% endif %}
 		</div>
 	</div>
 	<img class="reveal" style="width: 100%" src="{{ page['Third Large Image'] }}">
@@ -60,7 +72,13 @@
 			</div>
 		</div>
 	</div>
-	{% include case-studies.html %}
+	<div class="container">
+		<div class="row more-projects-case">
+			<div class="col-md-12">
+			<h1>More Projects</h1>
+			</div>
+		</div>
+	</div>
 	{% include footer.html %}
 	</div>
 {% include js.html %}
