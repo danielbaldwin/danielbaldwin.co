@@ -1,5 +1,5 @@
 ---
-title: Meowcity Films
+title: TINT
 date: 2016-12-05 04:17:00 Z
 Hero Text: Creating a brand experience for a B2B startup
 First Large Image: "/uploads/cats-q-c-1200-788-8.jpg"
@@ -12,9 +12,7 @@ Second Paragraph Text: |-
   My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
   I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
-Images:
-- "/uploads/cats-q-c-570-353-10.jpg"
-- "/uploads/cats-q-c-570-353-3.jpg"
+One Small Image: "/uploads/cats-q-c-788-412-5.jpg"
 Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was facing
   was numbers. With over 60,000 users visiting TINT’s website each month, only 2.5%
   were clicking the Free Trial CTA. An even smaller group of users were clicking Request
@@ -24,13 +22,14 @@ Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was faci
   trying to convert them.\n\nBy rethinking and redesigning TINT’s homepage, TINT experienced
   a 148% increase in click-throughs to the trial sign up page and a 540% increase
   in click-throughs to the demo request page."
-One Small Image: "/uploads/cats-q-c-788-412-5.jpg"
+Images:
+- "/uploads/TINT-previous-homepage-157ed5.jpg"
+- "/uploads/TINT-redesigned-homepage.jpg"
 Fourth Paragraph Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
   imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante
   massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.\nSuspendisse eget
   luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae
   lobortis felis lobortis.\n\t\t\t"
-Third Large Image: "/uploads/cats-q-c-1200-788-4.jpg"
 More Projects:
 - Name: TINT
   Description: Defining a brand experience for an established startup
