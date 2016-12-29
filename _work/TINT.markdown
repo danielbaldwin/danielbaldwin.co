@@ -2,7 +2,7 @@
 title: TINT
 date: 2016-12-05 04:17:00 Z
 Hero Text: Creating a brand experience for a B2B startup
-First Large Image: "/uploads/cats-q-c-1200-788-8.jpg"
+First Large Image: "/uploads/TINT-crazyegg-results.jpg"
 Second Large Image: "/uploads/TINT-locations.gif"
 Second Paragraph Text: |-
   **Building the Brand**
@@ -12,7 +12,7 @@ Second Paragraph Text: |-
   My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
   I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
-One Small Image: "/uploads/cats-q-c-788-412-5.jpg"
+One Small Image: "/uploads/TINT-sitemap.jpg"
 Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was facing
   was numbers. With over 60,000 users visiting TINT’s website each month, only 2.5%
   were clicking the Free Trial CTA. An even smaller group of users were clicking Request
