@@ -3,7 +3,7 @@ title: TINT
 date: 2016-12-05 04:17:00 Z
 Hero Text: Creating a brand experience for a B2B startup
 First Large Image: "/uploads/cats-q-c-1200-788-8.jpg"
-Second Large Image: "/uploads/cats-q-c-1200-788-6.jpg"
+Second Large Image: "/uploads/TINT-locations.gif"
 Second Paragraph Text: |-
   **Building the Brand**
 
