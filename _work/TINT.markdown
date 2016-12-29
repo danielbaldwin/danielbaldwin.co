@@ -12,7 +12,7 @@ Second Paragraph Text: |-
   My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
   I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
-One Small Image: "/uploads/TINT-sitemap.jpg"
+One Small Image: "/uploads/TINT-business-card.jpg"
 Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was facing
   was numbers. With over 60,000 users visiting TINT’s website each month, only 2.5%
   were clicking the Free Trial CTA. An even smaller group of users were clicking Request
