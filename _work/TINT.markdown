@@ -12,7 +12,9 @@ Second Paragraph Text: |-
   My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
   I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
-One Small Image: "/uploads/TINT-business-card.jpg"
+Two-Images:
+- "/uploads/TINT-previous-homepage-157ed5.jpg"
+- "/uploads/TINT-redesigned-homepage.jpg"
 Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was facing
   was numbers. With over 60,000 users visiting TINT’s website each month, only 2.5%
   were clicking the Free Trial CTA. An even smaller group of users were clicking Request
@@ -22,9 +24,7 @@ Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was faci
   trying to convert them.\n\nBy rethinking and redesigning TINT’s homepage, TINT experienced
   a 148% increase in click-throughs to the trial sign up page and a 540% increase
   in click-throughs to the demo request page."
-Images:
-- "/uploads/TINT-previous-homepage-157ed5.jpg"
-- "/uploads/TINT-redesigned-homepage.jpg"
+One Small Image: "/uploads/TINT-business-card.jpg"
 Fourth Paragraph Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
   imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante
   massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.\nSuspendisse eget
