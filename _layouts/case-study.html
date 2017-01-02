@@ -26,16 +26,20 @@
 				{{content}}
 				</p>
 			</div>
-			{% for Image in page.Two-Images %}
-				<div class="col-md-6">
-				  <img class="reveal" src="{{ Image }}">
-				</div>
-			{% endfor %}
-			{% for Img in page.Images %}
-				<div class="col-md-8 col-md-offset-2">
-				  <img class="reveal" src="{{ Img }}">
-				</div>
-			{% endfor %}
+			{% if page.Two-Images %}
+				{% for Image in page.Two-Images %}
+					<div class="col-md-6">
+					  <img class="reveal" src="{{ Image }}">
+					</div>
+				{% endfor %}
+			{% endif %}
+			{% if page.Images %}
+				{% for Img in page.Images %}
+					<div class="col-md-8 col-md-offset-2">
+					  <img class="reveal" src="{{ Img }}">
+					</div>
+				{% endfor %}
+			{% endif %}
 			{% if page['Second Paragraph Text'] %}
 				<div class="col-md-8 col-md-offset-2 text">
 					<p>
