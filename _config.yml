@@ -40,15 +40,9 @@ defaults:
     First Large Image: 
     Second Large Image: 
     Second Paragraph Text: 
-<<<<<<< Updated upstream
-    Images:
-    - 
-    - 
-=======
     Two-Images: 
     -
     -
->>>>>>> Stashed changes
     Third Paragraph Text: 
     One Small Image: 
     Fourth Paragraph Text: 
