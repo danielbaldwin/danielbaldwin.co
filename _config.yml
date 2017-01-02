@@ -32,17 +32,17 @@ defaults:
   values:
     layout: case-study
     Images:
-    -
-    -
-    -
-    -
+    - 
+    - 
+    - 
+    - 
     Hero Text: 
     First Large Image: 
     Second Large Image: 
     Second Paragraph Text: 
-    Two-Images: 
-    -
-    -
+    Two-Images:
+    - 
+    - 
     Third Paragraph Text: 
     One Small Image: 
     Fourth Paragraph Text: 
