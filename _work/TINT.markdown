@@ -15,7 +15,9 @@ Second Paragraph Text: |-
 
   A brand is only as successful as the people carrying it’s name forward. As TINT’s team expanded across multiple regions, it was important to create unity with the brand.
 
+
   ![TINT-locations.gif](/uploads/TINT-locations.gif)
+
 
   My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
@@ -29,10 +31,11 @@ Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was faci
   a Demo — 0.5%. \n\nMy challenge was to create a new homepage that aligned TINT’s
   positioning with its newfound brand identity. I focused on creating a homepage that
   would direct users to TINT’s educational resources (blog, case studies, etc.) before
-  trying to convert them.\n\n![TINT-sitemap.jpg](/uploads/TINT-sitemap.jpg)\n\nBy
+  trying to convert them.\n\n\n![TINT-sitemap.jpg](/uploads/TINT-sitemap.jpg)\n\n\nBy
   rethinking and redesigning TINT’s homepage, TINT experienced a 148% increase in
   click-throughs to the trial sign up page and a 540% increase in click-throughs to
-  the demo request page.\n\n![TINT-crazyegg-results.jpg](/uploads/TINT-crazyegg-results.jpg)"
+  the demo request page."
+Third Large Image: "/uploads/TINT-crazyegg-results.jpg"
 More Projects:
 - Name: TINT
   Description: Creating a brand experience for a B2B startup
