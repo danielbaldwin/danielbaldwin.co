@@ -26,7 +26,7 @@
 				{{content}}
 				</p>
 			</div>
-			{% if page.Two-Images %}
+			{% if page['Two-Images'] %}
 				{% for Image in page.Two-Images %}
 					<div class="col-md-6">
 					  <img class="reveal" src="{{ Image }}">
@@ -34,7 +34,7 @@
 				{% endfor %}
 			{% endif %}
 			{% if page.Images %}
-				{% for Img in page.Images %}
+				{% for Img in page['Images'] %}
 					<div class="col-md-8 col-md-offset-2">
 					  <img class="reveal" src="{{ Img }}">
 					</div>
