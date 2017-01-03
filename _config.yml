@@ -31,8 +31,6 @@ defaults:
     type: work
   values:
     layout: case-study
-    Images:
-    - 
     Hero Text: 
     First Large Image: 
     Second Large Image: 
