@@ -1,13 +1,21 @@
 ---
 title: TINT
 date: 2016-12-05 04:17:00 Z
+tags:
+- branding
+- website
+- iconography
+- b2b
+- startup
 Hero Text: Creating a brand experience for a B2B startup
-First Large Image: "/uploads/TINT-crazyegg-results.jpg"
-Second Large Image: "/uploads/TINT-locations.gif"
+First Large Image: "/uploads/TINT-brand-essence.jpg"
+Second Large Image: "/uploads/TINT-brand-book.jpg"
 Second Paragraph Text: |-
   **Building the Brand**
 
   A brand is only as successful as the people carrying it’s name forward. As TINT’s team expanded across multiple regions, it was important to create unity with the brand.
+
+  ![TINT-locations.gif](/uploads/TINT-locations.gif)
 
   My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
@@ -21,19 +29,14 @@ Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was faci
   a Demo — 0.5%. \n\nMy challenge was to create a new homepage that aligned TINT’s
   positioning with its newfound brand identity. I focused on creating a homepage that
   would direct users to TINT’s educational resources (blog, case studies, etc.) before
-  trying to convert them.\n\nBy rethinking and redesigning TINT’s homepage, TINT experienced
-  a 148% increase in click-throughs to the trial sign up page and a 540% increase
-  in click-throughs to the demo request page."
-One Small Image: "/uploads/TINT-business-card.jpg"
-Fourth Paragraph Text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-  imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante
-  massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.\nSuspendisse eget
-  luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae
-  lobortis felis lobortis.\n\t\t\t"
+  trying to convert them.\n\n![TINT-sitemap.jpg](/uploads/TINT-sitemap.jpg)\n\nBy
+  rethinking and redesigning TINT’s homepage, TINT experienced a 148% increase in
+  click-throughs to the trial sign up page and a 540% increase in click-throughs to
+  the demo request page.\n\n![TINT-crazyegg-results.jpg](/uploads/TINT-crazyegg-results.jpg)"
 More Projects:
 - Name: TINT
-  Description: Defining a brand experience for an established startup
-  Background: 'linear-gradient(122deg, #1d3853, #264563)'
+  Description: Creating a brand experience for a B2B startup
+  Background: 'linear-gradient(122deg, #FF564B, #FA6037)'
   Image: 
   Link: http://www.google.com
 - Name: Twelve23
