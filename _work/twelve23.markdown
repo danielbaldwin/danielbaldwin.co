@@ -14,8 +14,8 @@ Hero Text: Rebranding a web solutions company into a creative agency
 Is Featured: true
 Featured Image: "/uploads/twelve23-work.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
-Bootstrap Columns: 4
-Featured Column Height: 430
+Bootstrap Columns: 6
+Featured Column Height: 585
 ---
 
 ![Twelve23 Work](/uploads/twelve23-work.jpg)
