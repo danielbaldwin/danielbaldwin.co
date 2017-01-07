@@ -1,6 +1,11 @@
 ---
 title: Powercity Films
 date: 2017-01-07 07:45:00 Z
+categories:
+- agency
+tags:
+- website
+- logo
 Hero Text: Developing an identity for a storytelling film company
 First Large Image: "/uploads/powercity-films-photo.jpg"
 Second Paragraph Text: |2-
