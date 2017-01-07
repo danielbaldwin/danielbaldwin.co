@@ -12,6 +12,7 @@ Hero Text: Creating a new look for a woodworking company
 Featured Image: "/uploads/cornerstone-cabinetry-van.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
 Bootstrap Columns: 6
+Column Height: 585
 ---
 
 ![Cornerstone Cabinetry Logo](/uploads/cornerstone-cabinetry-logo.jpg)
