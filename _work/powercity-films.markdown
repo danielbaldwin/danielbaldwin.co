@@ -7,6 +7,9 @@ tags:
 - website
 - logo
 Hero Text: Developing an identity for a storytelling film company
+Featured Image: "/uploads/powercity-films-photo.jpg"
+Hover Background: 'linear-gradient(122deg, #FFEC3A, #FDD31B)'
+Bootstrap Columns: 6
 ---
 
 ![Powercity Films Photo](/uploads/powercity-films-photo.jpg)
