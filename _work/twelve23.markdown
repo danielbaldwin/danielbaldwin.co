@@ -4,8 +4,11 @@ date: 2017-01-07 07:58:00 Z
 categories:
 - agency
 tags:
+- branding
 - website
+- iconography
 - logo
+- agency
 Hero Text: Rebranding a web solutions company into a creative agency
 First Large Image: "/uploads/twelve23-work.jpg"
 Second Large Image: "/uploads/twelve23-website.jpg"
