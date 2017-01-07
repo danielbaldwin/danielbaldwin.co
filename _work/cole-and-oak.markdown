@@ -10,9 +10,11 @@ tags:
 - small business
 position: 1
 Hero Text: Creating brand collateral for a photography company
+Is Featured: true
 Featured Image: "/uploads/coleandoak-browser.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
-Bootstrap Columns: 6
+Bootstrap Columns: 4
+Featured Column Height: 430
 ---
 
 ![Cole And Oak Browser](/uploads/coleandoak-browser.jpg)
