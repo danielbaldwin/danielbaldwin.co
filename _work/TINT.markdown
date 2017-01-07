@@ -11,6 +11,9 @@ tags:
 - startup
 Hero Text: Creating a brand experience for a B2B startup
 Is Featured: true
+Featured Image: "/uploads/tint-comparison-b82b64.jpg"
+Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Bootstrap Columns: 6
 layout: case-study
 ---
 
