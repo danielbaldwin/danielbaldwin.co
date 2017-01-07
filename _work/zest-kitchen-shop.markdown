@@ -8,6 +8,9 @@ tags:
 - iconography
 - small business
 Hero Text: Crafting an online experience for a small town brick and mortar shop
+Featured Image: "/uploads/zestkitchenshop-mockup.jpg"
+Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Bootstrap Columns: 6
 ---
 
 ![zestkitchenshop-mockup.jpg](/uploads/zestkitchenshop-mockup.jpg)
