@@ -638,6 +638,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/uploads\/tint-comparison-b82b64.jpg": {
+		"ft": 16384,
+		"iS": 118522,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/tint-comparison-b82b64.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/tint-comparison.jpg": {
+		"ft": 16384,
+		"iS": 118192,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/tint-comparison.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/uploads\/TINT-crazyegg-results.jpg": {
 		"ft": 16384,
 		"iS": 97724,
@@ -1131,6 +1147,22 @@
 		"iS": 174076,
 		"oA": 0,
 		"oAP": "\/_uploads\/TINT-business-card.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/tint-comparison-b82b64.jpg": {
+		"ft": 16384,
+		"iS": 118522,
+		"oA": 0,
+		"oAP": "\/_uploads\/tint-comparison-b82b64.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/tint-comparison.jpg": {
+		"ft": 16384,
+		"iS": 118192,
+		"oA": 0,
+		"oAP": "\/_uploads\/tint-comparison.jpg",
 		"oF": 0,
 		"opt": 0
 		},
