@@ -1,6 +1,12 @@
 ---
 title: Zest Kitchen Shop
 date: 2017-01-07 08:02:00 Z
+categories:
+- small business
+tags:
+- website
+- iconography
+- small business
 Hero Text: Crafting an online experience for a small town brick and mortar shop
 First Large Image: "/uploads/zestkitchenshop-mockup.jpg"
 ---
