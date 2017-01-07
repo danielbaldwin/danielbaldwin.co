@@ -8,6 +8,9 @@ tags:
 - logo
 - small business
 Hero Text: Creating a new look for a woodworking company
+Featured Image: "/uploads/cornerstone-cabinetry-van.jpg"
+Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Bootstrap Columns: 6
 ---
 
 ![Cornerstone Cabinetry Logo](/uploads/cornerstone-cabinetry-logo.jpg)
