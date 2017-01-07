@@ -1,6 +1,8 @@
 ---
 title: TINT
 date: 2016-12-05 04:17:00 Z
+categories:
+- startup
 tags:
 - branding
 - website
