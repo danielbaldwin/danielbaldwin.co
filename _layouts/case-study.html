@@ -42,5 +42,10 @@
 	{% include footer.html %}
 	</div>
 {% include js.html %}
+<script>
+    $("p:has(img)").css("padding", "50px 0px");
+    $(".case-study p").toggleClass("reveal");
+    $(".case-study img").toggleClass("reveal");
+</script>
 </body>
 </html>
