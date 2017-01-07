@@ -9,9 +9,6 @@ tags:
 - logo
 - small business
 Hero Text: Creating brand collateral for a photography company
-First Large Image: "/uploads/coleandoak-browser.jpg"
-Second Large Image: "/uploads/coleandoak-logo.jpg"
-Third Large Image: "/uploads/coleandoak-business-card-wide.jpg"
 More Projects:
 - Name: Powercity Films
   Description: Developing an identity for a storytelling film company
@@ -19,3 +16,6 @@ More Projects:
   Link: "/work/powercity-films"
 ---
 
+![Cole And Oak Browser](/uploads/coleandoak-browser.jpg)
+![Cole And Oak Business Card](/uploads/coleandoak-business-card-wide.jpg)
+![Cole And Oak Logo](/uploads/coleandoak-logo.jpg)
