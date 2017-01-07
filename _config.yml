@@ -35,13 +35,16 @@ defaults:
     First Large Image: 
     Second Large Image: 
     Second Paragraph Text: 
+    Images:
+    -
+    -
     Two-Images:
     - 
     - 
     Third Paragraph Text: 
     One Small Image: 
     Fourth Paragraph Text: 
-    Third Large Image: 
+    Last Large Image: 
     More Projects:
     - Name: 
       Description: 
