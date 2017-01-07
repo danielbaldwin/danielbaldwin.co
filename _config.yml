@@ -33,12 +33,10 @@ defaults:
     layout: case-study
     Hero Text: 
     Last Large Image: 
-    More Projects:
-    - Name: 
-      Description: 
-      Background: 
-      Image: 
-      Link: 
+    Is Featured:
+    Featured Image:
+    Hover Background:
+    Bootstrap Columns:
 url: http://www.danielbaldwin.co
 permalink: pretty
 twitter_username: danielbaldwinco
