@@ -7,7 +7,7 @@ tags:
 - branding
 - logo
 - small business
-position: 4
+position: 5
 Hero Text: Creating a new look for a woodworking company
 Featured Image: "/uploads/cornerstone-cabinetry-van.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'

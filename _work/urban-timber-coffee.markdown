@@ -7,7 +7,7 @@ tags:
 - branding
 - packaging
 - small business
-position: 3
+position: 4
 Hero Text: Designing packaging for Northwest coffee roasters.
 Featured Image: "/uploads/urbantimber-coffee-packaging.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
