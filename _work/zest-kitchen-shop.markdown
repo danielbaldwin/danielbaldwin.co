@@ -8,8 +8,9 @@ tags:
 - iconography
 - small business
 Hero Text: Crafting an online experience for a small town brick and mortar shop
-First Large Image: "/uploads/zestkitchenshop-mockup.jpg"
 ---
+
+![zestkitchenshop-mockup.jpg](/uploads/zestkitchenshop-mockup.jpg)
 
 ![zestkitchenshop-closeup.jpg](/uploads/zestkitchenshop-closeup.jpg)
 
