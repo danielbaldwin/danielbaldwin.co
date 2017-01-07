@@ -19,7 +19,7 @@
 			{% assign content = page.content | strip_newlines %}
 			{% if content != ""  %}
 			<div class="col-md-12">
-				{{ content | remove: '<p>' | remove: '</p>'}}
+				{{ content }}
 			</div>
 			{% endif %}
 		</div>
