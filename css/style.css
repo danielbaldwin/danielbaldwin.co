@@ -192,6 +192,9 @@
     .rectangle.last.hovereffect:hover h2 {
       color: #656873; }
 
+.related {
+  height: 350px !important; }
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -603,7 +606,7 @@ header {
 
 /* --- Page Case Study --- */
 .case-study img {
-  width: 100%; }
+  max-width: 100%; }
 
 .case-study .text {
   padding: 300px 0px; }
@@ -614,7 +617,7 @@ header {
   font-stretch: normal;
   line-height: 1.73;
   color: #000000;
-  padding: 0px 20%; }
+  padding: 20px 20%; }
 
 .more-case {
   margin-bottom: 300px; }

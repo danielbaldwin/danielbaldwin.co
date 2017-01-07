@@ -57,10 +57,10 @@
 			    {% endfor %}
 
 			    {% if sameTagCount >= minCommonTags %}
-			      <div class="col-md-6 study">
-			      	<div class="rectangle three hovereffect">
+			      <div class="col-md-6 study no-padding">
+			      	<div class="rectangle hovereffect related" style="background: {{ work.['Hover Background'] }}">
 	                  <a href="{{ site.baseurl }}{{ work.url }}">
-	                    <img class="lazy" data-src="http://lorempixel.com/g/570/353/nightlife" alt="">
+	                    <img class="lazy" data-src="{{ work.['Featured Image'] }}" alt="">
 	                    <div class="overlay">
 	                    <h2>{{ work.title }}</h2>
 	                    <p>{{ work.['Hero Text'] }}</p>
