@@ -9,11 +9,9 @@ tags:
 - logo
 - small business
 Hero Text: Creating brand collateral for a photography company
-More Projects:
-- Name: Powercity Films
-  Description: Developing an identity for a storytelling film company
-  Background: 'linear-gradient(122deg, #FFEC3A, #FDD31B)'
-  Link: "/work/powercity-films"
+Featured Image: "/uploads/coleandoak-browser.jpg"
+Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Bootstrap Columns: 6
 ---
 
 ![Cole And Oak Browser](/uploads/coleandoak-browser.jpg)
