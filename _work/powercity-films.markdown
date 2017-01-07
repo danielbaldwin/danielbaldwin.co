@@ -12,7 +12,7 @@ Is Featured: true
 Featured Image: "/uploads/powercity-films-photo.jpg"
 Hover Background: 'linear-gradient(122deg, #FFEC3A, #FDD31B)'
 Bootstrap Columns: 8
-Featured Column Height: 430
+Column Height: 430
 ---
 
 ![Powercity Films Photo](/uploads/powercity-films-photo.jpg)
