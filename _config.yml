@@ -32,18 +32,6 @@ defaults:
   values:
     layout: case-study
     Hero Text: 
-    First Large Image: 
-    Second Large Image: 
-    Second Paragraph Text: 
-    Images:
-    - 
-    - 
-    Two-Images:
-    - 
-    - 
-    Third Paragraph Text: 
-    One Small Image: 
-    Fourth Paragraph Text: 
     Last Large Image: 
     More Projects:
     - Name: 

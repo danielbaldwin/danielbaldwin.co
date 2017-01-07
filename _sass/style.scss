@@ -415,7 +415,7 @@ header {
 .case-study {
   
   img {
-    width: 100%;
+    max-width: 100%;
   }
   
   .text {
@@ -428,7 +428,7 @@ header {
     font-stretch: normal;
     line-height: 1.73;
     color: #000000;
-    padding: 0px 20%;
+    padding: 20px 20%;
 
     @extend .Haas-Light;
   }
