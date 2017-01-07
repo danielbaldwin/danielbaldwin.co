@@ -12,6 +12,7 @@ Hero Text: Designing packaging for Northwest coffee roasters.
 Featured Image: "/uploads/urbantimber-coffee-packaging.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
 Bootstrap Columns: 6
+Column Height: 585
 ---
 
 ![urbantimber-labels.jpg](/uploads/urbantimber-labels.jpg)
