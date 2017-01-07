@@ -37,16 +37,16 @@ Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was faci
   the demo request page."
 Third Large Image: "/uploads/TINT-crazyegg-results.jpg"
 More Projects:
-- Name: TINT
-  Description: Creating a brand experience for a B2B startup
-  Background: 'linear-gradient(122deg, #FF564B, #FA6037)'
+- Name: Powercity Films
+  Description: Developing an identity for a storytelling film company
+  Background: 'linear-gradient(122deg, #FFEC3A, #FDD31B)'
   Image: 
-  Link: http://www.google.com
+  Link: "/work/powercity-films"
 - Name: Twelve23
   Description: Rebranding a web solutions company into a creative agency
-  Background: 'linear-gradient(56deg, #b3c4c4, #bdcdcd)'
+  Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
   Image: 
-  Link: http://www.google.com
+  Link: "/work/twelve23"
 Case Study: TINT
 layout: case-study
 ---
