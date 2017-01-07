@@ -8,7 +8,8 @@ tags:
 - packaging
 - small business
 Hero Text: Designing packaging for Northwest coffee roasters.
-First Large Image: "/uploads/urbantimber-labels.jpg"
-Second Large Image: "/uploads/urbantimber-coffee-packaging.jpg"
 ---
 
+![urbantimber-labels.jpg](/uploads/urbantimber-labels.jpg)
+
+![urbantimber-coffee-packaging.jpg](/uploads/urbantimber-coffee-packaging.jpg)
