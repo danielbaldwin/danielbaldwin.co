@@ -10,6 +10,9 @@ tags:
 - logo
 - agency
 Hero Text: Rebranding a web solutions company into a creative agency
+Featured Image: "/uploads/twelve23-work.jpg"
+Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Bootstrap Columns: 6
 ---
 
 ![Twelve23 Work](/uploads/twelve23-work.jpg)
