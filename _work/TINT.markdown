@@ -16,6 +16,8 @@ Featured Image: "/uploads/tint-comparison-b82b64.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
 Bootstrap Columns: 6
 Column Height: 585
+Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
+  See the case study here:"
 layout: case-study
 ---
 
