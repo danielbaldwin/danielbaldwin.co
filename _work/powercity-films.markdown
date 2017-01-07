@@ -28,7 +28,7 @@ My goal was to create a seamless and memorable brand experience as well as a pla
 
 ![powercityfilms-business-cards.jpg](/uploads/powercityfilms-business-cards.jpg)
 
-\*\*Creating the Website\*\*
+**Creating the Website**
 
 Powercity Films needed a place to showcase all of their work in a modern, professional manner. They didn’t want to lose the attention of potential clients, so I designed a single scrolling page to keep users in one place.
 
@@ -37,6 +37,6 @@ First impressions are everything, so I designed their website as a single scroll
 ![powercityfilms-website-screenshot.jpg](/uploads/powercityfilms-website-screenshot.jpg)
 
 **The Results**
- 
+
 “We can now confidently collaborate with agencies and brands with consistent image creating a stronger following and fanbase.”
   — Mckinzy Powers, Executive Producer at [Powercity Films](http://www.powercityfilms.com).
