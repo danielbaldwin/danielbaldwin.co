@@ -50,7 +50,7 @@ Case Study: TINT
 layout: case-study
 ---
 
-![TINT Brand Essence](/uploads/TINT-brand-essence.jpg)
+<div> ![TINT Brand Essence](/uploads/TINT-brand-essence.jpg) </div>
 
 **Brief**
 
