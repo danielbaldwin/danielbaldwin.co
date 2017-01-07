@@ -8,6 +8,7 @@ tags:
 - website
 - logo
 - small business
+position: 3
 Hero Text: Creating brand collateral for a photography company
 Featured Image: "/uploads/coleandoak-browser.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'

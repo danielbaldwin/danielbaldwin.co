@@ -9,6 +9,7 @@ tags:
 - iconography
 - logo
 - agency
+position: 4
 Hero Text: Rebranding a web solutions company into a creative agency
 Featured Image: "/uploads/twelve23-work.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'

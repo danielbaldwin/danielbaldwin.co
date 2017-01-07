@@ -9,6 +9,7 @@ tags:
 - iconography
 - b2b
 - startup
+position: 6
 Hero Text: Creating a brand experience for a B2B startup
 Is Featured: true
 Featured Image: "/uploads/tint-comparison-b82b64.jpg"
