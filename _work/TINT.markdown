@@ -10,31 +10,6 @@ tags:
 - b2b
 - startup
 Hero Text: Creating a brand experience for a B2B startup
-First Large Image: "/uploads/TINT-brand-essence.jpg"
-Second Large Image: "/uploads/TINT-brand-book.jpg"
-Second Paragraph Text: |+
-  **Building the Brand**
-
-  A brand is only as successful as the people carrying it’s name forward. As TINT’s team expanded across multiple regions, it was important to create unity with the brand.
-
-
-  ![TINT-locations.gif](/uploads/TINT-locations.gif)
-
-
-Two-Images:
-- "/uploads/TINT-previous-homepage-157ed5.jpg"
-- "/uploads/TINT-redesigned-homepage.jpg"
-Third Paragraph Text: "**Increasing Conversions**\n\nOne challenge TINT was facing
-  was numbers. With over 60,000 users visiting TINT’s website each month, only 2.5%
-  were clicking the Free Trial CTA. An even smaller group of users were clicking Request
-  a Demo — 0.5%. \n\nMy challenge was to create a new homepage that aligned TINT’s
-  positioning with its newfound brand identity. I focused on creating a homepage that
-  would direct users to TINT’s educational resources (blog, case studies, etc.) before
-  trying to convert them.\n\n\n![TINT-sitemap.jpg](/uploads/TINT-sitemap.jpg)\n\n\nBy
-  rethinking and redesigning TINT’s homepage, TINT experienced a 148% increase in
-  click-throughs to the trial sign up page and a 540% increase in click-throughs to
-  the demo request page."
-Third Large Image: "/uploads/TINT-crazyegg-results.jpg"
 More Projects:
 - Name: Powercity Films
   Description: Developing an identity for a storytelling film company
@@ -46,7 +21,6 @@ More Projects:
   Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
   Image: 
   Link: "/work/twelve23"
-Case Study: TINT
 layout: case-study
 ---
 
@@ -72,9 +46,9 @@ One challenge TINT was facing was numbers. With over 60,000 users visiting TINT�
 
 My challenge was to create a new homepage that aligned TINT’s positioning with its newfound brand identity. I focused on creating a homepage that would direct users to TINT’s educational resources (blog, case studies, etc.) before trying to convert them.
 
-![tint-comparison.jpg](/uploads/tint-comparison.jpg)
+![TINT Comparison](/uploads/tint-comparison-b82b64.jpg)
 
-![TINT-sitemap.jpg](/uploads/TINT-sitemap.jpg)
+![TINT Sitemap](/uploads/TINT-sitemap.jpg)
 
 
 By rethinking and redesigning TINT’s homepage, TINT experienced a 148% increase in click-throughs to the trial sign up page and a 540% increase in click-throughs to the demo request page.
