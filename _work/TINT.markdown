@@ -15,7 +15,7 @@ Is Featured: true
 Featured Image: "/uploads/tint-comparison-b82b64.jpg"
 Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
 Bootstrap Columns: 6
-Featured Column Height: 585
+Column Height: 585
 layout: case-study
 ---
 
