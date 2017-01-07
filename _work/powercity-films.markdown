@@ -10,6 +10,11 @@ Second Paragraph Text: "![powercityfilms-logo-concepts.jpg](/uploads/powercityfi
   impressions are everything, so I designed their website as a single scrolling page,
   presenting who they are, what they do, and how to contact them all in one consistent
   user experience.\n\n![powercityfilms-website-screenshot.jpg](/uploads/powercityfilms-website-screenshot.jpg)"
+Third Paragraph Text: |
+  **The Results**
+ 
+  “We can now confidently collaborate with agencies and brands with consistent image creating a stronger following and fanbase.”
+    — Mckinzy Powers, Executive Producer at [Powercity Films](http://www.powercityfilms.com).
 ---
 
 **Brief**
