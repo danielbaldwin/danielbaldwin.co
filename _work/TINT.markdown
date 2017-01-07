@@ -10,17 +10,7 @@ tags:
 - b2b
 - startup
 Hero Text: Creating a brand experience for a B2B startup
-More Projects:
-- Name: Powercity Films
-  Description: Developing an identity for a storytelling film company
-  Background: 'linear-gradient(122deg, #FFEC3A, #FDD31B)'
-  Image: 
-  Link: "/work/powercity-films"
-- Name: Twelve23
-  Description: Rebranding a web solutions company into a creative agency
-  Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
-  Image: 
-  Link: "/work/twelve23"
+Is Featured: true
 layout: case-study
 ---
 
