@@ -8,7 +8,7 @@ tags:
 - logo
 - small business
 Hero Text: Creating a new look for a woodworking company
-First Large Image: "/uploads/cornerstone-cabinetry-logo.jpg"
 ---
 
-![cornerstone-cabinetry-van.jpg](/uploads/cornerstone-cabinetry-van.jpg)
+![Cornerstone Cabinetry Logo](/uploads/cornerstone-cabinetry-logo.jpg)
+![Cornerstone Cabinetry Van](/uploads/cornerstone-cabinetry-van.jpg)
