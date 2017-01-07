@@ -10,10 +10,9 @@ tags:
 - logo
 - agency
 Hero Text: Rebranding a web solutions company into a creative agency
-First Large Image: "/uploads/twelve23-work.jpg"
-Second Large Image: "/uploads/twelve23-website.jpg"
-Second Paragraph Text: "![twelve23-homepage.jpg](/uploads/twelve23-homepage.jpg)"
 ---
+
+![Twelve23 Work](/uploads/twelve23-work.jpg)
 
 **Brief**
 
@@ -25,3 +24,6 @@ Twelve23 is an agency based out of Seattle dedicated to providing overflow suppo
 
 ![twelve23-process.jpg](/uploads/twelve23-process.jpg)
 
+![twelve23-website.jpg](/uploads/twelve23-website.jpg)
+
+![twelve23-homepage.jpg](/uploads/twelve23-homepage.jpg)
