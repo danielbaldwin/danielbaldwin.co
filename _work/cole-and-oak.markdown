@@ -11,8 +11,8 @@ tags:
 position: 1
 Hero Text: Creating brand collateral for a photography company
 Is Featured: true
-Featured Image: "/uploads/coleandoak-browser.jpg"
-Hover Background: 'linear-gradient(122deg, #198262, #0B4B33)'
+Featured Image: "/uploads/coleandoak-featured.jpg"
+Hover Background: 'linear-gradient(224deg, #21453F, #044932)'
 Bootstrap Columns: 4
 Column Height: 430
 ---
