@@ -9,7 +9,9 @@ layout: post
 
 **Update (1/08/2016):**
 Since I wrote this post, a lot has happened in my design career. I’ve taken over both the marketing and product design at [TINT](http://www.tintup.com). I have taken on more freelance projects than ever before. I have finally automated my freelance process (blog post to come!), and I have found my niche in the world of design, branding and web design.
+
 I’ve updated my list to feature 4 new tools that I use in my current design workflow that help expedite each step of my design process. If you have any suggestions on tools that I should be using, shoot me a tweet at [@danielbaldwinco](https://twitter.com/danielbaldwinco)!
+
 For those of us working on small design teams, we know what it’s like to have projects with fast turnaround times. [Optimizing your workflow is imperative to becoming a successful designer.](http://ctt.ec/0H0Qm) <i class="fa fa-twitter" aria-hidden="true"></i> Luckily, there are hundreds of tools available that will help you do just that. The following apps have helped me structure my daily routine, improve the quality of my work, and increase my productivity:
 
 **[RescueTime](http://www.rescuetime.com)**:  I’ve only been using this tool for a couple of weeks now, but it has already grown to become my favorite tool on this list. RescueTime tracks all of your computer activity (and Android activity if you’re one of those guys) and gives you accurate insights into your levels of productivity. It reminds me a lot of [Mint](https://www.mint.com/)’s spending insights. Since using this tool, I’ve subconsciously been avoiding distracting websites as I want to keep my score high (heh).
