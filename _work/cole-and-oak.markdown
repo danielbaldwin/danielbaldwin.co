@@ -8,7 +8,7 @@ tags:
 - website
 - logo
 - small business
-position: 2
+position: 3
 Hero Text: Creating brand collateral for a photography company
 Is Featured: true
 Featured Image: "/uploads/coleandoak-featured-87554c.jpg"
