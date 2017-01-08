@@ -6,7 +6,7 @@ categories:
 tags:
 - website
 - logo
-position: 0
+position: 1
 Hero Text: Developing an identity for a storytelling film company
 Is Featured: true
 Featured Image: "/uploads/powercityfilms-related.jpg"
