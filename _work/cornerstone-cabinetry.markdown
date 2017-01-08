@@ -10,7 +10,7 @@ tags:
 position: 4
 Hero Text: Creating a new look for a woodworking company
 Featured Image: "/uploads/cornerstone-cabinetry-van.jpg"
-Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Hover Background: 'linear-gradient(122deg, #174872, #0A233E)'
 Bootstrap Columns: 6
 Column Height: 585
 ---
