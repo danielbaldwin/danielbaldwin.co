@@ -13,6 +13,8 @@ Featured Image: "/uploads/zestkitchenshop-mockup.jpg"
 Hover Background: 'linear-gradient(122deg, #FFDD86, #FFB84E)'
 Bootstrap Columns: 6
 Column Height: 585
+Twitter Text: "@danielbaldwinco crafted an online experience for a small town brick
+  and mortar shop. See the case study here:"
 ---
 
 ![zestkitchenshop-mockup.jpg](/uploads/zestkitchenshop-mockup.jpg)
