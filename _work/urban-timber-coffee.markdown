@@ -13,6 +13,8 @@ Featured Image: "/uploads/urbantimber-coffee-packaging.jpg"
 Hover Background: 'linear-gradient(122deg, #9CC90E, #629806)'
 Bootstrap Columns: 6
 Column Height: 585
+Twitter Text: "@danielbaldwinco designed packaging for Northwest coffee roasters.
+  See the case study here:"
 ---
 
 ![urbantimber-labels.jpg](/uploads/urbantimber-labels.jpg)
