@@ -10,7 +10,7 @@ tags:
 position: 6
 Hero Text: Designing packaging for Northwest coffee roasters.
 Featured Image: "/uploads/urbantimber-coffee-packaging.jpg"
-Hover Background: 'linear-gradient(122deg, #B3C4C4, #BDCDCD)'
+Hover Background: 'linear-gradient(122deg, #9CC90E, #629806)'
 Bootstrap Columns: 6
 Column Height: 585
 ---
