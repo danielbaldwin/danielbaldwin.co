@@ -13,6 +13,8 @@ Featured Image: "/uploads/powercityfilms-related.jpg"
 Hover Background: 'linear-gradient(242deg, #7BAFAD, #9F9B97)'
 Bootstrap Columns: 8
 Column Height: 430
+Twitter Text: "@danielbaldwinco developed an identity for a storytelling film company,
+  @PowercityFilms. See the case study here:"
 ---
 
 ![Powercity Films Photo](/uploads/powercity-films-photo.jpg)
