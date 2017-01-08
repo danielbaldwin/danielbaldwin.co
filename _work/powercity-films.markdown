@@ -21,6 +21,7 @@ Column Height: 430
 
 Powercity Films is a full-service video production company specialize in producing authentic, real stories in a cinematic style. Husband and wife duo, Janssen and Mckinzy Powers, work with a great deal of corporate companies and non-profits such as Uber, Amazon, United Nations, and Unicef.
 
+
 **The Task**
 
 Powercity Films’ hired me to create a brand image that would allow them to pitch their company to enterprise clients and agencies. 
