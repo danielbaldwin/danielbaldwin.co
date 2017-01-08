@@ -9,7 +9,7 @@ tags:
 - iconography
 - logo
 - agency
-position: 2
+position: 1
 Hero Text: Rebranding a web solutions company into a creative agency
 Is Featured: true
 Featured Image: "/uploads/twelve23-featured.jpg"
