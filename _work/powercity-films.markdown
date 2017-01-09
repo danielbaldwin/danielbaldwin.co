@@ -9,7 +9,7 @@ tags:
 position: 2
 Hero Text: Developing an identity for a storytelling film company
 Is Featured: true
-Featured Image: "/uploads/powercityfilms-related.jpg"
+Featured Image: "/uploads/Screen%20Shot%202017-01-08%20at%208.20.46%20PM.png"
 Hover Background: 'linear-gradient(242deg, #7BAFAD, #9F9B97)'
 Bootstrap Columns: 8
 Column Height: 430
