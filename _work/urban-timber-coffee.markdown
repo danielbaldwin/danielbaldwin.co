@@ -9,7 +9,7 @@ tags:
 - small business
 position: 6
 Hero Text: Designing packaging for Northwest coffee roasters.
-Featured Image: "/uploads/urbantimber-coffee-packaging.jpg"
+Featured Image: "/uploads/urban-timber-featured.jpg"
 Hover Background: 'linear-gradient(122deg, #9CC90E, #629806)'
 Bootstrap Columns: 6
 Column Height: 585
