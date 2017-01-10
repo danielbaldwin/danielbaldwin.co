@@ -1,18 +1,3 @@
-.rectangle.one.hovereffect {
-  background: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e);
-}
-.rectangle.two.hovereffect {
-  background: linear-gradient(224deg, #044932, #055c3f);
-}
-.rectangle.three.hovereffect {
-  background: linear-gradient(135deg, #1d3853, #264563);
-}
-.rectangle.four.hovereffect {
-  background: linear-gradient(43deg, #b3c4c4, #bdcdcd);
-}
-.rectangle.last.hovereffect {
-  background: rgba(186,186,186,0.24);
-}
 .rectangle {
   margin-bottom: 30px;
   color: #fff;
@@ -49,32 +34,7 @@
     padding-bottom: 3px;
     text-decoration: none;
 
-    @extend .Haas-Bold;
-  }
-  &.one, &.two {
-    height: 400px;
-  }
-  &.three, &.four {
-    height: 570px;
-    @media screen and (max-width: 992px) {
-      height: 400px;
-    }
-  }
-  &.last {
-    margin-bottom: 300px;
-    p {
-      color: #656873 !important;
-    }
-    a {
-      color: #bababa !important;
-      border-bottom: solid 2px #bababa !important;
-    }
-    h2 {
-      color: #fff;
-    }
-    &.hovereffect:hover h2 {
-      color: #656873;
-    }
+    @extend .Haas-Regular;
   }
 }
 .related {
@@ -102,8 +62,7 @@
   img {
     display: block;
     position: relative;
-    max-width: none;
-    width: auto;
+    width: 100%;
     transition: opacity 0.5s ease-in;
     @media screen and (max-width: 992px) {
       display: none;

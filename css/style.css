@@ -116,33 +116,14 @@
   padding-right: 0px !important; }
 
 .Haas-Light, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .excerpt, .post-header h2, .post-content p, .share-widget {
-  font-family: 'Neue Haas Unica W01 Light'; }
+  font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .rectangle a, .rectangle a:hover, .rectangle a:focus, .behind-brand h2 {
-  font-family: 'Neue Haas Unica W01 Heavy'; }
+.Haas-Bold, .behind-brand h2 {
+  font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
-.Haas-Regular, .rectangle h2, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .date, .read-article a, .read-article a:hover, .read-article a:focus, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
-  font-family: 'Neue Haas Unica W01 Regular';
+.Haas-Regular, .rectangle h2, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .date, .read-article a, .read-article a:hover, .read-article a:focus, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
+  font-family: 'Neuzeit S LT W01 Book';
   font-weight: normal; }
-
-.rectangle.one.hovereffect {
-  background: -webkit-linear-gradient(204deg, rgba(255, 214, 50, 0.98), #ffd21e);
-  background: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e); }
-
-.rectangle.two.hovereffect {
-  background: -webkit-linear-gradient(226deg, #044932, #055c3f);
-  background: linear-gradient(224deg, #044932, #055c3f); }
-
-.rectangle.three.hovereffect {
-  background: -webkit-linear-gradient(315deg, #1d3853, #264563);
-  background: linear-gradient(135deg, #1d3853, #264563); }
-
-.rectangle.four.hovereffect {
-  background: -webkit-linear-gradient(47deg, #b3c4c4, #bdcdcd);
-  background: linear-gradient(43deg, #b3c4c4, #bdcdcd); }
-
-.rectangle.last.hovereffect {
-  background: rgba(186, 186, 186, 0.24); }
 
 .rectangle {
   margin-bottom: 30px;
@@ -173,24 +154,6 @@
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
     text-decoration: none; }
-  .rectangle.one, .rectangle.two {
-    height: 400px; }
-  .rectangle.three, .rectangle.four {
-    height: 570px; }
-    @media screen and (max-width: 992px) {
-      .rectangle.three, .rectangle.four {
-        height: 400px; } }
-  .rectangle.last {
-    margin-bottom: 300px; }
-    .rectangle.last p {
-      color: #656873 !important; }
-    .rectangle.last a {
-      color: #bababa !important;
-      border-bottom: solid 2px #bababa !important; }
-    .rectangle.last h2 {
-      color: #fff; }
-    .rectangle.last.hovereffect:hover h2 {
-      color: #656873; }
 
 .related {
   height: 350px !important; }
@@ -216,8 +179,7 @@
   .hovereffect img {
     display: block;
     position: relative;
-    max-width: none;
-    width: auto;
+    width: 100%;
     -webkit-transition: opacity 0.5s ease-in;
     transition: opacity 0.5s ease-in; }
     @media screen and (max-width: 992px) {
@@ -282,8 +244,8 @@ body {
   margin: 0 auto;
   font-size: 16px !important;
   font-family: 'Neue Haas Unica W01 Regular' !important;
-  -webkit-animation: BodyFadeInAnimation 2s;
-          animation: BodyFadeInAnimation 2s; }
+  -webkit-animation: BodyFadeInAnimation 3s;
+          animation: BodyFadeInAnimation 3s; }
 
 b, strong {
   font-family: 'Neue Haas Unica W01 Heavy'; }
@@ -531,8 +493,8 @@ header {
       color: #edac01;
       text-decoration: none; }
     .more-projects a img {
-      padding-left: 17px;
-      margin-top: -5px; }
+      padding-left: 3px;
+      margin-top: -3px; }
   @media screen and (max-width: 768px) {
     .more-projects {
       font-size: 22px;
@@ -819,10 +781,6 @@ header {
 
 .date {
   margin: 28px 0; }
-
-.img-responsive {
-  height: 353px;
-  background-color: #000; }
 
 .excerpt {
   margin-bottom: 52px;

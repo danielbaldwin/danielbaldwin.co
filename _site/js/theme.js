@@ -33,7 +33,8 @@ var Reveal = {
     easing   : 'ease-in-out',
     opacity  : 0,
     reset    : false,
-    scale    : 1
+    scale    : 1,
+    viewFactor: 0.1
 };
 
   window.sr = ScrollReveal({ reset: true });
@@ -49,7 +50,7 @@ $(document).ready(function() {
     $("a").not(".share-link").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("body").fadeOut(1000, redirectPage);      
+        $("body").fadeOut(3000, redirectPage);      
     });
          
     function redirectPage() {
@@ -69,4 +70,4 @@ $(document).ready(function() {
     $(".contact-header").toggleClass("white")
     });
 
-})();
+});

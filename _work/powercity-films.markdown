@@ -11,7 +11,7 @@ Hero Text: Developing an identity for a storytelling film company
 Is Featured: true
 Featured Image: "/uploads/Screen%20Shot%202017-01-08%20at%208.20.46%20PM.png"
 Hover Background: 'linear-gradient(-180deg, #7DC4DA, #CFCBC5)'
-Bootstrap Columns: 8
+Bootstrap Columns: 7
 Column Height: 430
 Twitter Text: "@danielbaldwinco developed an identity for a storytelling film company,
   @PowercityFilms. See the case study here:"

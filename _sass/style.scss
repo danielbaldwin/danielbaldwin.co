@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   font-size: 16px !important;
   font-family:'Neue Haas Unica W01 Regular' !important;
-  animation: BodyFadeInAnimation 2s;
+  animation: BodyFadeInAnimation 3s;
 }
 b, strong {
   font-family:'Neue Haas Unica W01 Heavy';
@@ -310,8 +310,8 @@ header {
     }
 
     img {
-      padding-left: 17px;
-      margin-top: -5px;
+      padding-left: 3px;
+      margin-top: -3px;
     }
 	}
   @media screen and (max-width: 768px) {
@@ -722,10 +722,6 @@ header {
 }
 .date {
 	margin: 28px 0;
-}
-.img-responsive {
-	height: 353px;
-	background-color: #000;
 }
 .excerpt {
 	margin-bottom: 52px;
