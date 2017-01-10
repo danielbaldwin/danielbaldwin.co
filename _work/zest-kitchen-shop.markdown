@@ -9,7 +9,7 @@ tags:
 - small business
 position: 5
 Hero Text: Crafting an online experience for a small town brick and mortar shop
-Featured Image: "/uploads/zestkitchenshop-mockup.jpg"
+Featured Image: "/uploads/zest-featured.jpg"
 Hover Background: 'linear-gradient(122deg, #FFDD86, #FFB84E)'
 Bootstrap Columns: 6
 Column Height: 585
