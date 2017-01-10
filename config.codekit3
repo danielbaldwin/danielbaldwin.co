@@ -175,6 +175,36 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_site\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about\/index.html",
+		"oF": 0
+		},
+	"\/_site\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 3176,
+		"oA": 0,
+		"oAP": "\/_site\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 9195,
+		"oA": 0,
+		"oAP": "\/_site\/android-chrome-512x512.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3110,
+		"oA": 0,
+		"oAP": "\/_site\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/blog\/10-of-the-best-productivity-tools\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -185,6 +215,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/blog\/index.html",
+		"oF": 0
+		},
+	"\/_site\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/_site\/contact\/index.html": {
@@ -202,6 +238,28 @@
 		"oAP": "\/_site\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/_site\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/_site\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1118,
+		"oA": 0,
+		"oAP": "\/_site\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/favicon.ico",
+		"oF": 0
 		},
 	"\/_site\/Gemfile": {
 		"ft": 8192,
@@ -352,6 +410,64 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/_site\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_site\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_site\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 3736,
+		"oA": 0,
+		"oAP": "\/_site\/mstile-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4054,
+		"oA": 0,
+		"oAP": "\/_site\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 4365,
+		"oA": 0,
+		"oAP": "\/_site\/mstile-310x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 8652,
+		"oA": 0,
+		"oAP": "\/_site\/mstile-310x310.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 2543,
+		"oA": 0,
+		"oAP": "\/_site\/mstile-70x70.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/uploads\/05-01-2016-blog-hero.jpeg": {
 		"ft": 16384,
@@ -606,6 +722,14 @@
 		"iS": 57663,
 		"oA": 0,
 		"oAP": "\/_site\/uploads\/powercity-films-photo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/powercity-films.jpg": {
+		"ft": 16384,
+		"iS": 182243,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/powercity-films.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1577,10 +1701,40 @@
 		"oAP": "\/about.markdown",
 		"oF": 0
 		},
+	"\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 3176,
+		"oA": 0,
+		"oAP": "\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 9195,
+		"oA": 0,
+		"oAP": "\/android-chrome-512x512.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3110,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/blog.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/blog.markdown",
+		"oF": 0
+		},
+	"\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/contact.markdown": {
@@ -1598,6 +1752,28 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 715,
+		"oA": 0,
+		"oAP": "\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1118,
+		"oA": 0,
+		"oAP": "\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
 		},
 	"\/Gemfile": {
 		"ft": 8192,
@@ -1748,6 +1924,64 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 3736,
+		"oA": 0,
+		"oAP": "\/mstile-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4054,
+		"oA": 0,
+		"oAP": "\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 4365,
+		"oA": 0,
+		"oAP": "\/mstile-310x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 8652,
+		"oA": 0,
+		"oAP": "\/mstile-310x310.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 2543,
+		"oA": 0,
+		"oAP": "\/mstile-70x70.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/work.markdown": {
 		"ft": 8192,
