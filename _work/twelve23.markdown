@@ -12,7 +12,7 @@ tags:
 position: 1
 Hero Text: Rebranding a web solutions company into a creative agency
 Is Featured: true
-Featured Image: "/uploads/twelve23-featured-2101e3.jpg"
+Featured Image: "/uploads/twelve23-featured-4b4621.jpg"
 Hover Background: 'linear-gradient(122deg, #3b4d5f, #35424f)'
 Bootstrap Columns: 6
 Column Height: 585
