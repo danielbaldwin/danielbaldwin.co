@@ -244,8 +244,8 @@ body {
   margin: 0 auto;
   font-size: 16px !important;
   font-family: 'Neue Haas Unica W01 Regular' !important;
-  -webkit-animation: BodyFadeInAnimation 3s;
-          animation: BodyFadeInAnimation 3s; }
+  -webkit-animation: BodyFadeInAnimation 1s;
+          animation: BodyFadeInAnimation 1s; }
 
 b, strong {
   font-family: 'Neue Haas Unica W01 Heavy'; }
