@@ -1,5 +1,5 @@
 ---
-title: Urban Timber Coffee
+title: Odds & Ends
 date: 2017-01-07 07:57:00 Z
 categories:
 - agency
@@ -13,9 +13,9 @@ tags:
 position: 6
 Hero Text: A collection of my work from throughout the years
 Featured Image: "/uploads/urban-timber-featured.jpg"
-Hover Background: 'linear-gradient(122deg, #9CC90E, #629806)'
+Hover Background: 'linear-gradient(122deg, #f8d602, #edac01)'
 Bootstrap Columns: 12
-Column Height: 585
+Column Height: 460
 Twitter Text: Check out a collection of work designed by @danielbaldwinco on
 ---
 
