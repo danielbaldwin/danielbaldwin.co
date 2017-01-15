@@ -62,4 +62,4 @@ For those of us working on small design teams, we know what it’s like to have 
 
 ![05-01-2016-dropbox-paper-screenshot.png](/uploads/05-01-2016-dropbox-paper-screenshot.png)
 
-*If you have any questions, ideas on how I can further improve my workflow or feedback, shoot me a tweet [@danielbaldwinco](http://twitter.com/danielbaldwinco) or email me at [danielbaldwinco@gmail.com](mailto:danielbaldwinco@gmail.com).*
+*If you have any questions, ideas on how I can further improve my workflow or feedback, shoot me a tweet [@danielbaldwinco](http://twitter.com/danielbaldwinco) or email me at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).*
