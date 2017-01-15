@@ -33,7 +33,7 @@ In May 2016, TINT repositioned from being a social media display tool to an all-
 
 My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
 
-I crafted a [76-page brand book](http://danielbaldwin.co/files/TINT-brand-book.pdf) for TINT that serves as a communication & identity style guide.
+I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
 
 ![TINT Brand Book](/uploads/TINT-brand-book.jpg)
 
