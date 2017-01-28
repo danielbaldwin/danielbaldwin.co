@@ -7,7 +7,7 @@
 		"uuidString": "05F7CFBE-C5F6-4E6B-96AE-8EE1608F9B66"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -21,10 +21,22 @@
 		"oAP": "\/.project",
 		"oF": 0
 		},
+	"\/_case-study\/meowcity-films.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_case-study\/meowcity-films.markdown",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
+		"oF": 0
+		},
+	"\/_includes\/case-studies.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/case-studies.html",
 		"oF": 0
 		},
 	"\/_includes\/footer.html": {
@@ -39,18 +51,6 @@
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
-	"\/_includes\/header.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/header.html",
-		"oF": 0
-		},
-	"\/_includes\/home.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/home.html",
-		"oF": 0
-		},
 	"\/_includes\/js.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -61,12 +61,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/navigation.html",
-		"oF": 0
-		},
-	"\/_includes\/partials.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/partials.html",
 		"oF": 0
 		},
 	"\/_includes\/share.html": {
@@ -81,10 +75,46 @@
 		"oAP": "\/_includes\/start.html",
 		"oF": 0
 		},
+	"\/_layouts\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/about.html",
+		"oF": 0
+		},
+	"\/_layouts\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/blog.html",
+		"oF": 0
+		},
+	"\/_layouts\/case-study.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/case-study.html",
+		"oF": 0
+		},
+	"\/_layouts\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/contact.html",
+		"oF": 0
+		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
+		"oF": 0
+		},
+	"\/_layouts\/featured-work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/featured-work.html",
+		"oF": 0
+		},
+	"\/_layouts\/main.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/main.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
@@ -170,6 +200,12 @@
 		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
+	"\/_site\/case-study\/meowcity-films\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/case-study\/meowcity-films\/index.html",
+		"oF": 0
+		},
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -186,10 +222,10 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/_site\/featured_work\/index.html": {
+	"\/_site\/featured\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/featured_work\/index.html",
+		"oAP": "\/_site\/featured\/index.html",
 		"oF": 0
 		},
 	"\/_site\/Gemfile": {
@@ -276,22 +312,166 @@
 		"oAP": "\/_site\/posts\/Workflow\/index.html",
 		"oF": 0
 		},
-	"\/about\/index.html": {
+	"\/_site\/uploads\/abstract-q-c-570-570-7.jpg": {
+		"ft": 16384,
+		"iS": 41791,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/abstract-q-c-570-570-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/cats-q-c-1200-788-4.jpg": {
+		"ft": 16384,
+		"iS": 70851,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cats-q-c-1200-788-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/cats-q-c-1200-788-6.jpg": {
+		"ft": 16384,
+		"iS": 88741,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cats-q-c-1200-788-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/cats-q-c-1200-788-8.jpg": {
+		"ft": 16384,
+		"iS": 74407,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cats-q-c-1200-788-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/cats-q-c-570-353-10.jpg": {
+		"ft": 16384,
+		"iS": 22665,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cats-q-c-570-353-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/cats-q-c-570-353-3.jpg": {
+		"ft": 16384,
+		"iS": 30204,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cats-q-c-570-353-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/cats-q-c-788-412-5.jpg": {
+		"ft": 16384,
+		"iS": 17352,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/cats-q-c-788-412-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/people-q-c-570-570-5.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/people-q-c-570-570-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/uploads\/sports-q-c-570-350-8.jpg": {
+		"ft": 16384,
+		"iS": 14093,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/sports-q-c-570-350-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/abstract-q-c-570-570-7.jpg": {
+		"ft": 16384,
+		"iS": 41791,
+		"oA": 0,
+		"oAP": "\/_uploads\/abstract-q-c-570-570-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/cats-q-c-1200-788-4.jpg": {
+		"ft": 16384,
+		"iS": 70851,
+		"oA": 0,
+		"oAP": "\/_uploads\/cats-q-c-1200-788-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/cats-q-c-1200-788-6.jpg": {
+		"ft": 16384,
+		"iS": 88741,
+		"oA": 0,
+		"oAP": "\/_uploads\/cats-q-c-1200-788-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/cats-q-c-1200-788-8.jpg": {
+		"ft": 16384,
+		"iS": 74407,
+		"oA": 0,
+		"oAP": "\/_uploads\/cats-q-c-1200-788-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/cats-q-c-570-353-10.jpg": {
+		"ft": 16384,
+		"iS": 22665,
+		"oA": 0,
+		"oAP": "\/_uploads\/cats-q-c-570-353-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/cats-q-c-570-353-3.jpg": {
+		"ft": 16384,
+		"iS": 30204,
+		"oA": 0,
+		"oAP": "\/_uploads\/cats-q-c-570-353-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/cats-q-c-788-412-5.jpg": {
+		"ft": 16384,
+		"iS": 17352,
+		"oA": 0,
+		"oAP": "\/_uploads\/cats-q-c-788-412-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/people-q-c-570-570-5.jpg": {
+		"ft": 16384,
+		"iS": 47992,
+		"oA": 0,
+		"oAP": "\/_uploads\/people-q-c-570-570-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/sports-q-c-570-350-8.jpg": {
+		"ft": 16384,
+		"iS": 14093,
+		"oA": 0,
+		"oAP": "\/_uploads\/sports-q-c-570-350-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/about.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/about\/index.html",
+		"oAP": "\/about.markdown",
 		"oF": 0
 		},
-	"\/blog\/index.html": {
+	"\/blog.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/blog\/index.html",
+		"oAP": "\/blog.markdown",
 		"oF": 0
 		},
-	"\/contact\/index.html": {
+	"\/contact.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/contact\/index.html",
+		"oAP": "\/contact.markdown",
 		"oF": 0
 		},
 	"\/css\/style.css": {
@@ -304,10 +484,10 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/featured_work\/index.html": {
+	"\/featured.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/featured_work\/index.html",
+		"oAP": "\/featured.markdown",
 		"oF": 0
 		},
 	"\/Gemfile": {
@@ -320,6 +500,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/home.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/home.markdown",
 		"oF": 0
 		},
 	"\/img\/about-hero.jpg": {
@@ -357,12 +543,6 @@
 		"oAP": "\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
 		},
 	"\/js\/theme-min.js": {
 		"ft": 64,
@@ -835,6 +1015,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -999,6 +1183,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1028,6 +1216,10 @@
 			"optionString": ""
 			},
 		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1363,6 +1555,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1567,6 +1763,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1594,6 +1794,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2427,6 +2631,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
