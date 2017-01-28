@@ -13,6 +13,7 @@ layout: case-study
 ---
 
 **Background**
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
 Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
 			

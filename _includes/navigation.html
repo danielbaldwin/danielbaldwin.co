@@ -1,6 +1,11 @@
 <header>
 <nav class="navbar navbar-default">
-    <div class="container">
+	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
+        <div class="container blog">	
+	{% else %}
+	    <div class="container home">
+	{% endif %}
+    
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -9,7 +14,7 @@
             <span class="icon-bar"></span>
           </button>
 	       <a class="navbar-brand navbar-right hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
-	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
+	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
 	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
 	            {% else %}
 	                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
@@ -17,23 +22,24 @@
 	        </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
-        <ul class="nav navbar-nav blog">	
-	{% else %}
-	<ul class="nav navbar-nav home">
-	{% endif %}
-            <li><a href="/featured/" {% if page.url == "/featured/" %}class="active"{% endif %}>Featured Work</a></li>
-            <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-            <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
-            <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
-        </ul>
-        <a class="navbar-brand navbar-right hidden-xs" href="{{ site.baseurl }}/">
-            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' %}
-                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
-            {% else %}
-                <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-            {% endif %}
-        </a>
+    	    <ul class="nav navbar-nav">
+                <li><a href="/featured/" {% if page.url == "/featured/" %}class="active"{% endif %}>Featured Work</a></li>
+                <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+                <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+            </ul>
+            <a class="navbar-brand navbar-right hidden-xs" href="{{ site.baseurl }}/">
+                {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
+                    <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
+                {% else %}
+                    <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
+                {% endif %}
+            </a>
+            <div class="hidden-md hidden-lg hidden-sm col-xs-12" style="margin: 63px auto; text-align: center;">
+                <a class="social" href="" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="social" href="" rel="nofollow" target="_blank" title="Share on Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a class="social" href="" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
 </nav>

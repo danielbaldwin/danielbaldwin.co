@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "05F7CFBE-C5F6-4E6B-96AE-8EE1608F9B66"
+		"uuidString": "39C691BF-2829-40E2-BE23-0455D527D643"
 		}
 	],
 "creatorBuild": "25504",
@@ -176,15 +176,15 @@
 		"oS": 0
 		},
 	"\/_sass\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/_sass\/style.css",
-		"oF": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -201,6 +201,15 @@
 		"oF": 0
 		},
 	"\/_site\/case-study\/meowcity-films\/index.html": {
+<<<<<<< HEAD
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/case-study\/meowcity-films\/index.html",
+		"oF": 0
+		},
+	"\/_site\/contact\/index.html": {
+=======
+>>>>>>> master
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/case-study\/meowcity-films\/index.html",
@@ -211,16 +220,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
-		},
-	"\/_site\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/_site\/featured\/index.html": {
 		"ft": 8192,
@@ -568,10 +567,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 501791025,
+	"creationDate": 502617415,
 	"displayValue": "Daniel-Baldwin-Co",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_brown"
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-punDog"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
