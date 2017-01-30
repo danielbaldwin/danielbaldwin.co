@@ -50,7 +50,7 @@ $(document).ready(function() {
     $("a").not(".share-link").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("body").fadeOut(3000, redirectPage);      
+        $("body").fadeOut(1000, redirectPage);      
     });
          
     function redirectPage() {

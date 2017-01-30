@@ -58,12 +58,12 @@
 
 			    {% if sameTagCount >= minCommonTags %}
 			      <div class="col-md-6 study">
-			      	<div class="rectangle hovereffect related" style="background: {{ work.['Hover Background'] }}">
+			      	<div class="rectangle hovereffect related" style="background: {{ work['Hover Background'] }}">
 	                  <a href="{{ site.baseurl }}{{ work.url }}">
-	                    <img class="lazy" data-src="{{ work.['Featured Image'] }}" alt="">
+	                    <img class="lazy" data-src="{{ work['Featured Image'] }}" alt="">
 	                    <div class="overlay">
 	                    <h2>{{ work.title }}</h2>
-	                    <p>{{ work.['Hero Text'] }}</p>
+	                    <p>{{ work['Hero Text'] }}</p>
 	                    <a class="see-case" href="{{ site.baseurl }}{{ work.url }}">See Case Study</a>
 	                    </div>
 	                  </a>
