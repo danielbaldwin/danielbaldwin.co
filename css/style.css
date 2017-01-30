@@ -5,8 +5,7 @@ body {
 .vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
+  transform: translateY(-50%); }
 
 /* --- Loader --- */
 #loader {
@@ -25,8 +24,7 @@ div.progress {
   border-radius: 0px; }
 
 .progress-bar {
-  -webkit-transition-duration: 3s;
-          transition-duration: 3s; }
+  transition-duration: 3s; }
 
 /* --- Navigation --- */
 nav.navbar.navbar-default {
@@ -38,10 +36,27 @@ nav.navbar.navbar-default {
   /* padding: 20px; */ }
 
 .navbar-default .nav > li > a {
-  padding: 10px 30px 10px 0; }
+  margin: 10px 30px 10px 0;
+  padding: 2px 1px;
+  position: relative; }
+  .navbar-default .nav > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #000;
+    transition: 0.4s; }
+  .navbar-default .nav > li > a:hover:after {
+    width: 100%; }
 
 .navbar-default .navbar-brand {
-  float: right; }
+  float: none;
+  margin-left: 0 !important; }
+  .navbar-default .navbar-brand .grow {
+    transition: all .2s ease-in-out; }
+    .navbar-default .navbar-brand .grow:hover {
+      transform: scale(1.1); }
 
 .navbar-default .navbar-toggle {
   float: left; }
@@ -129,17 +144,33 @@ nav.navbar.navbar-default {
   height: 70vh; }
 
 .home-header, .progress-bar-success {
-  background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header:hover {
-  background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
   background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
   background-size: 800% 800%;
   -webkit-animation: gradient 14s ease infinite;
+  -moz-animation: gradient 14s ease infinite;
+  -o-animation: gradient 14s ease infinite;
   animation: gradient 14s ease infinite; }
 
 @-webkit-keyframes gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-o-keyframes gradient {
   0% {
     background-position: 93% 0%; }
   50% {
@@ -314,9 +345,7 @@ header {
   max-width: none;
   width: calc(100% + 60px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s, -webkit-transform 0.45s;
   -webkit-transform: translate3d(-40px, 0, 0);
   transform: translate3d(-40px, 0, 0); }
 
@@ -336,9 +365,7 @@ header {
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
   -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0); }
 
@@ -401,22 +428,18 @@ header {
       /* padding: 105px 0 40px 34px;   */ } }
 
 .rectangle.hovereffect {
-  background-image: -webkit-linear-gradient(204deg, rgba(255, 214, 50, 0.98), #ffd21e);
   background-image: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e);
   background: -webkit-linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e); }
 
 .rectangle-1.hovereffect {
-  background-image: -webkit-linear-gradient(226deg, #044932, #055c3f);
   background-image: linear-gradient(224deg, #044932, #055c3f);
   background: -webkit-linear-gradient(224deg, #044932, #055c3f); }
 
 .rectangle-2.hovereffect {
-  background-image: -webkit-linear-gradient(315deg, #1d3853, #264563);
   background-image: linear-gradient(135deg, #1d3853, #264563);
   background: -webkit-linear-gradient(135deg, #1d3853, #264563); }
 
 .rectangle-3.hovereffect {
-  background-image: -webkit-linear-gradient(47deg, #b3c4c4, #bdcdcd);
   background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd);
   background: -webkit-linear-gradient(43deg, #b3c4c4, #bdcdcd); }
 
@@ -614,7 +637,6 @@ header {
 .contact-header {
   margin: -125px -15px 0;
   padding: 280px 0;
-  background-image: -webkit-linear-gradient(206deg, #f8d602, #edac01);
   background-image: linear-gradient(244deg, #f8d602, #edac01);
   color: #fff; }
   .contact-header p {
@@ -771,17 +793,33 @@ article img {
 .footer-rectangle {
   margin-bottom: 36px;
   height: 500px;
-  background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01);
   color: #fff; }
   .footer-rectangle:hover {
-    background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
     background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
     background-size: 800% 800%;
     -webkit-animation: footer-gradient 14s ease infinite;
+    -moz-animation: footer-gradient 14s ease infinite;
+    -o-animation: footer-gradient 14s ease infinite;
     animation: footer-gradient 14s ease infinite; }
 
 @-webkit-keyframes footer-gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-moz-keyframes footer-gradient {
+  0% {
+    background-position: 93% 0%; }
+  50% {
+    background-position: 0% 100%; }
+  100% {
+    background-position: 93% 0%; } }
+
+@-o-keyframes footer-gradient {
   0% {
     background-position: 93% 0%; }
   50% {
@@ -825,6 +863,11 @@ footer .navbar-brand img {
   width: 40px;
   height: 40px;
   margin-top: -15px !important; }
+
+footer .grow {
+  transition: all .2s ease-in-out; }
+  footer .grow:hover {
+    transform: scale(1.1); }
 
 footer a.navbar-brand {
   text-align: center;
