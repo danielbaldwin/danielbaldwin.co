@@ -1,71 +1,90 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
- <body>
-{% include start.html %}
-
-<div id="your-page" style="display:none;">
-{% include navigation.html %}
-<div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="believe">
-        	<p>{{page.title}}<p>
-          <h2>{{ page['Hero Text'] }}</h2>
-        </div>
-      </div>
-    </div>
-</div>
-<div class="container case-study">
-	<div class="row">
-		<div class="col-md-12">
-			<img src="{{ page['First Large Image'] }}">
-		</div>
-		<div class="col-md-8 col-md-offset-2 text">
-			<p>
-			{{content}}
-			</p>
-		</div>
-		{% for Image in page.Images %}
-			<div class="col-md-6">
-			  <img src="{{ Image }}">
-			</div>
-		{% endfor %}
-		<div class="col-md-8 col-md-offset-2 text">
-			<p>
-			Strategy / Research
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
-			Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
-			</p>
-		</div>
-		<div class="col-md-12">
-			<img src="{{ page['Second Large Image'] }}">
-		</div>
-		<div class="col-md-8 col-md-offset-2 text">
-			<p>
-			Solution
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
-			Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
-			</p>
-		</div>
-		<div class="col-md-12">
-			<img src="{{ page['One Small Image'] }}">
-		</div>
-		<div class="col-md-8 col-md-offset-2 text">
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, turpis non pellentesque congue, sem ante dictum dui, a dignissim ante massa sit amet nibh. Donec volutpat lorem sit amet luctus porta.
-			Suspendisse eget luctus diam, nec tincidunt dolor. Vestibulum lacinia eros ut maruis molestie, vitae lobortis felis lobortis.
-			</p>
-		</div>
-		<div class="col-md-12">
-			<img src="{{ page['Third Large Image'] }}">
-		</div>
-		{% include share.html %}
+<body id="barba-wrapper">
+	<div class="barba-container" data-transition="BarbaAnimation">
+	{% include navigation.html %}
+	<div class="container">
+	    <div class="row">
+	      <div class="col-md-6">
+	        <div class="believe">
+	        	<p>{{page.title}}<p>
+	          <h2>{{ page['Hero Text'] }}</h2>
+	        </div>
+	      </div>
+	    </div>
 	</div>
-</div>
-{% include footer.html %}
+	<div class="container case-study">
+		<div class="row">
+			{% assign content = page.content | strip_newlines %}
+			{% if content != ""  %}
+			<div class="col-md-12">
+				{{ content }}
+			</div>
+			{% endif %}
+		</div>
+	</div>
+	<img class="reveal" style="width: 100%" src="{{ page['Last Large Image'] }}">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{% include share.html %}
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row more-projects-case">
+			<div class="col-md-12">
+				<h1>More Projects</h1>
+			</div>
+			 	{% assign maxRelated = 2 %}
+			    {% assign minCommonTags =  1 %}
+			    {% assign maxRelatedCounter = 0 %}
+
+			    {% for work in site.work %}
+
+			    {% assign sameTagCount = 0 %}
+			    {% assign commonTags = '' %}
+
+			    {% for tag in work.tags %}
+			      {% if work.url != page.url %}
+			        {% if page.tags contains tag %}
+			          {% assign sameTagCount = sameTagCount | plus: 1 %}
+			          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+			          {% assign commonTags = commonTags | append: tagmarkup %}
+			        {% endif %}
+			      {% endif %}
+			    {% endfor %}
+
+			    {% if sameTagCount >= minCommonTags %}
+			      <div class="col-md-6 study">
+			      	<div class="rectangle hovereffect related" style="background: {{ work.['Hover Background'] }}">
+	                  <a href="{{ site.baseurl }}{{ work.url }}">
+	                    <img class="lazy" data-src="{{ work.['Featured Image'] }}" alt="">
+	                    <div class="overlay">
+	                    <h2>{{ work.title }}</h2>
+	                    <p>{{ work.['Hero Text'] }}</p>
+	                    <a class="see-case" href="{{ site.baseurl }}{{ work.url }}">See Case Study</a>
+	                    </div>
+	                  </a>
+	                </div>
+			      </div>
+			      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+			      {% if maxRelatedCounter >= maxRelated %}
+			        {% break %}
+			      {% endif %}
+			    {% endif %}
+
+			 {% endfor %}
+		</div>
+	</div>
+	{% include footer.html %}
+	</div>
 {% include js.html %}
-</div>
+<script>
+    $("p:has(img)").css("padding", "50px 0px");
+    $(".case-study p").toggleClass("reveal");
+    $(".case-study img").toggleClass("reveal");
+</script>
 </body>
 </html>

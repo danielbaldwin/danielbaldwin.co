@@ -1,51 +1,43 @@
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 study">
-            <div class="rectangle hovereffect">
-              <img class="img-responsive" src="http://lorempixel.com/g/770/440/city" alt="">
-              <div class="overlay">
-              <h2>Powercity Films</h2>
-              <p>Developing an identity for a storytelling<br> film company</p>
-              <a href="">See Case Study</a>
-              </div>
+        <div class="row case-studies">
+        {% assign sorted_work = site.work | sort:"position" %}
+        {% if page.url != "/work/" %}
+        {% for work in sorted_work %}
+          {% if work.['Is Featured'] == true %}
+           <div class="col-md-{{work.['Bootstrap Columns'] }} study">
+              <div class="rectangle hovereffect" style="background: {{ work.['Hover Background'] }};">
+                    <a href="{{ site.baseurl }}{{ work.url }}">
+                      <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">
+                      <div class="overlay">
+                      <h2>{{ work.title }}</h2>
+                      <p>{{ work.['Hero Text'] }}</p>
+                      <a class="see-case" href="{{ site.baseurl }}{{ work.url }}">See Case Study</a>
+                      </div>
+                    </a>
+                  </div>
             </div>
-          </div>
-          <div class="col-md-4 study">
-            <div class="rectangle-1 hovereffect">
-              <img class="img-responsive" src="http://lorempixel.com/g/360/395/business" alt="">
-              <div class="overlay">
-              <h2>Cole & Oak</h2>
-              <p>Lorem ipsum dolor sit amet ipsum amet sit lorem</p>
-              <a href="">See Case Study</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 study">
-            <div class="rectangle-2 hovereffect">
-              <img class="img-responsive" src="http://lorempixel.com/g/555/440/nightlife" alt="">
-              <div class="overlay">
-              <h2>TINT</h2>
-              <p>Defining a brand experience for an<br> established startup</p>
-              <a href="">See Case Study</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 study">
-            <div class="rectangle-3 hovereffect">
-              <img class="img-responsive" src="http://lorempixel.com/g/555/440/people" alt="">
-              <div class="overlay">
-              <h2>Twelve23</h2>
-              <p>Rebranding a web solutions company<br> into a creative agency</p>
-              <a href="">See Case Study</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
+          {% endif %}
+        {% endfor %}
           <div class="col-md-12">
             <div class="more-projects">
-              <a href="">See More Projects &#8594;</a>
+              <a href="/work">See More Projects <img src="/img/arrow-right.svg"></a>
             </div>
           </div>
+          {% else %}
+          {% for work in sorted_work %}
+           <div class="col-md-{{work.['Bootstrap Columns'] }} study">
+              <div class="rectangle hovereffect" style="background: {{ work.['Hover Background'] }}; height: {{ work.['Column Height'] }}px;">
+                    <a href="{{ site.baseurl }}{{ work.url }}">
+                      <img class="lazy" data-src="{{ work.['Featured Image'] }}" alt="">
+                      <div class="overlay">
+                      <h2>{{ work.title }}</h2>
+                      <p>{{ work.['Hero Text'] }}</p>
+                      <a class="see-case" href="{{ site.baseurl }}{{ work.url }}">See Case Study</a>
+                      </div>
+                    </a>
+                  </div>
+            </div>
+        {% endfor %}
+        {% endif %}
         </div>
        </div>

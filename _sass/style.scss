@@ -1,11 +1,27 @@
+@import "components.hamburger";
+@import "variables";
+@import "featured-work";
+
+*:focus {
+  outline: none;
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+}
+
+@keyframes BodyFadeInAnimation {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
 body {
   margin: 0 auto;
   font-size: 16px !important;
+  font-family:'Neue Haas Unica W01 Regular' !important;
+  animation: BodyFadeInAnimation 1s;
 }
-.vertically-centered {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+b, strong {
+  font-family:'Neue Haas Unica W01 Heavy';
 }
 /* --- Loader --- */
 #loader {
@@ -27,6 +43,13 @@ div.progress {
   transition-duration: 3s;
 }
 /* --- Navigation --- */
+.container.home, .container.blog {
+  width: 100% !important;
+  padding: 0px 55px !important;
+}
+.navbar-right {
+  margin-right: 0px !important;
+}
 nav.navbar.navbar-default {
 	background: transparent;
 	border-color: transparent;
@@ -34,7 +57,9 @@ nav.navbar.navbar-default {
 }
 .navbar-default {
   .navbar-header {
-    /* padding: 20px; */
+    @media screen and (max-width: 768px) {
+      padding-top: 35px;
+    }
   }
   .nav>li>a {
       margin: 10px 30px 10px 0;
@@ -78,20 +103,25 @@ nav.navbar.navbar-default {
         text-align: center;
         &>a {
           font-size: 28px;
-          font-weight: bold;
           line-height: 2.83;
+          font-family:'Neue Haas Unica W01 Heavy';
+          padding: 10px 0px;
+          &.active {
+            font-family:'Neue Haas Unica W01 Heavy';
+          }
         }
       }
     }
   }
   .home .navbar-toggle {
     border-color: transparent !important;
+    margin-top: 0px;
     .icon-bar {
       height: 3px;
       background-color: #fff !important;
     }
-    &:hover {
-      background-color: #fff !important;
+    &:hover, &:focus {
+      background-color: transparent !important;
       .icon-bar {
         background-color: #edac01 !important;
       }
@@ -99,11 +129,13 @@ nav.navbar.navbar-default {
   }
   .blog .navbar-toggle {
     border-color: transparent !important;
+    margin-top: 0px;
     .icon-bar {
       height: 3px;
       background-color: #edac01 !important;
     }
-    &:hover {
+    &:hover, &:focus
+     {
       background-color: #fff !important;
       .icon-bar {
         background-color: #edac01 !important;
@@ -112,24 +144,27 @@ nav.navbar.navbar-default {
   }
   .blog .navbar-nav>li>a {
     color: #000 !important;
+    @extend .Haas-Regular;
   }
   .blog .navbar-nav>li>a.active {
     color: #edac01 !important;
+    @extend .Haas-Regular;
   }
   .home .navbar-nav>li>a, .home .navbar-nav>li>a.active {
     color: #fff !important;
+    @extend .Haas-Regular;
   }
   .navbar-default [aria-expanded="true"] {
     background: #fff !important;
   }
   .home [aria-expanded="true"] {
-    background: #fff !important;
+    background: transparent !important;
     .icon-bar {
       height: 3px;
       background-color: #edac01 !important;
     }
     &:hover {
-      background-color: #fff !important;
+      background-color: transparent !important;
       .icon-bar {
         background-color: #edac01 !important;
       }
@@ -169,28 +204,10 @@ nav.navbar.navbar-default {
 .home-header, .progress-bar-success {
   background-image: linear-gradient(to left, #f8d602, #edac01);
 }
-.home-header:hover {
+.home-header {
 	background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
 	background-size: 800% 800%;
-	-webkit-animation: gradient 14s ease infinite;
-	-moz-animation: gradient 14s ease infinite;
-	-o-animation: gradient 14s ease infinite;
 	animation: gradient 14s ease infinite;
-	@-webkit-keyframes gradient {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
-	@-moz-keyframes gradient {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
-	@-o-keyframes gradient {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	}
 	@keyframes gradient {
 	    0%{background-position:93% 0%}
 	    50%{background-position:0% 100%}
@@ -209,7 +226,6 @@ header {
   
   h1 {
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
@@ -219,28 +235,50 @@ header {
     margin: 0 auto;
     
     @extend .vertically-centered;
+    @extend .Haas-Light;
+
+    @media screen and (max-width: 768px) {
+      font-size: 28px;
+    }
+  }
+
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
   }
 } 
 /* --- Page Featured Work --- */
 .believe {
-	margin: 248px 0;
+	margin: 148px 0;
 	
 	h2 {
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
     text-align: left;
     color: #000000;
+
+    @extend .Haas-Light;
   }
   p {
     margin-bottom: 0px;
     font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     color: #000000;
+
+    @extend .Haas-Regular;
   }
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -260,281 +298,45 @@ header {
 	margin: 0 0 30px 0;
 }
 
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-  /* background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
-  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%); */
-}
+.case-studies {
+  img {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 
-/* 
-.hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 30%;
-  left: 0;
-  padding: 3em;
-  text-align: left;
-  @media screen and (max-width: 768px) {
-    top: 10%;
-  }
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 60px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
-}
-
-.hovereffect h2 {
-  color: #fff;
-  position: relative;
-  background-color: transparent;
-  text-align: left;
-}
-
-.hovereffect .overlay:before {
-  position: absolute;
-  content: '';
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-20px,0,0);
-  transform: translate3d(-20px,0,0);
-}
-
-.hovereffect a, .hovereffect p {
-  color: #FFF;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
-}
-
-.hovereffect:hover img {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.hovereffect:hover .overlay:before,
-.hovereffect:hover a, .hovereffect:hover p {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-*/
-
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  cursor: default;
-}
-
-.hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 30%;
-  left: 0;
-  padding: 3em;
-  text-align: left;
-  @media screen and (max-width: 768px) {
-    top: 10%;
-  }
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 60px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-  transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
-}
-
-.hovereffect:hover img {
-  opacity: 0;
-  filter: alpha(opacity=4);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.hovereffect h2 {
-  position: relative;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.hovereffect a, .hovereffect p {
-  color: #FFF;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(100%,0,0);
-  transform: translate3d(100%,0,0);
-}
-
-.hovereffect:hover a, .hovereffect:hover p {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.study {
-  @media screen and (max-width: 768px) {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-  }
-}
-.rectangle {
-    margin-bottom: 30px;
-  @media screen and (max-width: 768px) {
-    margin-bottom: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-    .rectangle.hovereffect .overlay {
-      top: 0;
-    }
-    .rectangle.hovereffect img {
-      width: calc(100% + 160px);
-    }
-    .rectangle-1.hovereffect img {
-      width: 100%;
-      -webkit-transform: translate3d(0,0,0);
-      transform: translate3d(0,0,0);
+    &[data-src] {
+      opacity: 0;
     }
   }
-.rectangle, .rectangle-1 {
-	/* padding: 180px 0 40px 34px; */
-	color: #fff;
-	text-align: left;
 }
-.rectangle-1 {
-	@media screen and (min-width: 768px) and (max-width: 1200px) {
-    margin-bottom: 30px;
-    /* padding: 105px 0 40px 34px; */
-  }
-}
-.rectangle-2, .rectangle-3 {
-	/* padding: 350px 0 40px 34px; */
-	color: #fff;
-	text-align: left;
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
-    margin-bottom: 30px;
-    /* padding: 105px 0 40px 34px;  */
-  }
-  @media screen and (max-width: 768px) {
-    margin-bottom: 0;
-    /*  padding: 105px 0 40px 34px;   */
-  }
-}
-.rectangle-4 {
-	color: #656873;
-	text-align: left;
-	/* padding: 180px 0 40px 34px;  */
-  @media screen and (max-width: 768px) {
-    /* padding: 105px 0 40px 34px;   */
-  }
-}
-.rectangle.hovereffect {
-	background-image: linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e);
-  background: -webkit-linear-gradient(246deg, rgba(255, 214, 50, 0.98), #ffd21e);
-}
-.rectangle-1.hovereffect {
-	background-image: linear-gradient(224deg, #044932, #055c3f);
-  background: -webkit-linear-gradient(224deg, #044932, #055c3f);
-}
-.rectangle-2.hovereffect {
-	background-image: linear-gradient(135deg, #1d3853, #264563);
-  background: -webkit-linear-gradient(135deg, #1d3853, #264563);
-}
-.rectangle-3.hovereffect {
-	background-image: linear-gradient(43deg, #b3c4c4, #bdcdcd);
-  background: -webkit-linear-gradient(43deg, #b3c4c4, #bdcdcd);
-}
-.rectangle-4 {
-	background: rgba(186,186,186,0.26);
-	margin-bottom: 300px;
-}
-.rectangle, .rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
-  h2 {
-    margin-bottom: 36px;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.93;
-  }
-	p {
-  	margin-bottom: 29px;
-    margin-right: 20px;
-    font-size: 22px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.27;  
-	}
-	a, a:hover {
-  	font-size: 16px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.75;
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 3px;
-    text-decoration: none;
-	}
-}
+
 .more-projects {
 	text-align: right;
 	margin-top: 32px;
 	margin-bottom: 270px;
 	
 	a {
-  	font-size: 22px;
-    font-weight: normal;
+  	font-size: 18px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
     color: #000;
+    transition: color 0.5s ease-in-out;
+
+    @extend .Haas-Regular;
     
     &:hover {
-      color: #000;
+      color: #edac01;
       text-decoration: none;
+    }
+
+    img {
+      padding-left: 3px;
+      margin-top: -3px;
     }
 	}
   @media screen and (max-width: 768px) {
     font-size: 22px;
     margin-bottom: 0;
-    border-bottom: 2px solid #f6f6f6;
     padding-top: 30px;
     padding-bottom: 60px;
   }
@@ -546,9 +348,33 @@ header {
 }
 .latest-articles {
 	margin-bottom: 200px;
+
+  &-heading {
+    padding-left: 50px !important;
+    @media screen and (max-width: 992px) {
+      padding-left: 15px !important;
+    }
+  }
 	
 	.article {
 	  margin-bottom: 100px;
+    padding-right: 0px;
+    padding-left: 50px;
+
+    @media screen and (max-width: 992px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    &:first-child {
+      padding-right: 50px;
+      padding-left: 50px;
+
+      @media screen and (max-width: 992px) {
+        padding-right: 15px;
+        padding-left: 15px;
+      } 
+    }
 	}
 	
 	h2, p {
@@ -558,39 +384,58 @@ header {
     font-stretch: normal;
     line-height: 1.27;
     color: #000000;
+    transition: color 0.5s ease;
 	}
 	
 	h2 {
-	 font-weight: normal;
+    @extend .Haas-Regular;
+
+    &:hover {
+      color: #edac01;
+    }
 	}
 	
 	p {
-	  font-weight: 300;
+	  @extend .Haas-Light;
 	}
 	
-	a, a:hover {
-  	font-weight: bold;
+	a, a:hover, a:focus {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.75;
-    color: #edac01;
+    color: #edac01 !important;
     border-bottom: 2px solid #edac01;
     padding-bottom: 3px;
-    text-decoration: none;
+    text-decoration: none !important;
+
+    @extend .Haas-Regular;
 	}
   @media screen and (max-width: 768px) {
     margin-bottom: 0px;
   }
 }
 .articles-border {
-	margin-right: 25px;
-	border-right: solid 2px #f6f6f6;
+	background: #f6f6f6;
+  width: 2px;
+  height: 207px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-top: -20px;
+
+  &:nth-child(2) {
+    display: none;
+  }
+
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
 }
 /* --- Page Case Study --- */
 .case-study {
   
   img {
-    width: 100%;
+    max-width: 100%;
   }
   
   .text {
@@ -599,36 +444,73 @@ header {
   
   p {
     font-size: 22px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.73;
-    color: #000000;  
+    color: #000000;
+    padding: 20px 20%;
+
+    @extend .Haas-Light;
+  }
+}
+.more-case {
+  margin-bottom: 300px;
+
+  .hovereffect .overlay {
+    top: 20%;
+  }
+}
+.more-projects-case {
+  h1 {
+    font-size: 38px;
+    line-height: 1.58;
+    text-align: center;
+    padding-bottom: 55px;
+    @extend .Haas-Regular;
   }
 }
 /* --- Page About --- */
 .about-header {
 	background-image: url('/img/about-hero.jpg');
 	background-size: cover;
+  background-position: center;
 	height: 100vh;
+  width: 100%;
 	color: #fff;
+
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
+  }
 
 	.hero {
     padding: 0 !important;
   }
 	p {
   	font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
+
+    @extend .Haas-Regular;
 	}
 	
 	h2 {
   	font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
+
+    @extend .Haas-Light;
 	}
 	
 	.title {
@@ -651,10 +533,14 @@ header {
 .behind-brand {
 	margin-top: 300px;
 	margin-bottom: 200px;
+
+  @media screen and (max-width: 992px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 	
 	h2 {
     font-size: 28px;
-    font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.21;
@@ -662,18 +548,29 @@ header {
     max-width: 340px;
     margin-top: 0px;
     margin-bottom: 100px;
+
+    @extend .Haas-Bold;
+
+    @media screen and (max-width: 992px) {
+      margin: 0px auto 50px auto;
+    }
+
+    @media screen and (max-width: 480px) {
+      max-width: none;
+    }
 	}
 	
 	p {
   	margin-bottom: 20px;
     font-size: 22px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
     color: #000000;
     max-width: 460px;
     margin: 0px auto 20px;
+
+    @extend .Haas-Light;
     
     &nth-child(2) {
       margin-bottom: 100px;
@@ -682,6 +579,10 @@ header {
 }
 .images {
   margin-bottom: 300px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 100px;
+  }
   
   img {
     width: 100%;
@@ -689,65 +590,86 @@ header {
 }
 .services {
   margin-bottom: 300px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 100px;
+  }
   
   .border {
-    margin-right: -10px;
     border-right: solid 2px #f6f6f6;
+    @media screen and (max-width: 992px) {
+      border-right: none;
+    }
   }
   .service {
     font-size: 22px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     text-align: center;
     color: #000000;
+
+    @extend .Haas-Light;
     
     h3 {
-      font-weight: normal;
       line-height: 1.27;
       margin-bottom: 40px;
+
+      @extend .Haas-Regular;
     }
     
     p {
       line-height: 1.82;
       padding-bottom: 20px;
-      padding-right: 20px;
     }
   }
 }
 /* --- Contact Page --- */
 .contact-header {
-	margin: -125px -15px 0;
-	padding: 280px 0;
 	background-image: linear-gradient(244deg, #f8d602, #edac01);
 	color: #fff;
+  height: 100vh;
+
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
+  }
 	
 	p {
   	font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
+
+    @extend .Haas-Regular;
 	}
 	
 	h2 {
   	margin-bottom: 36px;
     font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
+
+    @extend .Haas-Light;
 	}
 	
 	a, a:hover {
   	color: #fff;
-    border-bottom: 2px solid #fff;
     padding-bottom: 3px;
     text-decoration: none;
 	}
   @media screen and (max-width: 800px) {
     text-align: center;
-    padding: 190px 0;
-    p{
+    p {
       font-size: 22px;
       line-height: 2.18;
     }
@@ -759,14 +681,20 @@ header {
     .anything-else {
       font-size: 16px;
       padding: 0 25px;
+
+      a, a:hover {
+        border-bottom: 2px solid #fff;
+      }
     }
+  }
+  .contact-information {
+    padding-top: 140px;
   }
 }
 /* --- Blog --- */
 .blog-excerpt {
-	/* padding-left: 78px !important; */
-	padding-bottom: 190px;
-	padding-top: 180px;
+	padding-bottom: 60px;
+	padding-top: 60px;
 	border-bottom: solid 2px #f6f6f6;
 	
 	img {
@@ -776,14 +704,15 @@ header {
 	h2 {
 	 margin-bottom: 28px;
 	 
-	 a, a:hover {
+	 a, a:hover, a:focus {
   	font-size: 22px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
     color: #edac01;
     text-decoration: none;
+
+    @extend .Haas-Regular;
   }
  }
   @media screen and (max-width: 800px) {
@@ -794,32 +723,44 @@ header {
     }
     .article-img {
       margin-top: 40px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
     }
   }
+
+  .blog-item {
+    padding: 35px 0px;
+
+    @media screen and (max-width: 768px) {
+      padding: 35px 15px;
+    }
+  }
+}
+.post-content {
+  padding-top: 150px;
+  padding-bottom: 210px;
 }
 .date {
 	margin: 28px 0;
 }
-.img-responsive {
-	height: 353px;
-	background-color: #000;
-}
 .excerpt {
 	margin-bottom: 52px;
 	font-size: 22px;
-	font-weight: 300;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: 1.27;
 	color: #000000;
+
+  @extend .Haas-Light;
 }
-.date, .read-article a, .read-article a:hover {
+.date, .read-article a, .read-article a:hover, .read-article a:focus {
 	font-size: 16px;
-	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
 	color: #000000;
 	text-decoration: none;
+
+  @extend .Haas-Regular;
 }
 article {
   img {
@@ -828,21 +769,23 @@ article {
 }
 /* --- Posts --- */
 .post-header {
-	margin: 205px 0 290px 35px;
+	margin: 105px 0 105px 35px;
 	
 	.date {
   	font-size: 23px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
+
+    @extend .Haas-Regular;
 	}
 	
 	h2 {
   	font-size: 38px;
-    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
+
+    @extend .Haas-Light;
 	}
   @media screen and (max-width: 768px) {
     margin: 100px 0 150px;
@@ -858,13 +801,14 @@ article {
   p {
   	margin-bottom: 100px;
   	font-size: 22px;
-  	font-weight: 300;
   	font-style: normal;
   	font-stretch: normal;
   	line-height: 1.73;
+
+    @extend .Haas-Light;
   }
   
-  a, a:hover {
+  a, a:hover, a:focus {
     font-weight: 500;
     color: #edac01;
     text-decoration: none;
@@ -879,6 +823,11 @@ article {
   ul li {
     margin-top: -60px;
   }
+  ol, ul {
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Neue Haas Unica W01 Light';
+  }
 }
 /* --- Share widget --- */
 .share-widget {
@@ -886,20 +835,22 @@ article {
 	margin-bottom: 280px;
 	text-align: center;
 	font-size: 22px;
-	font-weight: 300;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: 1.73;
+
+  @extend .Haas-Light;
 	
-	a, a:hover {
+	a, a:hover, a:focus {
   	padding: 0 18px;
     font-size: 35px;
     vertical-align: middle;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.09;
     color: #000000;
+
+    @extend .Haas-Regular;
 	}
 }
 /* --- Footer --- */
@@ -908,38 +859,26 @@ article {
 	height: 500px;
 	background-image: linear-gradient(to left, #f8d602, #edac01);
 	color: #fff;
-	
-	&:hover {
-    background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-    background-size: 800% 800%;
-    -webkit-animation: footer-gradient 14s ease infinite;
-    -moz-animation: footer-gradient 14s ease infinite;
-    -o-animation: footer-gradient 14s ease infinite;
-    animation: footer-gradient 14s ease infinite;
-    @-webkit-keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
-    @-moz-keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
-    @-o-keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
-    }
-    @keyframes footer-gradient {
-        0%{background-position:93% 0%}
-        50%{background-position:0% 100%}
-        100%{background-position:93% 0%}
+  background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+  background-size: 800% 800%;
+  animation: footer-gradient 14s ease infinite;
+  @keyframes footer-gradient {
+      0%{background-position:93% 0%}
+      50%{background-position:0% 100%}
+      100%{background-position:93% 0%}
+  }
+
+  a {
+    color: #fff;
+
+    &:hover, &:active, &:focus {
+      color: #fff;
+      text-decoration: none;
     }
   }
   
   h1 {
-    font-weight: normal;
+    @extend .Haas-Regular;
   }
   
   p {
@@ -953,6 +892,9 @@ article {
     @media screen and (max-width: 768px) {
       padding-left: 0px;
     }
+    p {
+      @extend .Haas-Regular;
+    }
   }
   
   .contact {
@@ -962,9 +904,19 @@ article {
 footer {
   
   .footer {
-    @media screen and (max-width: 1200px) {
-      text-align: center;
+    text-align: center;
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       margin: 35px 0 !important;
+    }
+    &.social {
+      @media screen and (max-width: 1200px) {
+        margin: 15px 0px 0px 0px !important;
+      }
+    }
+    &.copyright {
+      @media screen and (max-width: 1200px) {
+        margin: 110px 0px 30px 0px !important;
+      }
     }
     h1 {
       font-size: 26px;
@@ -972,7 +924,7 @@ footer {
       margin-bottom: 26px;
     }
     .social {
-      font-size: 30px;
+      font-size: 20px;
       padding: 0 13px;
     }
   }
@@ -1042,6 +994,7 @@ footer {
     }
   }
 } 
-footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover {
+footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
 	color: #edac01;
+  @extend .Haas-Regular;
 }

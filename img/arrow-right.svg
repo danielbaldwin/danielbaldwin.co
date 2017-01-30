@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1281.000000, -2468.000000)" stroke="#000000" stroke-width="0.5" fill="#000000">
+            <path d="M1300.354,2475.1159 L1294.354,2469.1159 C1294.158,2468.9209 1293.842,2468.9209 1293.646,2469.1159 C1293.451,2469.3119 1293.451,2469.6279 1293.646,2469.8239 L1298.793,2474.9699 L1282.5,2474.9699 C1282.224,2474.9699 1282,2475.1939 1282,2475.4699 C1282,2475.7459 1282.224,2475.9699 1282.5,2475.9699 L1298.793,2475.9699 L1293.646,2481.1159 C1293.451,2481.3119 1293.451,2481.6279 1293.646,2481.8239 C1293.744,2481.9209 1293.872,2481.9699 1294,2481.9699 C1294.128,2481.9699 1294.256,2481.9209 1294.354,2481.8239 L1300.354,2475.8239 C1300.549,2475.6279 1300.549,2475.3119 1300.354,2475.1159 Z" id="arrow-right"></path>
+        </g>
+    </g>
+</svg>

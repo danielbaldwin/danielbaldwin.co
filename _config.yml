@@ -1,12 +1,12 @@
 ---
-title: Daniel Baldwin Co
+title: Daniel Baldwin
 timezone: UTC
 collections:
-  case-study:
-    title: Case Study
-    output: true
   posts:
-    title: Posts
+    title: Blog
+    output: true
+  work:
+    title: Case Study
     output: true
   uploads:
     title: Uploads
@@ -17,11 +17,28 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
+    permalink: "/blog/:title/"
+    excerpt: 
+    first-image: 
+    second-image: 
 - scope:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: main
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: case-study
+    Hero Text: 
+    Last Large Image: 
+    Is Featured: 
+    Featured Image: 
+    Hover Background: 
+    Bootstrap Columns: 
+    Column Height: 
+    Twitter Text: 
+url: http://www.danielbaldwin.co
 permalink: pretty
-facebook_app_id: 
+twitter_username: danielbaldwinco

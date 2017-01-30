@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
- <body>
+<body>
 {% include start.html %}
-
-  <div id="your-page" style="display:none;">
+  <div id="home" style="display: none">
 	  <div class="home-header">
 	  	{% include navigation.html %}
 	  	<div class="container">
-	  		<div class="col-md-12 hero">
+	  		<div class="col-md-12 hero animated fadeIn">
 	      		<h1>{{ page['Hero Text'] }}</h1>
 	      	</div>
 	      </div>
 	  </div>
-
-
       <div class="container">
         <div class="row">
           <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
@@ -29,30 +25,28 @@
        <div class="container">
         <div class="row">
           <div class="col-md-12 hidden-sm hidden-xs">
-            <div class="mask">
-              
+            <div class="mask reveal">
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 latest-articles-heading">
             <p>Latest Articles</p>
           </div>
         </div>
         <div class="row latest-articles">
         {% for post in site.posts limit:2 %}
-    		<div class="col-md-6">
-    			<div class="article">
-			      	<h2>{{ post.title }}</h2>
+    		<div class="col-md-6 article">
+			      	<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 			      	<p>{{ post.excerpt }}</p>
 			      	<a href="{{ post.url }}">Read Article</a>
-			    </div>
 	      	</div>
+          <div class="articles-border"></div>
 		  {% endfor %}
 		</div>
-      </div>
-{% include footer.html %}
-{% include js.html %}
+    </div>
+    {% include footer.html %}
   </div>
-   </body>
-  </html>
+  {% include js.html %}
+</body>
+</html>

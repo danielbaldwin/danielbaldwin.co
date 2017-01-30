@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
-<body>
-{% include start.html %}
-
-<div id="your-page" style="display:none;">
-	{% include navigation.html %}
-	<div class="contact-header">
-		<div class="container">
-			<p>Contact</p>
-			<h2>For business inquiries, email<br>hello@danielbaldwin.co</h2>
-			<p class="anything-else">
-				For anything else, connect with me on<br class="hidden-sm"> <a href="">Twitter</a>, <a href="">LinkedIn</a>, or <a href="">Medium</a>.
-			</p>
+<body id="barba-wrapper">
+	<div class="barba-container" data-transition="BarbaAnimation">
+		<div class="contact-header">
+			{% include navigation.html %}
+			<div class="container contact-information">
+				<p>Contact</p>
+				<h2>For business inquiries, email<br>danielbaldwinco@gmail.com</h2>
+				<p class="anything-else">
+					For anything else, connect with me on<br class="hidden-sm"> <a href="http://www.twitter.com/danielbaldwinco">Twitter</a>, <a href="http://linkedin.com/in/danielbaldwinco">LinkedIn</a>, or <a href="https://medium.com/@danielbaldwin_">Medium</a>.
+				</p>
+			</div>
 		</div>
 	</div>
 {% include js.html %}
-</div>
 </body>
 </html>
