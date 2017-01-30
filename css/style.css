@@ -52,7 +52,9 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-brand {
   float: none;
-  margin-left: 0 !important; }
+  margin-left: 0 !important;
+  left: calc(50% - 21.5px);
+  position: absolute; }
   .navbar-default .navbar-brand .grow {
     transition: all .2s ease-in-out; }
     .navbar-default .navbar-brand .grow:hover {

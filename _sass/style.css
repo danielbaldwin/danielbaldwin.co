@@ -36,7 +36,8 @@ nav.navbar.navbar-default {
   /* padding: 20px; */ }
 
 .navbar-default .nav > li > a {
-  padding: 10px 30px 10px 0;
+  margin: 10px 30px 10px 0;
+  padding: 2px 1px;
   position: relative; }
   .navbar-default .nav > li > a:after {
     content: '';
@@ -44,13 +45,20 @@ nav.navbar.navbar-default {
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 2px solid #3366FF;
+    border-bottom: 1px solid #000;
     transition: 0.4s; }
   .navbar-default .nav > li > a:hover:after {
     width: 100%; }
 
 .navbar-default .navbar-brand {
-  float: right; }
+  float: none;
+  margin-left: 0 !important;
+  left: calc(50% - 21.5px);
+  position: absolute; }
+  .navbar-default .navbar-brand .grow {
+    transition: all .2s ease-in-out; }
+    .navbar-default .navbar-brand .grow:hover {
+      transform: scale(1.1); }
 
 .navbar-default .navbar-toggle {
   float: left; }
@@ -857,6 +865,11 @@ footer .navbar-brand img {
   width: 40px;
   height: 40px;
   margin-top: -15px !important; }
+
+footer .grow {
+  transition: all .2s ease-in-out; }
+  footer .grow:hover {
+    transform: scale(1.1); }
 
 footer a.navbar-brand {
   text-align: center;

@@ -56,6 +56,8 @@ nav.navbar.navbar-default {
   .navbar-brand {
     float: none;
     margin-left: 0 !important;
+    left: calc(50% - 21.5px);
+    position: absolute;
     .grow { transition: all .2s ease-in-out; 
       &:hover { transform: scale(1.1); }
     }
