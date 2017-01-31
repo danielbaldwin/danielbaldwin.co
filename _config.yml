@@ -21,6 +21,8 @@ defaults:
     excerpt: 
     first-image: 
     second-image: 
+    Hero Text:
+    Hero Background:
 - scope:
     path: ''
     type: pages

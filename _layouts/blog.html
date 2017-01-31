@@ -3,17 +3,22 @@
 {% include head.html %}
 <body id="barba-wrapper">
 	<div class="barba-container" data-transition="BarbaAnimation">
-		{% include navigation.html %}
+			<div class="blog-header" style="background: {{ page['Hero Background'] }}">
+			  	{% include navigation.html %}
+			  	<div class="container">
+					<div class="col-md-12 col-sm-12 col-xs-12 hero">
+						<div class="title">
+				          	<h2>{{ page['Hero Text'] }}</h2>
+				         </div>
+				    </div>
+			    </div>
+			</div>
 			<div class="container">
 			  {% for post in site.posts %}
 			    	<div class="row blog-excerpt">
-			    		<div class="col-md-6 col-sm-12 col-xs-12 blog-item">
-					    	<time class="date">{{ post.date | date: '%B %d, %Y' }}</time>
+			    		<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 blog-item">
+					    	<time class="date">Posted on {{ post.date | date: '%B %d, %Y' }}</time>
 					      	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					      	<p class="excerpt">{{ post.excerpt }}</p>
-					      	<span class="read-article"><a href="{{ post.url }}">Read Article</a></span>
-				      	</div>
-				      	<div class="col-md-6 col-sm-12 col-xs-12 article-img">
 				      		{% if post.first-image %}
 				      		<img src="{{ site.baseurl }}{{ post.first-image }}">
 
@@ -34,6 +39,8 @@
 
 
 				      		{% endif %}
+					      	<p class="excerpt">{{ post.excerpt }}</p>
+					      	<span class="read-article"><a href="{{ post.url }}">Read The Post</a></span>
 				      	</div>
 			      	</div>
 			  {% endfor %}
@@ -42,4 +49,4 @@
 	</div>
 {% include js.html %}
 </body>
-</html>>
+</html>

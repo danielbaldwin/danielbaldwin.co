@@ -692,6 +692,30 @@ header {
   }
 }
 /* --- Blog --- */
+.blog-header {
+  height: 100vh;
+  background: #001fff;
+
+  .container {
+    height: 30vh;
+
+    .hero {
+    background: #fff;
+    height: 480px;
+
+    @extend .vertically-centered;
+
+    .title h2 {
+      color: #001fff;
+      @extend .Haas-Bold;
+      line-height: 1.58;
+      font-size: 38px;
+      max-width: 1000px;
+      padding: 180px 77px;
+      }
+    }
+  }
+}
 .blog-excerpt {
 	padding-bottom: 60px;
 	padding-top: 60px;
@@ -703,16 +727,17 @@ header {
 	
 	h2 {
 	 margin-bottom: 28px;
+   max-width: 800px;
 	 
 	 a, a:hover, a:focus {
-  	font-size: 22px;
+  	font-size: 38px;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.27;
-    color: #edac01;
+    line-height: 1.58;
+    color: #001fff;
     text-decoration: none;
 
-    @extend .Haas-Regular;
+    @extend .Haas-Bold;
   }
  }
   @media screen and (max-width: 800px) {
@@ -729,7 +754,7 @@ header {
   }
 
   .blog-item {
-    padding: 35px 0px;
+    padding: 35px 10px;
 
     @media screen and (max-width: 768px) {
       padding: 35px 15px;
@@ -742,25 +767,33 @@ header {
 }
 .date {
 	margin: 28px 0;
+  color: #001fff;
+  font-size: 20px;
 }
 .excerpt {
-	margin-bottom: 52px;
+	padding: 30px 0px;
 	font-size: 22px;
 	font-style: normal;
 	font-stretch: normal;
-	line-height: 1.27;
+	line-height: 1.73;
 	color: #000000;
-
-  @extend .Haas-Light;
-}
-.date, .read-article a, .read-article a:hover, .read-article a:focus {
-	font-size: 16px;
-	font-style: normal;
-	font-stretch: normal;
-	color: #000000;
-	text-decoration: none;
 
   @extend .Haas-Regular;
+}
+.read-article a, .read-article a:hover, .read-article a:focus {
+	font-size: 13px;
+	font-style: normal;
+	font-stretch: normal;
+	color: #001fff;
+	text-decoration: none;
+  letter-spacing: 1.5px;
+  line-height: 1.69;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+  @extend .Haas-Bold;
 }
 article {
   img {
@@ -768,8 +801,12 @@ article {
   }
 }
 /* --- Posts --- */
+.blog-post {
+  margin-top: -535px;
+  background: #fff;
+}
 .post-header {
-	margin: 105px 0 105px 35px;
+	margin-top: 105px;
 	
 	.date {
   	font-size: 23px;
@@ -784,8 +821,11 @@ article {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
+    color: #001fff;
+    max-width: 1000px;
+    padding: 0px 0px 50px 77px;
 
-    @extend .Haas-Light;
+    @extend .Haas-Bold;
 	}
   @media screen and (max-width: 768px) {
     margin: 100px 0 150px;
