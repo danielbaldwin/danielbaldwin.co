@@ -923,20 +923,11 @@ article {
 .footer-rectangle {
 	margin-bottom: 36px;
 	height: 500px;
-	background-image: linear-gradient(to left, #f8d602, #edac01);
+	background-image: linear-gradient(253deg, #f8d602, #edac01);
 	color: #fff;
-  background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-  background-size: 800% 800%;
-  animation: footer-gradient 14s ease infinite;
-  @keyframes footer-gradient {
-      0%{background-position:93% 0%}
-      50%{background-position:0% 100%}
-      100%{background-position:93% 0%}
-  }
 
   a {
     color: #fff;
-
     &:hover, &:active, &:focus {
       color: #fff;
       text-decoration: none;
@@ -945,6 +936,19 @@ article {
   
   h1 {
     @extend .Haas-Regular;
+    position: relative;
+    &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0%;
+          border-bottom: 1px solid #fff;
+          transition: 0.4s;
+        }
+        &:hover:after {
+          width: 80%;
+        }
   }
   
   p {
@@ -990,23 +994,43 @@ footer {
       margin-bottom: 26px;
     }
     .social {
-      font-size: 20px;
+      font-size: 16px;
       padding: 0 13px;
+      i {
+        transition: all .2s ease-in-out; 
+        &:hover { transform: scale(1.2); }
+      }
+      .fa-twitter {
+        color: #1aaae2;
+      }
+      .fa-linkedin {
+        color: #0077b5;
+      }
+      .fa-dribbble {
+        color: #ec0086;
+      }
+      .fa-instagram {
+        color: #ec0086;
+      }
+    }
+    .navbar-text {
+      margin-top: 0;
     }
   }
-  .navbar-brand img {
-    width: 40px;
-    height: 40px;
-    margin-top: -15px !important;
-  }
-  .grow { transition: all .2s ease-in-out; 
+  .navbar-brand {
+    padding: 0 !important;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-top: -15px !important;
+    }
+    .grow { transition: all .2s ease-in-out; 
       &:hover { transform: scale(1.1); }
     }
-  
+  }
   a.navbar-brand {
     text-align: center;
     float: none;
-    
     img {
       margin: 0 auto;
     }
