@@ -94,7 +94,7 @@
   background: #edac01; }
 
 /* Extends */
-.vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
+.vertically-centered, .home-header h1, .about-header .title, .blog-header .container .hero, .footer-rectangle .contact {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
@@ -103,13 +103,13 @@
   padding-left: 0px !important;
   padding-right: 0px !important; }
 
-.Haas-Light, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .excerpt, .post-header h2, .post-content p, .share-widget {
+.Haas-Light, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .post-content p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .behind-brand h2 {
+.Haas-Bold, .behind-brand h2, .blog-header .container .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
-.Haas-Regular, .rectangle h2, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .services .service h3, .contact-header p, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .date, .read-article a, .read-article a:hover, .read-article a:focus, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
+.Haas-Regular, .rectangle h2, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .services .service h3, .contact-header p, .excerpt, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   font-family: 'Neuzeit S LT W01 Book';
   font-weight: normal; }
 
@@ -742,6 +742,21 @@ header {
     padding-top: 140px; }
 
 /* --- Blog --- */
+.blog-header {
+  height: 100vh;
+  background: #001fff; }
+  .blog-header .container {
+    height: 30vh; }
+    .blog-header .container .hero {
+      background: #fff;
+      height: 480px; }
+      .blog-header .container .hero .title h2 {
+        color: #001fff;
+        line-height: 1.58;
+        font-size: 38px;
+        max-width: 1000px;
+        padding: 180px 77px; }
+
 .blog-excerpt {
   padding-bottom: 60px;
   padding-top: 60px;
@@ -749,13 +764,14 @@ header {
   .blog-excerpt img {
     width: 100%; }
   .blog-excerpt h2 {
-    margin-bottom: 28px; }
+    margin-bottom: 28px;
+    max-width: 800px; }
     .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus {
-      font-size: 22px;
+      font-size: 38px;
       font-style: normal;
       font-stretch: normal;
-      line-height: 1.27;
-      color: #edac01;
+      line-height: 1.58;
+      color: #001fff;
       text-decoration: none; }
   @media screen and (max-width: 800px) {
     .blog-excerpt {
@@ -768,7 +784,7 @@ header {
         padding-left: 0px !important;
         padding-right: 0px !important; } }
   .blog-excerpt .blog-item {
-    padding: 35px 0px; }
+    padding: 35px 10px; }
     @media screen and (max-width: 768px) {
       .blog-excerpt .blog-item {
         padding: 35px 15px; } }
@@ -778,29 +794,41 @@ header {
   padding-bottom: 210px; }
 
 .date {
-  margin: 28px 0; }
+  margin: 28px 0;
+  color: #001fff;
+  font-size: 20px; }
 
 .excerpt {
-  margin-bottom: 52px;
+  padding: 30px 0px;
   font-size: 22px;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.27;
+  line-height: 1.73;
   color: #000000; }
 
-.date, .read-article a, .read-article a:hover, .read-article a:focus {
-  font-size: 16px;
+.read-article a, .read-article a:hover, .read-article a:focus {
+  font-size: 13px;
   font-style: normal;
   font-stretch: normal;
-  color: #000000;
-  text-decoration: none; }
+  color: #001fff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  line-height: 1.69;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
 
 article img {
   width: 100%; }
 
 /* --- Posts --- */
+.blog-post {
+  margin-top: -535px;
+  background: #fff; }
+
 .post-header {
-  margin: 105px 0 105px 35px; }
+  margin-top: 105px; }
   .post-header .date {
     font-size: 23px;
     font-style: normal;
@@ -809,7 +837,10 @@ article img {
     font-size: 38px;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.58; }
+    line-height: 1.58;
+    color: #001fff;
+    max-width: 1000px;
+    padding: 0px 0px 50px 77px; }
   @media screen and (max-width: 768px) {
     .post-header {
       margin: 100px 0 150px;

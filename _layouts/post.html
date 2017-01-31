@@ -1,37 +1,65 @@
----
-layout: default
----
-
-{% include navigation.html %}
-
-<div class="container">
-	<div class="row">
-			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-				
-				<div class="col-md-8 col-xs-12">
-					<header class="post-header">
-					  	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
-					    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-				  </header>
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="barba-wrapper">
+	<div class="barba-container" data-transition="BarbaAnimation">
+			<div class="blog-header" style="background: {{ page['Hero Background'] }}">
+			  	{% include navigation.html %}
+			</div>
+			<div class="container blog-post">
+				<div class="row">
+						<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+							
+							<div class="col-md-12">
+								<header class="post-header">
+								    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+								    <div class="col-md-10 col-md-offset-1">
+									    <div class="col-md-3">
+									    	<p>Date Posted</p>
+									    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
+									    </div>
+									    <div class="col-md-3">
+									    	<p>Author</p>
+									    	<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">Daniel Baldwin</a>
+									    </div>
+									    <div class="col-md-3">
+									    	<p>Categories</p>
+									    	{% for category in page.categories %}
+											  <a href="/blog/{{ category | slugize }}/">
+											    {{ category }}
+											  </a>
+											{% endfor %}
+									    </div>
+									    <div class="col-md-3">
+									    	<p>Share</p>
+									    	
+									    </div>
+									</div>
+							  </header>
+							</div>
+							
+							<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+							
+							<div class="col-md-12">
+								 <img src="{{ page['first-image'] }}">
+							</div>
+							
+							<div class="col-md-8 col-md-offset-2">
+								<div class="post-content" itemprop="articleBody">
+							    	{{ content }}
+							  	</div>
+							</div>
+							
+							<div class="col-md-12">
+								 <img src="{{ page['second-image'] }}">
+							</div>
+							
+						</article>
 				</div>
-				
-				<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-				
-				<div class="col-md-12">
-					 <img src="{{ page['first-image'] }}">
-				</div>
-				
-				<div class="col-md-8 col-md-offset-2">
-					<div class="post-content" itemprop="articleBody">
-				    	{{ content }}
-				  	</div>
-				</div>
-				
-				<div class="col-md-12">
-					 <img src="{{ page['second-image'] }}">
-				</div>
-				
-			</article>
+				{% include share.html %}
+			</div>
+		{% include footer.html %}
 	</div>
-	{% include share.html %}
-</div>
+{% include js.html %}
+</body>
+</html>
