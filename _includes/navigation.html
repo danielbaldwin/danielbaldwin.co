@@ -32,12 +32,10 @@
 	        </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-    	    <ul class="nav navbar-nav navbar-right">
-                <li><a href="/work/" {% if page.url == "/work/" %}class="active"{% endif %}>Featured Work</a></li>
-                <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-                <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
-                <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
-            </ul>
+            <div class="hidden-xs hidden-sm col-xs-2 daniel-baldwin-bra"><p>Daniel Baldwin —<br>
+            Brand & Experience Design</p>
+            <a href="mailto:danielbaldwinco@gmail.com">hello@danielbaldwin.co</a>
+            </div>
 
             <a class="navbar-brand hidden-xs" href="{{ site.baseurl }}/">
                 {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
@@ -45,12 +43,20 @@
                 {% endif %}
             <a class="navbar-brand hidden-xs" href="{{ site.baseurl }}/">
                 {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_blog' or page.path contains '_work' %}
-                    <img alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
+                    <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
 
                 {% else %}
                     <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
                 {% endif %}
             </a>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/work/" {% if page.url == "/work/" %}class="active"{% endif %}>Featured Work</a></li>
+                <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+                <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+            </ul>
+
             <div class="hidden-md hidden-lg hidden-sm col-xs-12" style="margin: 63px auto; text-align: center;">
                 <a class="social" href="http://www.twitter.com/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 <a class="social" href="http://linkedin.com/in/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>

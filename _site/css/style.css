@@ -270,7 +270,7 @@ nav.navbar.navbar-default {
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
     transition: 0.4s; }
   .navbar-default .nav > li > a:hover:after {
     width: 100%; }
@@ -291,6 +291,26 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-collapse {
   padding-left: 0 !important;
   padding-right: 0 !important; }
+  .navbar-default .navbar-collapse .daniel-baldwin-bra p {
+    margin-bottom: 0; }
+  .navbar-default .navbar-collapse .daniel-baldwin-bra p, .navbar-default .navbar-collapse .daniel-baldwin-bra a {
+    font-family: 'NeuzeitSLTStd-Book';
+    font-size: 16px;
+    line-height: 1.38;
+    color: #ffffff; }
+  .navbar-default .navbar-collapse .daniel-baldwin-bra a {
+    position: relative;
+    text-decoration: none; }
+    .navbar-default .navbar-collapse .daniel-baldwin-bra a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      border-bottom: 1px solid #001eff;
+      transition: 0.4s; }
+    .navbar-default .navbar-collapse .daniel-baldwin-bra a:hover:after {
+      width: 100%; }
 
 @media screen and (max-width: 768px) {
   .navbar-default .navbar-collapse {
@@ -333,7 +353,8 @@ nav.navbar.navbar-default {
   color: #000 !important; }
 
 .navbar-default .blog .navbar-nav > li > a.active {
-  color: #edac01 !important; }
+  color: #edac01 !important;
+  border-bottom: 1px solid #edac01; }
 
 .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active {
   color: #fff !important; }
@@ -966,9 +987,10 @@ footer a.navbar-brand {
     float: none !important; } }
 
 footer .nav > li > a {
-  padding-left: 0;
+  padding: 2px 1px;
+  position: relative;
   margin-left: -15px;
-  padding-right: 35px; }
+  margin-right: 35px; }
   @media screen and (max-width: 1200px) {
     footer .nav > li > a {
       margin-left: 0px !important;
@@ -976,6 +998,16 @@ footer .nav > li > a {
       padding: 0px !important; } }
   footer .nav > li > a:focus, footer .nav > li > a:hover {
     background-color: transparent; }
+  footer .nav > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #001eff;
+    transition: 0.4s; }
+  footer .nav > li > a:hover:after {
+    width: 100%; }
 
 footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   color: #edac01; }

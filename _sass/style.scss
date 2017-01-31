@@ -71,7 +71,7 @@ nav.navbar.navbar-default {
         bottom: 0;
         left: 0;
         width: 0%;
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #fff;
         transition: 0.4s;
       }
       &:hover:after {
@@ -93,6 +93,31 @@ nav.navbar.navbar-default {
   .navbar-collapse {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    .daniel-baldwin-bra {
+      p { margin-bottom: 0; }
+      p, a {
+          font-family: 'NeuzeitSLTStd-Book';
+          font-size: 16px;
+          line-height: 1.38;
+          color: #ffffff;
+      }
+      a {
+        position: relative;
+        text-decoration: none;
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0%;
+          border-bottom: 1px solid #001eff;
+          transition: 0.4s;
+        }
+        &:hover:after {
+          width: 100%;
+        }
+      }
+    }
   }
   @media screen and (max-width: 768px) {
     .navbar-collapse {
@@ -148,6 +173,7 @@ nav.navbar.navbar-default {
   }
   .blog .navbar-nav>li>a.active {
     color: #edac01 !important;
+    border-bottom: 1px solid #edac01;
     @extend .Haas-Regular;
   }
   .home .navbar-nav>li>a, .home .navbar-nav>li>a.active {
@@ -1019,9 +1045,10 @@ footer {
     }
   }
   .nav>li>a {
-    padding-left: 0;
+    padding: 2px 1px;
+    position: relative;
     margin-left: -15px;
-    padding-right: 35px;
+    margin-right: 35px;
     
     @media screen and (max-width: 1200px) {
       margin-left: 0px !important;
@@ -1032,6 +1059,18 @@ footer {
     &:focus, &:hover {
       background-color:transparent;
     }
+    &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0%;
+          border-bottom: 1px solid #001eff;
+          transition: 0.4s;
+        }
+        &:hover:after {
+          width: 100%;
+        }
   }
 } 
 footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
