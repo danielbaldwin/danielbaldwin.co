@@ -915,7 +915,7 @@ article img {
       border-bottom: 1px solid #fff;
       transition: 0.4s; }
     .footer-rectangle h1:hover:after {
-      width: 70%; }
+      width: 80%; }
   @media screen and (max-width: 768px) {
     .footer-rectangle p {
       margin-top: 50px; } }
