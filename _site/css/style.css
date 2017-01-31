@@ -897,24 +897,25 @@ article img {
 .footer-rectangle {
   margin-bottom: 36px;
   height: 500px;
-  background-image: linear-gradient(to left, #f8d602, #edac01);
-  color: #fff;
-  background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-  background-size: 800% 800%;
-  animation: footer-gradient 14s ease infinite; }
-
-@keyframes footer-gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
+  background-image: linear-gradient(253deg, #f8d602, #edac01);
+  color: #fff; }
   .footer-rectangle a {
     color: #fff; }
     .footer-rectangle a:hover, .footer-rectangle a:active, .footer-rectangle a:focus {
       color: #fff;
       text-decoration: none; }
+  .footer-rectangle h1 {
+    position: relative; }
+    .footer-rectangle h1:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      border-bottom: 1px solid #fff;
+      transition: 0.4s; }
+    .footer-rectangle h1:hover:after {
+      width: 70%; }
   @media screen and (max-width: 768px) {
     .footer-rectangle p {
       margin-top: 50px; } }
@@ -940,18 +941,33 @@ footer .footer {
     margin-top: 0;
     margin-bottom: 26px; }
   footer .footer .social {
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 13px; }
+    footer .footer .social i {
+      transition: all .2s ease-in-out; }
+      footer .footer .social i:hover {
+        transform: scale(1.2); }
+    footer .footer .social .fa-twitter {
+      color: #1aaae2; }
+    footer .footer .social .fa-linkedin {
+      color: #0077b5; }
+    footer .footer .social .fa-dribbble {
+      color: #ec0086; }
+    footer .footer .social .fa-instagram {
+      color: #ec0086; }
+  footer .footer .navbar-text {
+    margin-top: 0; }
 
-footer .navbar-brand img {
-  width: 40px;
-  height: 40px;
-  margin-top: -15px !important; }
-
-footer .grow {
-  transition: all .2s ease-in-out; }
-  footer .grow:hover {
-    transform: scale(1.1); }
+footer .navbar-brand {
+  padding: 0 !important; }
+  footer .navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-top: -15px !important; }
+  footer .navbar-brand .grow {
+    transition: all .2s ease-in-out; }
+    footer .navbar-brand .grow:hover {
+      transform: scale(1.1); }
 
 footer a.navbar-brand {
   text-align: center;
