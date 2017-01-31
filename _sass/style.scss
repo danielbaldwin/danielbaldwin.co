@@ -1005,9 +1005,10 @@ footer {
     }
   }
   .nav>li>a {
-    padding-left: 0;
+    padding: 2px 1px;
+    position: relative;
     margin-left: -15px;
-    padding-right: 35px;
+    margin-right: 35px;
     
     @media screen and (max-width: 1200px) {
       margin-left: 0px !important;
@@ -1018,6 +1019,18 @@ footer {
     &:focus, &:hover {
       background-color:transparent;
     }
+    &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0%;
+          border-bottom: 1px solid #001eff;
+          transition: 0.4s;
+        }
+        &:hover:after {
+          width: 100%;
+        }
   }
 } 
 footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {

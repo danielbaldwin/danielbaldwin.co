@@ -956,9 +956,10 @@ footer a.navbar-brand {
     float: none !important; } }
 
 footer .nav > li > a {
-  padding-left: 0;
+  padding: 2px 1px;
+  position: relative;
   margin-left: -15px;
-  padding-right: 35px; }
+  margin-right: 35px; }
   @media screen and (max-width: 1200px) {
     footer .nav > li > a {
       margin-left: 0px !important;
@@ -966,6 +967,16 @@ footer .nav > li > a {
       padding: 0px !important; } }
   footer .nav > li > a:focus, footer .nav > li > a:hover {
     background-color: transparent; }
+  footer .nav > li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #001eff;
+    transition: 0.4s; }
+  footer .nav > li > a:hover:after {
+    width: 100%; }
 
 footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   color: #edac01; }
