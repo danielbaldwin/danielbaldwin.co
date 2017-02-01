@@ -478,6 +478,9 @@ header {
   .case-studies img[data-src] {
     opacity: 0; }
 
+.case-studies a.see-case {
+  color: #001fff; }
+
 .more-projects {
   text-align: center;
   margin-top: 32px;
