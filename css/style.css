@@ -479,19 +479,33 @@ header {
     opacity: 0; }
 
 .more-projects {
-  text-align: right;
+  text-align: center;
   margin-top: 32px;
   margin-bottom: 270px; }
   .more-projects a {
-    font-size: 18px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.27;
-    color: #000;
-    transition: color 0.5s ease-in-out; }
+    font-size: 13px;
+    line-height: 1.69;
+    color: #001fff;
+    transition: color 0.5s ease-in-out;
+    border: solid 1.5px #001fff;
+    text-transform: uppercase;
+    padding: 18px 26px;
+    position: relative; }
     .more-projects a:hover {
-      color: #edac01;
-      text-decoration: none; }
+      text-decoration: none;
+      color: #fff; }
+    .more-projects a:before {
+      content: '';
+      background: #001fff;
+      position: absolute;
+      width: 0%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transition: 0.5s linear;
+      z-index: -1; }
+    .more-projects a:hover:before {
+      width: 100%; }
     .more-projects a img {
       padding-left: 3px;
       margin-top: -3px; }
@@ -915,7 +929,7 @@ article img {
       border-bottom: 1px solid #fff;
       transition: 0.4s; }
     .footer-rectangle h1:hover:after {
-      width: 80%; }
+      width: 75%; }
   @media screen and (max-width: 768px) {
     .footer-rectangle p {
       margin-top: 50px; } }
