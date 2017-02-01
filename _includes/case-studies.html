@@ -4,21 +4,36 @@
         {% if page.url != "/work/" %}
         {% for work in sorted_work %}
           {% if work.['Is Featured'] == true %}
+          {% if work.['Image Left'] == true %}
            <div class="col-md-{{work.['Bootstrap Columns'] }} study">
               <div class="rectangle hovereffect" style="height: {{ work.['Column Height'] }}px;">
-                    <a href="{{ site.baseurl }}{{ work.url }}">
-                      <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">
-                      
-                    </a>
-                  </div>
+                <a href="{{ site.baseurl }}{{ work.url }}">
+                  <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
+                </a>
+              </div>
             </div>
             <div class="col-md-{{work.['Bootstrap Columns title'] }}">
-                      <h2>{{ work.title }}</h2>
-                      <p>{{ work.['Hero Text'] }}</p>
-                      <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
-                      </div>
+              <h2>{{ work.title }}</h2>
+              <p>{{ work.['Hero Text'] }}</p>
+              <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+            </div>
+            <div style="clear: both;"></div>
+            {% else %}
+            <div class="col-md-{{work.['Bootstrap Columns title'] }}">
+              <h2>{{ work.title }}</h2>
+              <p>{{ work.['Hero Text'] }}</p>
+              <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+            </div>
+            <div class="col-md-{{work.['Bootstrap Columns'] }} study">
+              <div class="rectangle hovereffect" style="height: {{ work.['Column Height'] }}px;">
+                <a href="{{ site.baseurl }}{{ work.url }}">
+                  <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
+                </a>
+              </div>
+            </div>
+            {% endif %}
           {% endif %}
-          
+
         {% endfor %}
           <div class="col-md-12">
             <div class="more-projects">
