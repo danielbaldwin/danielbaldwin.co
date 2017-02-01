@@ -10,7 +10,6 @@ tags:
 - small business
 position: 3
 Hero Text: Creating brand collateral for a photography company
-Is Featured: true
 Featured Image: "/uploads/coleandoak-featured-87554c.jpg"
 Hover Background: 'linear-gradient(44deg, #004a31, #0b6245)'
 Bootstrap Columns: 5
