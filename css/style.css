@@ -103,13 +103,13 @@
   padding-left: 0px !important;
   padding-right: 0px !important; }
 
-.Haas-Light, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .about-header h2, .behind-brand p, .services .service, .contact-header h2, .post-content p, .share-widget {
+.Haas-Light, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .behind-brand p, .services .service, .contact-header h2, .post-content p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
 .Haas-Bold, .behind-brand h2, .blog-header .container .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
-.Haas-Regular, .rectangle h2, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .services .service h3, .contact-header p, .excerpt, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
+.Haas-Regular, .rectangle h2, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .about-header h2, .services .service h3, .contact-header p, .excerpt, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   font-family: 'Neuzeit S LT W01 Book';
   font-weight: normal; }
 

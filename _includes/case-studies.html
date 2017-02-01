@@ -4,17 +4,17 @@
         {% if page.url != "/work/" %}
         {% for work in sorted_work %}
           {% if work.['Is Featured'] == true %}
-           <div class="col-md-{{work.['Bootstrap Columns'] }} study">
+           <div class="col-md-8 study">
               <div class="rectangle hovereffect" style="background: {{ work.['Hover Background'] }};">
                     <a href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">
-                      <div class="overlay">
-                      <h2>{{ work.title }}</h2>
-                      <p>{{ work.['Hero Text'] }}</p>
-                      <a class="see-case" href="{{ site.baseurl }}{{ work.url }}">See Case Study</a>
-                      </div>
                     </a>
                   </div>
+            </div>
+            <div class="col-md-4">
+                <h2>{{ work.title }}</h2>
+                <p>{{ work.['Hero Text'] }}</p>
+                <a class="see-case" href="{{ site.baseurl }}{{ work.url }}">See Case Study</a>
             </div>
           {% endif %}
         {% endfor %}
