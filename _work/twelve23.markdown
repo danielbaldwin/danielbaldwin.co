@@ -17,6 +17,7 @@ Hover Background: 'linear-gradient(122deg, #3b4d5f, #35424f)'
 Bootstrap Columns: 8
 Bootstrap Columns title: 4
 Column Height: 425
+See Case: '#edac01'
 Twitter Text: "@danielbaldwinco rebranded a web solutions company into a creative
   agency, Twelve23. See the case study here:"
 ---

@@ -17,6 +17,7 @@ Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
 Bootstrap Columns: 8
 Bootstrap Columns title: 4
 Column Height: 426
+See Case: '#001fff'
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
 layout: case-study
