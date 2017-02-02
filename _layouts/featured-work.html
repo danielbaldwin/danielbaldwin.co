@@ -14,7 +14,44 @@
 		      </div>
 		    </div>
 		</div>
-		{% include case-studies.html %}
+		<div class="container">
+        <div class="row case-studies">
+        {% assign sorted_work = site.work | sort:"position" %}
+        {% if page.url != "/work/" %}
+        {% for work in sorted_work %}
+          {% if work['Is Featured'] == true %}
+           <div class="col-md-{{work['Bootstrap Columns'] }} study">
+              <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
+                    <a href="{{ site.baseurl }}{{ work.url }}">
+                      <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
+                      <div class="overlay">
+                      <h2>{{ work.title }}</h2>
+                      <h1>{{ work['Hero Text'] }}</h1>
+                      <a class="" href="">{{ work.categories | array_to_sentence_string }}</a><a class="" href="{{ site.baseurl }}{{ work.url }}"> - See case study</a>
+                      </div>
+                    </a>
+                  </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+          {% else %}
+          {% for work in sorted_work %}
+           <div class="col-md-{{work['Bootstrap Columns'] }} study">
+              <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }}; height: {{ work['Column Height'] }}px;">
+                    <a href="{{ site.baseurl }}{{ work.url }}">
+                      <img class="lazy" data-src="{{ work['Featured Image'] }}" alt="">
+                      <div class="overlay">
+                      <h2>{{ work.title }}</h2>
+                      <h1>{{ work['Hero Text'] }}</h1>
+                      <a class="" href="">{{ work.categories | array_to_sentence_string }}</a><a class="" href="{{ site.baseurl }}{{ work.url }}"> - See sase study</a>
+                      </div>
+                    </a>
+                  </div>
+            </div>
+        {% endfor %}
+        {% endif %}
+        </div>
+       </div>
 		{% include footer.html %}
 	</div>
 {% include js.html %}
