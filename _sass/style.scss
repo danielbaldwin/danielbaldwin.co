@@ -55,6 +55,11 @@ nav.navbar.navbar-default {
 	border-color: transparent;
 	border-radius: 0px;
 }
+.navbar-fixed-top {
+  .daniel-baldwin-bra {
+    display: none;
+  }
+}
 .navbar-default {
   .navbar-header {
     @media screen and (max-width: 768px) {
