@@ -6,6 +6,7 @@
     margin-bottom: 0;
   }
   h1 {
+    margin-bottom: 36px;
     font-size: 38px;
     font-style: normal;
     font-stretch: normal;
@@ -72,7 +73,7 @@
     position: absolute;
     overflow: hidden;
     left: 0;
-    top: 0;
+    bottom: 5%;
     padding: 34px;
     text-align: left;
     @media screen and (max-width: 768px) {
@@ -92,6 +93,15 @@
     position: relative;
     overflow: hidden;
     background-color: transparent;
+  }
+  .bottom-left {
+    float: left;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  .bottom-right {
+    float: right;
+    text-align: right;
   }
   a, a.see-case, p {
     color: #FFF;

@@ -10,9 +10,11 @@ position: 2
 Hero Text: |-
   Developing an identity for a
   storytelling film company
+Type: project
 Featured Image: "/uploads/powercity-films.jpg"
 Hover Background: 'linear-gradient(0deg, #1C1B21, #8495A9);'
 Bootstrap Columns: 7
+Featured Columns: 7
 Column Height: 430
 Twitter Text: "@danielbaldwinco developed an identity for a storytelling film company,
   @PowercityFilms. See the case study here:"
