@@ -11,11 +11,13 @@ tags:
 - startup
 position: 0
 Hero Text: Creating a brand experience for a B2B startup
+Type: project
 Is Featured: true
 Featured Image: "/uploads/TINT-featured-2.jpg"
 Image Left: true
 Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
 Bootstrap Columns: 8
+Featured Columns: 8
 Bootstrap Columns title: 4
 Column Height: 426
 See Case: '#001fff'

@@ -20,14 +20,14 @@
         {% if page.url != "/work/" %}
         {% for work in sorted_work %}
           {% if work['Is Featured'] == true %}
-           <div class="col-md-{{work['Bootstrap Columns'] }} study">
+           <div class="col-md-{{work['Featured Columns'] }} study">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
                     <a href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
                       <div class="overlay">
                       <h2>{{ work.title }}</h2>
                       <h1>{{ work['Hero Text'] }}</h1>
-                      <a class="" href="">{{ work.categories | array_to_sentence_string }}</a><a class="" href="{{ site.baseurl }}{{ work.url }}"> - See case study</a>
+                      <a class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</a><a class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</a>
                       </div>
                     </a>
                   </div>
@@ -36,14 +36,14 @@
         {% endfor %}
           {% else %}
           {% for work in sorted_work %}
-           <div class="col-md-{{work['Bootstrap Columns'] }} study">
+           <div class="col-md-{{work['Featured Columns'] }} study">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }}; height: {{ work['Column Height'] }}px;">
                     <a href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy" data-src="{{ work['Featured Image'] }}" alt="">
                       <div class="overlay">
                       <h2>{{ work.title }}</h2>
                       <h1>{{ work['Hero Text'] }}</h1>
-                      <a class="" href="">{{ work.categories | array_to_sentence_string }}</a><a class="" href="{{ site.baseurl }}{{ work.url }}"> - See sase study</a>
+                      <a class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</a><a class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</a>
                       </div>
                     </a>
                   </div>

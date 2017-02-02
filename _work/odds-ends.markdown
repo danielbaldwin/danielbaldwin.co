@@ -12,9 +12,11 @@ tags:
 - logo
 position: 6
 Hero Text: A collection of my work from throughout the years
+Type: project
 Featured Image: "/uploads/urban-timber-featured.jpg"
 Hover Background: 'linear-gradient(122deg, #f8d602, #edac01)'
 Bootstrap Columns: 12
+Featured Columns: 12
 Column Height: 460
 Twitter Text: Check out a collection of work designed by @danielbaldwinco on
 ---
