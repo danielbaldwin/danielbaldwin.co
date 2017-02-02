@@ -71,3 +71,28 @@ $(document).ready(function() {
     });
 
 });
+
+/* On scroll, navigation drops down w/ white background */
+var navbarVisible = false;
+
+        $(window).scroll(function(){
+
+            var ht = $('header').height()+70;
+
+            if ($(this).scrollTop() >= ht) {
+
+                if (!navbarVisible) {
+                    $("#navb").addClass("navbar-fixed-top")
+                        .hide()
+                        .fadeTo('slow','1');
+
+                    $(".row:first").css("padding-top","50px");
+                    navbarVisible = true;
+                };
+            } else {
+                $("#navb").removeClass("navbar-fixed-top").removeAttr('style');
+                $(".row:first").css("padding-top","0px");
+                navbarVisible = false;
+            }
+
+        });
