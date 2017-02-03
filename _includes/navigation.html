@@ -11,23 +11,11 @@
               <span>toggle menu</span>
           </button>
 
-	       <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
+	       <a class="navbar-brand navbar-right hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
 	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
 	                <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
 	            {% else %}
 	                <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-	            {% endif %}
-	        </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-	       <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
-	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_work' %}
-	                <img class="yellow-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
-                    <img class="white-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-	            {% else %}
-	                <img class="white-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-                    <img class="yellow-logo" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
 	            {% endif %}
 	        </a>
         </div>
@@ -37,14 +25,9 @@
             <a href="mailto:danielbaldwinco@gmail.com">hello@danielbaldwin.co</a>
             </div>
 
-            <a class="navbar-brand hidden-xs" href="{{ site.baseurl }}/">
-                {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
-                    <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
-                {% endif %}
-            <a class="navbar-brand hidden-xs" href="{{ site.baseurl }}/">
+            <a class="navbar-brand navbar-left hidden-xs" href="{{ site.baseurl }}/">
                 {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_blog' or page.path contains '_work' %}
                     <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
-
                 {% else %}
                     <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
                 {% endif %}
