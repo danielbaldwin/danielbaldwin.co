@@ -315,7 +315,7 @@ nav#navb.navbar-fixed-top {
   nav#navb.navbar-fixed-top .daniel-baldwin-bra {
     display: none; }
   nav#navb.navbar-fixed-top .nav > li > a {
-    color: #edac01 !important;
+    color: #000 !important;
     position: relative; }
     nav#navb.navbar-fixed-top .nav > li > a:after {
       content: '';
