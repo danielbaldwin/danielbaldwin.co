@@ -1,4 +1,7 @@
 <footer>
+{% if page.title == 'Featured Work' %}
+<div style="margin-bottom: 100px;"></div>
+{% else %}
 	<div class="container footer-rectangle">
 		<div class="row contact">
 			<div class="col-md-6 col-sm-12 col-xs-12">
@@ -15,6 +18,7 @@
 			</div>
 		</div>
 	</div>
+{% endif %}
   <div class="container">
     <div class="row">
         <div class="col-lg-4 col-md-12 hidden-sm hidden-xs footer">

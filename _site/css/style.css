@@ -121,7 +121,7 @@
 .Haas-Bold, .behind-brand h2, .blog-header .container .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
-.Haas-Regular, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .about-header h2, .services .service h3, .contact-header p, .excerpt, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
+.Haas-Regular, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images h3, .services .service h3, .contact-header p, .excerpt, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   font-family: 'Neuzeit S LT W01 Book';
   font-weight: normal; }
 
@@ -314,6 +314,22 @@ nav#navb.navbar-fixed-top {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15); }
   nav#navb.navbar-fixed-top .daniel-baldwin-bra {
     display: none; }
+  nav#navb.navbar-fixed-top .nav > li > a {
+    color: #edac01 !important;
+    position: relative; }
+    nav#navb.navbar-fixed-top .nav > li > a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      border-bottom: 1px solid #001eff;
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+    nav#navb.navbar-fixed-top .nav > li > a:hover:after {
+      width: 100%; }
+    nav#navb.navbar-fixed-top .nav > li > a.active {
+      border-bottom: 1px solid #edac01; }
 
 @media screen and (max-width: 768px) {
   .navbar-default .navbar-header {
@@ -334,18 +350,21 @@ nav#navb.navbar-fixed-top {
     transition: 0.4s; }
   .navbar-default .nav > li > a:hover:after {
     width: 100%; }
+  .navbar-default .nav > li > a.active {
+    border-bottom: 1px solid #fff; }
 
-.navbar-default .navbar-brand {
-  float: none;
+.navbar-default .navbar-brand .grow {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  .navbar-default .navbar-brand .grow:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+
+.navbar-default .navbar-float-none {
   margin-left: 0 !important;
+  float: none !important;
   left: calc(50% - 21.5px);
   position: absolute; }
-  .navbar-default .navbar-brand .grow {
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out; }
-    .navbar-default .navbar-brand .grow:hover {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1); }
 
 .navbar-default .navbar-toggle {
   float: left; }
@@ -688,11 +707,12 @@ header {
 
 /* --- Page About --- */
 .about-header {
-  background-image: url("/img/about-hero.jpg");
-  background-size: cover;
+  /* background-image: url('/img/about-hero.jpg');
+	background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100%;
+	height: 100vh;
+  width: 100%; */
+  background-color: #edac01;
   color: #fff; }
   .about-header .yellow-logo {
     display: none; }
@@ -726,19 +746,52 @@ header {
         line-height: 1.71;
         text-align: center; } }
 
+.grey {
+  background-color: #f6f6f6;
+  padding-top: 152px;
+  padding-bottom: 218px; }
+  .grey .container {
+    background-color: #fff;
+    padding: 0; }
+    .grey .container .col-md-6 {
+      padding: 0; }
+      .grey .container .col-md-6 h2 {
+        margin-top: 160px;
+        margin-left: 45px;
+        font-size: 36px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.5;
+        letter-spacing: normal;
+        color: #000000; }
+      .grey .container .col-md-6 p {
+        float: left;
+        width: 35%;
+        margin-left: 45px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000; }
+
 .behind-brand {
-  margin-top: 300px;
+  margin-top: 180px;
   margin-bottom: 200px; }
   @media screen and (max-width: 992px) {
     .behind-brand {
       margin-top: 100px;
       margin-bottom: 100px; } }
   .behind-brand h2 {
-    font-size: 28px;
+    font-size: 38px;
+    font-weight: 900;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.21;
-    color: #181818;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #001fff;
     max-width: 340px;
     margin-top: 0px;
     margin-bottom: 100px; }
@@ -750,7 +803,7 @@ header {
         max-width: none; } }
   .behind-brand p {
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
@@ -767,9 +820,19 @@ header {
       margin-bottom: 100px; } }
   .images img {
     width: 100%; }
+  .images h3 {
+    font-size: 38px;
+    line-height: 1.58;
+    color: #272727;
+    text-align: center; }
 
 .services {
   margin-bottom: 300px; }
+  .services h2 {
+    font-size: 38px;
+    line-height: 1.58;
+    color: #272727;
+    text-align: center; }
   @media screen and (max-width: 992px) {
     .services {
       margin-bottom: 100px; } }
@@ -785,8 +848,11 @@ header {
     text-align: center;
     color: #000000; }
     .services .service h3 {
+      font-size: 13px;
       line-height: 1.27;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      color: #edac01;
+      text-transform: uppercase; }
     .services .service p {
       line-height: 1.82;
       padding-bottom: 20px; }

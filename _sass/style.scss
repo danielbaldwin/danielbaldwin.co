@@ -63,6 +63,25 @@ nav#navb.navbar-fixed-top {
   .daniel-baldwin-bra {
     display: none;
   }
+  .nav>li>a {
+    color: #edac01 !important;
+    position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 1px solid #001eff;
+        transition: 0.4s;
+      }
+      &:hover:after {
+        width: 100%;
+      }
+      &.active {
+        border-bottom: 1px solid #edac01;
+      }
+  }
 }
 .navbar-default {
   .navbar-header {
@@ -86,15 +105,20 @@ nav#navb.navbar-fixed-top {
       &:hover:after {
         width: 100%;
       }
+      &.active {
+        border-bottom: 1px solid #fff;
+      }
   }
   .navbar-brand {
-    float: none;
-    margin-left: 0 !important;
-    left: calc(50% - 21.5px);
-    position: absolute;
     .grow { transition: all .2s ease-in-out; 
       &:hover { transform: scale(1.1); }
     }
+  }
+  .navbar-float-none {
+    margin-left: 0 !important;
+    float: none !important;
+    left: calc(50% - 21.5px);
+    position: absolute;
   }
   .navbar-toggle {
     float: left;
@@ -524,11 +548,12 @@ header {
 }
 /* --- Page About --- */
 .about-header {
-	background-image: url('/img/about-hero.jpg');
+	/* background-image: url('/img/about-hero.jpg');
 	background-size: cover;
   background-position: center;
 	height: 100vh;
-  width: 100%;
+  width: 100%; */
+  background-color: #edac01;
 	color: #fff;
 
   .yellow-logo {
@@ -583,21 +608,59 @@ header {
     }
   }
 }
+.grey {
+  background-color: #f6f6f6;
+  padding-top: 152px;
+  padding-bottom: 218px;
+  .container {
+    background-color: #fff;
+    padding: 0;
+    .col-md-6 {
+      padding: 0;
+      h2 {
+        margin-top: 160px;
+        margin-left: 45px;
+        font-size: 36px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.5;
+        letter-spacing: normal;
+        color: #000000;
+        @extend .Haas-Regular;
+      }
+      p {
+        float: left;
+        width: 35%;
+        margin-left: 45px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000;
+        @extend .Haas-Regular;
+      }
+    }
+  }
+}
 .behind-brand {
-	margin-top: 300px;
+	margin-top: 180px;
 	margin-bottom: 200px;
 
   @media screen and (max-width: 992px) {
     margin-top: 100px;
     margin-bottom: 100px;
   }
-	
 	h2 {
-    font-size: 28px;
+    font-size: 38px;
+    font-weight: 900;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.21;
-    color: #181818;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #001fff;
     max-width: 340px;
     margin-top: 0px;
     margin-bottom: 100px;
@@ -615,7 +678,7 @@ header {
 	
 	p {
   	margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.27;
@@ -640,10 +703,23 @@ header {
   img {
     width: 100%;
   }
+  h3 {
+      font-size: 38px;
+      line-height: 1.58;
+      color: #272727;
+      text-align: center;
+      @extend .Haas-Regular;
+    }
 }
 .services {
   margin-bottom: 300px;
 
+  h2 {
+      font-size: 38px;
+      line-height: 1.58;
+      color: #272727;
+      text-align: center;
+    }
   @media screen and (max-width: 992px) {
     margin-bottom: 100px;
   }
@@ -663,10 +739,13 @@ header {
 
     @extend .Haas-Light;
     
+
     h3 {
+      font-size: 13px;
       line-height: 1.27;
       margin-bottom: 40px;
-
+      color: #edac01;
+      text-transform: uppercase;
       @extend .Haas-Regular;
     }
     

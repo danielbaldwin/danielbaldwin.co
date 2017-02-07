@@ -82,12 +82,12 @@ $(window).scroll(function(){
                 .hide()
                 .fadeTo('slow','1');
 
-            $(".row:first").css("padding-top","50px");
+           /* $(".row:first").css("padding-top","50px"); */
             navbarVisible = true;
         };
     } else {
         $("#navb").removeClass("navbar-fixed-top").removeAttr('style');
-        $(".row:first").css("padding-top","0px");
+        /* $(".row:first").css("padding-top","0px"); */
         navbarVisible = false;
     }
 });
