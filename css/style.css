@@ -105,7 +105,7 @@
   background: #edac01; }
 
 /* Extends */
-.vertically-centered, .home-header h1, .about-header .title, .blog-header .container .hero, .footer-rectangle .contact {
+.vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -118,7 +118,7 @@
 .Haas-Light, .rectangle h2, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .behind-brand p, .services .service, .contact-header h2, .post-content p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .behind-brand h2, .blog-header .container .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
+.Haas-Bold, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
 .Haas-Regular, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images h3, .services .service h3, .contact-header p, .excerpt, .post-header .date, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
@@ -299,9 +299,6 @@ div.progress {
   width: 100% !important;
   padding: 0px 55px !important; }
 
-.navbar-right {
-  margin-right: 0px !important; }
-
 nav.navbar.navbar-default {
   background: transparent;
   border-color: transparent;
@@ -359,6 +356,10 @@ nav#navb.navbar-fixed-top {
   .navbar-default .navbar-brand .grow:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
+
+.navbar-default .navbar-brand.navbar-right {
+  float: right;
+  margin-right: 0px !important; }
 
 .navbar-default .navbar-float-none {
   margin-left: 0 !important;
@@ -432,11 +433,11 @@ nav#navb.navbar-fixed-top {
       background-color: #edac01 !important; }
 
 .navbar-default .blog .navbar-nav > li > a {
-  color: #000 !important; }
+  color: #fff !important; }
 
 .navbar-default .blog .navbar-nav > li > a.active {
-  color: #edac01 !important;
-  border-bottom: 1px solid #edac01; }
+  color: #fff !important;
+  border-bottom: 1px solid #fff; }
 
 .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active {
   color: #fff !important; }
@@ -905,14 +906,13 @@ header {
 
 /* --- Blog --- */
 .blog-header {
-  height: 100vh;
   background: #001fff; }
-  .blog-header .container {
-    height: 30vh; }
-    .blog-header .container .hero {
-      background: #fff;
-      height: 480px; }
-      .blog-header .container .hero .title h2 {
+  .blog-header .hero {
+    height: 480px;
+    margin-bottom: 150px; }
+    .blog-header .hero .title {
+      background-color: #fff; }
+      .blog-header .hero .title h2 {
         color: #001fff;
         line-height: 1.58;
         font-size: 38px;

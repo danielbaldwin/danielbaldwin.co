@@ -47,9 +47,7 @@ div.progress {
   width: 100% !important;
   padding: 0px 55px !important;
 }
-.navbar-right {
-  margin-right: 0px !important;
-}
+
 nav.navbar.navbar-default {
 	background: transparent;
 	border-color: transparent;
@@ -112,6 +110,10 @@ nav#navb.navbar-fixed-top {
   .navbar-brand {
     .grow { transition: all .2s ease-in-out; 
       &:hover { transform: scale(1.1); }
+    }
+    &.navbar-right {
+      float: right;
+      margin-right: 0px !important;
     }
   }
   .navbar-float-none {
@@ -201,12 +203,12 @@ nav#navb.navbar-fixed-top {
     }
   }
   .blog .navbar-nav>li>a {
-    color: #000 !important;
+    color: #fff !important;
     @extend .Haas-Regular;
   }
   .blog .navbar-nav>li>a.active {
-    color: #edac01 !important;
-    border-bottom: 1px solid #edac01;
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
     @extend .Haas-Regular;
   }
   .home .navbar-nav>li>a, .home .navbar-nav>li>a.active {
@@ -825,19 +827,15 @@ header {
 }
 /* --- Blog --- */
 .blog-header {
-  height: 100vh;
+  
   background: #001fff;
 
-  .container {
-    height: 30vh;
-
     .hero {
-    background: #fff;
     height: 480px;
-
-    @extend .vertically-centered;
-
-    .title h2 {
+    margin-bottom: 150px;
+    .title {
+      background-color: #fff;
+    h2 {
       color: #001fff;
       @extend .Haas-Bold;
       line-height: 1.58;
@@ -846,7 +844,7 @@ header {
       padding: 180px 77px;
       }
     }
-  }
+    }
 }
 .blog-excerpt {
 	padding-bottom: 60px;
