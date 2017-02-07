@@ -1,10 +1,13 @@
 <header>
 <nav id="navb" class="navbar navbar-default">
-	{% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_work' %}
+	{% if page.title == 'Blog' or page.path contains '_posts' %}
         <div class="container blog">	
-	{% else %}
-	    <div class="container home">
 	{% endif %}
+    {% if page.title == 'Featured Work' or page.path contains '_work' %}
+        <div class="container work">    
+    {% else %}
+        <div class="container home">
+    {% endif %}
     
         <div class="navbar-header">
           <button type="button" class="c-hamburger c-hamburger--htx navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
