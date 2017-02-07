@@ -239,6 +239,16 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
+	"\/_site\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 715,
@@ -307,6 +317,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/img\/daniel-portrait.jpg": {
+		"ft": 16384,
+		"iS": 91115,
+		"oA": 0,
+		"oAP": "\/_site\/img\/daniel-portrait.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/img\/logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -332,6 +350,14 @@
 		"iS": 57086,
 		"oA": 0,
 		"oAP": "\/_site\/img\/nightlife.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/img\/peace.png": {
+		"ft": 32768,
+		"iS": 8746,
+		"oA": 0,
+		"oAP": "\/_site\/img\/peace.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1891,6 +1917,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/daniel-portrait.jpg": {
+		"ft": 16384,
+		"iS": 91115,
+		"oA": 0,
+		"oAP": "\/img\/daniel-portrait.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1916,6 +1950,14 @@
 		"iS": 57086,
 		"oA": 0,
 		"oAP": "\/img\/nightlife.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/peace.png": {
+		"ft": 32768,
+		"iS": 8746,
+		"oA": 0,
+		"oAP": "\/img\/peace.png",
 		"oF": 0,
 		"opt": 0
 		},
