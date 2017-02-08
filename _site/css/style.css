@@ -105,7 +105,7 @@
   background: #edac01; }
 
 /* Extends */
-.vertically-centered, .home-header h1, .about-header .title, .footer-rectangle .contact {
+.vertically-centered, .about-header .title, .footer-rectangle .contact {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -496,32 +496,20 @@ nav#navb.navbar-fixed-top {
 .hero {
   height: 70vh; }
 
-.home-header, .progress-bar-success {
+.progress-bar-success {
   background-image: -webkit-linear-gradient(right, #f8d602, #edac01);
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header {
-  background: -webkit-linear-gradient(224deg, #edac01, #f8d602, #ffea00, #f8c302);
-  background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-  background-size: 800% 800%;
-  -webkit-animation: gradient 14s ease infinite;
-          animation: gradient 14s ease infinite; }
-
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
-
-@keyframes gradient {
-  0% {
-    background-position: 93% 0%; }
-  50% {
-    background-position: 0% 100%; }
-  100% {
-    background-position: 93% 0%; } }
+  /* background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
+	background-size: 800% 800%;
+	animation: gradient 14s ease infinite;
+	@keyframes gradient {
+	    0%{background-position:93% 0%}
+	    50%{background-position:0% 100%}
+	    100%{background-position:93% 0%}
+	} */
+  background-color: #f6f6f6; }
 
 header {
   padding-top: 30px; }
@@ -529,28 +517,49 @@ header {
     header {
       padding-top: 0; } }
 
-.home-header {
-  height: 100vh; }
-  .home-header h1 {
-    font-size: 38px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.58;
-    text-align: center;
-    color: #ffffff;
-    max-width: 830px;
-    margin: 0 auto; }
-    @media screen and (max-width: 768px) {
-      .home-header h1 {
-        font-size: 28px; } }
-  .home-header .yellow-logo {
+.circle-1 {
+  width: 500px;
+  height: 500px;
+  background: #edac01;
+  clip-path: circle(50% at 27% 11%);
+  -webkit-clip-path: circle(50% at 27% 11%); }
+
+.home-header h1 {
+  font-size: 60px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  color: #ffffff;
+  margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .home-header h1 {
+      font-size: 28px; } }
+
+.home-header .yellow-logo {
+  display: none; }
+
+.home-header.white {
+  background: #fff; }
+  .home-header.white .yellow-logo {
+    display: block; }
+  .home-header.white .white-logo {
     display: none; }
-  .home-header.white {
-    background: #fff; }
-    .home-header.white .yellow-logo {
-      display: block; }
-    .home-header.white .white-logo {
-      display: none; }
+
+.db-icon {
+  margin-bottom: 148px; }
+  .db-icon .db-icons {
+    margin: 0 auto;
+    text-align: center; }
+    .db-icon .db-icons h3 {
+      font-size: 13px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.69;
+      letter-spacing: 1.5px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #edac01; }
 
 /* --- Page Featured Work --- */
 .believe {
@@ -711,6 +720,10 @@ header {
   line-height: 1.73;
   color: #000000;
   padding: 20px 20%; }
+
+.case-studyreveal:last-child {
+  background: #edac01;
+  height: 500px; }
 
 .more-case {
   margin-bottom: 300px; }
