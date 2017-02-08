@@ -12,7 +12,7 @@ Hero Text: |-
   storytelling film company.
 Type: project
 Featured Image: "/uploads/powercity-films.jpg"
-Hero Background: '#edac01;'
+Hero Background: "#edac01;"
 Hover Background: 'linear-gradient(0deg, #1C1B21, #8495A9);'
 Bootstrap Columns: 7
 Featured Columns: 7
