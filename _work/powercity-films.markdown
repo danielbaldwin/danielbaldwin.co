@@ -9,10 +9,10 @@ tags:
 position: 2
 Hero Text: |-
   Developing an identity for a
-  storytelling film company
+  storytelling film company.
 Type: project
 Featured Image: "/uploads/powercity-films.jpg"
-Hero Background: #edac01;
+Hero Background: '#edac01;'
 Hover Background: 'linear-gradient(0deg, #1C1B21, #8495A9);'
 Bootstrap Columns: 7
 Featured Columns: 7
@@ -49,7 +49,7 @@ First impressions are everything, so I designed their website as a single scroll
 
 ![powercityfilms-website-screenshot.jpg](/uploads/powercityfilms-website-screenshot.jpg)
 
-**The Results**
+<p class="fake-h2">“We can now confidently collaborate with agencies and brands with consistent image creating a stronger following and fanbase.”
+  <br><span>— Mckinzy Powers, Executive Producer at Powercity Films.</span></p>
 
-“We can now confidently collaborate with agencies and brands with consistent image creating a stronger following and fanbase.”
-  — Mckinzy Powers, Executive Producer at [Powercity Films](http://www.powercityfilms.com).
+<p class="next-project">Check out my next project, <a href="">Zest Kitchen Shop</a></p>
