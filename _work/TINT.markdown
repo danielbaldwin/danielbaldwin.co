@@ -20,7 +20,7 @@ Bootstrap Columns: 8
 Featured Columns: 8
 Bootstrap Columns title: 4
 Column Height: 426
-See Case: '#001fff'
+See Case: "#001fff"
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
 layout: case-study

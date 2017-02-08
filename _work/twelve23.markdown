@@ -19,7 +19,7 @@ Bootstrap Columns: 8
 Featured Columns: 4
 Bootstrap Columns title: 4
 Column Height: 425
-See Case: '#edac01'
+See Case: "#edac01"
 Twitter Text: "@danielbaldwinco rebranded a web solutions company into a creative
   agency, Twelve23. See the case study here:"
 ---
