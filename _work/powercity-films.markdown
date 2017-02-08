@@ -19,6 +19,9 @@ Featured Columns: 7
 Column Height: 430
 Twitter Text: "@danielbaldwinco developed an identity for a storytelling film company,
   @PowercityFilms. See the case study here:"
+Client: Powercity Films
+Services:
+Year:
 ---
 
 ![Powercity Films Photo](/uploads/powercity-films-photo.jpg)
