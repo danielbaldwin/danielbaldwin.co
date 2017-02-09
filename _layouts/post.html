@@ -5,58 +5,67 @@
 	<div class="barba-container" data-transition="BarbaAnimation">
 			<div class="blog-header" style="background: {{ page['Hero Background'] }}">
 			  	{% include navigation.html %}
-			</div>
+			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 			<div class="container blog-post">
-				<div class="row">
-						<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-							
-							<div class="col-md-12">
-								<header class="post-header">
-								    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-								    <div class="col-md-10 col-md-offset-1">
-									    <div class="col-md-3">
-									    	<p>Date Posted</p>
-									    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
-									    </div>
-									    <div class="col-md-3">
-									    	<p>Author</p>
-									    	<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">Daniel Baldwin</a>
-									    </div>
-									    <div class="col-md-3">
-									    	<p>Categories</p>
-									    	{% for category in page.categories %}
-											  <a href="/blog/{{ category | slugize }}/">
-											    {{ category }}
-											  </a>
-											{% endfor %}
-									    </div>
-									    <div class="col-md-3">
-									    	<p>Share</p>
-									    	
-									    </div>
-									</div>
-							  </header>
+				<div class="row">		
+					<div class="col-md-12">
+						<div class="post-header">
+						    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+						    <div class="col-md-10 col-md-offset-1">
+							    <div class="col-md-3">
+							    	<p>Date Posted</p>
+							    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
+							    </div>
+							    <div class="col-md-3">
+							    	<p>Author</p>
+							    	<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">Daniel Baldwin</a>
+							    </div>
+							    <div class="col-md-3">
+							    	<p>Categories</p>
+							    	{% for category in page.categories %}
+									  <a href="/blog/{{ category | slugize }}/">
+									    {{ category }}
+									  </a>
+									{% endfor %}
+							    </div>
+							    <div class="col-md-3">
+							    	<p>Share</p>
+							    	<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						          	<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						          	<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						          	<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							    </div>
 							</div>
-							
-							<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-							
-							<div class="col-md-12">
-								 <img src="{{ page['first-image'] }}">
-							</div>
-							
-							<div class="col-md-8 col-md-offset-2">
-								<div class="post-content" itemprop="articleBody">
-							    	{{ content }}
-							  	</div>
-							</div>
-							
-							<div class="col-md-12">
-								 <img src="{{ page['second-image'] }}">
-							</div>
-							
-						</article>
+						</div>
+					</div>
 				</div>
-				{% include share.html %}
+			</div>
+			</div>				
+						<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+				<div class="container blog-post">
+					<div class="row">
+						<div class="col-md-12">
+							 <img src="{{ page['first-image'] }}">
+						</div>
+					</div>
+				</div>
+				<div class="container blog-post">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="post-content" itemprop="articleBody">
+						    	{{ content }}
+						  	</div>
+						</div>
+					</div>
+				</div>
+				<div class="container blog-post">
+					<div class="row">	
+						<div class="col-md-12">
+							 <img class="img-responsive" src="{{ page['second-image'] }}">
+						</div>
+					</div>
+				</div>	
+			</article>
 			</div>
 		{% include footer.html %}
 	</div>
