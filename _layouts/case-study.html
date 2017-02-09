@@ -9,8 +9,15 @@
 		    <div class="row">
 		      <div class="col-md-12">
 		          <div class="hero-text"><h2>{{ page['Hero Text'] }}</h2>
-			          <div>
-			          	CLIENTS {{ page['Client']}} SERVICES {{ page['Services']}} YEAR {{ page['Year']}}
+			          <div class="client-service">
+			          	<div class="col-md-3"><p>CLIENTS</p> {{ page['Client']}} </div>
+			          	<div class="col-md-3"><p>SERVICES</p> {{ page['Services']}} </div>
+			          	<div class="col-md-3"><p>YEAR</p> {{ page['Year']}} </div>
+			          	<div class="col-md-3"><p>SHARE</p>
+			          	<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+			          	<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			          	<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			          	<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
 			          </div>
 		          </div>
 		      </div>

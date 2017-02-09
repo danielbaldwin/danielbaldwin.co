@@ -562,8 +562,27 @@ header {
     letter-spacing: normal;
     color: #ffffff;
   }
+  .client-service {
+    background-color: #fff;
+    padding: 30px 50px 80px;
+    margin-bottom: -20px;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #000000;
+    i {
+      color: #fff;
+      font-size: 14px;
+      background-color: #edac01;
+      padding: 7px;
+    }
+  }
 }
 .case-study {
+  margin-top: 80px;
   img {
     max-width: 100%;
   }
