@@ -1049,19 +1049,31 @@ article {
 }
 /* --- Posts --- */
 .blog-post {
-  margin-top: -535px;
-  background: #fff;
+  
 }
 .post-header {
 	margin-top: 105px;
+  padding: 193px 90px 100px;
+  background: #fff;
 	
-	.date {
-  	font-size: 23px;
+  p {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+	.date, a {
+  	font-size: 14px;
     font-style: normal;
     font-stretch: normal;
+    color: #000;
 
     @extend .Haas-Regular;
 	}
+  i {
+    font-size: 14px;
+    color: #fff;
+    background-color: #001fff;
+    padding: 7px;
+  }
 	
 	h2 {
   	font-size: 38px;
@@ -1070,8 +1082,7 @@ article {
     line-height: 1.58;
     color: #001fff;
     max-width: 1000px;
-    padding: 0px 0px 50px 77px;
-
+    margin-bottom: 50px;
     @extend .Haas-Bold;
 	}
   @media screen and (max-width: 768px) {
@@ -1094,7 +1105,9 @@ article {
 
     @extend .Haas-Light;
   }
-  
+  img {
+    width: 100%;
+  }
   a, a:hover, a:focus {
     font-weight: 500;
     color: #edac01;
