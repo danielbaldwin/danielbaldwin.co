@@ -17,12 +17,14 @@
   }
   h2 {
     margin-bottom: 36px;
-    font-size: 16px;
+    font-size: 38px;
+    line-height: 1.58;
+    color: #272727;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
 
-    @extend .Haas-Light;
+    @extend .Haas-Bold;
   }
   p {
     margin-bottom: 29px;
@@ -85,9 +87,6 @@
     position: relative;
     width: 100%;
     transition: opacity 0.5s ease-in;
-    @media screen and (max-width: 992px) {
-      display: none;
-    }
   }
   h1, h2 {
     position: relative;
@@ -114,25 +113,24 @@
       transform: translate3d(0,0,0);
     }
   }
-  &:hover {
-    img {
-      opacity: 0;
-      filter: alpha(opacity=4);
-      @media screen and (max-width: 992px) {
-        display: none;
-      }
-    }
-    a, a.see-case, p {
-      opacity: 1;
-      filter: alpha(opacity=100);
-      transform: translate3d(0,0,0);
-    }
-  }
 }
 .study {
-  @media screen and (max-width: 992px) {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    height: 400px;
+  padding: 100px 0px;
+  h2 {
+    margin-bottom: 36px;
+    font-size: 38px;
+    line-height: 1.58;
+    color: #272727;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+
+    @extend .Haas-Bold;
+  }
+
+  a {
+    font-size: 16px;
+
+    @extend .Haas-Bold;
   }
 }

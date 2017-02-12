@@ -239,6 +239,16 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
+	"\/_site\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 715,
@@ -291,6 +301,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/_site\/img\/branding.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/branding.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/_site\/img\/business.jpeg": {
 		"ft": 16384,
 		"iS": 18513,
@@ -307,6 +327,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/img\/consulting.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/consulting.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/_site\/img\/daniel-portrait.jpg": {
 		"ft": 16384,
 		"iS": 91115,
@@ -314,56 +344,6 @@
 		"oAP": "\/_site\/img\/daniel-portrait.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/_site\/img\/db-icon-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/db-icon-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/img\/db-icon-02.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/db-icon-02.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/img\/db-icon-03.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/db-icon-03.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/img\/db-icon-04.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/db-icon-04.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/img\/db-icon-05.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/db-icon-05.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/_site\/img\/logo-white.svg": {
 		"ft": 2097152,
@@ -409,6 +389,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/img\/product.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/product.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/_site\/img\/rectangle.png": {
 		"ft": 32768,
 		"iS": 1154,
@@ -416,6 +406,26 @@
 		"oAP": "\/_site\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/img\/strategy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/strategy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/img\/web-design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/web-design.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/index.html": {
 		"ft": 8192,
@@ -1633,7 +1643,7 @@
 		},
 	"\/_uploads\/TINT-sitemap.jpg": {
 		"ft": 16384,
-		"iS": 95296,
+		"iS": 91976,
 		"oA": 0,
 		"oAP": "\/_uploads\/TINT-sitemap.jpg",
 		"oF": 0,
@@ -1941,6 +1951,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/branding.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/branding.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/business.jpeg": {
 		"ft": 16384,
 		"iS": 18513,
@@ -1957,6 +1977,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/consulting.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/consulting.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/daniel-portrait.jpg": {
 		"ft": 16384,
 		"iS": 91115,
@@ -1964,56 +1994,6 @@
 		"oAP": "\/img\/daniel-portrait.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/img\/db-icon-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/db-icon-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/db-icon-02.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/db-icon-02.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/db-icon-03.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/db-icon-03.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/db-icon-04.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/db-icon-04.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/db-icon-05.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/db-icon-05.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/img\/logo-white.svg": {
 		"ft": 2097152,
@@ -2059,6 +2039,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/product.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/product.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/rectangle.png": {
 		"ft": 32768,
 		"iS": 1154,
@@ -2066,6 +2056,26 @@
 		"oAP": "\/img\/rectangle.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/strategy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/strategy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/web-design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/web-design.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/js\/barba.transitions-min.js": {
 		"ft": 64,

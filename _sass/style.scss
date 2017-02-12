@@ -45,7 +45,7 @@ div.progress {
 /* --- Navigation --- */
 .container.home, .container.blog, .container.work {
   width: 100% !important;
-  padding: 0px 55px !important;
+  padding: 0px 40px !important;
 }
 
 nav.navbar.navbar-default {
@@ -129,9 +129,12 @@ nav#navb.navbar-fixed-top {
     padding-left: 0 !important;
     padding-right: 0 !important;
     .daniel-baldwin-bra {
-      p { margin-bottom: 0; }
+      p { 
+        margin-bottom: 0; 
+      }
       p, a {
-          font-family: 'NeuzeitSLTStd-Book';
+          @extend .Haas-Regular;
+          
           font-size: 16px;
           line-height: 1.38;
           color: #ffffff;
@@ -286,30 +289,21 @@ nav#navb.navbar-fixed-top {
   background-image: linear-gradient(to left, #f8d602, #edac01);
 }
 .home-header {
-	/* background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-	background-size: 800% 800%;
-	animation: gradient 14s ease infinite;
-	@keyframes gradient {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	} */
   background-color: #f6f6f6;
-}
-header {
-  padding-top: 30px;
-  @media screen and (max-width: 768px) {
-    padding-top: 0;
-  }
-}
-.circle-1 {
-      width: 500px;
-      height: 500px;
-      background: #edac01;
-      clip-path: circle(50% at 27% 11%);
-      -webkit-clip-path: circle(50% at 27% 11%);
+  position: relative;
+  margin-bottom: 150px;
+
+  header {
+    padding-top: 30px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    @media screen and (max-width: 768px) {
+      padding-top: 0;
     }
-.home-header {
+  }
   
   h1 {
     font-size: 60px;
@@ -323,6 +317,12 @@ header {
     @media screen and (max-width: 768px) {
       font-size: 28px;
     }
+  }
+
+  .hero-container {
+    position: absolute;
+    top: 295px;
+    left: 100px;
   }
 
   .yellow-logo {
@@ -339,22 +339,32 @@ header {
       display: none;
     }
   }
-} 
-.db-icon{
-  margin-bottom: 148px;
-  .db-icons {
-    margin: 0 auto;
-    text-align: center;
-    h3 {
-      font-size: 13px;
-      font-weight: 900;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.69;
-      letter-spacing: 1.5px;
+  .db-icon{
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    .db-icons {
+      margin: 0 auto;
       text-align: center;
-      text-transform: uppercase;
-      color: #edac01;
+      h3 {
+        font-size: 13px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.69;
+        letter-spacing: 1.5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #edac01;
+      }
+      .svg {
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
 }
@@ -416,7 +426,7 @@ header {
 .more-projects {
 	text-align: center;
 	margin-top: 32px;
-	margin-bottom: 270px;
+	margin-bottom: 130px;
 	
 	a {
   	font-size: 13px;

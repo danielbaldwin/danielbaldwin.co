@@ -115,13 +115,13 @@
   padding-left: 0px !important;
   padding-right: 0px !important; }
 
-.Haas-Light, .rectangle h2, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .behind-brand p, .services .service, .contact-header h2, .post-content p, .share-widget {
+.Haas-Light, .rectangle p, .home-header h1, .believe h2, .latest-articles p, .case-study p, .behind-brand p, .services .service, .contact-header h2, .post-content p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
+.Haas-Bold, .rectangle h2, .study h2, .study a, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
-.Haas-Regular, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .work .navbar-nav > li > a, .navbar-default .work .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images h3, .services .service h3, .contact-header p, .excerpt, .post-header .date, .post-header a, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
+.Haas-Regular, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .navbar-default .navbar-collapse .daniel-baldwin-bra p, .navbar-default .navbar-collapse .daniel-baldwin-bra a, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .work .navbar-nav > li > a, .navbar-default .work .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, .believe p, .more-projects a, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .more-projects-case h1, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images h3, .services .service h3, .contact-header p, .excerpt, .post-header .date, .post-header a, .share-widget a, .share-widget a:hover, .share-widget a:focus, .footer-rectangle h1, .footer-rectangle .info p, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
   font-family: 'Neuzeit S LT W01 Book';
   font-weight: normal; }
 
@@ -141,7 +141,9 @@
     letter-spacing: normal; }
   .rectangle h2 {
     margin-bottom: 36px;
-    font-size: 16px;
+    font-size: 38px;
+    line-height: 1.58;
+    color: #272727;
     font-style: normal;
     font-stretch: normal;
     line-height: normal; }
@@ -199,9 +201,6 @@
     width: 100%;
     -webkit-transition: opacity 0.5s ease-in;
     transition: opacity 0.5s ease-in; }
-    @media screen and (max-width: 992px) {
-      .hovereffect img {
-        display: none; } }
   .hovereffect h1, .hovereffect h2 {
     position: relative;
     overflow: hidden;
@@ -228,23 +227,19 @@
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
                 transform: translate3d(0, 0, 0); } }
-  .hovereffect:hover img {
-    opacity: 0;
-    filter: alpha(opacity=4); }
-    @media screen and (max-width: 992px) {
-      .hovereffect:hover img {
-        display: none; } }
-  .hovereffect:hover a, .hovereffect:hover a.see-case, .hovereffect:hover p {
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); }
 
-@media screen and (max-width: 992px) {
-  .study {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    height: 400px; } }
+.study {
+  padding: 100px 0px; }
+  .study h2 {
+    margin-bottom: 36px;
+    font-size: 38px;
+    line-height: 1.58;
+    color: #272727;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal; }
+  .study a {
+    font-size: 16px; }
 
 *:focus {
   outline: none;
@@ -297,7 +292,7 @@ div.progress {
 /* --- Navigation --- */
 .container.home, .container.blog, .container.work {
   width: 100% !important;
-  padding: 0px 55px !important; }
+  padding: 0px 40px !important; }
 
 nav.navbar.navbar-default {
   background: transparent;
@@ -376,7 +371,6 @@ nav#navb.navbar-fixed-top {
   .navbar-default .navbar-collapse .daniel-baldwin-bra p {
     margin-bottom: 0; }
   .navbar-default .navbar-collapse .daniel-baldwin-bra p, .navbar-default .navbar-collapse .daniel-baldwin-bra a {
-    font-family: 'NeuzeitSLTStd-Book';
     font-size: 16px;
     line-height: 1.38;
     color: #ffffff; }
@@ -501,65 +495,66 @@ nav#navb.navbar-fixed-top {
   background-image: linear-gradient(to left, #f8d602, #edac01); }
 
 .home-header {
-  /* background: linear-gradient(226deg, #edac01, #f8d602, #ffea00, #f8c302);
-	background-size: 800% 800%;
-	animation: gradient 14s ease infinite;
-	@keyframes gradient {
-	    0%{background-position:93% 0%}
-	    50%{background-position:0% 100%}
-	    100%{background-position:93% 0%}
-	} */
-  background-color: #f6f6f6; }
-
-header {
-  padding-top: 30px; }
-  @media screen and (max-width: 768px) {
-    header {
-      padding-top: 0; } }
-
-.circle-1 {
-  width: 500px;
-  height: 500px;
-  background: #edac01;
-  clip-path: circle(50% at 27% 11%);
-  -webkit-clip-path: circle(50% at 27% 11%); }
-
-.home-header h1 {
-  font-size: 60px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  color: #ffffff;
-  margin: 0 auto; }
-  @media screen and (max-width: 768px) {
-    .home-header h1 {
-      font-size: 28px; } }
-
-.home-header .yellow-logo {
-  display: none; }
-
-.home-header.white {
-  background: #fff; }
-  .home-header.white .yellow-logo {
-    display: block; }
-  .home-header.white .white-logo {
+  background-color: #f6f6f6;
+  position: relative;
+  margin-bottom: 150px; }
+  .home-header header {
+    padding-top: 30px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; }
+    @media screen and (max-width: 768px) {
+      .home-header header {
+        padding-top: 0; } }
+  .home-header h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0 auto; }
+    @media screen and (max-width: 768px) {
+      .home-header h1 {
+        font-size: 28px; } }
+  .home-header .hero-container {
+    position: absolute;
+    top: 295px;
+    left: 100px; }
+  .home-header .yellow-logo {
     display: none; }
-
-.db-icon {
-  margin-bottom: 148px; }
-  .db-icon .db-icons {
-    margin: 0 auto;
-    text-align: center; }
-    .db-icon .db-icons h3 {
-      font-size: 13px;
-      font-weight: 900;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.69;
-      letter-spacing: 1.5px;
-      text-align: center;
-      text-transform: uppercase;
-      color: #edac01; }
+  .home-header.white {
+    background: #fff; }
+    .home-header.white .yellow-logo {
+      display: block; }
+    .home-header.white .white-logo {
+      display: none; }
+  .home-header .db-icon {
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 100%; }
+    .home-header .db-icon .db-icons {
+      margin: 0 auto;
+      text-align: center; }
+      .home-header .db-icon .db-icons h3 {
+        font-size: 13px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.69;
+        letter-spacing: 1.5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #edac01; }
+      .home-header .db-icon .db-icons .svg {
+        max-width: 100px;
+        display: block;
+        margin: 0 auto; }
 
 /* --- Page Featured Work --- */
 .believe {
@@ -605,7 +600,7 @@ header {
 .more-projects {
   text-align: center;
   margin-top: 32px;
-  margin-bottom: 270px; }
+  margin-bottom: 130px; }
   .more-projects a {
     font-size: 13px;
     line-height: 1.69;

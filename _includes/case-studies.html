@@ -1,30 +1,28 @@
       <div class="container">
-        <div class="row case-studies">
+        <div class="row">
         {% assign sorted_work = site.work | sort:"position" %}
         {% if page.url != "/work/" %}
         {% for work in sorted_work %}
           {% if work.['Is Featured'] == true %}
           {% if work.['Image Left'] == true %}
-           <div class="col-md-{{work.['Bootstrap Columns'] }} study">
+           <div class="col-md-{{work.['Bootstrap Columns'] }}">
               <div class="rectangle hovereffect" style="height: {{ work.['Column Height'] }}px;">
                 <a href="{{ site.baseurl }}{{ work.url }}">
                   <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
                 </a>
               </div>
             </div>
-            <div class="col-md-{{work.['Bootstrap Columns title'] }}">
-              <h2>{{ work.title }}</h2>
-              <p>{{ work.['Hero Text'] }}</p>
+            <div class="col-md-{{work.['Bootstrap Columns title'] }} study">
+              <h2>{{ work.['Hero Text'] }}</h2>
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
             </div>
-            <div style="clear: both;"></div>
+            <div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
             {% else %}
-            <div class="col-md-{{work.['Bootstrap Columns title'] }}">
-              <h2>{{ work.title }}</h2>
-              <p>{{ work.['Hero Text'] }}</p>
+            <div class="col-md-{{work.['Bootstrap Columns title'] }} study">
+              <h2>{{ work.['Hero Text'] }}</h2>
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
             </div>
-            <div class="col-md-{{work.['Bootstrap Columns'] }} study">
+            <div class="col-md-{{work.['Bootstrap Columns'] }}">
               <div class="rectangle hovereffect" style="height: {{ work.['Column Height'] }}px;">
                 <a href="{{ site.baseurl }}{{ work.url }}">
                   <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
