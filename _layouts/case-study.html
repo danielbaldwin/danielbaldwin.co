@@ -3,14 +3,14 @@
 {% include head.html %}
 <body id="barba-wrapper">
 	<div class="barba-container" data-transition="BarbaAnimation">
-	<div class="case-study-head" style="background-color: {{ page['Hero Background'] }}">
-		{% include navigation.html %}
+	{% include navigation.html %}
+	<div class="case-study-head" style="background-color: #edac01">
 		<div class="container">
 		    <div class="row">
 		      <div class="col-md-12">
 		          <div class="hero-text"><h2>{{ page['Hero Text'] }}</h2>
 			          <div class="client-service">
-			          	<div class="col-md-3"><p>CLIENTS</p> {{ page['Client']}} </div>
+			          	<div class="col-md-3"><p>CLIENT</p> {{ page.title }} </div>
 			          	<div class="col-md-3"><p>SERVICES</p> {{ page['Services']}} </div>
 			          	<div class="col-md-3"><p>YEAR</p> {{ page['Year']}} </div>
 			          	<div class="col-md-3"><p>SHARE</p>
@@ -24,6 +24,7 @@
 		    </div>
 		</div>
 	</div>
+	</div>
 	<div class="container case-study">
 		<div class="row">
 			{% assign content = page.content | strip_newlines %}
@@ -34,8 +35,25 @@
 			{% endif %}
 		</div>
 	</div>
-	
-	
+	<div class="quote">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h1>“We can now confidently collaborate with agencies and brands with consistent image creating a stronger following and fanbase.”</h1>
+					<p>— Mckinzy Powers, Executive Producer at Powercity Films.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="next-project">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Check out my next project, <a href="#">Zest Kitchen</a></h1>
+				</div>
+			</div>
+		</div>
+	</div>
 	{% include footer.html %}
 	</div>
 {% include js.html %}

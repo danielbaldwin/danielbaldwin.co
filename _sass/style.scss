@@ -613,53 +613,64 @@ nav#navb.navbar-fixed-top {
         line-height: normal;
       }
     }
-    &.next-project {
-      font-size: 36px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 2.5;
-      letter-spacing: normal;
-      text-align: center;
-      color: #000000;
-      margin-top: 40px;
-      margin-bottom: 20px;
-      padding: 0;
-      a {
-        color: #edac01;
-        position: relative;
-        text-decoration: none;
-        &:after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 0%;
-          border-bottom: 2px solid #edac01;
-          transition: 0.4s;
-        }
-        &:hover:after {
-          width: 100%;
-        }
-      } 
-    }
   }
 }
-.more-case {
-  margin-bottom: 300px;
-
-  .hovereffect .overlay {
-    top: 20%;
-  }
-}
-.more-projects-case {
+.quote {
+  background: #edac01;
+  padding: 150px 0px;
   h1 {
+    color: #fff;
+    text-align: center;
     font-size: 38px;
     line-height: 1.58;
-    text-align: center;
-    padding-bottom: 55px;
-    @extend .Haas-Regular;
+
+    @extend .Haas-Bold;
   }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+
+    @extend .Haas-Bold;
+  }
+}
+.next-project {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin: 60px 0px;
+  padding: 0;
+  a {
+    color: #edac01;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 2px solid #edac01;
+    transition: 0.4s;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      border-bottom: 2px solid #001eff;
+      transition: 0.4s;
+    }
+    &:hover {
+      text-decoration: none;
+      color: #edac01;
+      border-bottom: 0px;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  } 
 }
 /* --- Page About --- */
 .about-header {
