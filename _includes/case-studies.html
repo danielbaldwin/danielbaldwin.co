@@ -6,7 +6,7 @@
           {% if work.['Is Featured'] == true %}
           {% if work.['Image Left'] == true %}
            <div class="col-md-{{work.['Bootstrap Columns'] }}">
-              <div class="rectangle hovereffect" style="height: {{ work.['Column Height'] }}px;">
+              <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
                 <a href="{{ site.baseurl }}{{ work.url }}">
                   <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
                 </a>
@@ -23,7 +23,7 @@
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
             </div>
             <div class="col-md-{{work.['Bootstrap Columns'] }}">
-              <div class="rectangle hovereffect" style="height: {{ work.['Column Height'] }}px;">
+              <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
                 <a href="{{ site.baseurl }}{{ work.url }}">
                   <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
                 </a>

@@ -8,7 +8,7 @@
 		    <div class="row">
 		      <div class="col-md-12">
 		        <div class="believe">
-		        	<p>Feature Work</p>
+		        	<p>Featured Work</p>
 		          <h2>Crafting inspiring experiences for<br> aspiring brands.</h2>
 		        </div>
 		      </div>
@@ -17,39 +17,20 @@
 		<div class="container">
         <div class="row case-studies">
         {% assign sorted_work = site.work | sort:"position" %}
-        {% if page.url != "/work/" %}
         {% for work in sorted_work %}
-          {% if work['Is Featured'] == true %}
-           <div class="col-md-{{work['Featured Columns'] }} study">
+           <div class="col-md-{{work['Featured Columns'] }}">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
                     <a href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
                       <div class="overlay">
-                      <h2>{{ work.title }}</h2>
-                      <h1>{{ work['Hero Text'] }}</h1>
-                      <a class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</a><a class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</a>
-                      </div>
-                    </a>
-                  </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-          {% else %}
-          {% for work in sorted_work %}
-           <div class="col-md-{{work['Featured Columns'] }} study">
-              <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }}; height: {{ work['Column Height'] }}px;">
-                    <a href="{{ site.baseurl }}{{ work.url }}">
-                      <img class="lazy" data-src="{{ work['Featured Image'] }}" alt="">
-                      <div class="overlay">
-                      <h2>{{ work.title }}</h2>
-                      <h1>{{ work['Hero Text'] }}</h1>
+                      <h1>{{ work.title }}</h1>
+                      <h2>{{ work['Hero Text'] }}</h2>
                       <a class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</a><a class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</a>
                       </div>
                     </a>
                   </div>
             </div>
         {% endfor %}
-        {% endif %}
         </div>
        </div>
 		{% include footer.html %}
