@@ -820,20 +820,32 @@ nav#navb.navbar-fixed-top {
 }
 .images {
   margin-bottom: 80px;
+  position: relative;
 
   @media screen and (max-width: 992px) {
     margin-bottom: 100px;
   }
-  
-  img {
+
+  .content {
+    position: absolute;
+    top: 0;
     width: 100%;
-  }
-  h3 {
-      font-size: 38px;
-      line-height: 1.58;
-      color: #272727;
-      text-align: center;
-      @extend .Haas-Regular;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 86%;
+
+    img {
+      width: 100%;
+    }
+    h3 {
+        font-size: 38px;
+        line-height: 1.58;
+        color: #272727;
+        text-align: center;
+        padding-bottom: 80px;
+        @extend .Haas-Regular;
+      }
     }
 }
 .services {
