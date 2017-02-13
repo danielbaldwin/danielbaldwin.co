@@ -14,13 +14,11 @@ Hero Text: Rebranding a web solutions company into a creative agency
 Is Featured: true
 Featured Image: "/uploads/twelve23-featured-4b4621.jpg"
 Hover Background: 'linear-gradient(122deg, #3b4d5f, #35424f)'
-Bootstrap Columns: 8
+Bootstrap Columns: 5
 Column Height: 425
 Twitter Text: "@danielbaldwinco rebranded a web solutions company into a creative
   agency, Twelve23. See the case study here:"
 Type: case study
-Featured Columns: 5
-Bootstrap Columns title: 4
 See Case: "#edac01"
 ---
 
