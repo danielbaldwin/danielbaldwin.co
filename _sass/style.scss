@@ -746,7 +746,7 @@ nav#navb.navbar-fixed-top {
       }
       p {
         float: left;
-        width: 35%;
+        width: 39%;
         margin-left: 45px;
         font-size: 16px;
         font-weight: normal;
@@ -761,9 +761,6 @@ nav#navb.navbar-fixed-top {
   }
 }
 .behind-brand {
-	margin-top: 180px;
-	margin-bottom: 200px;
-
   @media screen and (max-width: 992px) {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -776,9 +773,10 @@ nav#navb.navbar-fixed-top {
     line-height: 1.58;
     letter-spacing: normal;
     color: #001fff;
-    max-width: 340px;
+    max-width: 410px;
     margin-top: 0px;
     margin-bottom: 100px;
+    padding-top: 180px;
 
     @extend .Haas-Bold;
 
@@ -807,9 +805,21 @@ nav#navb.navbar-fixed-top {
       margin-bottom: 100px;
     }
 	}
+  .circle-box {
+    position: relative;
+
+    .content {
+      position: absolute;
+      top: 200px;
+      left: 130px;
+      p {
+        color: #fff;
+      }
+    }
+  }
 }
 .images {
-  margin-bottom: 300px;
+  margin-bottom: 80px;
 
   @media screen and (max-width: 992px) {
     margin-bottom: 100px;
