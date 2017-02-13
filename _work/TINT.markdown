@@ -14,14 +14,12 @@ Hero Text: Creating a brand experience for a B2B startup
 Is Featured: true
 Featured Image: "/uploads/TINT-featured-2.jpg"
 Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
-Bootstrap Columns: 8
+Bootstrap Columns: 7
 Column Height: 426
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
 Type: project
 Image Left: true
-Featured Columns: 7
-Bootstrap Columns title: 4
 See Case: "#001fff"
 layout: case-study
 ---
