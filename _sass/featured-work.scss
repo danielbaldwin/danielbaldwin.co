@@ -11,6 +11,12 @@
   @media screen and (max-width: 992px) {
     margin-bottom: 0;
   }
+  img {
+    transition: all .5s ease-in-out;
+      &:hover {
+      transform: scale(1.1);
+    }
+  }
   h1 {
     margin-bottom: 36px;
     font-size: 38px;

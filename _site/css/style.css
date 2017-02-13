@@ -138,6 +138,12 @@
   @media screen and (max-width: 992px) {
     .rectangle {
       margin-bottom: 0; } }
+  .rectangle img {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
+    .rectangle img:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
   .rectangle h1 {
     margin-bottom: 36px;
     font-size: 38px;

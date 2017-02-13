@@ -18,7 +18,7 @@
         <div class="row case-studies">
         {% assign sorted_work = site.work | sort:"position" %}
         {% for work in sorted_work %}
-           <div class="col-md-{{work['Featured Columns'] }}">
+           <div class="col-md-{{work['Bootstrap Columns'] }}">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
                     <a href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
