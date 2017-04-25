@@ -8,23 +8,26 @@ $(document).ready(function() {
     );
 });
 $(document).ready(function(){
-    $( "#loader" ).delay(1000).fadeOut(500, function(){
+  $('body').addClass('loaded');
+	$('#loader').fadeOut();
+    /*$( "#loader" ).delay(1000).fadeOut(500, function(){
         $( "#home" ).fadeIn(500);
-    });  
+    });*/
 });
+
 
 /* Lazy Load Case Study Images */
 
 $(document).ready(function(){
 	 $('.lazy').Lazy({
-        effect: 'fadeIn',
-        effectTime: 700,
-        threshold: 0
+        //effect: 'fadeIn',
+        //effectTime: 700,
+        //threshold: 0
     });
 });
 
 /* ScrollReveal */
-
+/*
 $(document).ready(function(){
 
 var Reveal = {
@@ -41,18 +44,18 @@ var Reveal = {
 	sr.reveal('.hovereffect', Reveal);
     sr.reveal('.reveal', Reveal);
 });
-
+*/
 /* Body FadeOutIn */
 
 
 $(document).ready(function() {
- 
+
     $("a").not(".share-link").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("body").fadeOut(1000, redirectPage);      
+        $("body").fadeOut(1000, redirectPage);
     });
-         
+
     function redirectPage() {
         window.location = linkLocation;
     }

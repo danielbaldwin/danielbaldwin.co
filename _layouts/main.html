@@ -3,20 +3,33 @@
 {% include head.html %}
 <body>
 {% include start.html %}
-  <div id="home" style="display: none">
+  <div id="home">
 	  <div class="home-header">
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!--svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
       <circle cx="100" cy="230" r="115" fill="#fff"/>
       <circle cx="30" cy="60" r="100" fill="#edac01"/>
       <circle cx="195" cy="20" r="50" fill="#001eff"/>
-    </svg>
+    </svg-->
     {% include navigation.html %}
-	  	<div class="container hero-container">
-	  		<div class="col-md-12 hero animated fadeIn">
-	      		<h1>{{ page['Hero Text'] }}</h1>
-	      	</div>
-	      </div>
+
+      <div class="hero-container">
+        <div class="hero-circles">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+        </div>
+        <div class="container">
+  	  		<div class="col-md-12 hero">
+  	        <h1>
+              <!--{{ page['Hero Text'] }}-->
+              <span>Brand. Strategy.</span>
+              <span>Human-focused Design.</span>
+            </h1>
+  	      </div>
+        </div>
+	    </div>
+
       <div class="db-icon">
+        <div class="circle"></div>
         <div class="container">
           <div class="row db-icons">
             <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-0">
