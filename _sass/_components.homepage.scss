@@ -101,6 +101,15 @@
   //left: 50%;
   //transform: translateX(-50%);
   //width: 100%;
+  .circle-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(20%);    
+    transition: 0.75s;
+    height: 100px;
+  }
   .circle{
     position: absolute;
     top: 0%;
@@ -108,8 +117,9 @@
     width: 130%;
     background: #fff;
     border-radius: 50%;
-    transform: translateY(20%);
-    transition: 0.75s;
+    //transform: translateY(20%);    
+    //transition: 0.75s;
+    transition: 0s;
     &:after{
       content: "";
       display: block;
@@ -129,18 +139,86 @@
       text-align: center;
       text-transform: uppercase;
       color: #edac01;
+      transform: translateY(20px);
+      opacity: 0;
+      transition: 0.5s;      
     }
     .svg {
       max-width: 100px;
       display: block;
       margin: 0 auto;
+      transform: translateX(-30px);
+      opacity: 0;
+      transition: 0.5s;
     }
+    &.active{
+      .icon-1{
+        .svg{
+          transform: translateX(0px);
+          opacity: 1;          
+          transition: 0.7s 0s;
+        }
+        h3{
+          transform: translateY(0px);
+          opacity: 1;          
+          transition: 0.7s 0.3s;          
+        }
+      }
+      .icon-2{
+        .svg{
+          transform: translateX(0px);
+          opacity: 1;          
+          transition: 0.7s 0.5s;
+        }
+        h3{
+          transform: translateY(0px);
+          opacity: 1;          
+          transition: 0.7s 0.6s;          
+        }        
+      }
+      .icon-3{
+        .svg{
+          transform: translateX(0px);
+          opacity: 1;          
+          transition: 0.7s 1s;
+        }
+        h3{
+          transform: translateX(0px);
+          opacity: 1;          
+          transition: 0.7s 0.9s;          
+        }         
+      }
+      .icon-4{
+        .svg{
+          transform: translateX(0px);
+          opacity: 1;          
+          transition: 0.7s 1.5s;
+        }
+        h3{
+          transform: translateY(0px);
+          opacity: 1;          
+          transition: 0.7s 1.2s;          
+        }         
+      }
+      .icon-5{
+        .svg{
+          transform: translateX(0px);
+          opacity: 1;          
+          transition: 0.7s 2s;
+        }
+        h3{
+          transform: translateY(0px);
+          opacity: 1;          
+          transition: 0.7s 1.5s;          
+        }         
+      }       
+    }               
   }
 }
 
 .loaded{
   .db-icon{
-    .circle{
+    .circle-wrapper{
       transform: translateY(0);
     }
   }

@@ -1,10 +1,10 @@
       <div class="container">
-        <div class="row">
         {% assign sorted_work = site.work | sort:"position" %}
         {% if page.url != "/work/" %}
         {% for work in sorted_work %}
           {% if work.['Is Featured'] == true %}
           {% if work.['Image Left'] == true %}
+          <div class="row elements-in image-left">
            <div class="col-md-8">
               <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
                 <a href="{{ site.baseurl }}{{ work.url }}">
@@ -16,8 +16,9 @@
               <h2>{{ work.['Hero Text'] }}</h2>
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
             </div>
-            <div class="clearfix visible-xs-block visible-sm-block visible-md-block visible-lg-block"></div>
+            </div>
             {% else %}
+            <div class="row elements-in image-right">
             <div class="col-md-4 study">
               <h2>{{ work.['Hero Text'] }}</h2>
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
@@ -29,15 +30,18 @@
                 </a>
               </div>
             </div>
+            </div>
             {% endif %}
           {% endif %}
 
         {% endfor %}
+        <div class="row">
           <div class="col-md-12">
             <div class="more-projects">
               <a href="/work">More Projects</a>
             </div>
           </div>
+        </div>
         {% endif %}
         </div>
        </div>
