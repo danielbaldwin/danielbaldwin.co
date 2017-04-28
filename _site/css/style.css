@@ -429,6 +429,55 @@ nav#navb.navbar-fixed-top {
 .loaded .db-icon .circle-wrapper {
   transform: translateY(0); }
 
+.project-item.image-left h2 {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: 0.5s; }
+.project-item.image-left .study .link-wrapper {
+  transform: translateX(20px);
+  opacity: 0;
+  transition: 0.5s; }
+.project-item.image-left img {
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: 0.5s; }
+.project-item.image-left.active h2 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.75s; }
+.project-item.image-left.active .study .link-wrapper {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.75s 0.25s; }
+.project-item.image-left.active img {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.75s 0.5s; }
+.project-item.image-right h2 {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: 0.5s; }
+.project-item.image-right .study .link-wrapper {
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: 0.5s; }
+.project-item.image-right img {
+  transform: translateX(200px);
+  opacity: 0;
+  transition: 0.5s; }
+.project-item.image-right.active h2 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.75s; }
+.project-item.image-right.active .study .link-wrapper {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.75s 0.25s; }
+.project-item.image-right.active img {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.75s 0.5s; }
+
 .hero-circles {
   position: absolute;
   top: 0;

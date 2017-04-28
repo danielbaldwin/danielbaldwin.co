@@ -225,6 +225,77 @@
 }
 
 
+.project-item{
+  &.image-left{
+    h2{
+      transform: translateY(-40px);
+      opacity: 0;
+      transition: 0.5s;
+    }
+    .study .link-wrapper{
+      transform: translateX(20px);
+      opacity: 0;
+      transition: 0.5s;      
+    }
+    img{
+      transform: translateX(-200px);
+      opacity: 0;
+      transition: 0.5s;
+    }
+    &.active{
+      h2{
+        transform: translateY(0);
+        opacity: 1;
+        transition: 0.75s;        
+      }
+      .study .link-wrapper{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.75s 0.25s;        
+      }
+      img{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.75s 0.5s;        
+      }
+    }
+  }
+  &.image-right{
+    h2{
+      transform: translateY(-40px);
+      opacity: 0;
+      transition: 0.5s;
+    }
+    .study .link-wrapper{
+      transform: translateX(-20px);
+      opacity: 0;
+      transition: 0.5s;      
+    }
+    img{
+      transform: translateX(200px);
+      opacity: 0;
+      transition: 0.5s;
+    }
+    &.active{
+      h2{
+        transform: translateY(0);
+        opacity: 1;
+        transition: 0.75s;        
+      }
+      .study .link-wrapper{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.75s 0.25s;        
+      }
+      img{
+        transform: translateX(0px);
+        opacity: 1;
+        transition: 0.75s 0.5s;        
+      }
+    }
+  }  
+}
+
 
 .hero-circles{
   position: absolute;

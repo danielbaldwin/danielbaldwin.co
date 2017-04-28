@@ -4,7 +4,7 @@
         {% for work in sorted_work %}
           {% if work.['Is Featured'] == true %}
           {% if work.['Image Left'] == true %}
-          <div class="row elements-in image-left">
+          <div class="row elements-in image-left project-item">
            <div class="col-md-8">
               <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
                 <a href="{{ site.baseurl }}{{ work.url }}">
@@ -14,14 +14,18 @@
             </div>
             <div class="col-md-4 study">
               <h2>{{ work.['Hero Text'] }}</h2>
-              <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+              <div class="link-wrapper">
+                <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+              </div>
             </div>
             </div>
             {% else %}
-            <div class="row elements-in image-right">
+            <div class="row elements-in image-right project-item">
             <div class="col-md-4 study">
-              <h2>{{ work.['Hero Text'] }}</h2>
+                <h2>{{ work.['Hero Text'] }}</h2>
+              <div class="link-wrapper">
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+            </div>
             </div>
             <div class="col-md-8">
               <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
