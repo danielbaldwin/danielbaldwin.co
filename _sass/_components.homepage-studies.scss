@@ -2,6 +2,11 @@
   display: flex;
   align-items: center;
   padding: 40px 0;  
+  .rectangle{
+    img{
+      transition: 0s 0s;
+    }
+  }
   &.image-left{
     h2{
       transform: translateY(-40px);
@@ -13,8 +18,8 @@
       opacity: 0;
       transition: 0.5s;      
     }
-    img{
-      transform: translateX(-200px);
+    .rectangle{
+      transform: translateX(-50px);
       opacity: 0;
       transition: 0.5s;
     }
@@ -29,7 +34,7 @@
         opacity: 1;
         transition: 0.75s 0.25s;        
       }
-      img{
+      .rectangle{
         transform: translateX(0px);
         opacity: 1;
         transition: 0.75s 0.5s;        
@@ -47,8 +52,8 @@
       opacity: 0;
       transition: 0.5s;      
     }
-    img{
-      transform: translateX(200px);
+    .rectangle{
+      transform: translateX(50px);
       opacity: 0;
       transition: 0.5s;
     }
@@ -63,7 +68,7 @@
         opacity: 1;
         transition: 0.75s 0.25s;        
       }
-      img{
+      .rectangle{
         transform: translateX(0px);
         opacity: 1;
         transition: 0.75s 0.5s;        
@@ -73,6 +78,9 @@
   .rectangle{
     position: relative;
     margin-bottom: 0;
+    //transform: translateY(-40px);
+    opacity: 0;
+    transition: 0.5s;    
     &:after{
       content: "";
       display: block;
@@ -90,5 +98,35 @@
   .study{
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+
+
+@media (max-width: 991px){
+  .project-item{
+    flex-wrap: wrap;
+    .col-md-8{
+      width: 100%;
+    }
+    .study{
+      order: 2;
+    }
+  }
+}
+
+
+
+@media (max-width: 480px){
+  .project-item{
+    .study{
+      text-align: center;
+      h2{
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: 45px;
+        margin-bottom: 22px;
+      }
+    }
   }
 }

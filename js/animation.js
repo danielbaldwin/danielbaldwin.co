@@ -37,7 +37,8 @@ $('.os-transform').each(function (index, elem) {
           {y: targetPosY , ease: Power0.easeNone }
     );
     new ScrollMagic.Scene({
-      duration: $(window).height() + $(elem).height(),
+      //duration: $(window).height() + $(elem).height(),
+      duration: $(window).height() * 2,  
       triggerElement: elem,
       triggerHook: "onEnter"
     }).setTween(tween).addTo(controller);
