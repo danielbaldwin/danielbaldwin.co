@@ -6,10 +6,19 @@
   background-image: linear-gradient(to left, #f8d602, #edac01);
 }
 .home-header {
-  background-color: #f6f6f6;
-  //position: relative;
+  //background-color: #f6f6f6;
+  position: relative;
   //margin-bottom: 150px;
-
+  &:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #f6f6f6;
+    transition: 0.75s;
+  }
   header {
     padding-top: 30px;
     position: absolute;
@@ -86,6 +95,10 @@
     		transition: 0.75s 0.95s;
       }
     }
+    &:after{
+      width: 100%;
+      transition: 0.75s 0.25s;
+    }
   }
 }
 
@@ -95,6 +108,7 @@
   padding-bottom: 100px;
   overflow: hidden;
   position: relative;
+  z-index: 2;
   //background: #fff;
   //position: absolute;
   //bottom: 0;
@@ -260,11 +274,51 @@
     transform: translate(20%, 20%);
     opacity: 0;
     transition: 0.75s;
+    z-index: 2;
     &:after{
       content: "";
       display: block;
       padding-top: 100%;
     }
+  }
+}
+
+@media screen and ( min-width: 1024px ) and ( max-width: 1200px ){
+  .hero-circles .circle-1{
+    width: 80%;  
+  }
+  .hero-circles .circle-2{
+    width: 70%;
+    z-index: 3;
+  }
+}
+
+@media screen and ( min-width: 480px ) and ( max-width: 1023px ){
+  .hero-circles .circle-1{
+    top: -30vw;
+    left: -15vw; 
+    width: 110%;
+  }
+  .hero-circles .circle-2{
+    width: 60%;
+    right: -30vw;
+    top: -30vw;
+    z-index: 3;
+  }
+}
+
+@media screen and ( min-width: 1px ) and ( max-width: 480px ){
+  .hero-circles .circle-1{
+    top: -20%;
+    left: -15vw;
+    width: 100vh;
+    left: -50%;
+  }
+  .hero-circles .circle-2{
+    width: 60%;
+    right: -30vw;
+    top: -30vw;
+    z-index: 3;
   }
 }
 
