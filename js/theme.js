@@ -98,7 +98,7 @@ $(window).scroll(function(){
 /*
  * Replace all SVG images with inline SVG
  */
-    /*jQuery('img.svg').each(function(){
+    jQuery('img.svg').each(function(){
         var $img = jQuery(this);
         var imgID = $img.attr('id');
         var imgClass = $img.attr('class');
@@ -125,4 +125,4 @@ $(window).scroll(function(){
 
         }, 'xml');
 
-    });*/
+    });

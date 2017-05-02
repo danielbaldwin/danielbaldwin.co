@@ -1,51 +1,59 @@
-      <div class="container">
-        {% assign sorted_work = site.work | sort:"position" %}
-        {% if page.url != "/work/" %}
-        {% for work in sorted_work %}
-          {% if work.['Is Featured'] == true %}
-          {% if work.['Image Left'] == true %}
-          <div class="row elements-in image-left project-item">
-           <div class="col-md-8">
-              <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
-                <a href="{{ site.baseurl }}{{ work.url }}">
-                  <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
-                </a>
-              </div>
+<div class="container">
+  {% assign sorted_work = site.work | sort:"position" %}
+    {% if page.url != "/work/" %}
+      {% for work in sorted_work %}
+      {% if work.['Is Featured'] == true %}
+      {% if work.['Image Left'] == true %}
+
+      <div class="row elements-in image-left project-item">
+        <div class="col-md-8">
+          <div class="rectangle">
+            <div class="inner-wrapper">
+              <a href="{{ site.baseurl }}{{ work.url }}">
+                <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
+              </a>
             </div>
-            <div class="col-md-4 study">
-              <h2>{{ work.['Hero Text'] }}</h2>
-              <div class="link-wrapper">
-                <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
-              </div>
-            </div>
-            </div>
-            {% else %}
-            <div class="row elements-in image-right project-item">
-            <div class="col-md-4 study">
-                <h2>{{ work.['Hero Text'] }}</h2>
-              <div class="link-wrapper">
+          </div>
+        </div>
+        <div class="col-md-4 study">
+          <h2>{{ work.['Hero Text'] }}</h2>
+            <div class="link-wrapper">
+            <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+          </div>
+        </div>
+      </div>
+
+      {% else %}
+        <div class="row elements-in image-right project-item">
+          <div class="col-md-4 study">
+          <h2>{{ work.['Hero Text'] }}</h2>
+            <div class="link-wrapper">
               <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
             </div>
-            </div>
-            <div class="col-md-8">
-              <div class="rectangle" style="height: {{ work.['Column Height'] }}px;">
+          </div>
+          <div class="col-md-8">
+            <div class="rectangle">
+              <div class="inner-wrapper">
                 <a href="{{ site.baseurl }}{{ work.url }}">
                   <img class="lazy img-responsive" data-src="{{ work.['Featured Image'] }}" alt="">      
                 </a>
               </div>
             </div>
-            </div>
-            {% endif %}
-          {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      {% endif %}
 
-        {% endfor %}
-        <div class="row">
-          <div class="col-md-12">
-            <div class="more-projects">
+      {% endfor %}
+      <div class="row">
+        <div class="col-md-12">
+          <div class="more-projects elements-in">
+            <div class="button-wrapper">
               <a href="/work">More Projects</a>
             </div>
           </div>
         </div>
-        {% endif %}
-        </div>
-       </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
