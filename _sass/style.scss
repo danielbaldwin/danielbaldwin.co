@@ -54,43 +54,6 @@ div.progress {
 }
 
 
-/* --- Page Featured Work --- */
-.believe {
-	margin: 148px 0;
-
-	h2 {
-    font-size: 38px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.58;
-    text-align: left;
-    color: #000;
-
-    @extend .Haas-Light;
-  }
-  p {
-    margin-bottom: 0px;
-    font-size: 23px;
-    font-style: normal;
-    font-stretch: normal;
-    color: #000000;
-
-    @extend .Haas-Regular;
-  }
-  @media screen and (max-width: 768px) {
-    text-align: center;
-    margin: 200px 5px;
-    h2 {
-      font-size: 28px;
-      line-height: 1.71;
-      text-align: center;
-    }
-    p {
-      font-size: 22px;
-      line-height: 2.18;
-    }
-  }
-}
 .first {
 	margin: 0 0 30px 0;
 }
