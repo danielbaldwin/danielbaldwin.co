@@ -18,12 +18,14 @@
         <div class="row case-studies">
         {% assign sorted_work = site.work | sort:"position" %}
         {% for work in sorted_work %}
-           <div class="col-md-{{work['Bootstrap Columns'] }}">
+           <div class="work-item elements-in col-md-{{work['Bootstrap Columns'] }}">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
                     <a href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
                       <div class="overlay">
-                      <h1>{{ work.title }}</h1>
+											<div class="work-item_title-wrapper">
+                      	<h1>{{ work.title }}</h1>
+											</div>
                       <h2>{{ work['Hero Text'] }}</h2>
                       <a class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</a><a class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</a>
                       </div>

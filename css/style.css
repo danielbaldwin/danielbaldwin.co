@@ -990,6 +990,38 @@ footer .nav > li > a {
   .study a {
     font-size: 16px; }
 
+.work-item.elements-in {
+  color: red !important;
+  opacity: 0;
+  transition: 0.5s; }
+  .work-item.elements-in:nth-of-type(2n-1) {
+    transform: translateX(-50px); }
+  .work-item.elements-in:nth-of-type(2n) {
+    transform: translateX(50px); }
+  .work-item.elements-in .work-item_title-wrapper, .work-item.elements-in h2 {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.5s; }
+  .work-item.elements-in .bottom-wrapper {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.5s; }
+  .work-item.elements-in.active {
+    transform: translateX(0px);
+    opacity: 1; }
+    .work-item.elements-in.active .work-item_title-wrapper {
+      transform: translateY(0px);
+      opacity: 1;
+      transition: 0.5s 0.4s; }
+    .work-item.elements-in.active h2 {
+      transform: translateY(0px);
+      opacity: 1;
+      transition: 0.5s 0.65s; }
+    .work-item.elements-in.active .bottom-wrapper {
+      transform: translateY(0px);
+      opacity: 1;
+      transition: 0.5s 0.75s; }
+
 *:focus {
   outline: none;
   outline-style: none;
