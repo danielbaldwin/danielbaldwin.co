@@ -8,7 +8,7 @@
 		<div class="container">
 		    <div class="row">
 		      <div class="col-md-12">
-		          <div class="hero-text"><h2>{{ page['Hero Text'] }}</h2>
+		          <div class="hero-text header-animate"><span><h2>{{ page['Hero Text'] }}</span></h2>
 			          <div class="client-service">
 			          	<div class="col-md-3"><p>CLIENT</p> {{ page.title }} </div>
 			          	<div class="col-md-3"><p>SERVICES</p> {{ page['Services']}} </div>
@@ -57,10 +57,5 @@
 	{% include footer.html %}
 	</div>
 {% include js.html %}
-<script>
-    $("p:has(img)").css("padding", "50px 0px");
-    $(".case-study p").toggleClass("reveal");
-    $(".case-study img").toggleClass("reveal");
-</script>
 </body>
 </html>

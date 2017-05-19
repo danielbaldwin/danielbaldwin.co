@@ -1,0 +1,245 @@
+/* --- Page About --- */
+.about-header {
+	/* background-image: url('/img/about-hero.jpg');
+	background-size: cover;
+  background-position: center;
+	height: 100vh;
+  width: 100%; */
+  background-color: #edac01;
+	color: #fff;
+
+  .yellow-logo {
+    display: none;
+  }
+
+  &.white {
+    background: #fff;
+
+    .yellow-logo {
+      display: block;
+    }
+    .white-logo {
+      display: none;
+    }
+  }
+
+	.hero {
+    padding: 0 !important;
+  }
+	p {
+  	font-size: 23px;
+    font-style: normal;
+    font-stretch: normal;
+		opacity: 0;
+		transition: 0.5;
+
+    @extend .Haas-Regular;
+	}
+
+	h2 {
+  	font-size: 38px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+
+    @extend .Haas-Regular;
+	}
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    p {
+      font-size: 22px;
+      line-height: 2.18;
+    }
+    h2 {
+      font-size: 28px;
+      line-height: 1.71;
+      text-align: center;
+    }
+  }
+}
+
+.loaded{
+	
+	.about-header {
+		
+		p{
+			
+			opacity: 1;
+			transition: 0.5s 1.4s;
+			
+		}
+		
+	}
+	
+}
+
+.grey {
+  background-color: #f6f6f6;
+  padding-top: 152px;
+  padding-bottom: 218px;
+  .container {
+    background-color: #fff;
+    padding: 0;
+    .col-md-6 {
+      padding: 0;
+      h2 {
+        margin-top: 160px;
+        margin-left: 45px;
+        font-size: 36px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.5;
+        letter-spacing: normal;
+        color: #000000;
+        @extend .Haas-Regular;
+      }
+      p {
+        float: left;
+        width: 39%;
+        margin-left: 45px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000;
+        @extend .Haas-Regular;
+      }
+    }
+  }
+}
+.behind-brand {
+  @media screen and (max-width: 992px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+	h2 {
+    font-size: 38px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #001fff;
+    max-width: 410px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding-top: 180px;
+
+    @extend .Haas-Bold;
+
+    @media screen and (max-width: 992px) {
+      margin: 0px auto 50px auto;
+    }
+
+    @media screen and (max-width: 480px) {
+      max-width: none;
+    }
+	}
+
+	p {
+  	margin-bottom: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    color: #000000;
+    max-width: 460px;
+    margin: 0px auto 20px;
+
+    @extend .Haas-Light;
+
+    &:nth-child(2) {
+      margin-bottom: 100px;
+    }
+	}
+  .circle-box {
+    position: relative;
+
+    .content {
+      position: absolute;
+      top: 200px;
+      left: 130px;
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+.images {
+  margin-bottom: 80px;
+  position: relative;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 100px;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 86%;
+
+    img {
+      width: 100%;
+    }
+    h3 {
+        font-size: 38px;
+        line-height: 1.58;
+        color: #272727;
+        text-align: center;
+        padding-bottom: 80px;
+        @extend .Haas-Regular;
+      }
+    }
+}
+.services {
+  margin-bottom: 300px;
+
+  h2 {
+      font-size: 38px;
+      line-height: 1.58;
+      color: #272727;
+      text-align: center;
+    }
+  @media screen and (max-width: 992px) {
+    margin-bottom: 100px;
+  }
+
+  .border {
+    border-right: solid 2px #f6f6f6;
+    @media screen and (max-width: 992px) {
+      border-right: none;
+    }
+  }
+  .service {
+    font-size: 22px;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #000000;
+
+    @extend .Haas-Light;
+
+
+    h3 {
+      font-size: 13px;
+      line-height: 1.27;
+      margin-bottom: 40px;
+      color: #edac01;
+      text-transform: uppercase;
+      @extend .Haas-Regular;
+    }
+
+    p {
+      line-height: 1.82;
+      padding-bottom: 20px;
+    }
+  }
+}

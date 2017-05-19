@@ -3,17 +3,23 @@
 {% include head.html %}
  <body id="barba-wrapper">
  	<div class="barba-container" data-transition="BarbaAnimation">
-		<div class="about-header">
+		
+    <div class="about-header">
 		  	{% include navigation.html %}
-		  	<div class="container">
-				<div class="col-md-8 col-sm-12 col-xs-12 hero">
-					<div class="title">
-			        	<p>{{page.title}}</p>
-			          	<h2>{{ page['Hero Text'] }}</h2>
-			         </div>
-			    </div>
-		      </div>
+        <div class="hero full-height">
+          <div class="hero-content">
+  		  	  <div class="container">
+  			  	<div class="col-md-8 col-sm-12 col-xs-12 ">
+  					<div class="title">
+  			        	<p>{{page.title}}</p>
+  			          	<h2 class="header-animate"><span>{{ page['Hero Text'] }}</span></h2>
+  			         </div>
+  			    </div>
+  		      </div>
+          </div>
+        </div>
 		</div>
+    
 		<div class="container-fluid">
 			<div class="row grey">
 				<div class="container">
