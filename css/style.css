@@ -715,9 +715,24 @@ footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .f
 /* --- Footer --- */
 .footer-rectangle {
   height: 500px;
-  background-image: linear-gradient(253deg, #f8d602, #edac01);
   color: #fff;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  position: relative; }
+  .footer-rectangle .footer-background {
+    background-image: linear-gradient(253deg, #f8d602, #edac01);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: 0.5s; }
+  .footer-rectangle .footer-rectangle-left p, .footer-rectangle .footer-rectangle-left h1,
+  .footer-rectangle .footer-rectangle-right p,
+  .footer-rectangle .footer-rectangle-right h1 {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.5s; }
   .footer-rectangle a {
     color: #fff; }
     .footer-rectangle a:hover, .footer-rectangle a:active, .footer-rectangle a:focus {
@@ -743,6 +758,25 @@ footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .f
         transition: 0.4s; }
       .footer-rectangle .info a:hover:after {
         width: 100%; }
+  .footer-rectangle.active .footer-background {
+    transform: translateX(0);
+    transition: 0.5s; }
+  .footer-rectangle.active .footer-rectangle-left p {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 0.5s; }
+  .footer-rectangle.active .footer-rectangle-left h1 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 0.65s; }
+  .footer-rectangle.active .footer-rectangle-right p {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 0.75s; }
+  .footer-rectangle.active .footer-rectangle-right h1 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 0.85s; }
 
 footer .footer {
   text-align: center; }

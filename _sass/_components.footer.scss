@@ -6,9 +6,39 @@ footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover, .foote
 /* --- Footer --- */
 .footer-rectangle {
 	height: 500px;
-	background-image: linear-gradient(253deg, #f8d602, #edac01);
+	//background-image: linear-gradient(253deg, #f8d602, #edac01);
 	color: #fff;
   margin-bottom: 0;
+	position: relative;
+	
+	.footer-background{
+		
+		background-image: linear-gradient(253deg, #f8d602, #edac01);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transform: translateX(-100%);
+		transition: 0.5s;
+		
+	}
+	
+	.footer-rectangle-left,
+	.footer-rectangle-right{
+		
+		p, h1{
+			
+			transform: translateY(30px);
+			opacity: 0;
+			transition: 0.5s;
+			
+		}
+		
+	}
+	
+	
+	
   a {
     color: #fff;
     &:hover, &:active, &:focus {
@@ -55,7 +85,53 @@ footer .nav>li>a, span.copyright, .footer h1, .footer a, .footer a:hover, .foote
   .contact {
     @extend .vertically-centered
   }
+	
+	
+	&.active{
+		
+		.footer-background{
+			transform: translateX(0);
+			transition: 0.5s;
+		}
+		
+		.footer-rectangle-left{
+			
+			p{
+				transform: translateY(0);
+				opacity: 1;
+				transition: 0.5s 0.5s;							
+			}
+			
+			h1{
+				transform: translateY(0);
+				opacity: 1;
+				transition: 0.5s 0.65s;				
+			}
+			
+		}
+		
+		.footer-rectangle-right{
+
+			p{
+				transform: translateY(0);
+				opacity: 1;
+				transition: 0.5s 0.75s;							
+			}
+			
+			h1{
+				transform: translateY(0);
+				opacity: 1;
+				transition: 0.5s 0.85s;				
+			}
+			
+		}
+		
+	}
+	
 }
+
+
+
 footer {
 
   .footer {
