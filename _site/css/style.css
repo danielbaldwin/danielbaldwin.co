@@ -303,10 +303,10 @@ nav#navb.navbar-fixed-top {
       padding-top: 35px !important; }
 
 header {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
-  width: 100%; }
+  width: 100%;*/ }
 
 /* --- Home Page --- */
 .progress-bar-success {
@@ -699,13 +699,13 @@ header {
   padding-left: 0px !important;
   padding-right: 0px !important; }
 
-.Haas-Light, .home-header h1, .case-study p, .behind-brand p, .services .service, .believe h2, .rectangle p, .latest-articles p, .contact-header h2, .post-content p, .share-widget {
+.Haas-Light, .home-header h1, .case-study p, .behind-brand p, .services .service, .post-content p, .contact-header h2, .believe h2, .rectangle p, .latest-articles p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .more-projects a, .quote h1, .quote p, .behind-brand h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2 {
+.Haas-Bold, .more-projects a, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
-.Haas-Regular, .navbar-default .navbar-collapse .daniel-baldwin-bra p, .navbar-default .navbar-collapse .daniel-baldwin-bra a, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .work .navbar-nav > li > a, .navbar-default .work .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus, .footer-rectangle h1, .footer-rectangle .info p, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images .content h3, .services .service h3, .believe p, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle.hovereffect h1, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .contact-header p, .excerpt, .post-header .date, .post-header a, .share-widget a, .share-widget a:hover, .share-widget a:focus {
+.Haas-Regular, .navbar-default .navbar-collapse .daniel-baldwin-bra p, .navbar-default .navbar-collapse .daniel-baldwin-bra a, .navbar-default .blog .navbar-nav > li > a, .navbar-default .blog .navbar-nav > li > a.active, .navbar-default .work .navbar-nav > li > a, .navbar-default .work .navbar-nav > li > a.active, .navbar-default .home .navbar-nav > li > a, .navbar-default .home .navbar-nav > li > a.active, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus, .footer-rectangle h1, .footer-rectangle .info p, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images .content h3, .services .service h3, .excerpt, .post-header .date, .post-header a, .contact-header p, .believe p, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle.hovereffect h1, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .share-widget a, .share-widget a:hover, .share-widget a:focus {
   font-family: 'Neuzeit S LT W01 Book';
   font-weight: normal; }
 
@@ -1432,6 +1432,262 @@ footer .nav > li > a {
   .about-page-description.container.active .about-page-description-right p:nth-of-type(2) {
     transition: 0.5s 0.9s; }
 
+/* --- Blog --- */
+.blog-header {
+  background: #001fff; }
+  .blog-header .hero {
+    height: 480px;
+    margin-bottom: 150px; }
+    .blog-header .hero .title {
+      position: relative; }
+      .blog-header .hero .title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        transition: 0.5s; }
+      .blog-header .hero .title h2 {
+        color: #001fff;
+        line-height: 1.58;
+        font-size: 38px;
+        max-width: 1000px;
+        padding: 180px 77px;
+        transform: translateY(40px);
+        opacity: 0;
+        transition: 0.75s; }
+  .blog-header.active .hero .title:before {
+    width: 100%;
+    transition: 0.5s 0.5s; }
+  .blog-header.active .hero .title h2 {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 0.5s 0.75s; }
+
+.blog-excerpt {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  border-bottom: solid 2px #f6f6f6; }
+  .blog-excerpt .date {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.5s;
+    display: block; }
+  .blog-excerpt img {
+    width: 100%;
+    transform: translateX(-40px);
+    opacity: 0;
+    transition: 0.5s; }
+  .blog-excerpt h2 {
+    margin-bottom: 28px;
+    max-width: 800px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.5s;
+    display: block; }
+    .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus {
+      font-size: 38px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.58;
+      color: #001fff;
+      text-decoration: none; }
+  @media screen and (max-width: 800px) {
+    .blog-excerpt {
+      padding-top: 90px;
+      padding-bottom: 90px; }
+      .blog-excerpt h2 {
+        font-size: 22px; }
+      .blog-excerpt .article-img {
+        margin-top: 40px;
+        padding-left: 0px !important;
+        padding-right: 0px !important; } }
+  .blog-excerpt .blog-item {
+    padding: 35px 10px; }
+    @media screen and (max-width: 768px) {
+      .blog-excerpt .blog-item {
+        padding: 35px 15px; } }
+
+.blog-excerpt .blog-item.active .date {
+  opacity: 1;
+  transform: translateY(0px); }
+.blog-excerpt .blog-item.active h2 {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 0.5s 0.3s; }
+.blog-excerpt .blog-item.active img {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: 0.5s 0.6s; }
+
+.post-content {
+  padding-top: 150px;
+  padding-bottom: 210px; }
+
+.date {
+  margin: 28px 0;
+  color: #001fff;
+  font-size: 20px; }
+
+.excerpt {
+  padding: 30px 0px;
+  font-size: 22px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  color: #000000; }
+
+.read-article a, .read-article a:hover, .read-article a:focus {
+  font-size: 13px;
+  font-style: normal;
+  font-stretch: normal;
+  color: #001fff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  line-height: 1.69;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
+
+article img {
+  width: 100%; }
+
+/* --- Posts --- */
+.post-header {
+  margin-top: 105px;
+  padding: 193px 90px 100px;
+  background: #fff; }
+  .post-header p {
+    font-size: 12px;
+    text-transform: uppercase; }
+  .post-header .date, .post-header a {
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000; }
+  .post-header i {
+    font-size: 14px;
+    color: #fff;
+    background-color: #001fff;
+    padding: 7px; }
+  .post-header h2 {
+    font-size: 38px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    color: #001fff;
+    max-width: 1000px;
+    margin-bottom: 50px; }
+  @media screen and (max-width: 768px) {
+    .post-header {
+      margin: 100px 0 150px;
+      text-align: center; }
+      .post-header h2 {
+        font-size: 28px;
+        line-height: 1.71;
+        text-align: center; } }
+
+.post-content p {
+  margin-bottom: 100px;
+  font-size: 22px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73; }
+.post-content img {
+  width: 100%; }
+.post-content a, .post-content a:hover, .post-content a:focus {
+  font-weight: 500;
+  color: #edac01;
+  text-decoration: none;
+  border-bottom: 2px solid #edac01; }
+.post-content i {
+  font-weight: 500;
+  color: #edac01; }
+.post-content ul li {
+  margin-top: -60px; }
+.post-content ol, .post-content ul {
+  padding-left: 20px;
+  font-size: 22px;
+  font-family: 'Neue Haas Unica W01 Light'; }
+
+/* --- Contact Page --- */
+.contact-header {
+  color: #fff;
+  height: 100vh;
+  position: relative; }
+  .contact-header .background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    background-image: linear-gradient(244deg, #f8d602, #edac01);
+    height: 100%;
+    transition: 0.5s; }
+  .contact-header .yellow-logo {
+    display: none; }
+  .contact-header.white {
+    background: #fff; }
+    .contact-header.white .yellow-logo {
+      display: block; }
+    .contact-header.white .white-logo {
+      display: none; }
+  .contact-header p {
+    font-size: 23px;
+    font-style: normal;
+    font-stretch: normal; }
+  .contact-header h2 {
+    margin-bottom: 36px;
+    font-size: 38px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58; }
+  .contact-header a, .contact-header a:hover {
+    color: #fff;
+    padding-bottom: 3px;
+    text-decoration: none; }
+  @media screen and (max-width: 800px) {
+    .contact-header {
+      text-align: center; }
+      .contact-header p {
+        font-size: 22px;
+        line-height: 2.18; }
+      .contact-header h2 {
+        margin-bottom: 25px;
+        font-size: 28px;
+        line-height: 1.71; }
+      .contact-header .anything-else {
+        font-size: 16px;
+        padding: 0 25px; }
+        .contact-header .anything-else a, .contact-header .anything-else a:hover {
+          border-bottom: 2px solid #fff; } }
+  .contact-header .contact-information {
+    padding-top: 140px;
+    position: relative; }
+  .contact-header p {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.5s; }
+  .contact-header .anything-else {
+    transform: translateX(-40px);
+    opacity: 0;
+    transition: 0.5s; }
+
+.loaded p {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.75s 0.5s; }
+.loaded .contact-header .background {
+  transform: translateX(0);
+  transition: 0.5s 0.3s; }
+.loaded .anything-else {
+  transform: translateX(0px);
+  opacity: 1;
+  transition: 0.5s 1.2s; }
+
 /* --- Page Featured Work --- */
 .believe {
   margin: 148px 0; }
@@ -1749,189 +2005,6 @@ div.progress {
   @media screen and (max-width: 990px) {
     .articles-border {
       display: none; } }
-
-/* --- Contact Page --- */
-.contact-header {
-  background-image: linear-gradient(244deg, #f8d602, #edac01);
-  color: #fff;
-  height: 100vh; }
-  .contact-header .yellow-logo {
-    display: none; }
-  .contact-header.white {
-    background: #fff; }
-    .contact-header.white .yellow-logo {
-      display: block; }
-    .contact-header.white .white-logo {
-      display: none; }
-  .contact-header p {
-    font-size: 23px;
-    font-style: normal;
-    font-stretch: normal; }
-  .contact-header h2 {
-    margin-bottom: 36px;
-    font-size: 38px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.58; }
-  .contact-header a, .contact-header a:hover {
-    color: #fff;
-    padding-bottom: 3px;
-    text-decoration: none; }
-  @media screen and (max-width: 800px) {
-    .contact-header {
-      text-align: center; }
-      .contact-header p {
-        font-size: 22px;
-        line-height: 2.18; }
-      .contact-header h2 {
-        margin-bottom: 25px;
-        font-size: 28px;
-        line-height: 1.71; }
-      .contact-header .anything-else {
-        font-size: 16px;
-        padding: 0 25px; }
-        .contact-header .anything-else a, .contact-header .anything-else a:hover {
-          border-bottom: 2px solid #fff; } }
-  .contact-header .contact-information {
-    padding-top: 140px; }
-
-/* --- Blog --- */
-.blog-header {
-  background: #001fff; }
-  .blog-header .hero {
-    height: 480px;
-    margin-bottom: 150px; }
-    .blog-header .hero .title {
-      background-color: #fff; }
-      .blog-header .hero .title h2 {
-        color: #001fff;
-        line-height: 1.58;
-        font-size: 38px;
-        max-width: 1000px;
-        padding: 180px 77px; }
-
-.blog-excerpt {
-  padding-bottom: 60px;
-  padding-top: 60px;
-  border-bottom: solid 2px #f6f6f6; }
-  .blog-excerpt img {
-    width: 100%; }
-  .blog-excerpt h2 {
-    margin-bottom: 28px;
-    max-width: 800px; }
-    .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus {
-      font-size: 38px;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.58;
-      color: #001fff;
-      text-decoration: none; }
-  @media screen and (max-width: 800px) {
-    .blog-excerpt {
-      padding-top: 90px;
-      padding-bottom: 90px; }
-      .blog-excerpt h2 {
-        font-size: 22px; }
-      .blog-excerpt .article-img {
-        margin-top: 40px;
-        padding-left: 0px !important;
-        padding-right: 0px !important; } }
-  .blog-excerpt .blog-item {
-    padding: 35px 10px; }
-    @media screen and (max-width: 768px) {
-      .blog-excerpt .blog-item {
-        padding: 35px 15px; } }
-
-.post-content {
-  padding-top: 150px;
-  padding-bottom: 210px; }
-
-.date {
-  margin: 28px 0;
-  color: #001fff;
-  font-size: 20px; }
-
-.excerpt {
-  padding: 30px 0px;
-  font-size: 22px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.73;
-  color: #000000; }
-
-.read-article a, .read-article a:hover, .read-article a:focus {
-  font-size: 13px;
-  font-style: normal;
-  font-stretch: normal;
-  color: #001fff;
-  text-decoration: none;
-  letter-spacing: 1.5px;
-  line-height: 1.69;
-  text-transform: uppercase;
-  text-align: center;
-  display: block;
-  margin: 0 auto; }
-
-article img {
-  width: 100%; }
-
-/* --- Posts --- */
-.post-header {
-  margin-top: 105px;
-  padding: 193px 90px 100px;
-  background: #fff; }
-  .post-header p {
-    font-size: 12px;
-    text-transform: uppercase; }
-  .post-header .date, .post-header a {
-    font-size: 14px;
-    font-style: normal;
-    font-stretch: normal;
-    color: #000; }
-  .post-header i {
-    font-size: 14px;
-    color: #fff;
-    background-color: #001fff;
-    padding: 7px; }
-  .post-header h2 {
-    font-size: 38px;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.58;
-    color: #001fff;
-    max-width: 1000px;
-    margin-bottom: 50px; }
-  @media screen and (max-width: 768px) {
-    .post-header {
-      margin: 100px 0 150px;
-      text-align: center; }
-      .post-header h2 {
-        font-size: 28px;
-        line-height: 1.71;
-        text-align: center; } }
-
-.post-content p {
-  margin-bottom: 100px;
-  font-size: 22px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.73; }
-.post-content img {
-  width: 100%; }
-.post-content a, .post-content a:hover, .post-content a:focus {
-  font-weight: 500;
-  color: #edac01;
-  text-decoration: none;
-  border-bottom: 2px solid #edac01; }
-.post-content i {
-  font-weight: 500;
-  color: #edac01; }
-.post-content ul li {
-  margin-top: -60px; }
-.post-content ol, .post-content ul {
-  padding-left: 20px;
-  font-size: 22px;
-  font-family: 'Neue Haas Unica W01 Light'; }
 
 /* --- Share widget --- */
 .share-widget {

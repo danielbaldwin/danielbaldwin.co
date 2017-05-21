@@ -1,0 +1,257 @@
+/* --- Blog --- */
+.blog-header {
+
+  background: #001fff;
+
+    .hero {
+    height: 480px;
+    margin-bottom: 150px;
+    .title {
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        transition: 0.5s;
+      }
+    h2 {
+      color: #001fff;
+      @extend .Haas-Bold;
+      line-height: 1.58;
+      font-size: 38px;
+      max-width: 1000px;
+      padding: 180px 77px;
+      
+  		transform: translateY(40px);
+  		opacity: 0;
+  		transition: 0.75s;            
+      
+      }
+    }
+    }
+    
+    &.active{
+      .hero{
+        .title{
+          &:before{
+            width: 100%;
+            transition: 0.5s 0.5s;
+          }
+          h2{
+            transform: translateY(0px);
+        		opacity: 1;
+        		transition: 0.5s 0.75s;               
+          }
+        }  
+      }
+    }
+    
+}
+
+
+
+.blog-excerpt {
+	padding-bottom: 60px;
+	padding-top: 60px;
+	border-bottom: solid 2px #f6f6f6;
+
+  .date{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.5s;
+    display: block;
+  }
+
+	img {
+    width: 100%;
+    
+    transform: translateX(-40px);
+    opacity: 0;
+    transition: 0.5s;
+
+  }
+
+	h2 {
+	 margin-bottom: 28px;
+   max-width: 800px;
+
+   transform: translateY(20px);
+   opacity: 0;
+   transition: 0.5s;
+   display: block; 
+
+	 a, a:hover, a:focus {
+  	font-size: 38px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    color: #001fff;
+    text-decoration: none;
+
+    @extend .Haas-Bold;
+  }
+ }
+  @media screen and (max-width: 800px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    h2 {
+      font-size: 22px;
+    }
+    .article-img {
+      margin-top: 40px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+  }
+
+  .blog-item {
+    padding: 35px 10px;
+
+    @media screen and (max-width: 768px) {
+      padding: 35px 15px;
+    }
+  }
+}
+
+.blog-excerpt .blog-item.active{
+    .date{
+      opacity: 1;
+      transform: translateY(0px);          
+    }
+    h2{
+      opacity: 1;
+      transform: translateY(0px);  
+      transition: 0.5s 0.3s;           
+    }
+    img{
+      opacity: 1;
+      transform: translateX(0px);      
+      transition: 0.5s 0.6s;     
+    }
+  }
+
+.post-content {
+  padding-top: 150px;
+  padding-bottom: 210px;
+}
+.date {
+	margin: 28px 0;
+  color: #001fff;
+  font-size: 20px;
+}
+.excerpt {
+	padding: 30px 0px;
+	font-size: 22px;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.73;
+	color: #000000;
+
+  @extend .Haas-Regular;
+}
+.read-article a, .read-article a:hover, .read-article a:focus {
+	font-size: 13px;
+	font-style: normal;
+	font-stretch: normal;
+	color: #001fff;
+	text-decoration: none;
+  letter-spacing: 1.5px;
+  line-height: 1.69;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+  @extend .Haas-Bold;
+}
+article {
+  img {
+    width: 100%;
+  }
+}
+/* --- Posts --- */
+.blog-post {
+
+}
+.post-header {
+	margin-top: 105px;
+  padding: 193px 90px 100px;
+  background: #fff;
+
+  p {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+	.date, a {
+  	font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000;
+
+    @extend .Haas-Regular;
+	}
+  i {
+    font-size: 14px;
+    color: #fff;
+    background-color: #001fff;
+    padding: 7px;
+  }
+
+	h2 {
+  	font-size: 38px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    color: #001fff;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    @extend .Haas-Bold;
+	}
+  @media screen and (max-width: 768px) {
+    margin: 100px 0 150px;
+    text-align: center;
+    h2 {
+      font-size: 28px;
+      line-height: 1.71;
+      text-align: center;
+    }
+  }
+}
+.post-content {
+  p {
+  	margin-bottom: 100px;
+  	font-size: 22px;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.73;
+
+    @extend .Haas-Light;
+  }
+  img {
+    width: 100%;
+  }
+  a, a:hover, a:focus {
+    font-weight: 500;
+    color: #edac01;
+    text-decoration: none;
+    border-bottom: 2px solid #edac01;
+  }
+
+  i {
+    font-weight: 500;
+    color: #edac01;
+  }
+
+  ul li {
+    margin-top: -60px;
+  }
+  ol, ul {
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Neue Haas Unica W01 Light';
+  }
+}
