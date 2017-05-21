@@ -275,6 +275,8 @@
     }
   }
 }
+
+
 .images {
   margin-bottom: 80px;
   position: relative;
@@ -302,9 +304,51 @@
         text-align: center;
         padding-bottom: 80px;
         @extend .Haas-Regular;
+				
+				opacity: 0;
+		    transform: translateY(30px);
+		    transition: 0.5s;
       }
     }
+		
+		.tintup{
+			opacity: 0;
+			transform: translateY(50px);
+			transition: 0.5s;				
+		}
+		
+		svg{
+			
+			transform-origin: left;
+	    transition: 0.5s;
+	    transform: scale(0);			
+			
+		}		
+		
+		&.active{
+			
+			h3{
+				opacity: 1;
+		    transform: translateY(0px);
+		    transition: 0.5s;				
+			}
+			
+			svg{
+				transform: scale(1);
+				transition: 0.5s 0.3s;
+			}
+			
+			.tintup{
+				opacity: 1;
+		    transform: translateY(0px);
+		    transition: 0.5s 0.6s;								
+			}
+			
+		}
 }
+
+
+
 .services {
   margin-bottom: 300px;
 
@@ -313,15 +357,34 @@
       line-height: 1.58;
       color: #272727;
       text-align: center;
+			opacity: 0;
+			transform: translateY(30px);
+			transition: 0.5s;
     }
   @media screen and (max-width: 992px) {
     margin-bottom: 100px;
   }
 
   .border {
-    border-right: solid 2px #f6f6f6;
+		position: relative;
+    //border-right: solid 2px #f6f6f6;
+		//opacity: 0;
+		//transition: 0.5s;
+		&:after{
+			content: "";
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 2px;
+			height: 100%;
+			background: #f6f6f6;
+			opacity: 0;
+			transition: 0.5s;			
+		}
     @media screen and (max-width: 992px) {
-      border-right: none;
+			&:after{
+				display: none;
+			}
     }
   }
   .service {
@@ -332,7 +395,15 @@
     color: #000000;
 
     @extend .Haas-Light;
-
+		
+		img{
+			
+			transform: translateX(-30px);
+			opacity: 0;
+			transition: 0.5s;
+			
+		}
+			
 
     h3 {
       font-size: 13px;
@@ -341,13 +412,159 @@
       color: #edac01;
       text-transform: uppercase;
       @extend .Haas-Regular;
+			
+			opacity: 0;
+			transform: translateY(20px);
+			transition: 0.5s;			
+			
     }
 
     p {
       line-height: 1.82;
       padding-bottom: 20px;
     }
+		
+		.expertise{
+			span{
+				display: block;
+				transform: translateY(20px);
+				opacity: 0;
+				transition: 0.75s;      				
+			}
+		}
+		
   }
+	
+	&.active{
+		
+		h2{
+			
+			transform: translateY(0);
+			opacity: 1; 
+			transition: 0.75s 0s;			
+			
+		}
+		
+		.border{
+			&:after{
+				opacity: 1;
+				transition: 0.5s 0.25s;
+			}
+		}
+		
+		.service{
+			
+			img{
+				
+				transform: translateX(0px);
+				opacity: 1;
+				transition: 0.5s 0.5s;
+
+			}
+			
+			&:nth-of-type(2){
+				img{
+					transition: 0.5s 0.5s;
+				}
+				h3{
+					transform: translateY(0);
+					opacity: 1; 
+					transition: 0.75s 0.9s;					
+				}
+				.expertise{
+					span{
+						transform: translateY(0);
+						opacity: 1; 						
+					}
+					span:nth-of-type(1){
+						transition: 0.5s 1.3s;
+					}
+					span:nth-of-type(2){
+						transition: 0.5s 1.4s;
+					}
+					span:nth-of-type(3){
+						transition: 0.5s 1.5s;
+					}
+					span:nth-of-type(4){
+						transition: 0.5s 1.6s;
+					}															
+				}				
+			}
+
+			&:nth-of-type(3){
+				img{
+					transition: 0.5s 0.65s;
+				}
+				h3{
+					transform: translateY(0);
+					opacity: 1; 
+					transition: 0.75s 1s;					
+				}
+				.expertise{
+					span{
+						transform: translateY(0);
+						opacity: 1; 						
+					}
+					span:nth-of-type(1){
+						transition: 0.5s 1.7s;
+					}
+					span:nth-of-type(2){
+						transition: 0.5s 1.8s;
+					}
+					span:nth-of-type(3){
+						transition: 0.5s 1.9s;
+					}
+					span:nth-of-type(4){
+						transition: 0.5s 2s;
+					}															
+				}										
+			}
+
+			&:nth-of-type(4){
+				img{
+					transition: 0.5s 0.8s;
+				}
+				h3{
+					transform: translateY(0);
+					opacity: 1; 
+					transition: 0.75s 1.1s;					
+				}
+				.expertise{
+					span{
+						transform: translateY(0);
+						opacity: 1; 						
+					}
+					span:nth-of-type(1){
+						transition: 0.5s 2.1s;
+					}
+					span:nth-of-type(2){
+						transition: 0.5s 2.2s;
+					}
+					span:nth-of-type(3){
+						transition: 0.5s 2.2s;
+					}
+					span:nth-of-type(4){
+						transition: 0.5s 2.3s;
+					}															
+				}										
+			}			
+			
+		}
+
+
+		.service-outter-wrapper{
+			
+			
+			
+		}
+
+		.border{
+			opacity: 1;
+			transition: 0.5s 0.5s;
+		}
+		
+	}
+	
 }
 
 
