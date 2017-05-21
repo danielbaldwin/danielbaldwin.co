@@ -111,6 +111,112 @@
     }
   }
 }
+
+.behind-brand{
+	
+	
+	h2{
+		span{
+			display: block;
+			transform: translateY(40px);
+			opacity: 0;
+			transition: 0.75s;      
+		}		
+	}
+	
+	.circle-box{
+		
+		.content{
+			
+			p{
+				
+				transform: translateY(-30px);
+				opacity: 0;
+				transition: 0.5s;
+				
+			}
+			
+		}
+		
+		svg{
+			
+			transform-origin: top;
+	    transition: 0.5s;
+	    transform: scale(0);			
+			
+		}
+		
+	}
+	
+	&.active{
+		
+		h2{
+			
+			span{
+				
+				transform: translateY(0);
+				opacity: 1; 
+				
+				&:nth-of-type(1){
+					
+					transition: 0.75s 0.75s;  
+					
+				}     
+				
+				&:nth-of-type(2){
+					
+					transition: 0.75s 0.95s;  
+					
+				} 
+				
+				&:nth-of-type(3){
+					
+					transition: 0.75s 1.15s;  
+					
+				} 			          
+				
+			}					
+			
+		}
+		
+		.circle-box{
+			
+			.content{
+				
+				p{
+					
+					transform: translateY(0);
+					opacity: 1;
+					transition: 0.5s 0.4s;
+					
+					&:nth-of-type(1){
+						transition: 0.5s 0.4s;
+					}
+					
+					&:nth-of-type(2){
+						transition: 0.5s 0.6s;
+					}
+					
+					&:nth-of-type(3){
+						transition: 0.5s 0.8s;
+					}										
+					
+				}
+				
+			}						
+			
+			svg{
+				
+				transform: scale(1);				
+				
+			}
+						
+		}
+		
+	}
+	
+}
+
 .behind-brand {
   @media screen and (max-width: 992px) {
     margin-top: 100px;
@@ -242,4 +348,88 @@
       padding-bottom: 20px;
     }
   }
+}
+
+
+
+.about-page-description.container{
+	
+	background: transparent;
+	overflow: hidden;
+	position: relative;
+	
+	.background{
+		
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		transform: translateX(100%);
+		transition: 0.5s;
+		
+	}
+	
+	.about-page-description-left{
+		
+		overflow: hidden;
+		img{
+			transform: translateY(-100%);
+			transition: 0.5s;
+		}
+		
+	}
+	
+	.about-page-description-right{
+		
+		h2, p{
+
+			transform: translateY(-30px);
+			opacity: 0;
+			transition: 0.5s;
+			
+		}
+				
+	}
+	
+	&.active{
+		
+		.background{
+			transform: translateX(0);
+		}
+		
+		.about-page-description-left{
+			
+			img{
+				
+				transform: translateY(0);
+				transition: 0.5s 0.6s;
+				
+			}
+			
+		}
+		
+		.about-page-description-right{
+			
+			h2, p{
+				
+				opacity: 1;
+				transform: translateY(0);
+				transition: 0.5s 0.7s;
+				
+			}
+			
+			p:nth-of-type(1){
+				transition: 0.5s 0.8s;
+			}
+
+			p:nth-of-type(2){
+				transition: 0.5s 0.9s;
+			}
+			
+		}
+		
+	}
+	
 }
