@@ -1,3 +1,41 @@
+//disabling scrolling
+
+var keys = {37: 1, 38: 1, 39: 1, 40: 1, 32: 1};
+
+function preventDefault(e) {
+  e = e || window.event;
+  if (e.preventDefault)
+      e.preventDefault();
+  e.returnValue = false;
+}
+
+function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+        preventDefault(e);
+        return false;
+    }
+}
+
+//disable scroll
+function disableScroll() {
+  if (window.addEventListener) // older FF
+      window.addEventListener('DOMMouseScroll', preventDefault, false);
+  window.onwheel = preventDefault; // modern standard
+  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+  window.ontouchmove  = preventDefault; // mobile
+  document.onkeydown  = preventDefaultForScrollKeys;
+}
+
+//enable scroll
+function enableScroll() {
+    if (window.removeEventListener)
+        window.removeEventListener('DOMMouseScroll', preventDefault, false);
+    window.onmousewheel = document.onmousewheel = null;
+    window.onwheel = null;
+    window.ontouchmove = null;
+    document.onkeydown = null;
+}
+
 /* Preloader */
 
 $(document).ready(function() {
@@ -67,16 +105,22 @@ $(document).ready(function() {
 $(document).ready(function() {
 
  $(".c-hamburger").click(function(){
-    $(this).toggleClass("is-active")
-    $(".home-header").toggleClass("white")
-    $(".about-header").toggleClass("white")
-    $(".contact-header").toggleClass("white")
+    $(this).toggleClass("is-active");
+  	$('nav').toggleClass('open');
+    if( $(this).hasClass('is-active') ){
+      disableScroll();
+    }else{
+      enableScroll();
+    }    
+    //$(".home-header").toggleClass("white")
+    //$(".about-header").toggleClass("white")
+    //$(".contact-header").toggleClass("white")
     });
 
 });
 
 /* On scroll, navigation drops down w/ white background */
-var navbarVisible = false;
+/*var navbarVisible = false;
 $(window).scroll(function(){
     var ht = $('header').height()+70;
     if ($(this).scrollTop() >= ht) {
@@ -84,16 +128,30 @@ $(window).scroll(function(){
             $("#navb").addClass("navbar-fixed-top")
                 .hide()
                 .fadeTo('slow','1');
-
-           /* $(".row:first").css("padding-top","50px"); */
             navbarVisible = true;
         };
     } else {
         $("#navb").removeClass("navbar-fixed-top").removeAttr('style');
-        /* $(".row:first").css("padding-top","0px"); */
         navbarVisible = false;
     }
+});*/
+
+$(window).on('scroll', function(){
+  
+  var st = $(window).scrollTop();
+  
+  if( st > 500 ){
+    $('nav').addClass('fixed active');
+  }else{
+    $('nav').removeClass('fixed active');
+  }
+  
 });
+
+
+
+
+
 
 /*
  * Replace all SVG images with inline SVG

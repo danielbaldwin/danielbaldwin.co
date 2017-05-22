@@ -54,11 +54,12 @@ $button-transistion-duration: 0.4s;     // The transition duration
   height: $bar-thickness;
 }
 
+/*
 .home-header, .about-header, .contact-header {
   .c-hamburger span, .c-hamburger span::before, .c-hamburger span::after {
     background: rgb(255,255,255);
   }
-} 
+} */
 
 .blog .c-hamburger span, .blog .c-hamburger span::before, .blog .c-hamburger span::after {
   background: #edac01;
