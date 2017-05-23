@@ -1,4 +1,4 @@
-nav.navbar .container{
+nav .nav-outter-wrapper{
 	transform: translateY(-100%);
 	opacity: 0;
 	transition: 0.75s;
@@ -6,7 +6,7 @@ nav.navbar .container{
 
 
 .loaded{
-	nav.navbar .container{
+	nav .nav-outter-wrapper{
 		transform: translateY(0%);
 		opacity: 1;
 		transition: 0.75s 1.25s;
@@ -317,6 +317,25 @@ nav{
 				display: inline-block;
 				vertical-align: top;
 				color: #fff;
+				position: relative;
+				text-decoration: none;
+				&:after{
+					content: "";
+			    width: 0;
+			    left: 0;
+			    bottom: 3px;
+			    margin-top: 0px;
+			    height: 1px;
+			    background: currentColor;
+			    position: absolute;
+			    transition: 0.4s;
+				}
+				&:hover{
+					text-decoration: none;
+				}
+				&:hover:after, &.active:after{
+					width: 100%;
+				}				
 			}
 			&.social-media{
 				display: none;
@@ -484,6 +503,11 @@ nav{
 
 @media screen and (max-width: 767px){
 	
+	.loaded nav .nav-outter-wrapper{
+		transform: none;
+		opacity: 1;
+	}
+	
 	nav{
 		
 		position: fixed;
@@ -492,6 +516,11 @@ nav{
 		
 		&.fixed{
 			transform: none;
+		}
+		
+		.nav-outter-wrapper{
+			transform: none;
+			opacity: 1;
 		}
 		
 		&.content-hidden{
@@ -562,6 +591,7 @@ nav{
 				opacity: 0;	
 				a{
 					color: #edac01;
+					position: relative;
 				}	
 				&.social-media{
 					display: block;

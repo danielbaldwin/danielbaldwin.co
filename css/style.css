@@ -128,12 +128,12 @@
   .hero.full-height {
     height: 100vh; }
 
-nav.navbar .container {
+nav .nav-outter-wrapper {
   transform: translateY(-100%);
   opacity: 0;
   transition: 0.75s; }
 
-.loaded nav.navbar .container {
+.loaded nav .nav-outter-wrapper {
   transform: translateY(0%);
   opacity: 1;
   transition: 0.75s 1.25s; }
@@ -413,7 +413,23 @@ nav {
       nav .nav-right li a {
         display: inline-block;
         vertical-align: top;
-        color: #fff; }
+        color: #fff;
+        position: relative;
+        text-decoration: none; }
+        nav .nav-right li a:after {
+          content: "";
+          width: 0;
+          left: 0;
+          bottom: 3px;
+          margin-top: 0px;
+          height: 1px;
+          background: currentColor;
+          position: absolute;
+          transition: 0.4s; }
+        nav .nav-right li a:hover {
+          text-decoration: none; }
+        nav .nav-right li a:hover:after, nav .nav-right li a.active:after {
+          width: 100%; }
       nav .nav-right li.social-media {
         display: none; }
   nav .daniel-baldwin-bra p {
@@ -509,12 +525,19 @@ nav {
         fill: #edac01; }
 
 @media screen and (max-width: 767px) {
+  .loaded nav .nav-outter-wrapper {
+    transform: none;
+    opacity: 1; }
+
   nav {
     position: fixed;
     padding: 0;
     height: 60px; }
     nav.fixed {
       transform: none; }
+    nav .nav-outter-wrapper {
+      transform: none;
+      opacity: 1; }
     nav.content-hidden .nav-inner-wrapper {
       transform: none; }
     nav .nav-inner-wrapper {
@@ -563,7 +586,8 @@ nav {
         transform: translateY(-20px);
         opacity: 0; }
         nav .nav-right-wrapper li a {
-          color: #edac01; }
+          color: #edac01;
+          position: relative; }
         nav .nav-right-wrapper li.social-media {
           display: block; }
           nav .nav-right-wrapper li.social-media .social {
