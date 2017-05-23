@@ -273,8 +273,19 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	
+	.nav-inner-wrapper{
+		padding-top: 25px;
+		padding-bottom: 25px;		
+		transition: 0.5s;
+		position: relative;
+	}
+	
+	&.content-hidden{
+		.nav-inner-wrapper{
+			transform: translateY(-100%);
+		}
+	}
 	
 	.c-hamburger{
 		display: none;
@@ -352,6 +363,15 @@ nav{
     margin-left: -20px;
 		margin-top: -20px;
     top: 50%;		
+		svg{
+			transition: all .2s ease-in-out;
+		}
+		&:hover{
+			svg{
+				transform: scale(1.1);
+			}
+			//tranall .2s ease-in-out
+		}
 		
 	}	
 	
@@ -399,7 +419,9 @@ nav{
 	
 	&.work{
 		
-		 background: #fff;
+		.nav-inner-wrapper{
+			background: #fff;			
+		}
 		
 		.nav-right li a{
 			color: #000;
@@ -436,6 +458,27 @@ nav{
 		transition: 0.5s;
 	}
 	
+	&.fixed{
+		position: fixed;
+		transform: translateZ(0);
+		.nav-inner-wrapper{
+			background: #fff;
+		}
+		.daniel-baldwin-bra{
+			display: none;
+		}
+		.nav-right li a{
+			color: #edac01;
+		}
+		.nav-logo{
+			left: 40px;
+			margin-left: 0;
+			svg path{
+				fill: #edac01;
+			}
+		}
+	}
+	
 }
 
 
@@ -444,10 +487,22 @@ nav{
 	nav{
 		
 		position: fixed;
-		
-		background: #fff;
 		padding: 0;
 		height: 60px;
+		
+		&.fixed{
+			transform: none;
+		}
+		
+		&.content-hidden{
+			.nav-inner-wrapper{
+				transform: none;
+			}
+		}
+		
+		.nav-inner-wrapper{
+			background: #fff;
+		}
 		
 		.c-hamburger{
 			display: block;
