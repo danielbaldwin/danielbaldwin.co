@@ -671,11 +671,11 @@ nav {
 .loaded .home-header h1 span:nth-of-type(1) {
   transform: translateY(0%);
   opacity: 1;
-  transition: 0.75s 0.75s; }
+  transition: 0.75s 1.5s; }
 .loaded .home-header h1 span:nth-of-type(2) {
   transform: translateY(0%);
   opacity: 1;
-  transition: 0.75s 0.95s; }
+  transition: 0.75s 1.75s; }
 .loaded .home-header:after {
   width: 100%;
   transition: 0.75s 0.25s; }
@@ -685,7 +685,7 @@ nav {
   padding-bottom: 100px;
   overflow: hidden;
   position: relative;
-  z-index: 2; }
+  z-index: 1; }
   .db-icon .circle-wrapper {
     position: absolute;
     top: 0;
@@ -708,7 +708,9 @@ nav {
       padding-top: 100%; }
   .db-icon .db-icons {
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    width: 770px;
+    max-width: 100%; }
     .db-icon .db-icons h3 {
       font-size: 13px;
       font-weight: 900;
@@ -721,9 +723,13 @@ nav {
       color: #edac01;
       transform: translateY(20px);
       opacity: 0;
-      transition: 0.5s; }
+      transition: 0.5s;
+      margin-top: 0; }
+    .db-icon .db-icons .icon {
+      width: 20%;
+      float: left; }
     .db-icon .db-icons .svg {
-      max-width: 100px;
+      max-width: 110px;
       display: block;
       margin: 0 auto;
       transform: translateX(-30px);
@@ -843,11 +849,11 @@ nav {
 .loaded .hero-circles .circle-1 {
   transform: translate(0%, 0%);
   opacity: 1;
-  transition: 0.75s 0.25s; }
+  transition: 0.75s 1s; }
 .loaded .hero-circles .circle-2 {
   transform: translate(0%, 0%);
   opacity: 1;
-  transition: 0.75s 0.5s; }
+  transition: 0.75s 1.25s; }
 
 #home {
   overflow: hidden; }
@@ -904,6 +910,10 @@ nav {
   display: flex;
   align-items: center;
   padding: 40px 0; }
+  .project-item .rectangle .inner-wrapper {
+    transition: 0.5s; }
+  .project-item .rectangle:hover .inner-wrapper {
+    transform: scale(1.05); }
   .project-item .rectangle img {
     transition: 0s 0s; }
   .project-item.image-left h2 {
@@ -921,15 +931,15 @@ nav {
   .project-item.image-left.active h2 {
     transform: translateY(0);
     opacity: 1;
-    transition: 0.75s; }
+    transition: 0.75s 0.5s; }
   .project-item.image-left.active .study .link-wrapper {
     transform: translateX(0px);
     opacity: 1;
-    transition: 0.75s 0.25s; }
+    transition: 0.75s 0.75s; }
   .project-item.image-left.active .rectangle {
     transform: translateX(0px);
     opacity: 1;
-    transition: 0.75s 0.5s; }
+    transition: 0.75s; }
   .project-item.image-right h2 {
     transform: translateY(-40px);
     opacity: 0;
@@ -945,15 +955,15 @@ nav {
   .project-item.image-right.active h2 {
     transform: translateY(0);
     opacity: 1;
-    transition: 0.75s; }
+    transition: 0.75s 0.5s; }
   .project-item.image-right.active .study .link-wrapper {
     transform: translateX(0px);
     opacity: 1;
-    transition: 0.75s 0.25s; }
+    transition: 0.75s 0.75s; }
   .project-item.image-right.active .rectangle {
     transform: translateX(0px);
     opacity: 1;
-    transition: 0.75s 0.5s; }
+    transition: 0.75s; }
   .project-item .rectangle {
     position: relative;
     margin-bottom: 0;
@@ -973,6 +983,22 @@ nav {
   .project-item .study {
     padding-top: 0;
     padding-bottom: 0; }
+    .project-item .study a {
+      text-decoration: none;
+      position: relative;
+      padding-bottom: 8px; }
+      .project-item .study a:after {
+        content: "";
+        width: 0;
+        left: 0;
+        bottom: 3px;
+        margin-top: 0px;
+        height: 1px;
+        background: currentColor;
+        position: absolute;
+        transition: 0.4s; }
+      .project-item .study a:hover:after {
+        width: 100%; }
 
 @media (max-width: 991px) {
   .project-item {

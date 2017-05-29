@@ -87,12 +87,12 @@
       span:nth-of-type(1){
         transform: translateY(0%);
     		opacity: 1;
-    		transition: 0.75s 0.75s;
+    		transition: 0.75s 1.5s;
       }
       span:nth-of-type(2){
         transform: translateY(0%);
     		opacity: 1;
-    		transition: 0.75s 0.95s;
+    		transition: 0.75s 1.75s;
       }
     }
     &:after{
@@ -108,7 +108,7 @@
   padding-bottom: 100px;
   overflow: hidden;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   //background: #fff;
   //position: absolute;
   //bottom: 0;
@@ -143,6 +143,8 @@
   .db-icons {
     margin: 0 auto;
     text-align: center;
+    width: 770px;
+    max-width: 100%;
     h3 {
       font-size: 13px;
       font-weight: 900;
@@ -155,10 +157,15 @@
       color: #edac01;
       transform: translateY(20px);
       opacity: 0;
-      transition: 0.5s;      
+      transition: 0.5s;     
+      margin-top: 0; 
+    }
+    .icon{
+      width: 20%;
+      float: left;
     }
     .svg {
-      max-width: 100px;
+      max-width: 110px;
       display: block;
       margin: 0 auto;
       transform: translateX(-30px);
@@ -328,12 +335,12 @@
     .circle-1{
       transform: translate(0%, 0%);
       opacity: 1;
-      transition: 0.75s 0.25s;
+      transition: 0.75s 1s;
     }
     .circle-2{
       transform: translate(0%, 0%);
       opacity: 1;
-      transition: 0.75s 0.5s;
+      transition: 0.75s 1.25s;
     }
 
   }

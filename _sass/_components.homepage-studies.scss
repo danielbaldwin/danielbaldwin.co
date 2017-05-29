@@ -3,6 +3,14 @@
   align-items: center;
   padding: 40px 0;  
   .rectangle{
+    .inner-wrapper{
+      transition: 0.5s;
+    }
+    &:hover{
+      .inner-wrapper{
+        transform: scale(1.05);
+      }
+    }
     img{
       transition: 0s 0s;
     }
@@ -27,17 +35,17 @@
       h2{
         transform: translateY(0);
         opacity: 1;
-        transition: 0.75s;        
+        transition: 0.75s 0.5s;        
       }
       .study .link-wrapper{
         transform: translateX(0px);
         opacity: 1;
-        transition: 0.75s 0.25s;        
+        transition: 0.75s 0.75s;        
       }
       .rectangle{
         transform: translateX(0px);
         opacity: 1;
-        transition: 0.75s 0.5s;        
+        transition: 0.75s;        
       }
     }
   }
@@ -61,17 +69,17 @@
       h2{
         transform: translateY(0);
         opacity: 1;
-        transition: 0.75s;        
+        transition: 0.75s 0.5s;        
       }
       .study .link-wrapper{
         transform: translateX(0px);
         opacity: 1;
-        transition: 0.75s 0.25s;        
+        transition: 0.75s 0.75s;        
       }
       .rectangle{
         transform: translateX(0px);
         opacity: 1;
-        transition: 0.75s 0.5s;        
+        transition: 0.75s;        
       }
     }
   }
@@ -98,6 +106,25 @@
   .study{
     padding-top: 0;
     padding-bottom: 0;
+    a{
+      text-decoration: none;
+      position: relative;
+      padding-bottom: 8px;
+      &:after{
+        content: "";
+        width: 0;
+        left: 0;
+        bottom: 3px;
+        margin-top: 0px;
+        height: 1px;
+        background: currentColor;
+        position: absolute;
+        transition: 0.4s;
+      }
+      &:hover:after{
+        width: 100%;
+      }
+    }
   }
 }
 
