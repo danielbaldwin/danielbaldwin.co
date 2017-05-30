@@ -2145,18 +2145,19 @@ article img {
         position: absolute;
         top: 0;
         min-width: 300px; }
-      .rectangle.hovereffect .overlay .bottom-left {
-        position: absolute;
-        bottom: 35px;
-        left: 35px; }
-      .rectangle.hovereffect .overlay .bottom-right {
-        position: absolute;
-        bottom: 35px;
-        right: 35px; }
+    .rectangle.hovereffect .bottom-left {
+      position: absolute;
+      bottom: 35px;
+      left: 35px; }
+    .rectangle.hovereffect .bottom-right {
+      position: absolute;
+      bottom: 35px;
+      right: 35px; }
     .rectangle.hovereffect img {
       position: relative;
       width: 100%;
       transition: all 0.5s ease-in;
+      backface-visibility: hidden;
       opacity: 0; }
       .rectangle.hovereffect img:hover {
         transform: none !important; }
@@ -2176,20 +2177,24 @@ article img {
     .rectangle.hovereffect .bottom-left {
       float: left;
       text-align: left;
-      text-transform: capitalize; }
+      text-transform: capitalize;
+      transition: opacity 0.5s, transform 0.5s; }
     .rectangle.hovereffect .bottom-right {
       float: right;
-      text-align: right; }
+      text-align: right;
+      transition: opacity 0.5s, transform 0.5s; }
     .rectangle.hovereffect a, .rectangle.hovereffect a.see-case, .rectangle.hovereffect p {
       color: #FFF;
       opacity: 1;
       filter: alpha(opacity=0);
-      transition: opacity 0.5s, transform 0.5s;
-      transform: translate3d(-1%, 0, 0); }
-    .rectangle.hovereffect:hover h1, .rectangle.hovereffect:hover h2, .rectangle.hovereffect:hover a, .rectangle.hovereffect:hover a.see-case, .rectangle.hovereffect:hover p {
+      transition: opacity 0.5s, transform 0.5s; }
+    .rectangle.hovereffect:hover h1, .rectangle.hovereffect:hover h2, .rectangle.hovereffect:hover a.see-case, .rectangle.hovereffect:hover p {
       opacity: 0; }
     .rectangle.hovereffect:hover img {
       opacity: 1; }
+    .rectangle.hovereffect:hover .bottom-left, .rectangle.hovereffect:hover .bottom-right {
+      opacity: 1;
+      opacity: 0; }
 
 .related {
   height: 350px !important; }
@@ -2208,14 +2213,20 @@ article img {
     font-size: 16px; }
 
 .work-item.elements-in {
-  color: red !important;
   opacity: 0;
   transition: 0.5s; }
+  .work-item.elements-in .work-item-inner-wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+    .work-item.elements-in .work-item-inner-wrapper:after {
+      display: none; }
   .work-item.elements-in:nth-of-type(2n-1) {
     transform: translateX(-50px); }
   .work-item.elements-in:nth-of-type(2n) {
     transform: translateX(50px); }
-  .work-item.elements-in .work-item_title-wrapper, .work-item.elements-in h2 {
+  .work-item.elements-in .work-item_title-wrapper, .work-item.elements-in .work-item_title2-wrapper {
     transform: translateY(30px);
     opacity: 0;
     transition: 0.5s; }
@@ -2230,7 +2241,7 @@ article img {
       transform: translateY(0px);
       opacity: 1;
       transition: 0.5s 0.4s; }
-    .work-item.elements-in.active h2 {
+    .work-item.elements-in.active .work-item_title2-wrapper {
       transform: translateY(0px);
       opacity: 1;
       transition: 0.5s 0.65s; }

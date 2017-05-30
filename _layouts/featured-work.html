@@ -23,14 +23,16 @@
         {% for work in sorted_work %}
            <div class="work-item elements-in col-md-{{work['Bootstrap Columns'] }}">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
-                    <a href="{{ site.baseurl }}{{ work.url }}">
+                    <a class="work-item-inner-wrapper" href="{{ site.baseurl }}{{ work.url }}">
                       <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
                       <div class="overlay">
 											<div class="work-item_title-wrapper">
                       	<h1>{{ work.title }}</h1>
 											</div>
-                      <h2>{{ work['Hero Text'] }}</h2>
-                      <a class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</a><a class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</a>
+											<div class="work-item_title2-wrapper">
+                      	<h2>{{ work['Hero Text'] }}</h2>
+											</div>
+                      <span class="bottom-left" href="">{{ work.categories | array_to_sentence_string }}</span><span class="bottom-right" href="{{ site.baseurl }}{{ work.url }}"> - See {{ work['Type'] }}</span>
                       </div>
                     </a>
                   </div>
