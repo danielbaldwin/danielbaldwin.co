@@ -9,9 +9,12 @@
 			<div class="container blog-post">
 				<div class="row">		
 					<div class="col-md-12">
-						<div class="post-header">
-						    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+						<div class="post-header clearfix">
+								<div class="col-md-10 col-md-offset-1">
+						    	<h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+								</div>
 						    <div class="col-md-10 col-md-offset-1">
+									<div class="row">
 							    <div class="col-md-3">
 							    	<p>Date Posted</p>
 							    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
@@ -35,6 +38,7 @@
 						          	<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 						          	<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 							    </div>
+									</div>
 							</div>
 						</div>
 					</div>
@@ -52,7 +56,8 @@
 				<div class="container blog-post">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
-							<div class="post-content" itemprop="articleBody">
+							
+							<div class="post-content row" itemprop="articleBody">
 						    	{{ content }}
 						  	</div>
 						</div>
