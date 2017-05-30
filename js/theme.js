@@ -196,3 +196,26 @@ $(window).on('scroll load', function(){
         }, 'xml');
 
     });
+    
+    
+    
+    
+/* detect mouse move */
+
+
+$(window).on('mousemove', function(e){
+  
+  var cursorTop = parseInt(e.originalEvent.clientY / $(window).height() * 100);
+  var cursorLeft = parseInt(e.originalEvent.clientX / $(window).width() * 100);
+  
+  $('.cursor-animate').each(function(){
+    
+    var offsetXLimit = parseInt(($(this).attr('data-offsetX') / 100) * cursorLeft);
+    var offsetYLimit = parseInt(($(this).attr('data-offsetY') / 100) * cursorTop);
+    
+    $(this).css('transform', 'translateX('+ -offsetXLimit+'px) translateY('+ -offsetYLimit+'px)')
+    
+  });
+  
+  
+});    

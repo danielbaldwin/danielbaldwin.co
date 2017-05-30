@@ -685,7 +685,8 @@ nav {
   padding-bottom: 100px;
   overflow: hidden;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  margin-top: -10vh; }
   .db-icon .circle-wrapper {
     position: absolute;
     top: 0;
@@ -786,12 +787,10 @@ nav {
   width: 100%;
   height: 100%; }
   .hero-circles .circle-1 {
-    background-color: #edac01;
-    border-radius: 50%;
     width: 70vw;
     position: absolute;
     top: -20vw;
-    left: -5vw;
+    left: -4vw;
     z-index: 2;
     transform: translate(-20%, -20%);
     opacity: 0;
@@ -800,8 +799,16 @@ nav {
       content: "";
       display: block;
       padding-top: 100%; }
+    .hero-circles .circle-1 div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #edac01;
+      border-radius: 50%;
+      transition: 0.1s; }
   .hero-circles .circle-2 {
-    background-color: #001eff;
     border-radius: 50%;
     width: 60vw;
     position: absolute;
@@ -815,6 +822,15 @@ nav {
       content: "";
       display: block;
       padding-top: 100%; }
+    .hero-circles .circle-2 div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #001eff;
+      border-radius: 50%;
+      transition: 0.1s; }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .hero-circles .circle-1 {
