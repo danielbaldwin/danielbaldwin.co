@@ -324,3 +324,48 @@
   }
   
 }
+
+
+@media screen and (max-width: 768px) {  
+
+	.work-item{
+		.rectangle.hovereffect{
+			position: relative;
+			height: auto;
+			img{
+				position: absolute;
+			}
+			.overlay{
+				padding: 20px;
+				position: relative;
+				height: auto;
+				h1{
+					margin-top: 0;
+					top: 0;
+				}
+			}
+			h2{
+				margin-top: 0;
+		    font-size: 30px;
+		    line-height: 1.2em;				
+			}
+			.bottom-left{
+				position: absolute;
+		    bottom: 20px;
+		    left: 20px;
+				line-height: 1.2em;		
+				max-width: 50%;		
+			}
+			.bottom-right{
+				position: absolute;
+		    bottom: 20px;
+		    right: 20px;	
+				line-height: 1.2em;	
+			}			
+		}
+		.work-item_title2-wrapper{
+			padding-bottom: 30px;
+		}
+	}
+
+}

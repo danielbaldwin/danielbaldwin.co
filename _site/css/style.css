@@ -2330,6 +2330,36 @@ article img {
       opacity: 1;
       transition: 0.5s 0.75s; }
 
+@media screen and (max-width: 768px) {
+  .work-item .rectangle.hovereffect {
+    position: relative;
+    height: auto; }
+    .work-item .rectangle.hovereffect img {
+      position: absolute; }
+    .work-item .rectangle.hovereffect .overlay {
+      padding: 20px;
+      position: relative;
+      height: auto; }
+      .work-item .rectangle.hovereffect .overlay h1 {
+        margin-top: 0;
+        top: 0; }
+    .work-item .rectangle.hovereffect h2 {
+      margin-top: 0;
+      font-size: 30px;
+      line-height: 1.2em; }
+    .work-item .rectangle.hovereffect .bottom-left {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      line-height: 1.2em;
+      max-width: 50%; }
+    .work-item .rectangle.hovereffect .bottom-right {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      line-height: 1.2em; }
+  .work-item .work-item_title2-wrapper {
+    padding-bottom: 30px; } }
 *:focus {
   outline: none;
   outline-style: none;
