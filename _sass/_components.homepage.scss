@@ -435,3 +435,12 @@
     padding-bottom: 60px;
   }
 }
+
+
+  @media screen and (max-width: 768px) {  
+    
+    .db-icon .db-icons h3{
+      display: none;
+    }
+    
+  }

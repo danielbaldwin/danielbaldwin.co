@@ -112,6 +112,23 @@
   }
 }
 
+.about-page-description-wrapper{
+	
+	position: relative;
+	.image-background-wrapper{
+		background-color: #f6f6f6;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;		
+	}
+	
+}
+
 .behind-brand{
 	
 	
