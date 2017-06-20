@@ -922,9 +922,34 @@ nav {
       padding-top: 30px;
       padding-bottom: 60px; } }
 
+.db-icons-text-mobile {
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  width: 335px;
+  margin: 0 auto;
+  max-width: 90%;
+  line-height: 22px;
+  color: #edac01;
+  margin-top: 10px;
+  display: none;
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: 0.5s; }
+
 @media screen and (max-width: 768px) {
+  .db-icon {
+    padding-bottom: 30px; }
+
   .db-icon .db-icons h3 {
-    display: none; } }
+    display: none; }
+
+  .db-icons-text-mobile {
+    display: block; }
+
+  .db-icons.active .db-icons-text-mobile {
+    transform: translateX(0px);
+    opacity: 1; } }
 .project-item {
   display: flex;
   align-items: center;
@@ -1047,7 +1072,7 @@ nav {
 .Haas-Light, .home-header h1, .case-study p, .behind-brand p, .services .service, .post-content p, .contact-header h2, .believe h2, .rectangle p, .latest-articles p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .more-projects a, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a {
+.Haas-Bold, .more-projects a, .db-icons-text-mobile, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
 .Haas-Regular, nav .daniel-baldwin-bra p, nav .daniel-baldwin-bra a, nav.blog .blog-name, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus, .footer-rectangle h1, .footer-rectangle .info p, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images .content h3, .services .service h3, .excerpt, .post-header .date, .post-header a, .contact-header p, .believe p, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle.hovereffect h1, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .share-widget a, .share-widget a:hover, .share-widget a:focus {

@@ -436,11 +436,43 @@
   }
 }
 
+.db-icons-text-mobile{
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  width: 335px;
+  margin: 0 auto;
+  max-width: 90%;
+  line-height: 22px;
+  color: #edac01;
+  margin-top: 10px;
+  @extend .Haas-Bold;  
+  display: none;  
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: 0.5s
+}
+
 
   @media screen and (max-width: 768px) {  
     
+    .db-icon{
+      padding-bottom: 30px;
+    }
+    
     .db-icon .db-icons h3{
       display: none;
+    }
+    
+    .db-icons-text-mobile{
+      display: block;
+    }
+    
+    .db-icons.active{
+      .db-icons-text-mobile{
+        transform: translateX(0px);
+        opacity: 1;        
+      }
     }
     
   }
