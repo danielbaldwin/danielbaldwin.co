@@ -2072,15 +2072,16 @@ article img {
     .contact-header {
       text-align: center; }
       .contact-header p {
-        font-size: 22px;
-        line-height: 2.18; }
+        font-size: 16px;
+        line-height: 2.18;
+        line-height: 1.5em; }
       .contact-header h2 {
         margin-bottom: 25px;
         font-size: 28px;
         line-height: 1.71; }
       .contact-header .anything-else {
         font-size: 16px;
-        padding: 0 25px; }
+        line-height: 1.5em; }
         .contact-header .anything-else a, .contact-header .anything-else a:hover {
           border-bottom: 2px solid #fff; } }
   .contact-header p {
@@ -2096,6 +2097,9 @@ article img {
   transform: translateY(0px);
   opacity: 1;
   transition: 0.75s 0.5s; }
+.loaded .contact-header h2 {
+  font-size: 22px;
+  line-height: 35px; }
 .loaded .contact-header .background {
   transform: translateX(0);
   transition: 0.5s 0.3s; }

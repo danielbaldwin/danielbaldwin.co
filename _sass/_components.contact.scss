@@ -58,8 +58,9 @@
   @media screen and (max-width: 800px) {
     text-align: center;
     p {
-      font-size: 22px;
-      line-height: 2.18;
+      font-size: 16px;
+      line-height: 2.18;			
+			line-height: 1.5em;
     }
     h2 {
       margin-bottom: 25px;
@@ -68,8 +69,7 @@
     }
     .anything-else {
       font-size: 16px;
-      padding: 0 25px;
-
+			line-height: 1.5em;
       a, a:hover {
         border-bottom: 2px solid #fff;
       }
@@ -98,6 +98,10 @@
 		transition: 0.75s 0.5s;  
 	}
 	.contact-header{
+		h2{
+			font-size: 22px;
+	    line-height: 35px;			
+		}
 		.background{
 			transform: translateX(0);
 			transition: 0.5s 0.3s;
