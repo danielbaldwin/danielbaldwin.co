@@ -23,7 +23,9 @@ $('.elements-in').each(function (index, elem) {
       if( event.progress == 1 ){
         $(elem).addClass('active');
       }else{
-        $(elem).removeClass('active');
+        if( !$(elem).hasClass('once') ){
+          $(elem).removeClass('active');
+        }
       }
     }).addTo(controller);
 });
