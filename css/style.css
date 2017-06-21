@@ -2129,6 +2129,96 @@ article img {
   font-size: 22px;
   font-family: 'Neue Haas Unica W01 Light'; }
 
+.post-header i {
+  margin-right: 1px; }
+
+@media screen and (max-width: 768px) {
+  .blog-header .hero {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0; }
+    .blog-header .hero .title {
+      align-self: center;
+      top: 40px;
+      position: relative; }
+      .blog-header .hero .title h2 {
+        font-size: 22px;
+        line-height: 35px;
+        padding: 70px 20px;
+        text-align: center;
+        margin: 0; }
+
+  .post-header {
+    padding: 0;
+    background: none;
+    margin-bottom: 0;
+    margin-top: 170px; }
+    .post-header .post-title {
+      background: #fff;
+      font-size: 22px;
+      line-height: 35px;
+      padding: 70px 20px;
+      text-align: center;
+      margin: 0; }
+
+  .post-details {
+    background: #fff;
+    margin-top: 44px;
+    margin-bottom: -265px;
+    padding: 30px 20px; }
+
+  .blog-excerpt {
+    padding-top: 60px;
+    padding-bottom: 30px; }
+    .blog-excerpt .blog-item {
+      padding-top: 0;
+      padding-bottom: 0; }
+      .blog-excerpt .blog-item .date {
+        font-size: 16px;
+        margin: 0;
+        margin-bottom: 10px; }
+      .blog-excerpt .blog-item h2 {
+        margin-top: 0;
+        margin-bottom: 25px; }
+        .blog-excerpt .blog-item h2 a {
+          font-size: 22px;
+          line-height: 35px; }
+    .blog-excerpt .excerpt {
+      font-size: 16px;
+      line-height: 1.5em;
+      padding-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px; }
+
+  .blog-post {
+    padding-bottom: 50px; }
+
+  .post-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0; }
+    .post-content p {
+      word-wrap: break-word; }
+    .post-content p, .post-content ul, .post-content ol {
+      font-size: 16px;
+      line-height: 1.5em;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 40px; }
+      .post-content p li, .post-content ul li, .post-content ol li {
+        margin-bottom: 15px; }
+
+  .post-detail {
+    height: 100px;
+    text-align: left; }
+    .post-detail:last-of-type {
+      white-space: nowrap; }
+    .post-detail .details-heading {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      margin-bottom: 5px; } }
 /* --- Contact Page --- */
 .contact-header {
   color: #fff;

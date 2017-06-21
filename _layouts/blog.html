@@ -6,12 +6,14 @@
 			<div class="blog-header elements-in" style="background: {{ page['Hero Background'] }}">
 			  	{% include navigation.html %}
 			  	<div class="container">
-					<div class="col-md-12 col-sm-12 col-xs-12 hero">
-						<div class="title">
-				          	<h2>{{ page['Hero Text'] }}</h2>
-				         </div>
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12 hero">
+								<div class="title">
+			          	<h2>{{ page['Hero Text'] }}</h2>
+			         </div>
+					    </div>
 				    </div>
-			    </div>
+					</div>
 			</div>
 			<div class="container">
 			  {% for post in site.posts %}
