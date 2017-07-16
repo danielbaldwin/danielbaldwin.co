@@ -37,8 +37,8 @@ defaults:
   values:
     layout: case-study
     Hero Text: 
-    Year:
-    Services:
+    Year: 
+    Services: 
     Is Featured: 
     Featured Image: 
     Hover Background: 
