@@ -11,6 +11,8 @@ tags:
 - startup
 position: 0
 Hero Text: Creating a brand experience for a B2B startup
+Year: 2016
+Services: Design
 Is Featured: true
 Featured Image: "/uploads/TINT-featured-2.jpg"
 Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
