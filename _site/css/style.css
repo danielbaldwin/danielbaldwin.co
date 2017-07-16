@@ -2090,9 +2090,6 @@ article img {
   width: 100%; }
 
 /* --- Posts --- */
-.blog-post img {
-  max-width: 100%; }
-
 .post-header {
   margin-top: 105px;
   padding: 193px 90px 100px;
