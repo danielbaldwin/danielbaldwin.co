@@ -170,3 +170,8 @@ $(window).on('mousemove', function(e){
   
   
 });    
+
+$('.blog_header').infiniteScroll({
+  // options
+  append: '.post'
+});
