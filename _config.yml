@@ -22,7 +22,7 @@ defaults:
     excerpt: 
     first-image: 
     second-image: 
-    background:
+    background: 
 - scope:
     path: ''
     type: pages
