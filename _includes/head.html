@@ -32,7 +32,11 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
+  {% if page['Social Media Description'] %}
+  <meta property="og:description" content="{{ page['Social Media Description'] }}" />
+  {% else %}  
   <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 300 }}" />
+  {% endif %}
   <meta property="og:image" content="{{ site.url }}{{ page.['Social Media Image'] }}" />
   {% if page['first-image'] %}
   <meta content="{{ site.url }}{{ page['first-image'] }}" property="og:image">

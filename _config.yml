@@ -30,6 +30,7 @@ defaults:
   values:
     layout: main
     Social Media Image: 
+    Social Media Description: 
 - scope:
     path: ''
     type: work
@@ -46,6 +47,7 @@ defaults:
     Case Study: 
     Twitter Text: 
     Social Media Image: 
+    Social Media Description: 
 url: http://www.danielbaldwin.co
 permalink: pretty
 twitter_username: danielbaldwinco
