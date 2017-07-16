@@ -1146,7 +1146,7 @@ nav {
 .Haas-Light, .home-header h1, .case-study p, .behind-brand p, .services .service, .post-content p, .contact-header h2, .believe h2, .rectangle p, .latest-articles p, .share-widget {
   font-family: 'Neuzeit S LT W01 Book'; }
 
-.Haas-Bold, .more-projects a, .db-icons-text-mobile, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a {
+.Haas-Bold, .more-projects a, .db-icons-text-mobile, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-header .hero .title h2 a, .blog-header .hero .title h2 a:hover, .blog-header .hero .title h2 a:focus, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a {
   font-family: 'NeuzeitSLTW01-BookHeavy'; }
 
 .Haas-Regular, nav .daniel-baldwin-bra p, nav .daniel-baldwin-bra a, nav.blog .blog-name, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus, .footer-rectangle h1, .footer-rectangle .info p, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images .content h3, .services .service h3, .excerpt, .post-header .date, .post-header a, .contact-header p, .believe p, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle.hovereffect h1, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .share-widget a, .share-widget a:hover, .share-widget a:focus {
@@ -2094,41 +2094,48 @@ footer .nav > li > a {
       padding-bottom: 20px; } }
 
 /* --- Blog --- */
-.blog-header {
-  background: #001fff; }
-  .blog-header .hero {
-    height: 480px;
-    margin-bottom: 150px;
-    margin-top: 105px; }
-    .blog-header .hero .title {
-      position: relative; }
-      .blog-header .hero .title:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 100%;
-        background-color: #fff;
-        transition: 0.5s; }
-      .blog-header .hero .title h2 {
-        color: #001fff;
-        line-height: 1.58;
+.blog-header .hero {
+  height: 480px;
+  margin-bottom: 150px;
+  margin-top: 105px; }
+  .blog-header .hero .title {
+    position: relative; }
+    .blog-header .hero .title:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: #fff;
+      transition: 0.5s; }
+    .blog-header .hero .title h2 {
+      color: #001fff;
+      line-height: 1.58;
+      font-size: 38px;
+      max-width: 1000px;
+      padding: 180px 77px;
+      -webkit-transform: translateY(40px);
+              transform: translateY(40px);
+      opacity: 0;
+      transition: 0.75s; }
+      .blog-header .hero .title h2 a, .blog-header .hero .title h2 a:hover, .blog-header .hero .title h2 a:focus {
         font-size: 38px;
-        max-width: 1000px;
-        padding: 180px 77px;
-        -webkit-transform: translateY(40px);
-                transform: translateY(40px);
-        opacity: 0;
-        transition: 0.75s; }
-  .blog-header.active .hero .title:before {
-    width: 100%;
-    transition: 0.5s 0.5s; }
-  .blog-header.active .hero .title h2 {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    opacity: 1;
-    transition: 0.5s 0.75s; }
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.58;
+        color: #001fff;
+        text-decoration: none; }
+
+.blog-header.active .hero .title:before {
+  width: 100%;
+  transition: 0.5s 0.5s; }
+
+.blog-header.active .hero .title h2 {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+  transition: 0.5s 0.75s; }
 
 .blog-excerpt {
   padding-bottom: 60px;

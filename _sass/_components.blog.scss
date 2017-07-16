@@ -1,8 +1,6 @@
 /* --- Blog --- */
 .blog-header {
 
-  background: #001fff;
-
     .hero {
     height: 480px;
     margin-bottom: 150px;
@@ -29,7 +27,18 @@
       
   		transform: translateY(40px);
   		opacity: 0;
-  		transition: 0.75s;            
+  		transition: 0.75s;   
+
+      a, a:hover, a:focus {
+        font-size: 38px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.58;
+        color: #001fff;
+        text-decoration: none;
+
+        @extend .Haas-Bold;
+      }         
       
       }
     }
