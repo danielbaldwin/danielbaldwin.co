@@ -29,7 +29,7 @@ defaults:
     type: pages
   values:
     layout: main
-    Social Media Image:
+    Social Media Image: 
 - scope:
     path: ''
     type: work
@@ -45,7 +45,7 @@ defaults:
     Review Author: 
     Case Study: 
     Twitter Text: 
-    Social Media Image:
+    Social Media Image: 
 url: http://www.danielbaldwin.co
 permalink: pretty
 twitter_username: danielbaldwinco
