@@ -20,8 +20,8 @@ defaults:
     layout: post
     permalink: "/blog/:title/"
     excerpt: 
-    first-image: 
-    second-image: 
+    First Image: 
+    Second Image: 
     background:
 - scope:
     path: ''

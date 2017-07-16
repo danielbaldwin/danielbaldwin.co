@@ -26,12 +26,12 @@
 			    		<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 blog-item elements-in">
 					    	<time class="date">Posted on {{ post.date | date: '%B %d, %Y' }}</time>
 					      	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				      		{% if post.first-image %}
-				      		<imgsrc="{{ site.baseurl }}{{ post.first-image }}">
+				      		{% if post['First Image'] %}
+				      		<imgsrc="{{ site.baseurl }}{{ post['First Image'] }}">
 
-				      		{% elsif post.second-image %}
+				      		{% elsif post.['Second Image'] %}
 
-				      		<img src="{{ site.baseurl }}{{ post.second-image }}">
+				      		<img src="{{ site.baseurl }}{{ post['Second Image'] }}">
 
 				      		{% else %}
 
