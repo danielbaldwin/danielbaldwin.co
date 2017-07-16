@@ -33,7 +33,7 @@
 									    	<p class="details-heading">Categories</p>
 									    	{% for category in page.categories %}
 											  <a href="/blog/{{ category | slugize }}/">
-											    {{ category | array_to_sentence_string }}
+											    {{ category }}
 											  </a>
 											{% endfor %}
 									    </div>
