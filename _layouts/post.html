@@ -3,7 +3,7 @@
 {% include head.html %}
 <body id="barba-wrapper">
 	<div class="barba-container" data-transition="BarbaAnimation">
-			<div class="blog-header" style="background: {{ page['Hero Background'] }}">
+			<div class="blog-header" style="background: {{ page.background }}">
 			  	{% include navigation.html %}
 			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 			<div class="container blog-post">
@@ -31,14 +31,18 @@
 									    </div>
 									    <div class="col-xs-6 col-sm-6 col-md-3 post-detail">
 									    	<p class="details-heading">Categories</p>
-									    	{% for category in page.categories %}
+									    	{% for category in post.categories %}
 											  <a href="/blog/{{ category | slugize }}/">
-											    {{ category }}
+											    {{ category | array_to_sentence_string }}
 											  </a>
 											{% endfor %}
 									    </div>
 									    <div class="col-xs-6 col-sm-6 col-md-3 post-detail">
-									    	<p class="details-heading">Share</p><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+									    	<p class="details-heading">Share</p>
+									    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" class="share-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+									    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://twitter.com/home?status={{ post['Twitter Text'] }}" class="share-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://plus.google.com/share?url={{ site.url }}{{ post.url }}" class="share-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+									    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary=&source=" class="share-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 									    </div>
 									</div>
 								</div>
