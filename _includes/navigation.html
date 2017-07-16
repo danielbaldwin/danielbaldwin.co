@@ -1,61 +1,3 @@
-<!--header>
-<nav id="navb" class="navbar navbar-default">
-	{% if page.title == 'Blog' or page.path contains '_posts' %}
-        <div class="container blog">
-    {% elsif page.title == 'Featured Work' or page.path contains '_work' %}
-        <div class="container work">
-    {% else %}
-        <div class="container home">
-    {% endif %}
-
-        <div class="navbar-header">
-          <button type="button" class="c-hamburger c-hamburger--htx navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
-              <span>toggle menu</span>
-          </button>
-
-	       <a class="navbar-brand navbar-right hidden-lg hidden-md hidden-sm" href="{{ site.baseurl }}/">
-	            {% if page.title == 'Featured Work' or page.title == 'Blog' or page.path contains '_posts' or page.path contains '_case-study' %}
-	                <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
-	            {% else %}
-	                <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-	            {% endif %}
-	        </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-            {% if page.layout == 'main' %}
-            <div class="hidden-xs hidden-sm col-xs-3 daniel-baldwin-bra"><p>Daniel Baldwin —<br>
-            Brand & Experience Design</p>
-            <a href="mailto:danielbaldwinco@gmail.com">hello@danielbaldwin.co</a>
-            </div>
-            <a class="navbar-brand navbar-float-none hidden-xs" href="{{ site.baseurl }}/">
-                <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-            </a>
-            {% else %}
-            <a class="navbar-brand navbar-left hidden-xs" href="{{ site.baseurl }}/">
-                {% if page.title == 'Featured Work' or page.path contains '_work' %}
-                    <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo.svg">
-                {% else %}
-                    <img class="grow" alt="{{ site.title }}" src="{{ site.baseurl }}/img/logo-white.svg">
-                {% endif %}
-            </a>
-            {% endif %}
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/work/" {% if page.url == "/work/" %}class="active"{% endif %}>Work</a></li>
-                <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-                <li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
-                <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
-            </ul>
-
-            <div class="hidden-md hidden-lg hidden-sm col-xs-12" style="margin: 63px auto; text-align: center;">
-                <a class="social" href="http://www.twitter.com/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a class="social" href="http://linkedin.com/in/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a class="social" href="" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </div>
-</nav>
-</header-->
-
 {% if page.title == 'Blog' or page.path contains '_posts' %}
 <nav class="blog">
 {% elsif page.title == 'Featured Work' or page.path contains '_work' %}
@@ -85,7 +27,7 @@
   		{% if page.layout == 'main' %}
   		<div class="daniel-baldwin-bra"><p>Daniel Baldwin —<br>
   			Brand & Experience Design</p>
-  			<a href="mailto:danielbaldwinco@gmail.com">hello@danielbaldwin.co</a>
+  			<a href="mailto:hello@danielbaldwin.co">hello@danielbaldwin.co</a>
   		</div>
   		{% endif %}
   		
@@ -116,7 +58,7 @@
           <li class="social-media mobile">
             <a class="social" href="http://www.twitter.com/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
       			<a class="social" href="http://linkedin.com/in/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Linkedin"><i class="fa fa-linkedin"></i></a>
-      			<a class="social" href="" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a>		
+      			<a class="social" href="https://www.instagram.com/danielbaldwin/" rel="nofollow" target="_blank" title="Follow on Instagram"><i class="fa fa-instagram"></i></a>		
           </li>  
     		</ul>
       </div>
