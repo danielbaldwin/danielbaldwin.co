@@ -170,3 +170,10 @@ $(window).on('mousemove', function(e){
   
   
 });    
+
+$('.blog-wrapper').infiniteScroll({
+  // options
+  append: '.post',
+  path: '.pagination__next',
+  hideNav: '.pagination'
+});

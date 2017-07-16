@@ -171,7 +171,9 @@ $(window).on('mousemove', function(e){
   
 });    
 
-$('.blog_header').infiniteScroll({
+$('.blog-wrapper').infiniteScroll({
   // options
-  append: '.post'
+  append: '.post',
+  path: '.pagination__next',
+  hideNav: '.pagination'
 });
