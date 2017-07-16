@@ -41,7 +41,9 @@ defaults:
     Hover Background: 
     Bootstrap Columns: 
     Column Height: 
-    Work: 
+    Review:
+    Review Author:
+    Case Study: 
     Twitter Text: 
 url: http://www.danielbaldwin.co
 permalink: pretty
