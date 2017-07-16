@@ -31,7 +31,7 @@
 									    </div>
 									    <div class="col-xs-6 col-sm-6 col-md-3 post-detail">
 									    	<p class="details-heading">Categories</p>
-									    	{% for category in post.categories %}
+									    	{% for category in page.categories %}
 											  <a href="/blog/{{ category | slugize }}/">
 											    {{ category | array_to_sentence_string }}
 											  </a>
