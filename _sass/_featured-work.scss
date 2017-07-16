@@ -155,6 +155,7 @@
         position: absolute;
         top: 0;
         min-width: 300px;
+        opacity: 0;
       }
     }
 		.bottom-left {
@@ -170,9 +171,9 @@
     img {
       position: relative;
       width: 100%;
-      transition: all 0.5s ease-in;
+      transition: all 0.4s ease-in;
 			backface-visibility: hidden;
-      opacity: 0;
+      opacity: 1;
       &:hover {
         transform: none !important;
       }
@@ -181,8 +182,8 @@
       position: relative;
       overflow: hidden;
       background-color: transparent;
-      transition: opacity 0.5s ease-in;
-      opacity: 1; 
+      transition: opacity 0.5s ease-in-out;
+      opacity: 0; 
     }
 
     h1 {
@@ -204,30 +205,52 @@
       text-align: left;
       text-transform: capitalize;
 			transition: opacity 0.5s, transform 0.5s;
+      opacity: 0;
     }
     .bottom-right {
       float: right;
       text-align: right;
 			transition: opacity 0.5s, transform 0.5s;
+      opacity: 0;
     }
-    a, a.see-case, p {
-      color: #FFF;
+    a {
       opacity: 1;
+      transition: opacity 0.5s;
+    }
+    h1, h2, a.see-case, p {
+      color: #FFF;
+      opacity: 0;
       filter: alpha(opacity=0);
       transition: opacity 0.5s, transform 0.5s;
       //transform: translate3d(-1%,0,0);
     }
+    .work-item_title-wrapper, .work-item_title2-wrapper{
+      opacity: 0;  
+      transition: opacity 0.5s;
+    }
+    
+    .bottom-wrapper{
+      opacity: 0;  
+      transition: opacity 0.5s;
+    }
     &:hover {
       h1, h2, a.see-case, p {
-        opacity: 0;
-      }
-      img {
         opacity: 1;
       }
-			.bottom-left, .bottom-right{
+      img {
+        opacity: 0;
+      }
+			.bottom-left, .bottom-right {
 				opacity: 1;
-				opacity: 0;
 			}
+
+      .work-item_title-wrapper, .work-item_title2-wrapper{
+        opacity: 1;                
+      }   
+      
+      .bottom-wrapper{
+        opacity: 1;        
+      }
     }
   }
 }
@@ -280,47 +303,9 @@
     transform: translateX(50px);
   }  
   
-  .work-item_title-wrapper, .work-item_title2-wrapper{
-    transform: translateY(30px);
-    opacity: 0;  
-    transition: 0.5s;
-  }
-  
-  .bottom-wrapper{
-    transform: translateY(30px);
-    opacity: 0;  
-    transition: 0.5s;    
-  }
-  
   &.active{
-    
     transform: translateX(0px);
     opacity: 1;  
-    
-    .work-item_title-wrapper{
-      
-      transform: translateY(0px);
-      opacity: 1;        
-      transition: 0.5s 0.4s;
-      
-    }
-    
-    .work-item_title2-wrapper{
-      
-      transform: translateY(0px);
-      opacity: 1;        
-      transition: 0.5s 0.65s;
-      
-    }    
-    
-    .bottom-wrapper{
-
-      transform: translateY(0px);
-      opacity: 1;        
-      transition: 0.5s 0.75s;      
-      
-    }
-    
   }
   
 }
