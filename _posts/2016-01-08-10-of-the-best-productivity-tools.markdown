@@ -7,7 +7,7 @@ excerpt: Since I wrote this post, a lot has happened in my design career. I’ve
   to come!), and I have found my niche in the world of design, branding and web design.
 second-image: "/uploads/05-01-2016-blog-hero.jpeg"
 layout: post
-background: #001fff
+background: 
 ---
 
 **Update (1/08/2016):**
