@@ -16,6 +16,8 @@ Featured Image: "/uploads/TINT-featured-2.jpg"
 Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
 Bootstrap Columns: 7
 Column Height: 426
+Review: Daniel is the best!
+Review Author: Mykolas Raizys, Motive
 Case Study: Twelve23
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
