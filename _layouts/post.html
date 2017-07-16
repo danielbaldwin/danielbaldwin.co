@@ -53,15 +53,17 @@
 			</div>
 		</div>				
 		<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-		<div class="container blog-post">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<img class="img-responsive" src="{{ page['first-image'] }}">
+		{% if page['first-image'] %}
+			<div class="container blog-post">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="row">				
+							<img class="img-responsive" src="{{ page['first-image'] }}">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		{% endif %}
 		<div class="container blog-post">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
@@ -72,15 +74,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="container blog-post">
-			<div class="row">	
-				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-					 	<img class="img-responsive" src="{{ page['second-image'] }}">
-					 </div>
+		{% if page['second-image'] %}
+			<div class="container blog-post">
+				<div class="row">	
+					<div class="col-md-8 col-md-offset-2">
+						<div class="row">
+						 	<img class="img-responsive" src="{{ page['second-image'] }}">
+						 </div>
+					</div>
 				</div>
-			</div>
-		</div>	
+			</div>	
+		{% endif %}
 	</article>
 </div>
 
