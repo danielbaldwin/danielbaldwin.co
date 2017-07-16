@@ -15,13 +15,14 @@ Is Featured: true
 Featured Image: "/uploads/TINT-featured-2.jpg"
 Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
 Bootstrap Columns: 7
-Column Height: 426
 Review: Daniel is the best!
 Review Author: Mykolas Raizys, Motive
 Case Study: Twelve23
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
-Type: project
+Social Media Description: 'TINT is a content aggregation platform that allows brands
+  to pull user-generated content from multiple sources across the web and showcase
+  it at every marketing experience. '
 Image Left: true
 See Case: "#001fff"
 layout: case-study
