@@ -54,7 +54,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Check out my next project, <a href="#">Zest Kitchen</a></h1>
+					<h1>Check out my next project,
+					{% assign next = site.work | where: 'title', page['Case Study'] | first %}
+						{% if next %}
+						  <a href="{{ next.url }}">{{ next.title }}</a>
+					{% endif %}
+					</h1>
 				</div>
 			</div>
 		</div>
