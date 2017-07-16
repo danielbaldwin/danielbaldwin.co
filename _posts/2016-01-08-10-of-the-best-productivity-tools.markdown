@@ -7,7 +7,7 @@ excerpt: Since I wrote this post, a lot has happened in my design career. I’ve
   over both the marketing and product design at TINT. I have taken on more freelance
   projects than ever before. I have finally automated my freelance process (blog post
   to come!), and I have found my niche in the world of design, branding and web design.
-first-image: "/uploads/05-01-2016-blog-hero.jpeg"
+First Image: "/uploads/05-01-2016-blog-hero.jpeg"
 background: "#001fff"
 layout: post
 ---
