@@ -3,9 +3,9 @@
 {% include head.html %}
 <body id="barba-wrapper">
 <div class="blog-wrapper">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	<div class="blog-header" style="background: {{ page.background }}">
 			  	{% include navigation.html %}
-		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 			<div class="container blog-post">
 				<div class="row">		
 					<div class="col-md-12">
@@ -82,94 +82,12 @@
 			</div>
 		</div>	
 	</article>
-	{% for post in site.posts %}
-	    {% unless post.title == page.title %}
-	    	<div class="blog-header">
-				<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-					<div class="container blog-post">
-						<div class="row">		
-							<div class="col-md-12">
-								<div class="post-header clearfix">
-									<div class="row">
-										<div class="col-md-8 col-md-offset-2">
-								    	<h2 class="post-title row" itemprop="name headline">{{ post.title }}</h2>
-										</div>
-									</div>
-										
-									<div class="post-details clearfix">
-										<div class="row">
-								    		<div class="col-md-8 col-md-offset-2">
-												<div class="row">						
-												    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
-												    	<p class="details-heading">Date Posted</p>
-												    	<time class="date">{{ post.date | date: '%B %d, %Y' }}</time>
-												    </div>
-												    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
-												    	<p class="details-heading">Author</p>
-												    	<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">Daniel Baldwin</a>
-												    </div>
-												    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
-												    	<p class="details-heading">Categories</p>
-												    	{% for category in post.categories %}
-														  <a href="/blog/{{ category | slugize }}/">
-														    {{ category }}
-														  </a>
-														{% endfor %}
-												    </div>
-												    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
-												    	<p class="details-heading">Share</p>
-												    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-												    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://twitter.com/home?status={{ page['Twitter Text'] }}" class="share-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-												    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-												    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=&source=" class="share-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-												    </div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-			</div>				
-				<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-				<div class="container blog-post">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<div class="row">
-								<img class="img-responsive" src="{{ post['first-image'] }}">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container blog-post">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							
-							<div class="post-content row" itemprop="articleBody">
-						    	{{ post.content }}
-						  	</div>
-						</div>
-					</div>
-				</div>
-				<div class="container blog-post">
-					<div class="row">	
-						<div class="col-md-8 col-md-offset-2">
-							<div class="row">
-							 	<img class="img-responsive" src="{{ post['second-image'] }}">
-							 </div>
-						</div>
-					</div>
-				</div>	
-				</article>
-	    {% endunless %}
-	{% endfor %}
 </div>
 
 <p class="pagination">
 	{% for post in site.posts %}
 	    {% unless post.title == page.title %}
-  			<a class="pagination__next" href="{{site.url}}{{post.url}}">Next page</a>
+  			<a class="pagination__next" href="https://58377670ed2f163bfbafb5fe.preview.siteleaf.com{{post.url}}">Next page</a>
   		{% endunless %}
 	{% endfor %}
 </p>
