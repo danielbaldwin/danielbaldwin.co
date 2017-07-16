@@ -1,5 +1,7 @@
 /* --- Blog --- */
 .blog-header {
+    background-size: cover;
+    background-position: center;
 
     .hero {
     height: 480px;
@@ -187,7 +189,7 @@ article {
 /* --- Posts --- */
 .post-header {
 	margin-top: 105px;
-  padding: 193px 90px 100px;
+  padding: 193px 0 100px;
   background: #fff;
 
   p {

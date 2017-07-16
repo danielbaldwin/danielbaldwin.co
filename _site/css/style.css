@@ -1957,46 +1957,47 @@ footer .nav > li > a {
       padding-bottom: 20px; } }
 
 /* --- Blog --- */
-.blog-header .hero {
-  height: 480px;
-  margin-bottom: 150px;
-  margin-top: 105px; }
-  .blog-header .hero .title {
-    position: relative; }
-    .blog-header .hero .title:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0%;
-      height: 100%;
-      background-color: #fff;
-      transition: 0.5s; }
-    .blog-header .hero .title h2 {
-      color: #001fff;
-      line-height: 1.58;
-      font-size: 38px;
-      max-width: 1000px;
-      padding: 180px 77px;
-      transform: translateY(40px);
-      opacity: 0;
-      transition: 0.75s; }
-      .blog-header .hero .title h2 a, .blog-header .hero .title h2 a:hover, .blog-header .hero .title h2 a:focus {
-        font-size: 38px;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.58;
+.blog-header {
+  background-size: cover;
+  background-position: center; }
+  .blog-header .hero {
+    height: 480px;
+    margin-bottom: 150px;
+    margin-top: 105px; }
+    .blog-header .hero .title {
+      position: relative; }
+      .blog-header .hero .title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        transition: 0.5s; }
+      .blog-header .hero .title h2 {
         color: #001fff;
-        text-decoration: none; }
-
-.blog-header.active .hero .title:before {
-  width: 100%;
-  transition: 0.5s 0.5s; }
-
-.blog-header.active .hero .title h2 {
-  transform: translateY(0px);
-  opacity: 1;
-  transition: 0.5s 0.75s; }
+        line-height: 1.58;
+        font-size: 38px;
+        max-width: 1000px;
+        padding: 180px 77px;
+        transform: translateY(40px);
+        opacity: 0;
+        transition: 0.75s; }
+        .blog-header .hero .title h2 a, .blog-header .hero .title h2 a:hover, .blog-header .hero .title h2 a:focus {
+          font-size: 38px;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.58;
+          color: #001fff;
+          text-decoration: none; }
+  .blog-header.active .hero .title:before {
+    width: 100%;
+    transition: 0.5s 0.5s; }
+  .blog-header.active .hero .title h2 {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 0.5s 0.75s; }
 
 .blog-excerpt {
   padding-bottom: 60px;
@@ -2092,7 +2093,7 @@ article img {
 /* --- Posts --- */
 .post-header {
   margin-top: 105px;
-  padding: 193px 90px 100px;
+  padding: 193px 0 100px;
   background: #fff; }
   .post-header p {
     font-size: 12px;
