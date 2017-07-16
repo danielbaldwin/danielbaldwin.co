@@ -15,10 +15,10 @@
 			          	<div class="col-md-3"><p>SERVICES</p> {{ page.services }} </div>
 			          	<div class="col-md-3"><p>YEAR</p> {{ page.year }} </div>
 			          	<div class="col-md-3"><p>SHARE</p>
-			          	<a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+			          	<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 			          	<a href="https://twitter.com/home?status={{ page['Twitter Text'] }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			          	<a href="https://plus.google.com/share?url={{ page.url }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-			          	<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url }}&title={{ page.title }}&summary=&source="><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			          	<a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			          	<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=&source="><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 			          </div>
 		          </div>
 		      </div>
