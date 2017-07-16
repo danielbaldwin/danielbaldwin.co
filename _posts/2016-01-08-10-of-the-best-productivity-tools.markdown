@@ -1,6 +1,8 @@
 ---
 title: 10 of the Best Productivity Tools to Improve Your Design Workflow
 date: 2016-01-08 14:12:00 Z
+categories:
+- tint
 excerpt: Since I wrote this post, a lot has happened in my design career. I’ve taken
   over both the marketing and product design at TINT. I have taken on more freelance
   projects than ever before. I have finally automated my freelance process (blog post
