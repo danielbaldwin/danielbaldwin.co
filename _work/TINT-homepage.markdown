@@ -20,9 +20,7 @@ Bootstrap Columns: 7
 Case Study: Twelve23
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
-Social Media Description: 'TINT is a content aggregation platform that allows brands
-  to pull user-generated content from multiple sources across the web and showcase
-  it at every marketing experience. '
+Social Media Description: Check out @danielbaldwinco's redesign of tintup.com
 Image Left: true
 See Case: "#001fff"
 layout: case-study
