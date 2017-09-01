@@ -10,15 +10,13 @@ tags:
 - b2b
 - startup
 position: 0
-Hero Text: Creating a brand experience for a B2B startup
-Year: 2016
-Services: Design
+Hero Text: Homepage for a B2B company
+Year: 2017
+Services: Website, Branding
 Is Featured: true
 Featured Image: "/uploads/TINT-featured-2.jpg"
 Hover Background: 'linear-gradient(244deg, #1D3853, #264563)'
 Bootstrap Columns: 7
-Review: Daniel is the best!
-Review Author: Mykolas Raizys, Motive
 Case Study: Twelve23
 Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B startup.
   See the case study here:"
@@ -30,31 +28,11 @@ See Case: "#001fff"
 layout: case-study
 ---
 
-![TINT Brand Essence](/uploads/TINT-brand-essence.jpg)
+TINT is a content aggregation platform that allows brands to pull user-generated content from multiple sources across the web and showcase it at every marketing experience.
 
-**Brief**
+My challenge was to create a new homepage that aligned TINT’s positioning with its newfound brand identity. The goal was to educate users about the benefits of user-generated content and in return increase conversions. 
 
-TINT is a content aggregation platform that allows brands to pull user-generated content from multiple sources across the web and showcase it at every marketing experience. 
-
-In May 2016, TINT repositioned from being a social media display tool to an all-inclusive community content platform. I was tasked with taking TINT’s new positioning and turning it into a brand identity.
-
-![TINT Locations](/uploads/TINT-locations.gif)
-
-My challenge was to create a brand identity that would meet current needs and also carry the business into the future.
-
-I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
-
-![TINT Brand Book](/uploads/TINT-brand-book.jpg)
-
-**Increasing Conversions**
-
-One challenge TINT was facing was numbers. With over 60,000 users visiting TINT’s website each month, only 2.5% were clicking the Free Trial CTA. An even smaller group of users were clicking Request a Demo — 0.5%. 
-
-My challenge was to create a new homepage that aligned TINT’s positioning with its newfound brand identity. I focused on creating a homepage that would direct users to TINT’s educational resources (blog, case studies, etc.) before trying to convert them.
-
-![TINT Comparison](/uploads/tint-comparison-b82b64.jpg)
-
-![TINT Sitemap](/uploads/TINT-sitemap.jpg)
-
+With over 60,000 users visiting TINT’s website each month, only 2.5% were clicking the Free Trial CTA. An even smaller group of users were clicking Request a Demo — 0.5%.
 
 By rethinking and redesigning TINT’s homepage, TINT experienced a 148% increase in click-throughs to the trial sign up page and a 540% increase in click-throughs to the demo request page.
+
