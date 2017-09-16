@@ -23,7 +23,7 @@ Twitter Text: "@danielbaldwinco created a brand experience for @TINT, a B2B star
 Social Media Description: Check out @danielbaldwinco's redesign of tintup.com
 Image Left: true
 See Case: "#001fff"
-layout: featured-work
+layout: case-study
 ---
 
 TINT is a content aggregation platform that allows brands to pull user-generated content from multiple sources across the web and showcase it at every marketing experience.
