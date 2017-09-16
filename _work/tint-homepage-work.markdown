@@ -9,7 +9,7 @@ Is Featured: true
 Featured Image: "/uploads/TINT%20Homepage.png"
 Bootstrap Columns: 7
 Social Media Description: Check out @danielbaldwinco's redesign of tintup.com
-layout: featured-work
+layout: case-study
 ---
 
 To learn more about this project, read the full case study here.
