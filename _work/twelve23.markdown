@@ -7,7 +7,7 @@ categories:
 tags:
 - Web Design
 - Branding
-position: 9
+position: 10
 Hero Text: Rebranding an agency
 Year: Early 2015
 Services: Web Design, Branding

@@ -7,7 +7,7 @@ categories:
 tags:
 - UI/UX
 - Branding
-position: 10
+position: 8
 Hero Text: "​​UI for a SaaS product"
 Year: Mid 2017
 Services: UI/UX, Branding
