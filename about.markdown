@@ -4,7 +4,7 @@ date: 2016-12-05 02:18:00 Z
 position: 2
 Hero Text: Helping startups and agencies cultivate relationships through impactful
   experiences.
-Paragraph One: I’m an Seattle based brand designer currently working with TINT’s marketing
+Paragraph One: I’m a Seattle based brand designer currently working with TINT’s marketing
   and product team. I enjoy working with companies, agencies, and startups of all
   sizes.
 Paragraph Two: I specialize in brand, strategy, and human-focused design and have
