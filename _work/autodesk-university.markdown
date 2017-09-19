@@ -14,4 +14,4 @@ Hover Background: "#0095DA"
 Bootstrap Columns: 5
 ---
 
-![Autodesk University (small).png](/uploads/Autodesk%20University%20(small).png)
+![Autodesk University.png](/uploads/Autodesk%20University.png)
