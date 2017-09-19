@@ -23,6 +23,8 @@ Social Media Description: See how Daniel Baldwin increased TINT's clickthrough r
   by nearly 700% by redesigning their homepage
 ---
 
+![TINT Homepage.png](/uploads/TINT%20Homepage.png)
+
 TINT today is a product that allows companies to find their customer’s best user-generated content, combine it with their own branded content and advertisements, and display it at each of their customer touchpoints.
 
 But before, it was marketed as a social media aggregation platform. Doesn’t sound as attractive, huh?
