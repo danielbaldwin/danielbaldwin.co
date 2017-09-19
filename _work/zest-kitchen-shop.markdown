@@ -12,6 +12,7 @@ Services: Web Design
 Featured Image: "/uploads/Zest%20Kitchen%20Shop%20(small).png"
 Hover Background: "#FEB74D"
 Bootstrap Columns: 5
+Case Study: TINT Blog
 ---
 
 ![Zest Kitchen Shop.png](/uploads/Zest%20Kitchen%20Shop.png)
