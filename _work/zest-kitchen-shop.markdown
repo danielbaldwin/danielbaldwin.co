@@ -11,6 +11,6 @@ Year: Mid 2015
 Services: Web Design
 Featured Image: "/uploads/Zest%20Kitchen%20Shop.png"
 Hover Background: "#FEB74D"
-Bootstrap Columns: 7
+Bootstrap Columns: 5
 ---
 
