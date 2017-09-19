@@ -13,6 +13,6 @@ Year: Early 2017
 Services: UI/UX, Branding
 Featured Image: "/uploads/Tronc.png"
 Hover Background: "#A251CC"
-Bootstrap Columns: 7
+Bootstrap Columns: 5
 ---
 
