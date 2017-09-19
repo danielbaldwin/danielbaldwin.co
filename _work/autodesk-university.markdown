@@ -11,6 +11,6 @@ Year: Mid 2017
 Services: Web Design
 Featured Image: "/uploads/Autodesk%20University.png"
 Hover Background: "#0095DA"
-Bootstrap Columns: 7
+Bootstrap Columns: 5
 ---
 
