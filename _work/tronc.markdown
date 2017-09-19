@@ -7,7 +7,7 @@ categories:
 tags:
 - UI/UX
 - Branding
-position: 8
+position: 9
 Hero Text: To learn more about this project, read the full case study here.
 Year: Early 2017
 Services: UI/UX, Branding
