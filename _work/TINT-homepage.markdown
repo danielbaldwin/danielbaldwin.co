@@ -15,6 +15,12 @@ Is Featured: true
 Featured Image: "/uploads/TINT%20Homepage.png"
 Hover Background: "#FF564B"
 Bootstrap Columns: 7
+Case Study: TINT Brand Book
+Twitter Text: See how @danielbaldwinco increased @tint's clickthrough rate by nearly
+  700% by redesigning their homepage
+Social Media Image: "/uploads/TINT%20Homepage.png"
+Social Media Description: See how Daniel Baldwin increased TINT's clickthrough rate
+  by nearly 700% by redesigning their homepage
 ---
 
 TINT today is a product that allows companies to find their customer’s best user-generated content, combine it with their own branded content and advertisements, and display it at each of their customer touchpoints.
