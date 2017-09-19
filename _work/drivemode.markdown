@@ -7,7 +7,7 @@ categories:
 tags:
 - Illustration
 - Branding
-position: 9
+position: 8
 Hero Text: "​​Illustrations for a driving app website"
 Year: Mid 2017
 Services: Illustration, Branding
