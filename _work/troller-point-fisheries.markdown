@@ -13,6 +13,6 @@ Year: Early 2017
 Services: Web Design, Branding
 Featured Image: "/uploads/Trollerpoint%20Fisheries.png"
 Hover Background: "#56D2E2"
-Bootstrap Columns: 7
+Bootstrap Columns: 5
 ---
 
