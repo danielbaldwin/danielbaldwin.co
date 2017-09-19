@@ -9,7 +9,7 @@ position: 2
 Hero Text: Website for a brick-and-mortar shop
 Year: Mid 2015
 Services: Web Design
-Featured Image: "/uploads/Zest%20Kitchen%20Shop.png"
+Featured Image: "/uploads/Zest%20Kitchen%20Shop%20(small).png"
 Hover Background: "#FEB74D"
 Bootstrap Columns: 5
 ---
