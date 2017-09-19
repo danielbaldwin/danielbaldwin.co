@@ -5,6 +5,7 @@ categories:
 - Web Design
 tags:
 - Web Design
+position: 7
 Hero Text: Website for a brick-and-mortar shop
 Year: Mid 2015
 Services: Web Design

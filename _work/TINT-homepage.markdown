@@ -7,6 +7,7 @@ categories:
 tags:
 - Web Design
 - Branding
+position: 0
 Hero Text: Homepage for a B2B company
 Year: Mid 2017
 Services: Web Design, Branding

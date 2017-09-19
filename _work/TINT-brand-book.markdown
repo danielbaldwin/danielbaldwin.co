@@ -7,6 +7,7 @@ categories:
 tags:
 - Branding
 - Print
+position: 8
 Hero Text: "​Humanizing a SaaS product"
 Year: Early 2017
 Services: Branding, Print

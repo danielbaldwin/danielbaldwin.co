@@ -5,6 +5,7 @@ categories:
 - Web Design
 tags:
 - Web Design
+position: 1
 Hero Text: Resource center for a software company
 Year: Mid 2017
 Services: Web Design

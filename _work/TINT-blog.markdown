@@ -5,6 +5,7 @@ categories:
 - Web Design
 tags:
 - Web Design
+position: 2
 Hero Text: Blog for a marketing company
 Year: Mid 2017
 Services: Web Design
