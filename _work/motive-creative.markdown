@@ -13,6 +13,6 @@ Year: Late 2017
 Services: Web Design, Branding
 Featured Image: "/uploads/Motive%20Creative.png"
 Hover Background: "#E8A801"
-Bootstrap Columns: 7
+Bootstrap Columns: 5
 ---
 
