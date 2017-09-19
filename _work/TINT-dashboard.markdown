@@ -12,5 +12,6 @@ Year: Mid 2017
 Services: UI/UX, Branding
 Featured Image: "/uploads/TINT%20Dashboard.png"
 Hover Background: "#30ECCE"
+Bootstrap Columns: 7
 ---
 
