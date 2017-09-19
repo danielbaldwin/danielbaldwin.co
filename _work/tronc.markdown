@@ -11,7 +11,7 @@ position: 9
 Hero Text: To learn more about this project, read the full case study here.
 Year: Early 2017
 Services: UI/UX, Branding
-Featured Image: "/uploads/Tronc.png"
+Featured Image: "/uploads/Tronc%20(small).png"
 Hover Background: "#A251CC"
 Bootstrap Columns: 5
 ---
