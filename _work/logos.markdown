@@ -6,6 +6,6 @@ Hero Text: A collection of logos designed throughout the years
 Year: 2015-2017
 Featured Image: "/uploads/Logos.png"
 Hover Background: "#001FFF"
-Bootstrap Columns: 7
+Bootstrap Columns: 12
 ---
 
