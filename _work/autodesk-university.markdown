@@ -12,6 +12,7 @@ Services: Web Design
 Featured Image: "/uploads/Autodesk%20University%20(small).png"
 Hover Background: "#0095DA"
 Bootstrap Columns: 5
+Case Study: Zest Kitchen Shop
 ---
 
 ![Autodesk University.png](/uploads/Autodesk%20University.png)
