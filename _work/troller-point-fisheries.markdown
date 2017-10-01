@@ -17,3 +17,4 @@ Bootstrap Columns: 5
 Case Study: Twelve23
 ---
 
+![Troller Point Fisheries (small).png](/uploads/Troller%20Point%20Fisheries%20(small).png)
