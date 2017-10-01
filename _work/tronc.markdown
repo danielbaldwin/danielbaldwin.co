@@ -18,4 +18,4 @@ Bootstrap Columns: 5
 
 ![Tronc (small).png](/uploads/Tronc%20(small).png)
 
-This project was completed in June 2017. For specific questions or to work together on a future project, shoot me an email at hello@danielbaldwin.co.
+This project was completed in June 2017. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).
