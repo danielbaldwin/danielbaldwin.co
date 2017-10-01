@@ -20,7 +20,7 @@ TINT has positioned itself as a thought leader in the content marketing world by
 
 I worked closely with TINT’s marketing team to understand their content strategy and tastefully guide users down each phase of their conversion funnel.
 
-## Step 1. Top of the Funnel - Awareness
+**Step 1. Top of the Funnel - Awareness**
 
 After looking into TINT’s analytics, I discovered that there are three main flows users take when navigating throughout TINT’s blog.
 
@@ -28,7 +28,7 @@ I started by dividing all of TINT’s content into these three sections, then we
 
 I designed a navigation that allowed users landing on TINT’s blog to easily find content that they’re looking for as well as discover related material that might spark their interest.
 
-## Step 2. Middle of the Funnel - Engagement
+**Step 2. Middle of the Funnel - Engagement**
 
 During this phase of the project, I focused on increasing two engagement metrics: daily page views and shares per post. 
 
@@ -39,7 +39,7 @@ This additional filter allows a user to view the latest content, the most popula
 
 With this new design, TINT’s daily page views increased by XYZ%.
 
-## Shares Per Post
+**Shares Per Post**
 
 While adding social sharing to your blog post seems to be a no-brainer, TINT did not have this functionality prior to the redesign.
 
@@ -47,7 +47,7 @@ I added social sharing functionality within each post as well as the ability for
 
 By adding this functionality, TINT saw an increase of traction on Twitter alone by XYZ%.
 
-## Step 3. Tip of the Funnel - Conversion
+**Step 3. Tip of the Funnel - Conversion**
 
 This part of the redesign was the most important to get right, as this was already one of TINT’s revenue/lead generating machines.
 
