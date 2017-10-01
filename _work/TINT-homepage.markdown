@@ -12,7 +12,7 @@ Hero Text: Homepage for a B2B company
 Year: Mid 2017
 Services: Web Design, Branding
 Is Featured: true
-Featured Image: "/uploads/TINT%20Homepage.png"
+Featured Image: "/uploads/homepage-cover.png"
 Hover Background: "#FF564B"
 Bootstrap Columns: 7
 Case Study: TINT Brand Book
@@ -23,7 +23,7 @@ Social Media Description: See how Daniel Baldwin increased TINT's clickthrough r
   by nearly 700% by redesigning their homepage
 ---
 
-![TINT Homepage.png](/uploads/TINT%20Homepage.png)
+![homepage-full.png](/uploads/homepage-full.png)
 
 TINT today is a product that allows companies to find their customer’s best user-generated content, combine it with their own branded content and advertisements, and display it at each of their customer touchpoints.
 
