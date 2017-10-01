@@ -14,7 +14,7 @@ Services: Web Design, Branding
 Featured Image: "/uploads/Powercity%20Films%20(small).png"
 Hover Background: "#FFD21D"
 Bootstrap Columns: 5
-Case Study: Powercity Films
+Case Study: Motive Creative
 ---
 
 ![Powercity Films (small).png](/uploads/Powercity%20Films%20(small).png)
