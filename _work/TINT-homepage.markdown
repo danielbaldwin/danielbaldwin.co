@@ -39,7 +39,9 @@ One of my main focuses was TINT’s call-to-action buttons. Previously, there we
 
 With over 60,000 users visiting TINT’s website each month, only 2.5% were clicking the Free Trial CTA. An even smaller group of users were clicking Request a Demo — 0.5%.
 
-My solution was to reduce the number of links off of the homepage by XYZ% and outnumber Demo Request CTAs 2:1. By doing so, TINT experienced a 148% increase in click-throughs to the Free Trial signup flow and a 540% increase in click-throughs to the Demo Request flow.
+My solution was to reduce the number of links off of the homepage by 52% and outnumber Demo Request CTAs 2:1. By doing so, TINT experienced a 148% increase in click-throughs to the Free Trial signup flow and a 540% increase in click-throughs to the Demo Request flow.
+
+![tint-homepage-heatmap.png](/uploads/tint-homepage-heatmap.png)
 
 **Keeping Users Engaged**
 
@@ -47,7 +49,9 @@ Another problem that TINT faced was that their website did not successfully educ
 
 My solution was to design a website that marketed the B2B2C (business-to-business-to-consumer) aspect of TINT, focusing on the end product rather than the platform itself.
 
-I showcased TINT’s customers on their website and let these brand’s experiences speak for themselves. I showcased user-generated content that Loews Hotels sourced by using TINT and also included customer stories that allowed new users to understand how TINT could work for them without needing to speak to a sales person.
+![tint-homepage-before-after.png](/uploads/tint-homepage-before-after.png)
+
+I showcased TINT’s customers on their website and let these brand’s experiences speak for themselves. I showcased user-generated content that Loews Hotels sourced by using TINT and also included customer stories that allowed new users to understand how TINT could work for them without needing to speak to a salesperson.
 
 By doing so, it was apparent that users were better understanding the benefit of TINT because all three of the session metrics tracked went up and to the right.
 
