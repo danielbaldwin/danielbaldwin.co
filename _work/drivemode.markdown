@@ -15,6 +15,7 @@ Is Featured: true
 Featured Image: "/uploads/Drivemode%20Icon.png"
 Hover Background: "#DFEFEF"
 Bootstrap Columns: 7
+Case Study: TINT Dashboard
 ---
 
 ![Drivemode Icon.png](/uploads/Drivemode%20Icon.png)
