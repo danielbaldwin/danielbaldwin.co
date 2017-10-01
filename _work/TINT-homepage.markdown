@@ -29,7 +29,7 @@ TINT today is a product that allows companies to find their customer’s best us
 
 But before, it was marketed as a social media aggregation platform. Doesn’t sound as attractive, huh?
 
-I worked closely with TINT’s marketing team in an effort to overhaul its brand identity. Afterwards, it was time to design a new homepage that aligned TINT’s website with its new direction.
+I worked closely with TINT’s marketing team [in an effort to overhaul its brand identity](/work/TINT-brand-book/). Afterwards, it was time to design a new homepage that aligned TINT’s website with its new direction.
 
 I started by digging into TINT’s analytics. First, I took note of the design elements on the page that helped with metrics historically, then I created baseline metrics for areas where I saw the need for improvement.
 
