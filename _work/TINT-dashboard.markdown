@@ -16,3 +16,8 @@ Hover Background: "#30ECCE"
 Bootstrap Columns: 7
 ---
 
+![TINT Dashboard.png](/uploads/TINT%20Dashboard.png)
+
+TINT is a content aggregation platform that allows brands to pull user-generated content from multiple sources across the web and showcase it at every marketing experience. 
+
+This exploratory project was completed in June 2017. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co)
