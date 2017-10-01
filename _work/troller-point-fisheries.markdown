@@ -14,5 +14,6 @@ Services: Web Design, Branding
 Featured Image: "/uploads/Troller%20Point%20Fisheries%20(small).png"
 Hover Background: "#56D2E2"
 Bootstrap Columns: 5
+Case Study: Twelve23
 ---
 
