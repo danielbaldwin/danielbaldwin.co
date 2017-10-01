@@ -14,6 +14,7 @@ Services: Web Design, Branding
 Featured Image: "/uploads/Twelve23.png"
 Hover Background: "#DBEBEB"
 Bootstrap Columns: 7
+Case Study: Logos
 ---
 
 ![Twelve23.png](/uploads/Twelve23.png)
