@@ -14,6 +14,7 @@ Services: Branding, Print
 Featured Image: "/uploads/TINT%20Brand%20Book.png"
 Hover Background: "#FF564B"
 Bootstrap Columns: 7
+Case Study: Powercity Films
 ---
 
 ![TINT Brand Book.png](/uploads/TINT%20Brand%20Book.png)​
