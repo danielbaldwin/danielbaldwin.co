@@ -27,4 +27,4 @@ Bootstrap Columns: 7
 
 In addition to designing 24 illustrations, I helped Drivemode evolve their designs to a more sophisticated illustration style in order to target an older demographic.
 
-This project was completed in March 2017. For specific questions or to work together on a future project, shoot me an email at hello@danielbaldwin.co.
+This project was completed in March 2017. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).
