@@ -12,6 +12,7 @@ Services: Web Design
 Featured Image: "/uploads/TINT%20Blog.png"
 Hover Background: "#ff564b"
 Bootstrap Columns: 7
+Case Study: TINT Brand Book
 ---
 
 ![TINT Blog.png](/uploads/TINT%20Blog.png)
