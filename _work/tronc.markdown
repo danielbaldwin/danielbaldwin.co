@@ -14,6 +14,7 @@ Services: UI/UX, Branding
 Featured Image: "/uploads/Tronc%20(small).png"
 Hover Background: "#A251CC"
 Bootstrap Columns: 5
+Case Study: Troller Point Fisheries
 ---
 
 ![Tronc (small).png](/uploads/Tronc%20(small).png)
