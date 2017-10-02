@@ -31,6 +31,8 @@ I helped Twelve23 gear their services towards each team member’s individual st
 
 After coming up with a gameplan, it was time to refresh Twelve23’s visual identity. I started with its logo. At its core, Twelve23 was known for bringing new, innovative solutions to each of their clients. I designed the logo to visualize this concept, providing an illustrative approach to the “out-of-the-box” concept.
 
+![twelve23-logo-concepts.jpg](/uploads/twelve23-logo-concepts.jpg)
+
 ![twelve23-logo-4a7bf3.jpg](/uploads/twelve23-logo-4a7bf3.jpg)
 
 **Creating a Facade**
