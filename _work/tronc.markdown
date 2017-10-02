@@ -8,7 +8,7 @@ tags:
 - UI/UX
 - Branding
 position: 9
-Hero Text: To learn more about this project, read the full case study here.
+Hero Text: UI for an admin dashboard
 Year: Early 2017
 Services: UI/UX, Branding
 Featured Image: "/uploads/Tronc%20(small).png"
