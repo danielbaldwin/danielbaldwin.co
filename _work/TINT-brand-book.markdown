@@ -29,4 +29,6 @@ Case Study: Powercity Films
 ​​
 ​​I crafted a 76-page brand book for TINT that serves as a communication & identity style guide.
 
+[Click here to view a digital version of the book](/uploads/Brand%20Book.pdf).
+
 This project was completed in January 2017. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).
