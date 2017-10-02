@@ -27,10 +27,16 @@ Director Janssen Powers came to me looking for help with building their brand id
 
 Their goal was to create a brand image that would allow them to pitch their company to enterprise clients and agencies.
 
+![powercityfilms-logo-concepts.jpg](/uploads/powercityfilms-logo-concepts.jpg)
+
+![powercity-films-branding.jpg](/uploads/powercity-films-branding.jpg)
+
 **Introducing Powercityfilms.com**
 
 Powercity Films needed a place to showcase all of their work in a modern, professional manner. They didn’t want to lose the attention of potential clients, so I designed a single scrolling page to keep users in one place.
 
 First impressions are everything, so I designed their website as a single scrolling page, presenting who they are, what they do, and how to contact them all in one consistent user experience.
+
+![powercityfilms-website-screenshot.jpg](/uploads/powercityfilms-website-screenshot.jpg)
 
 This project was completed in August 2015. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).
