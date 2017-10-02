@@ -21,6 +21,8 @@ TINT has positioned itself as a thought leader in the content marketing world by
 
 I worked closely with TINT’s marketing team to understand their content strategy and tastefully guide users down each phase of their conversion funnel.
 
+![TINT-blog-001.png](/uploads/TINT-blog-001.png)
+
 **Step 1. Top of the Funnel - Awareness**
 
 After looking into TINT’s analytics, I discovered that there are three main flows users take when navigating throughout TINT’s blog.
@@ -28,6 +30,8 @@ After looking into TINT’s analytics, I discovered that there are three main fl
 I started by dividing all of TINT’s content into these three sections, then went one step further by creating sub-categories to allow TINT to better tailor content to its users. 
 
 I designed a navigation that allowed users landing on TINT’s blog to easily find content that they’re looking for as well as discover related material that might spark their interest.
+
+![TINT-blog-002.png](/uploads/TINT-blog-002.png)
 
 **Step 2. Middle of the Funnel - Engagement**
 
@@ -57,5 +61,7 @@ I studied TINT’s analytics and noticed one area where TINT was not getting any
 I designed a mobile-optimized interface that was not only optimized for readability, but one hand navigation as TINT’s analytics also showed that most mobile traffic to the blog was between the hours of 7-9am and 5-6pm - commuter hours.
 
 By optimizing the blog for conversion, TINT saw an increase in newsletter signups by 620% on mobile and 27% across all devices.
+
+![TINT-blog-003.png](/uploads/TINT-blog-003.png)
 
 This project was completed in August 2017. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).
