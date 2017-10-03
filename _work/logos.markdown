@@ -14,34 +14,18 @@ Case Study: Drivemode
 
 ![logo-001.png](/uploads/logo-001.png)
 
-![Logos.png](/uploads/Logos.png)
+![logo-002.png](/uploads/logo-002.png)
 
-![logo-001.png](/uploads/logo-002.png)
+![logo-003.png](/uploads/logo-003.png)
 
-![Logos.png](/uploads/Logos.png)
+![logo-004.png](/uploads/logo-004.png)
 
-![logo-001.png](/uploads/logo-003.png)
+![logo-005.png](/uploads/logo-005.png)
 
-![Logos.png](/uploads/Logos.png)
+![logo-006.png](/uploads/logo-006.png)
 
-![logo-001.png](/uploads/logo-004.png)
+![logo-007.png](/uploads/logo-007.png)
 
-![Logos.png](/uploads/Logos.png)
+![logo-008.png](/uploads/logo-008.png)
 
-![logo-001.png](/uploads/logo-005.png)
-
-![Logos.png](/uploads/Logos.png)
-
-![logo-001.png](/uploads/logo-006.png)
-
-![Logos.png](/uploads/Logos.png)
-
-![logo-001.png](/uploads/logo-007.png)
-
-![Logos.png](/uploads/Logos.png)
-
-![logo-001.png](/uploads/logo-008.png)
-
-![Logos.png](/uploads/Logos.png)
-
-![logo-001.png](/uploads/logo-009.png)
+![logo-009.png](/uploads/logo-009.png)
