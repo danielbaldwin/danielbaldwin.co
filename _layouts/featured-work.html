@@ -21,10 +21,17 @@
         <div class="row case-studies">
         {% assign sorted_work = site.work | sort:"position" %}
         {% for work in sorted_work %}
-           <div class="work-item elements-in col-md-{{work['Bootstrap Columns'] }}">
+        {% assign loopindex = forloop.index %}
+           <div class="work-item elements-in {% if loopindex == 1 %}active{% elsif loopindex == 2 %}active{% endif %} col-md-{{work['Bootstrap Columns'] }}">
               <div class="rectangle hovereffect" style="background: {{ work['Hover Background'] }};">
                     <a class="work-item-inner-wrapper" href="{{ site.baseurl }}{{ work.url }}">
-                      <img class="lazy img-responsive" data-src="{{ work['Featured Image'] }}" alt="">
+                      	<picture>
+
+		                  <source media="(max-width: 768px)" srcset="{{ work.['Featured Mobile Image'] }}">
+
+		                  <img class="lazy img-responsive" src="{{ work.['Featured Image'] }}" alt="{{ work.['Hero Text'] }}">
+
+		                </picture>     
                       <div class="overlay">
 											<div class="work-item_title-wrapper">
                       	<h1>{{ work.title }}</h1>

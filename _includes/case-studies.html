@@ -1,6 +1,5 @@
 <div class="container">
   {% assign sorted_work = site.work | sort:"position" %}
-    {% if page.url != "/work/" %}
       {% for work in sorted_work %}
       {% if work.['Is Featured'] == true %}
       {% if work.['Image Left'] == true %}
@@ -10,7 +9,13 @@
           <div class="rectangle">
             <div class="inner-wrapper">
               <a href="{{ site.baseurl }}{{ work.url }}">
-                <img class="lazy img-responsive os-transform" data-transformY="-20%" data-src="{{ work.['Featured Image'] }}" alt="">      
+                <picture>
+
+                  <source media="(max-width: 768px)" srcset="{{ work.['Featured Mobile Image'] }}">
+
+                  <img class="lazy img-responsive os-transform" data-transformY="-20%" src="{{ work.['Featured Image'] }}" alt="{{ work.['Hero Text'] }}">
+
+                </picture>     
               </a>
             </div>
           </div>
@@ -28,14 +33,20 @@
           <div class="col-md-4 study">
           <h2>{{ work.['Hero Text'] }}</h2>
             <div class="link-wrapper">
-              <a style="color: {{work.['See Case']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
+              <a style="color: {{work.['Hover Background']}}" href="{{ site.baseurl }}{{ work.url }}">{{ work.title }} - See Case Study</a>
             </div>
           </div>
           <div class="col-md-8">
             <div class="rectangle">
               <div class="inner-wrapper">
                 <a href="{{ site.baseurl }}{{ work.url }}">
-                  <img class="lazy img-responsive os-transform" data-transformY="-20%"  data-src="{{ work.['Featured Image'] }}" alt="">      
+                  <picture>
+
+                  <source media="(max-width: 768px)" srcset="{{ work.['Featured Mobile Image'] }}">
+
+                  <img class="lazy img-responsive os-transform" data-transformY="-20%" src="{{ work.['Featured Image'] }}" alt="{{ work.['Hero Text'] }}">
+
+                </picture>        
                 </a>
               </div>
             </div>
@@ -54,6 +65,5 @@
           </div>
         </div>
       </div>
-    {% endif %}
   </div>
 </div>

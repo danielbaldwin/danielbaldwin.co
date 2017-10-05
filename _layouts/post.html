@@ -24,11 +24,11 @@
 										    	<p class="details-heading">Date Posted</p>
 										    	<time class="date">{{ page.date | date: '%B %d, %Y' }}</time>
 										    </div>
-										    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
+										    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row post-author">
 										    	<p class="details-heading">Author</p>
 										    	<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">Daniel Baldwin</a>
 										    </div>
-										    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
+										    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row post-categories">
 										    	<p class="details-heading">Categories</p>
 										    	{% for category in page.categories %}
 												  <a href="/blog/{{ category | slugize }}/">
@@ -36,7 +36,7 @@
 												  </a>
 												{% endfor %}
 										    </div>
-										    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row">
+										    <div class="col-xs-6 col-sm-6 col-md-3 post-detail row post-share">
 										    	<p class="details-heading">Share</p>
 										    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 										    	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://twitter.com/home?status={{ page['Twitter Text'] }}" class="share-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>

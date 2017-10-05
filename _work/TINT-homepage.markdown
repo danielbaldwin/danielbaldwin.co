@@ -15,6 +15,7 @@ Is Featured: true
 Featured Image: "/uploads/homepage-cover.png"
 Hover Background: "#FF564B"
 Bootstrap Columns: 7
+Image Left: true
 Case Study: TINT Brand Book
 Twitter Text: See how @danielbaldwinco increased @tint's clickthrough rate by nearly
   700% by redesigning their homepage

@@ -5,20 +5,20 @@
 	<div class="barba-container" data-transition="BarbaAnimation">
 	{% include navigation.html %}
 	
-	<div class="case-study-head" style="background-color: #edac01">
+	<div class="case-study-head" style="background-color: {{ page['Hover Background'] }}">
 		<div class="container">
 		    <div class="row">
 		      <div class="col-md-12">
 		          <div class="hero-text header-animate"><span><h2>{{ page['Hero Text'] }}</span></h2>
 			          <div class="client-service">
-			          	<div class="col-md-3"><p>CLIENT</p> {{ page.title }} </div>
-			          	<div class="col-md-3"><p>SERVICES</p> {{ page.Services }} </div>
-			          	<div class="col-md-3"><p>YEAR</p> {{ page.Year }} </div>
-			          	<div class="col-md-3"><p>SHARE</p>
-			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://twitter.com/home?status={{ page['Twitter Text'] }}" class="share-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=&source=" class="share-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			          	<div class="col-md-3 col-xs-6"><p>CLIENT</p> <p>{{ page.Client }}</p> </div>
+			          	<div class="col-md-3 col-xs-6"><p>SERVICES</p> <p>{{ page.Services }}</p> </div>
+			          	<div class="col-md-3 col-xs-6"><p>YEAR</p> <p>{{ page.Year }}</p> </div>
+			          	<div class="col-md-3 col-xs-6"><p>SHARE</p>
+			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-facebook-official" aria-hidden="true" style="background-color: {{ page['Hover Background'] }}!important"></i></a>
+			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://twitter.com/home?status={{ page['Twitter Text'] }}" class="share-link"><i class="fa fa-twitter" aria-hidden="true" style="background-color: {{ page['Hover Background'] }}!important"></i></a>
+			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="share-link"><i class="fa fa-google-plus" aria-hidden="true" style="background-color: {{ page['Hover Background'] }}!important"></i></a>
+			          	<a target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=&source=" class="share-link"><i class="fa fa-linkedin" aria-hidden="true" style="background-color: {{ page['Hover Background'] }}!important"></i></a>
 			          </div>
 		          </div>
 		      </div>
@@ -37,8 +37,9 @@
 			{% endif %}
 		</div>
 	</div>
-	
-	<!--<div class="quote elements-in once">
+
+	{% if page.Review %}
+	<div class="quote elements-in once">
 		<div class="quote-background"></div>
 		<div class="container">
 			<div class="row">
@@ -48,7 +49,8 @@
 				</div>
 			</div>
 		</div>
-	</div>-->
+	</div>
+	{% endif %}
 	
 	<div class="next-project elements-in">
 		<div class="container">
@@ -67,5 +69,12 @@
 	{% include footer.html %}
 	</div>
 {% include js.html %}
+<script>
+$('.case-study p').each(function() {
+    if ($(this).find('img').length) {
+        $(this).addClass('hasimage');
+    }
+});
+</script>
 </body>
 </html>
