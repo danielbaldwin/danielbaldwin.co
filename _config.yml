@@ -36,13 +36,13 @@ defaults:
   values:
     layout: case-study
     Hero Text: 
-    Client:
+    Client: 
     Year: 
     Services: 
     Is Featured: 
     Featured Image: 
-    Featured Mobile Image:
-    Type:
+    Featured Mobile Image: 
+    Type: 
     Hover Background: 
     Bootstrap Columns: 
     Case Study: 
