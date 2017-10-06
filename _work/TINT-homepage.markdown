@@ -15,7 +15,7 @@ Services: Web Design, Branding
 Is Featured: true
 Featured Image: "/uploads/homepage-cover.png"
 Type: Case Study
-Hover Background: "#FF564B"
+Hover Background: "#ff564b"
 Bootstrap Columns: 7
 Case Study: TINT Brand Book
 Twitter Text: See how @danielbaldwinco increased @tint's clickthrough rate by nearly
