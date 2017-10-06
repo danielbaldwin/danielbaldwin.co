@@ -9,19 +9,21 @@ tags:
 - Branding
 position: 0
 Hero Text: Homepage for a B2B company
+Client: TINT
 Year: Mid 2017
 Services: Web Design, Branding
 Is Featured: true
 Featured Image: "/uploads/homepage-cover.png"
+Type: Case Study
 Hover Background: "#FF564B"
 Bootstrap Columns: 7
-Image Left: true
 Case Study: TINT Brand Book
 Twitter Text: See how @danielbaldwinco increased @tint's clickthrough rate by nearly
   700% by redesigning their homepage
 Social Media Image: "/uploads/TINT%20Homepage.png"
 Social Media Description: See how Daniel Baldwin increased TINT's clickthrough rate
   by nearly 700% by redesigning their homepage
+Image Left: true
 ---
 
 ![homepage-full.png](/uploads/homepage-full.png)
