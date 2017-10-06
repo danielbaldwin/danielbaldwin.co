@@ -9,9 +9,11 @@ tags:
 - Branding
 position: 9
 Hero Text: UI for an admin dashboard
+Client: Tronc
 Year: Early 2017
 Services: UI/UX, Branding
 Featured Image: "/uploads/Tronc%20(small).png"
+Type: Project
 Hover Background: "#A251CC"
 Bootstrap Columns: 5
 Case Study: Troller Point Fisheries
