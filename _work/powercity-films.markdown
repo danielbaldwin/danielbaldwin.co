@@ -9,9 +9,11 @@ tags:
 - Branding
 position: 5
 Hero Text: Designing an identity for a film company
+Client: Powercity Films
 Year: Early 2016
 Services: Web Design, Branding
 Featured Image: "/uploads/Powercity%20Films%20(small).png"
+Type: Case Study
 Hover Background: "#FFD21D"
 Bootstrap Columns: 5
 Case Study: Motive Creative
