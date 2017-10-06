@@ -9,9 +9,11 @@ tags:
 - Branding
 position: 10
 Hero Text: eCommerce Website for a fishing company
+Client: Troller Point Fisheries
 Year: Early 2017
 Services: Web Design, Branding
 Featured Image: "/uploads/Troller%20Point%20Fisheries%20(small).png"
+Type: Project
 Hover Background: "#56D2E2"
 Bootstrap Columns: 5
 Case Study: Twelve23
