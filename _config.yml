@@ -38,6 +38,8 @@ defaults:
     Hero Text: 
     Client: 
     Year: 
+    Review:
+    Review Author:
     Services: 
     Is Featured: 
     Featured Image: 
