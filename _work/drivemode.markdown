@@ -15,7 +15,7 @@ Services: Illustration, Branding
 Is Featured: true
 Featured Image: "/uploads/Drivemode%20Icon.png"
 Type: Case Study
-Hover Background: "#DFEFEF"
+Hover Background: "#2fc3b6"
 Bootstrap Columns: 7
 Case Study: TINT Dashboard
 ---
