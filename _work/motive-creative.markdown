@@ -9,9 +9,11 @@ tags:
 - Branding
 position: 6
 Hero Text: Website for a creative agency
+Client: Motive Creative
 Year: Late 2017
 Services: Web Design, Branding
 Featured Image: "/uploads/Motive%20Creative%20(small).png"
+Type: Project
 Hover Background: "#E8A801"
 Bootstrap Columns: 5
 ---
