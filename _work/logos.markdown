@@ -3,8 +3,10 @@ title: Logos
 date: 2017-09-19 03:33:00 Z
 position: 12
 Hero Text: A collection of logos designed throughout the years
+Client: Multiple
 Year: 2015-2017
 Featured Image: "/uploads/Logos%20(large).png"
+Type: Project
 Hover Background: "#001FFF"
 Bootstrap Columns: 12
 Case Study: Drivemode
