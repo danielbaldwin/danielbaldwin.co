@@ -9,9 +9,11 @@ tags:
 - Branding
 position: 11
 Hero Text: Rebranding an agency
+Client: Twelve23
 Year: Early 2015
 Services: Web Design, Branding
 Featured Image: "/uploads/Twelve23.png"
+Type: Case Study
 Hover Background: "#DBEBEB"
 Bootstrap Columns: 7
 Case Study: Logos
