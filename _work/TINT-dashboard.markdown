@@ -9,9 +9,11 @@ tags:
 - Branding
 position: 8
 Hero Text: "​​UI for a SaaS product"
+Client: TINT
 Year: Mid 2017
 Services: UI/UX, Branding
 Featured Image: "/uploads/TINT%20Dashboard.png"
+Type: Project
 Hover Background: "#30ECCE"
 Bootstrap Columns: 7
 ---
