@@ -9,9 +9,11 @@ tags:
 - Print
 position: 4
 Hero Text: "​Humanizing a SaaS product"
+Client: TINT
 Year: Early 2017
 Services: Branding, Print
 Featured Image: "/uploads/TINT%20Brand%20Book.png"
+Type: Project
 Hover Background: "#FF564B"
 Bootstrap Columns: 7
 Case Study: Powercity Films
