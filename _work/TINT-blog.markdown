@@ -7,9 +7,11 @@ tags:
 - Web Design
 position: 3
 Hero Text: Blog for a marketing company
+Client: TINT
 Year: Mid 2017
 Services: Web Design
 Featured Image: "/uploads/TINT%20Blog.png"
+Type: Case Study
 Hover Background: "#ff564b"
 Bootstrap Columns: 7
 Case Study: TINT Brand Book
