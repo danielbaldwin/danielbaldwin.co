@@ -744,14 +744,14 @@ header {
 /* --- Blog --- */
 .blog-header {
   height: 100vh;
-  background: #001fff; }
+  background: #181818; }
   .blog-header .container {
     height: 30vh; }
     .blog-header .container .hero {
       background: #fff;
       height: 480px; }
       .blog-header .container .hero .title h2 {
-        color: #001fff;
+        color: #181818;
         line-height: 1.58;
         font-size: 38px;
         max-width: 1000px;
@@ -771,7 +771,7 @@ header {
       font-style: normal;
       font-stretch: normal;
       line-height: 1.58;
-      color: #001fff;
+      color: #181818;
       text-decoration: none; }
   @media screen and (max-width: 800px) {
     .blog-excerpt {
@@ -795,7 +795,7 @@ header {
 
 .date {
   margin: 28px 0;
-  color: #001fff;
+  color: #181818;
   font-size: 20px; }
 
 .excerpt {
@@ -810,7 +810,7 @@ header {
   font-size: 13px;
   font-style: normal;
   font-stretch: normal;
-  color: #001fff;
+  color: #181818;
   text-decoration: none;
   letter-spacing: 1.5px;
   line-height: 1.69;
@@ -838,7 +838,7 @@ article img {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.58;
-    color: #001fff;
+    color: #181818;
     max-width: 1000px;
     padding: 0px 0px 50px 77px; }
   @media screen and (max-width: 768px) {

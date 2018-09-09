@@ -395,9 +395,9 @@
   	font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.5px;
-    color: #001fff;
+    color: #181818;
     transition: color 0.5s ease-in-out;
-    border: solid 1.5px #001fff;
+    border: solid 1.5px #181818;
     @extend .Haas-Bold;
     text-transform: uppercase;
     padding: 18px 26px;
@@ -409,7 +409,7 @@
     }
     &:before {
     content:'';
-    background: #001fff;
+    background: #181818;
     position:absolute;
     width:0%;
     top:0;
