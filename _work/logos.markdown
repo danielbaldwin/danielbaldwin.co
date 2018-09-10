@@ -7,7 +7,7 @@ Client: Multiple
 Year: 2015-2017
 Featured Image: "/uploads/Logos%20(large).png"
 Type: Project
-Hover Background: "#001FFF"
+Hover Background: "#181818"
 Bootstrap Columns: 12
 Case Study: Drivemode
 ---

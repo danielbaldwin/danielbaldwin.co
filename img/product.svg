@@ -4,8 +4,8 @@
 	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F6F6F6;}
-	.st1{fill:none;stroke:#001FFF;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:#FFFFFF;stroke:#001FFF;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#181818;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#181818;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <circle class="st0" cx="-170.6" cy="126.9" r="58.6"/>
 <rect x="-196.7" y="69.7" transform="matrix(1 -1.037212e-03 1.037212e-03 1 -0.1275 -0.1488)" class="st1" width="106.3" height="106.3"/>
