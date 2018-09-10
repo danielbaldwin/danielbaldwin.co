@@ -24,13 +24,7 @@
   				<span>toggle menu</span>
   		</button>	
   		
-  		{% if page.layout == 'main' %}
-  		<div class="daniel-baldwin-bra"><p>Daniel Baldwin<br>
-  			Brand + Experience Design</p>
-  			<a href="mailto:hello@danielbaldwin.co">hello@danielbaldwin.co</a>
-  		</div>
-  		{% endif %}
-  		
+
   		<a class="nav-logo" href="{{ site.baseurl }}/">
   				{% if page.title == 'Featured Work' or page.path contains '_work' %}
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -51,14 +45,12 @@
   		
   		<div class="nav-right-wrapper">
         <ul class="nav-right">
-    			<li><a href="/work/" {% if page.url == "/work/" %}class="active"{% endif %}>Work</a></li>
     			<li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-    			<li><a href="/blog/" {% if page.url == "/blog/" or page.path contains '_posts' %}class="active"{% endif %}>Blog</a></li>
-    			<li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>		
+          <li><a href="mailto:hello@danielbaldwin.co">hello@danielaldwin.co</a></li>
           <li class="social-media mobile">
-            <a class="social" href="http://www.twitter.com/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-      			<a class="social" href="http://linkedin.com/in/danielbaldwinco" rel="nofollow" target="_blank" title="Share on Linkedin"><i class="fa fa-linkedin"></i></a>
-      			<a class="social" href="https://www.instagram.com/danielbaldwin/" rel="nofollow" target="_blank" title="Follow on Instagram"><i class="fa fa-instagram"></i></a>		
+            <a class="social" href="https://www.instagram.com/danielbaldwin/" rel="nofollow" target="_blank" title="Follow on Instagram"><i class="fa fa-instagram"></i></a>
+            <a class="social" href="http://www.twitter.com/danielbaldwinco" rel="nofollow" target="_blank" title="Follow on Twitter"><i class="fa fa-twitter"></i></a>
+      			<a class="social" href="http://linkedin.com/in/danielbaldwinco" rel="nofollow" target="_blank" title="Follow on Linkedin"><i class="fa fa-linkedin"></i></a>		
           </li>  
     		</ul>
       </div>

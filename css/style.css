@@ -173,7 +173,7 @@ nav#navb.navbar-fixed-top {
         bottom: 0;
         left: 0;
         width: 0%;
-        border-bottom: 1px solid #001eff;
+        border-bottom: 1px solid #181818;
         transition: 0.4s;
       }
       &:hover:after {
@@ -252,7 +252,7 @@ nav#navb.navbar-fixed-top {
           bottom: 0;
           left: 0;
           width: 0%;
-          border-bottom: 1px solid #001eff;
+          border-bottom: 1px solid #181818;
           transition: 0.4s;
         }
         &:hover:after {
@@ -411,7 +411,8 @@ nav {
   nav .blog-name {
     display: none; }
   nav .nav-right-wrapper {
-    float: right; }
+    float: right;
+    margin-right: -60px; }
   nav .nav-right {
     list-style: none;
     padding: 0;
@@ -459,15 +460,14 @@ nav {
       bottom: 0;
       left: 0;
       width: 0%;
-      border-bottom: 1px solid #001eff;
+      border-bottom: 1px solid #181818;
       transition: 0.4s; }
     nav .daniel-baldwin-bra a:hover:after {
       width: 100%; }
   nav .nav-logo {
     position: absolute;
-    left: 50%;
     width: 40px;
-    margin-left: -20px;
+    margin-left: -40px !important;
     margin-top: -20px;
     top: 50%; }
     nav .nav-logo svg {
@@ -497,7 +497,7 @@ nav {
         left: 0;
         width: 0%;
         height: 1px;
-        background: #001eff;
+        background: #181818;
         transition: 0.4s; }
       nav .daniel-baldwin-bra a:before {
         width: 100%;
@@ -509,11 +509,10 @@ nav {
   nav.work .nav-right li a {
     color: #000; }
   nav.work .nav-logo {
-    left: 40px;
     margin-left: 0; }
   nav.about .nav-logo, nav.contact .nav-logo {
     left: 40px;
-    margin-left: 0; }
+    margin-left: -60px; }
   nav.blog .blog-name {
     display: inline-block;
     vertical-align: top;
@@ -531,9 +530,9 @@ nav {
     nav.fixed .daniel-baldwin-bra {
       display: none; }
     nav.fixed .nav-right li a {
-      color: #edac01; }
+      color: #181818s; }
     nav.fixed .nav-logo {
-      left: 40px;
+      margin-left: -40px !important;
       margin-left: 0; }
       nav.fixed .nav-logo svg path {
         fill: #edac01; }
@@ -1154,17 +1153,17 @@ nav {
   padding-right: 0px !important; }
 
 .Haas-Light, .home-header h1, .case-study p, .behind-brand p, .services .service, .post-content p, .contact-header h2, .believe h2, .rectangle p, .latest-articles p, .share-widget {
-  font-family: 'Neuzeit S LT W01 Book'; }
+  font-family:'Neue Haas Unica W01 Regular'; }
 
-.Haas-Bold, .more-projects a, .db-icons-text-mobile, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-header .hero .title h2 a, .blog-header .hero .title h2 a:hover, .blog-header .hero .title h2 a:focus, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .rectangle.hovereffect h2, .study h2, .study a {
-  font-family: 'NeuzeitSLTW01-BookHeavy'; }
+.Haas-Bold, .more-projects a, .db-icons-text-mobile, .quote h1, .quote p, .behind-brand h2, .blog-header .hero .title h2, .blog-header .hero .title h2 a, .blog-header .hero .title h2 a:hover, .blog-header .hero .title h2 a:focus, .blog-excerpt h2 a, .blog-excerpt h2 a:hover, .blog-excerpt h2 a:focus, .read-article a, .read-article a:hover, .read-article a:focus, .post-header h2, .rectangle h2, .study h2, .study a {
+  font-family:'Neue Haas Unica W01 Bold'; }
 
-.Haas-Regular, nav .daniel-baldwin-bra p, nav .daniel-baldwin-bra a, nav.blog .blog-name, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus, .footer-rectangle h1, .footer-rectangle .info p, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images .content h3, .services .service h3, .excerpt, .post-header .date, .post-header a, .contact-header p, .believe p, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle.hovereffect h1, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .share-widget a, .share-widget a:hover, .share-widget a:focus {
-  font-family: 'Neuzeit S LT W01 Book';
+.Haas-Regular, nav .daniel-baldwin-bra p, nav .daniel-baldwin-bra a, nav.blog .blog-name, footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus, .footer-rectangle h1, .footer-rectangle .info p, .about-header p, .about-header h2, .grey .container .col-md-6 h2, .grey .container .col-md-6 p, .images .content h3, .rectangle.hovereffect h2, .services .service h3, .excerpt, .post-header .date, .post-header a, .contact-header p, .believe p, .rectangle h1, .rectangle a, .rectangle a:hover, .rectangle a:focus, .rectangle.hovereffect h1, .latest-articles h2, .latest-articles a, .latest-articles a:hover, .latest-articles a:focus, .share-widget a, .share-widget a:hover, .share-widget a:focus {
+  font-family:'Neue Haas Unica W01 Regular';
   font-weight: normal; }
 
 footer .nav > li > a, span.copyright, .footer h1, .footer a, .footer a:hover, .footer a:focus {
-  color: #edac01; }
+  color: #181818; }
 
 /* --- Footer --- */
 .footer-rectangle {
@@ -1265,13 +1264,13 @@ footer .footer {
         -webkit-transform: scale(1.2);
                 transform: scale(1.2); }
     footer .footer .social .fa-twitter {
-      color: #1aaae2; }
+      color: #181818; }
     footer .footer .social .fa-linkedin {
-      color: #0077b5; }
+      color: #181818; }
     footer .footer .social .fa-dribbble {
-      color: #ec0086; }
+      color: #181818; }
     footer .footer .social .fa-instagram {
-      color: #ec0086; }
+      color: #181818; }
   footer .footer .navbar-text {
     margin-top: 0;
     margin-bottom: 0; }
@@ -1363,7 +1362,7 @@ footer .nav > li > a {
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 1px solid #001eff;
+    border-bottom: 1px solid #181818;
     transition: 0.4s; }
   footer .nav > li > a:hover:after {
     width: 100%; }
@@ -1621,7 +1620,7 @@ footer .nav > li > a {
       bottom: 0;
       left: 0;
       width: 0%;
-      border-bottom: 2px solid #001eff;
+      border-bottom: 2px solid #181818;
       transition: 0.4s; }
     .next-project a:hover {
       text-decoration: none;
@@ -2093,7 +2092,7 @@ p.hasimage {
       z-index: 2;
       color: #fff;
       margin-bottom: 20px;
-      font-family: 'Neuzeit S LT W01 Book';
+      font-family:'Neue Haas Unica W01 Regular';
       font-weight: normal; }
     .behind-brand .circle-box {
       position: static; }
