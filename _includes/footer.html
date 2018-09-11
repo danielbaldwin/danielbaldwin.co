@@ -1,25 +1,4 @@
 <footer>
-{% if page.title == 'Featured Work' %}
-<div style="margin-bottom: 100px;"></div>
-{% else %}
-	<div class="container-fluid footer-rectangle elements-in once">
-		<div class="footer-background"></div>
-		<div class="row contact">
-			<div class="col-md-6 col-sm-12 col-xs-12">
-				<div class="info footer-rectangle-left">
-					<p>Let’s work together</p>
-					<h1><a href="mailto:hello@danielbaldwin.co">hello@danielbaldwin.co</a></h1>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12 col-xs-12">
-				<div class="info footer-rectangle-right">
-					<p>Let’s talk design</p>
-					<h1><a href="http://www.twitter.com/danielbaldwinco" target="_blank">@danielbaldwinco</a></h1>
-				</div>
-			</div>
-		</div>
-	</div>
-{% endif %}
   <div class="container footer-bottom">
     <div class="row">
 				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer footer-logo-wrapper">
@@ -29,10 +8,9 @@
 				</div>			
         <div class="col-lg-4 col-md-12 footer footer-nav-wrapper">
 	    		<ul class="nav navbar-nav">
-	            <li><a href="/work/" {% if page.url == "/work/" %}class="active"{% endif %}>Work</a></li>
-	            <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-	            <li><a href="/blog/" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
-	            <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+	            <li><a href="/work/">Work</a></li>
+    			<li><a href="/about/">About</a></li>
+      			<li><a href="mailto:hello@danielbaldwin.co">hello@danielaldwin.co</a></li>
 	        </ul>
         </div>
         <div class="hidden-xs hidden-lg hidden-md col-sm-12 col-xs-12 footer social">

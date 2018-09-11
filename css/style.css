@@ -1432,14 +1432,16 @@ footer .nav > li > a {
   height: 100vh;
   position: relative;
 }
+
+
 .case-study-head h2 {
   font-size: 75px;
-  font-weight: 900;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.13;
   letter-spacing: normal;
-  color: #ffffff;
+  color: #181818;
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
@@ -1850,6 +1852,9 @@ p.hasimage {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
     transition: 0.5s; }
+  .case-study-hero img {
+    width: 100%;
+  }
   .images svg {
     -webkit-transform-origin: left;
             transform-origin: left;

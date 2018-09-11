@@ -5,6 +5,5 @@ permalink: "/"
 position: 0
 Hero Text: Brand. Strategy. <br>Human-focused Design.
 Under Hero Text: 
-layout: main
 ---
 
