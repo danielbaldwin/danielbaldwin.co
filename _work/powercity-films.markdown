@@ -1,44 +1,25 @@
 ---
 title: Powercity Films
-date: 2017-09-19 03:11:00 Z
+date: 2018-09-11 03:22:00 Z
 categories:
-- Web Design
-- Branding
+- Brand Identity
+- Website
 tags:
-- Web Design
-- Branding
-position: 5
-Hero Text: Designing an identity for a film company
+- Brand Identity
+- Website
+position: 1
 Client: Powercity Films
-Year: Early 2016
-Services: Web Design, Branding
-Featured Image: "/uploads/Powercity%20Films%20(small).png"
-Type: Case Study
-Hover Background: "#FFD21D"
-Bootstrap Columns: 5
-Case Study: Motive Creative
+Hero Text: "A commercial film production company"
+Type: Project
+Hover Background: "#181818"
+Bootstrap Columns: 7
+Case Study: GOOD HANDS
 ---
 
-![Powercity Films (small).png](/uploads/Powercity%20Films%20(small).png)
+![powercity-films-hero.png](/img/powercity-films-hero.png)​
 
-**Designing an identity for a film company**
+![powercity-films-01.png](/img/powercity-films-01.png)​
 
-Powercity Films is a full-service video production company specializing in producing authentic, real stories in a cinematic style. Husband and wife duo, Janssen and Mckinzy Powers, work with a great deal of corporate companies and non-profits such as Uber, Amazon, United Nations, and Unicef.
+![powercity-films-02.png](/img/powercity-films-02.png)​
 
-Director Janssen Powers came to me looking for help with building their brand identity and designing a website to help them grow their clientele.
-
-Their goal was to create a brand image that would allow them to pitch their company to enterprise clients and agencies.
-
-![powercityfilms-logo-concepts.jpg](/uploads/powercityfilms-logo-concepts.jpg)
-
-![powercity-films-branding.jpg](/uploads/powercity-films-branding.jpg)
-
-**Introducing Powercityfilms.com**
-
-Powercity Films needed a place to showcase all of their work in a modern, professional manner. They didn’t want to lose the attention of potential clients, so I designed a single scrolling page to keep users in one place.
-
-First impressions are everything, so I designed their website as a single scrolling page, presenting who they are, what they do, and how to contact them all in one consistent user experience.
-
-![powercityfilms-website-screenshot.jpg](/uploads/powercityfilms-website-screenshot.jpg)
-
-This project was completed in August 2015. For specific questions or to work together on a future project, shoot me an email at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co).
+![powercity-films-03.png](/img/powercity-films-03.png)​

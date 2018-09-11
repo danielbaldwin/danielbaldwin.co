@@ -35,7 +35,7 @@
     i {
       color: #fff;
       font-size: 14px;
-      background-color: #edac01;
+      background-color: #181818;
       padding: 7px;
     }
   }
@@ -88,7 +88,7 @@
       margin-left: -15px;
       margin-right: -15px;
       padding-top: 100px;
-      background: #edac01;
+      background: #181818;
       color: #fff;
       font-size: 36px;
       font-weight: 900;
@@ -116,7 +116,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #edac01;
+    background: #181818;
     transform: translateX(-100%);
     transition: 0.5s;
   }
@@ -194,7 +194,7 @@
   }
   
   a {
-    color: #edac01;
+    color: #181818;
     position: relative;
     text-decoration: none;
     transition: 0.5s;
@@ -207,7 +207,7 @@
       bottom: 0;
       left: 0;
       width: 100%;    
-      border-bottom: 2px solid #edac01;  
+      border-bottom: 2px solid #181818;  
     }
     &:after {
       content: '';
@@ -220,7 +220,7 @@
     }
     &:hover {
       text-decoration: none;
-      color: #edac01;
+      color: #181818;
       border-bottom: 0px;
     }
     &:hover:after {

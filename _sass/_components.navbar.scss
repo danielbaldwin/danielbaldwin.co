@@ -44,7 +44,7 @@ nav#navb.navbar-fixed-top {
         width: 100%;
       }
       &.active {
-        border-bottom: 1px solid #edac01;
+        border-bottom: 1px solid #181818;
       }
   }
 }
@@ -154,7 +154,7 @@ nav#navb.navbar-fixed-top {
     &:hover, &:focus {
       background-color: transparent !important;
       .icon-bar {
-        background-color: #edac01 !important;
+        background-color: #181818 !important;
       }
     }
   }
@@ -163,13 +163,13 @@ nav#navb.navbar-fixed-top {
     margin-top: 0px;
     .icon-bar {
       height: 3px;
-      background-color: #edac01 !important;
+      background-color: #181818 !important;
     }
     &:hover, &:focus
      {
       background-color: #fff !important;
       .icon-bar {
-        background-color: #edac01 !important;
+        background-color: #181818 !important;
       }
     }
   }
@@ -190,7 +190,7 @@ nav#navb.navbar-fixed-top {
           bottom: 0;
           left: 0;
           width: 0%;
-          border-bottom: 1px solid #edac01;
+          border-bottom: 1px solid #181818;
           transition: 0.4s;
         }
         &:hover:after {
@@ -199,7 +199,7 @@ nav#navb.navbar-fixed-top {
   }
   .work .navbar-nav>li>a.active {
     color: #000 !important;
-    border-bottom: 1px solid #edac01;
+    border-bottom: 1px solid #181818;
     @extend .Haas-Regular;
   }
   .home .navbar-nav>li>a, .home .navbar-nav>li>a.active {
@@ -213,18 +213,18 @@ nav#navb.navbar-fixed-top {
     background: transparent !important;
     .icon-bar {
       height: 3px;
-      background-color: #edac01 !important;
+      background-color: #181818 !important;
     }
     &:hover {
       background-color: transparent !important;
       .icon-bar {
-        background-color: #edac01 !important;
+        background-color: #181818 !important;
       }
     }
   }
   @media screen and (max-width: 768px) {
     .home .navbar-collapse .navbar-nav>li>a, .blog .navbar-collapse .navbar-nav>li>a, .social {
-      color: #edac01 !important;
+      color: #181818 !important;
     }
   }
   .social {
@@ -487,13 +487,13 @@ nav{
 			display: none;
 		}
 		.nav-right li a{
-			color: #edac01;
+			color: #181818;
 		}
 		.nav-logo{
 			left: 40px;
 			margin-left: 0;
 			svg path{
-				fill: #edac01;
+				fill: #181818;
 			}
 		}
 	}
@@ -543,7 +543,7 @@ nav{
 	    transform: translateY(-50%);		
 			background: none;
 			span, span:before, span:after{
-				background: #edac01;
+				background: #181818;
 			}	
 		}
 		
@@ -553,7 +553,7 @@ nav{
 	    margin-left: 0 !important;		
 			svg{
 				path{
-					fill: #edac01;
+					fill: #181818;
 				}
 			}
 		}
@@ -590,7 +590,7 @@ nav{
 				transform: translateY(-20px);
 				opacity: 0;	
 				a{
-					color: #edac01;
+					color: #181818;
 					position: relative;
 				}	
 				&.social-media{
