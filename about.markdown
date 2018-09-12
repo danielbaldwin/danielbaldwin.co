@@ -10,7 +10,7 @@ Paragraph One: Iâ€™m a Seattle based brand designer currently working with TINTâ
 Paragraph Two: I specialize in brand, strategy, and human-focused design and have
   done work for great companies both on and offline.
 Slogan: Behind every great brand is a story and a motive.
-layout: about
+layout: about-2
 ---
 
 I help startups and agencies understand their audience, build their brand, and design a user experience that harmonizes with the motive behind their existence.
