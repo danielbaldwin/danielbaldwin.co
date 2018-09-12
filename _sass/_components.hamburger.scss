@@ -62,7 +62,7 @@ $button-transistion-duration: 0.4s;     // The transition duration
 } */
 
 .blog .c-hamburger span, .blog .c-hamburger span::before, .blog .c-hamburger span::after {
-  background: #edac01;
+  background: #181818;
 }
 
 .c-hamburger span::before,
@@ -122,5 +122,5 @@ $button-transistion-duration: 0.4s;     // The transition duration
 .c-hamburger--htx.is-active span::before,
 .c-hamburger--htx.is-active span::after {
   transition-delay: 0s, $button-transistion-duration;
-  background: #edac01;
+  background: #181818;
 }
