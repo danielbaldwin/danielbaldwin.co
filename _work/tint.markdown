@@ -9,7 +9,7 @@ tags:
 - Website
 position: 1
 Client: TINT
-Hero Text: "A social media display company"
+Hero Text: A social media display company
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

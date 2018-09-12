@@ -13,7 +13,7 @@ tags:
 - Deck
 position: 1
 Client: CreateSafe
-Hero Text: "An operating system for the business of music"
+Hero Text: An operating system for the business of music
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

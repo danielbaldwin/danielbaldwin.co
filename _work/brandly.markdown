@@ -9,7 +9,7 @@ tags:
 - Website
 position: 1
 Client: Brandly
-Hero Text: "A business card printing company"
+Hero Text: A business card printing company
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

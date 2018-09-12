@@ -9,7 +9,7 @@ tags:
 - Creative Direction
 position: 1
 Client: We Wear Us
-Hero Text: "A fashion brand for women's ethnic wear"
+Hero Text: A fashion brand for women's ethnic wear
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

@@ -11,7 +11,7 @@ tags:
 - Mobile App
 position: 1
 Client: Canna Crime Stop
-Hero Text: "A newsfeed for cannabis-related news"
+Hero Text: A newsfeed for cannabis-related news
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

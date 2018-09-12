@@ -9,7 +9,7 @@ tags:
 - Website
 position: 1
 Client: Scout for Pets
-Hero Text: "A software for pet-sitting professionals "
+Hero Text: 'A software for pet-sitting professionals '
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

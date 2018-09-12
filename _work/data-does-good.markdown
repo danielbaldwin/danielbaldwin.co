@@ -9,7 +9,7 @@ tags:
 - Creative Direction
 position: 1
 Client: Data Does Good
-Hero Text: "An anonymous data sharing company"
+Hero Text: An anonymous data sharing company
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

@@ -9,7 +9,7 @@ tags:
 - Website
 position: 1
 Client: GOOD HANDS
-Hero Text: "A creative agency for brands and influencers"
+Hero Text: A creative agency for brands and influencers
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 5

@@ -9,7 +9,7 @@ tags:
 - Website
 position: 1
 Client: Powercity Films
-Hero Text: "A commercial film production company"
+Hero Text: A commercial film production company
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7

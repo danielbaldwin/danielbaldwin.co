@@ -9,7 +9,7 @@ tags:
 - Website
 position: 1
 Client: Chance the Rapper
-Hero Text: "A platform for music discovery and promotion"
+Hero Text: A platform for music discovery and promotion
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7
