@@ -200,6 +200,16 @@ window['_fs_namespace'] = 'FS';
 })(window,document,window['_fs_namespace'],'script','user');
 </script>
 
+<script type=“application/javascript”>
+window.addEventListener(“pageshow”, function(evt){
+       if(evt.persisted){
+       setTimeout(function(){
+           window.location.reload();
+       },10);
+   }
+}, false);
+</script>
+
 </body>
 
 </html>
