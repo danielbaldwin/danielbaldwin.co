@@ -16,26 +16,26 @@ Bootstrap Columns: 7
 Case Study: Scout for Pets
 ---
 
-![tint-hero.png](/img/tint-hero.png)​
+![TINT-hero.png](/img/TINT-hero.png)​
 
-![tint-01.png](/img/tint-01.png)​
+![TINT-01.png](/img/TINT-01.png)​
 
-![tint-02.png](/img/tint-02.png)​
+![TINT-02.png](/img/TINT-02.png)​
 
-![tint-03.png](/img/tint-03.png)​
+![TINT-03.png](/img/TINT-03.png)​
 
-![tint-04.png](/img/tint-04.png)​
+![TINT-04.png](/img/TINT-04.png)​
 
-![tint-05.png](/img/tint-05.png)​
+![TINT-05.png](/img/TINT-05.png)​
 
-![tint-06.png](/img/tint-06.png)​
+![TINT-06.png](/img/TINT-06.png)​
 
-![tint-07.png](/img/tint-07.png)​
+![TINT-07.png](/img/TINT-07.png)​
 
-![tint-08.png](/img/tint-08.png)​
+![TINT-08.png](/img/TINT-08.png)​
 
-![tint-09.png](/img/tint-09.png)​
+![TINT-09.png](/img/TINT-09.png)​
 
-![tint-10.png](/img/tint-10.png)​
+![TINT-10.png](/img/TINT-10.png)​
 
-![tint-11.png](/img/tint-11.png)​
+![TINT-11.png](/img/TINT-11.png)​
