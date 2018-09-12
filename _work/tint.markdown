@@ -8,8 +8,8 @@ tags:
 - Brand Identity
 - Website
 position: 1
-Client: TINT
 Hero Text: A social media display company
+Client: TINT
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 7
@@ -37,5 +37,3 @@ Case Study: Scout for Pets
 ![TINT-09.png](/img/TINT-09.png)​
 
 ![TINT-10.png](/img/TINT-10.png)​
-
-![TINT-11.png](/img/TINT-11.png)​
