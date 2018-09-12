@@ -8,8 +8,9 @@ tags:
 - Brand Identity
 - Website
 position: 1
-Client: GOOD HANDS
 Hero Text: A creative agency for brands and influencers
+Client: GOOD HANDS
+Featured Image: "/uploads/good-hands-hero.png"
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 5
