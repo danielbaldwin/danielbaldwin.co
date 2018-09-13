@@ -1,5 +1,5 @@
 ---
-title: Chance the Rapper
+title: Music Platform
 date: 2018-09-11 03:22:00 Z
 categories:
 - Brand Identity
@@ -8,7 +8,7 @@ tags:
 - Brand Identity
 - Website
 position: 1
-Client: Chance the Rapper
+Client: Private Client
 Hero Text: A platform for music discovery and promotion
 Type: Project
 Hover Background: "#181818"

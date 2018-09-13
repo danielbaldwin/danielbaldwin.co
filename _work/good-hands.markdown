@@ -14,7 +14,7 @@ Featured Image: "/uploads/good-hands-hero.png"
 Type: Project
 Hover Background: "#181818"
 Bootstrap Columns: 5
-Case Study: Chance the Rapper
+Case Study: Music Platform
 ---
 
 ![good-hands-hero.png](/img/good-hands-hero.png)​
