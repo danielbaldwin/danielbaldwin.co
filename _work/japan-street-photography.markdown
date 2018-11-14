@@ -1,20 +1,5 @@
 ---
-title: JAPAN 2018
-date: 2018-11-13 12:22:00 Z
-categories:
-- Photography
-- Personal
-tags:
-- Photography
-- Personal
-<!-- position: 1 -->
-Hero Text: Exploring Tokyo, Kyoto, and Osaka.
-Client: Personal
-<!-- Featured Image: "/uploads/good-hands-hero.png" -->
-Type: Project
-<!-- Hover Background: "#181818"
-Bootstrap Columns: 5 -->
-Case Study: Japan 2018
+title: Japan Street Photography
 ---
 
 ![001.jpg](/img/001.jpg)​
