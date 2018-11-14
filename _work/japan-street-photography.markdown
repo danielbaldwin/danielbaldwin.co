@@ -4,7 +4,7 @@ Hero Text: An unorthodox view of the streets of Tokyo, Kyoto, and Osaka.
 Client: Two weeks in Japan
 ---
 
-![001.jpg](/uploads//001.jpg)​
+![001.jpg](/uploads//001.jpg)
 
 ![002.jpg](/uploads//002.jpg)​
 
@@ -50,9 +50,9 @@ Client: Two weeks in Japan
 
 ![022.jpg](/uploads//022.jpg)​
 
-![23.jpg](/uploads//23.jpg)​
+![023.jpg](/uploads//023.jpg)​
 
-![023.5.jpg](/uploads//023.5.jpg)​
+![23.5.jpg](/uploads//23.5.jpg)​
 
 ![024.jpg](/uploads//024.jpg)​
 
@@ -344,8 +344,6 @@ Client: Two weeks in Japan
 
 ![165.jpg](/uploads//165.jpg)​
 
-![166.jpg](/uploads//166.jpg)​
-
 ![167.jpg](/uploads//167.jpg)​
 
 ![168.jpg](/uploads//168.jpg)​
@@ -406,3 +404,4 @@ Client: Two weeks in Japan
 
 ![195.jpg](/uploads//195.jpg)​
 
+Daniel Baldwin is a Seattle-based brand + experience designer working with clients in the media, fashion, and tech industries. With 6+ years of experience working in agency and startup environments, Daniel pairs his love for high-end design with his background in B2B/B2C marketing to deliver data-driven designs to his clients. Daniel is the co-founder and Creative Director of GOOD HANDS, a creative agency. You can contact Daniel at [hello@danielbaldwin.co](mailto:hello@danielbaldwin.co) or on Twitter [here](https://twitter.com/danielbaldwinco) 🤙
