@@ -1,5 +1,7 @@
 ---
 title: Japan Street Photography
+Hero Text: An unorthodox view of the streets of Tokyo, Kyoto, and Osaka.
+Client: Two weeks in Japan
 ---
 
 ![001.jpg](/uploads//001.jpg)​
@@ -32,7 +34,7 @@ title: Japan Street Photography
 
 ![015.jpg](/uploads//015.jpg)​
 
-![015.5.jpg](/uploads//015.5.jpg)​
+![15.5.jpg](/uploads//15.5.jpg)​
 
 ![016.jpg](/uploads//016.jpg)​
 
@@ -48,7 +50,7 @@ title: Japan Street Photography
 
 ![022.jpg](/uploads//022.jpg)​
 
-![023.jpg](/uploads//023.jpg)​
+![23.jpg](/uploads//23.jpg)​
 
 ![023.5.jpg](/uploads//023.5.jpg)​
 
@@ -78,7 +80,7 @@ title: Japan Street Photography
 
 ![036.jpg](/uploads//036.jpg)​
 
-![036.5.jpg](/uploads//036.5.jpg)​
+![36.5.jpg](/uploads//36.5.jpg)​
 
 ![037.jpg](/uploads//037.jpg)​
 
@@ -86,7 +88,7 @@ title: Japan Street Photography
 
 ![039.jpg](/uploads//039.jpg)​
 
-![039.5.jpg](/uploads//039.5.jpg)​
+![39.5.jpg](/uploads//39.5.jpg)​
 
 ![040.jpg](/uploads//040.jpg)​
 
@@ -138,7 +140,7 @@ title: Japan Street Photography
 
 ![064.jpg](/uploads//064.jpg)​
 
-![064.5.jpg](/uploads//064.5.jpg)​
+![64.5.jpg](/uploads//64.5.jpg)​
 
 ![065.jpg](/uploads//065.jpg)​
 
@@ -178,7 +180,7 @@ title: Japan Street Photography
 
 ![083.jpg](/uploads//083.jpg)​
 
-![084.jpg](/uploads//084.jpg)​
+![84.jpg](/uploads//84.jpg)​
 
 ![085.jpg](/uploads//085.jpg)​
 
