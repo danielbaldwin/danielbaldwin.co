@@ -2858,7 +2858,14 @@ body {
           animation: BodyFadeInAnimation 1s; }
 
 b, strong {
-  font-family: 'Neue Haas Unica W01 Heavy'; }
+  font-weight: bold;
+  color: #333; }
+
+  h2#started-from-the-bottom, h2#mo-money-no-problems, h2#know-yourself-know-your-worth, h2#getting-the-bread, h2#guest-list {
+    padding: 20px 20%;
+    font-weight: bold;
+    color: #333;
+}
 
 /* --- Loader --- */
 #loader {
